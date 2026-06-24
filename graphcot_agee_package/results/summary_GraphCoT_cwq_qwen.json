@@ -1,0 +1,12 @@
+{
+  "dataset": "cwq",
+  "backbone": "qwen",
+  "n_questions": 200,
+  "n_valid_traversal": 185,
+  "exploration_rate": 0.925,
+  "hits1_overall": 0.27,
+  "AGEE_mean_valid": 0.4949,
+  "S_mean_valid": 0.5873,
+  "I_mean_valid": 0.2883,
+  "E_mean_valid": 0.8495
+}

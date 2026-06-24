@@ -1,0 +1,6244 @@
+[
+  {
+    "qid": "WebQTest-832_c334509bb5e02cacae1ba2e80c176499",
+    "question": "Lou Seal is the mascot for the team that last won the World Series when?",
+    "answer": [
+      "2014 World Series"
+    ],
+    "prediction": "m.07141",
+    "hits1": 0,
+    "trajectory": [
+      "Lou Seal",
+      "San Francisco Giants",
+      "g.125bx0r9v",
+      "San Francisco Giants",
+      "m.07141"
+    ],
+    "visited_set": [
+      "Lou Seal",
+      "San Francisco Giants",
+      "g.125bx0r9v",
+      "m.07141"
+    ],
+    "edges": [
+      [
+        "Lou Seal",
+        "sports.mascot.team",
+        "San Francisco Giants"
+      ],
+      [
+        "San Francisco Giants",
+        "common.topic.notable_for",
+        "g.125bx0r9v"
+      ],
+      [
+        "San Francisco Giants",
+        "common.topic.article",
+        "m.07141"
+      ]
+    ],
+    "traj_len": 5,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTrn-1259_1997cb4922db71983be26e6a509950f4",
+    "question": "Where did the \"Country Nation World Tour\" concert artist go to college?",
+    "answer": [
+      "Belmont University"
+    ],
+    "prediction": "None",
+    "hits1": 0,
+    "trajectory": [
+      "Country Nation World Tour",
+      "Brad Paisley",
+      "Country Nation World Tour",
+      "Wheelhouse",
+      "Brad Paisley"
+    ],
+    "visited_set": [
+      "Brad Paisley",
+      "Country Nation World Tour",
+      "Wheelhouse"
+    ],
+    "edges": [
+      [
+        "Country Nation World Tour",
+        "~music.artist.concert_tours",
+        "Brad Paisley"
+      ],
+      [
+        "Country Nation World Tour",
+        "music.concert_tour.album_or_release_supporting",
+        "Wheelhouse"
+      ],
+      [
+        "Wheelhouse",
+        "music.album.artist",
+        "Brad Paisley"
+      ]
+    ],
+    "traj_len": 5,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-1384_744a496b907e407b16bc5d7c197dc3f0",
+    "question": "What is the predominant religion where the leader is Ovadia Yosef?",
+    "answer": [
+      "Judaism"
+    ],
+    "prediction": "Haredi Judaism",
+    "hits1": 1,
+    "trajectory": [
+      "Ovadia Yosef",
+      "Haredi Judaism"
+    ],
+    "visited_set": [
+      "Haredi Judaism",
+      "Ovadia Yosef"
+    ],
+    "edges": [
+      [
+        "Ovadia Yosef",
+        "people.person.religion",
+        "Haredi Judaism"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-241_dfb6c97ac9bf2f0ac07f27dd80f9edc2",
+    "question": "What country bordering France contains an airport that serves Nijmegen?",
+    "answer": [
+      "Germany"
+    ],
+    "prediction": "Germany",
+    "hits1": 1,
+    "trajectory": [
+      "Nijmegen",
+      "Weeze Airport",
+      "Germany"
+    ],
+    "visited_set": [
+      "Germany",
+      "Nijmegen",
+      "Weeze Airport"
+    ],
+    "edges": [
+      [
+        "Nijmegen",
+        "~aviation.airport.serves",
+        "Weeze Airport"
+      ],
+      [
+        "Weeze Airport",
+        "location.location.containedby",
+        "Germany"
+      ]
+    ],
+    "traj_len": 3,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTrn-1077_f4a9e5f1e0dcfb82cbadf4771eda7bb5",
+    "question": "The national anthem Afghan National Anthem is from the country which practices what religions?",
+    "answer": [
+      "Shia Islam",
+      "Sunni Islam"
+    ],
+    "prediction": "Afghanistan",
+    "hits1": 0,
+    "trajectory": [
+      "Afghan National Anthem",
+      "m.0h_1ft4",
+      "Afghanistan"
+    ],
+    "visited_set": [
+      "Afghan National Anthem",
+      "Afghanistan",
+      "m.0h_1ft4"
+    ],
+    "edges": [
+      [
+        "Afghan National Anthem",
+        "~government.national_anthem_of_a_country.anthem",
+        "m.0h_1ft4"
+      ],
+      [
+        "m.0h_1ft4",
+        "government.national_anthem_of_a_country.country",
+        "Afghanistan"
+      ]
+    ],
+    "traj_len": 3,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-576_01e2da60a2779c4ae4b5d1547499a4f8",
+    "question": "Which nation has the Alta Verapaz Department and is in Central America?",
+    "answer": [
+      "Guatemala"
+    ],
+    "prediction": "Guatemala",
+    "hits1": 1,
+    "trajectory": [
+      "Alta Verapaz Department",
+      "Guatemala"
+    ],
+    "visited_set": [
+      "Alta Verapaz Department",
+      "Guatemala"
+    ],
+    "edges": [
+      [
+        "Alta Verapaz Department",
+        "location.location.containedby",
+        "Guatemala"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-590_6aad73acb74f304bc9acae44314164be",
+    "question": "Which man is the leader of the country that uses Libya, Libya, Libya as its national anthem?",
+    "answer": [
+      "Abdullah al-Thani"
+    ],
+    "prediction": "m.0105y7bt",
+    "hits1": 0,
+    "trajectory": [
+      "Libya",
+      "m.0h89drz",
+      "Libya",
+      "m.0r8fb9q"
+    ],
+    "visited_set": [
+      "Libya",
+      "m.0h89drz",
+      "m.0r8fb9q"
+    ],
+    "edges": [
+      [
+        "Libya",
+        "location.country.national_anthem",
+        "m.0h89drz"
+      ],
+      [
+        "Libya",
+        "government.governmental_jurisdiction.governing_officials",
+        "m.0r8fb9q"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTrn-3251_d8cddfe5e947e414b7735780ef1efff8",
+    "question": "What educational institution has a football sports team named Northern Colorado Bears is in Greeley, Colorado?",
+    "answer": [
+      "University of Northern Colorado"
+    ],
+    "prediction": "University of Northern Colorado",
+    "hits1": 1,
+    "trajectory": [
+      "College/University",
+      "University of Northern Colorado"
+    ],
+    "visited_set": [
+      "College/University",
+      "University of Northern Colorado"
+    ],
+    "edges": [
+      [
+        "College/University",
+        "~common.topic.notable_types",
+        "University of Northern Colorado"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-2069_0fa727f3b282196eb1097410b4be6818",
+    "question": "What language is spoken in the location that appointed Michelle Bachelet to a governmental position speak?",
+    "answer": [
+      "Aymara language",
+      "Mapudungun Language",
+      "Rapa Nui Language",
+      "Spanish Language",
+      "Puquina Language"
+    ],
+    "prediction": "Spanish",
+    "hits1": 0,
+    "trajectory": [
+      "Michelle Bachelet",
+      "m.0104wly0",
+      "Michelle Bachelet",
+      "m.0zn31wv",
+      "Michelle Bachelet",
+      "Chile"
+    ],
+    "visited_set": [
+      "Chile",
+      "Michelle Bachelet",
+      "m.0104wly0",
+      "m.0zn31wv"
+    ],
+    "edges": [
+      [
+        "Michelle Bachelet",
+        "government.political_appointer.appointees",
+        "m.0104wly0"
+      ],
+      [
+        "Michelle Bachelet",
+        "government.politician.government_positions_held",
+        "m.0zn31wv"
+      ],
+      [
+        "Michelle Bachelet",
+        "people.person.nationality",
+        "Chile"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTrn-1938_7322a2a4d46bf36b95bfab4418c9a32b",
+    "question": "What type of government is used in the country with Northern District?",
+    "answer": [
+      "Parliamentary system"
+    ],
+    "prediction": "parliamentary democracy",
+    "hits1": 0,
+    "trajectory": [
+      "Northern District",
+      "Israel"
+    ],
+    "visited_set": [
+      "Israel",
+      "Northern District"
+    ],
+    "edges": [
+      [
+        "Northern District",
+        "location.location.containedby",
+        "Israel"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-60_68f0d0ad309d64a4af858a5ef4fb5713",
+    "question": "In which countries do the people speak Portuguese, where the child labor percentage was once 1.8?",
+    "answer": [
+      "Mozambique"
+    ],
+    "prediction": "Portugal, Guinea-Bissau, Mozambique, Angola, Macau, South Africa, Brazil, Guyana, Cape Verde, Timor-Leste, Andorra, Canada, China",
+    "hits1": 1,
+    "trajectory": [
+      "Portuguese Language",
+      "Portugal"
+    ],
+    "visited_set": [
+      "Portugal",
+      "Portuguese Language"
+    ],
+    "edges": [
+      [
+        "Portuguese Language",
+        "language.human_language.countries_spoken_in",
+        "Portugal"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-100_bf66fd89b6e9fc5fcb96c8b3f7a0e616",
+    "question": "The people from the country that contains Nord-Ouest Department speak what languages today?",
+    "answer": [
+      "Haitian Creole",
+      "French"
+    ],
+    "prediction": "Haitian Creole, French",
+    "hits1": 1,
+    "trajectory": [
+      "Nord-Ouest Department",
+      "Saint-Louis-du-Nord",
+      "Nord-Ouest Department",
+      "Haiti"
+    ],
+    "visited_set": [
+      "Haiti",
+      "Nord-Ouest Department",
+      "Saint-Louis-du-Nord"
+    ],
+    "edges": [
+      [
+        "Nord-Ouest Department",
+        "location.location.contains",
+        "Saint-Louis-du-Nord"
+      ],
+      [
+        "Nord-Ouest Department",
+        "location.administrative_division.country",
+        "Haiti"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTrn-962_032f61bfcfed69da8b215bb8f058c24e",
+    "question": "What actor played the a kid in the movie with a character named Jenny's Father?",
+    "answer": [
+      "Michael Connor Humphreys"
+    ],
+    "prediction": "g.12z7tmq3p",
+    "hits1": 0,
+    "trajectory": [
+      "Jenny's Father",
+      "m.0y54dnx",
+      "Jenny's Father",
+      "g.12z7tmq3p"
+    ],
+    "visited_set": [
+      "Jenny's Father",
+      "g.12z7tmq3p",
+      "m.0y54dnx"
+    ],
+    "edges": [
+      [
+        "Jenny's Father",
+        "~film.performance.character",
+        "m.0y54dnx"
+      ],
+      [
+        "Jenny's Father",
+        "common.topic.notable_for",
+        "g.12z7tmq3p"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTrn-849_586aae7703d62aa44eb79759e1563309",
+    "question": "What European Union country sharing borders with Germany contains the Lejre Municipality?",
+    "answer": [
+      "Denmark"
+    ],
+    "prediction": "Hvalsø",
+    "hits1": 0,
+    "trajectory": [
+      "Lejre Municipality",
+      "Hvalsø",
+      "Lejre Municipality",
+      "Hvalsø"
+    ],
+    "visited_set": [
+      "Hvalsø",
+      "Lejre Municipality"
+    ],
+    "edges": [
+      [
+        "Lejre Municipality",
+        "location.location.contains",
+        "Hvalsø"
+      ],
+      [
+        "Lejre Municipality",
+        "location.location.contains",
+        "Hvalsø"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-710_c264a6d11d7956741926d417b94327e2",
+    "question": "When was the last time a team led by Larr Baer win the World Series?",
+    "answer": [
+      "2014 World Series"
+    ],
+    "prediction": "None",
+    "hits1": 0,
+    "trajectory": [
+      "Larry Baer",
+      "m.011zsc4_",
+      "San Francisco Giants"
+    ],
+    "visited_set": [
+      "Larry Baer",
+      "San Francisco Giants",
+      "m.011zsc4_"
+    ],
+    "edges": [
+      [
+        "Larry Baer",
+        "~organization.leadership.person",
+        "m.011zsc4_"
+      ],
+      [
+        "m.011zsc4_",
+        "organization.leadership.organization",
+        "San Francisco Giants"
+      ]
+    ],
+    "traj_len": 3,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTrn-2209_c1374f388d9cc7a78365860c91218362",
+    "question": "What year did the basketball team coached by Brad Stevens win the championship?",
+    "answer": [
+      "2008 NBA Finals",
+      "1969 NBA Finals",
+      "1986 NBA Finals",
+      "1984 NBA Finals",
+      "1981 NBA Finals",
+      "1976 NBA Finals",
+      "1974 NBA Finals",
+      "1968 NBA Finals",
+      "1966 NBA Finals",
+      "1965 NBA Finals",
+      "1964 NBA Finals",
+      "1963 NBA Finals",
+      "1962 NBA Finals",
+      "1961 NBA Finals",
+      "1960 NBA Finals",
+      "1959 NBA Finals",
+      "1957 NBA Finals"
+    ],
+    "prediction": "m.0wfd2k7",
+    "hits1": 0,
+    "trajectory": [
+      "Brad Stevens",
+      "Boston Celtics",
+      "Brad Stevens",
+      "m.0wfd2k7"
+    ],
+    "visited_set": [
+      "Boston Celtics",
+      "Brad Stevens",
+      "m.0wfd2k7"
+    ],
+    "edges": [
+      [
+        "Brad Stevens",
+        "~basketball.basketball_team.head_coach",
+        "Boston Celtics"
+      ],
+      [
+        "Brad Stevens",
+        "basketball.basketball_coach.previous_teams",
+        "m.0wfd2k7"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-1251_cbf2f20f6caf754bc49d672ca7b150b7",
+    "question": "What country speaks Germanic languages and uses the East German mark as currency?",
+    "answer": [
+      "East Germany"
+    ],
+    "prediction": "East Germany",
+    "hits1": 1,
+    "trajectory": [
+      "East German mark",
+      "East Germany"
+    ],
+    "visited_set": [
+      "East German mark",
+      "East Germany"
+    ],
+    "edges": [
+      [
+        "East German mark",
+        "~location.country.currency_used",
+        "East Germany"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-3100_143c89d70679c3e5257c93d8e2bc4c67",
+    "question": "Which globe region with the UTCâ05:00 time zone does the Dominican Republic call home?",
+    "answer": [
+      "Greater Antilles"
+    ],
+    "prediction": "Greater Antilles",
+    "hits1": 1,
+    "trajectory": [
+      "Dominican Republic",
+      "Greater Antilles"
+    ],
+    "visited_set": [
+      "Dominican Republic",
+      "Greater Antilles"
+    ],
+    "edges": [
+      [
+        "Dominican Republic",
+        "location.location.containedby",
+        "Greater Antilles"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-662_7a992044f94b39edfc37ac5dcfcb3c26",
+    "question": "What was the name of the team that won the 2008 FIFA Club World Cup Final championship?",
+    "answer": [
+      "Newton Heath L&YR F.C."
+    ],
+    "prediction": "Manchester United F.C.",
+    "hits1": 0,
+    "trajectory": [
+      "2008 FIFA Club World Cup Final",
+      "FIFA Club World Cup",
+      "2008 FIFA Club World Cup Final",
+      "Manchester United F.C."
+    ],
+    "visited_set": [
+      "2008 FIFA Club World Cup Final",
+      "FIFA Club World Cup",
+      "Manchester United F.C."
+    ],
+    "edges": [
+      [
+        "2008 FIFA Club World Cup Final",
+        "~sports.sports_championship.events",
+        "FIFA Club World Cup"
+      ],
+      [
+        "2008 FIFA Club World Cup Final",
+        "sports.sports_championship_event.champion",
+        "Manchester United F.C."
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-743_0a8cdba29cf260283b7c890b3609c0b9",
+    "question": "Which of JFK's brother held the latest governmental position?",
+    "answer": [
+      "Robert F. Kennedy"
+    ],
+    "prediction": "John F. Kennedy",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-1797_68a33792b0a1e18937dcd4b3f50d941e",
+    "question": "What group fought in the Battle of Vicksburg that was based in Montgomery?",
+    "answer": [
+      "Confederate States of America"
+    ],
+    "prediction": "Alabama",
+    "hits1": 0,
+    "trajectory": [
+      "Montgomery",
+      "Alabama"
+    ],
+    "visited_set": [
+      "Alabama",
+      "Montgomery"
+    ],
+    "edges": [
+      [
+        "Montgomery",
+        "location.location.containedby",
+        "Alabama"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-1864_9dc4e22121d3a46d45b8f9bd9e8c7013",
+    "question": "Which country that is situated in the ASEAN Common Time Zone has the largest population?",
+    "answer": [
+      "India"
+    ],
+    "prediction": "Asia",
+    "hits1": 0,
+    "trajectory": [
+      "ASEAN Common Time Zone",
+      "Asia"
+    ],
+    "visited_set": [
+      "ASEAN Common Time Zone",
+      "Asia"
+    ],
+    "edges": [
+      [
+        "ASEAN Common Time Zone",
+        "time.time_zone.locations_in_this_time_zone",
+        "Asia"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-1841_b8df00139e3fa59b8633ef551ed8ca9f",
+    "question": "What popular sport in Spain has a team that won the 2010 FIFA World Cup championship?",
+    "answer": [
+      "Spain national football team"
+    ],
+    "prediction": "m.06mkv",
+    "hits1": 0,
+    "trajectory": [
+      "Spain",
+      "m.06p0bxk",
+      "Spain",
+      "m.06mkv"
+    ],
+    "visited_set": [
+      "Spain",
+      "m.06mkv",
+      "m.06p0bxk"
+    ],
+    "edges": [
+      [
+        "Spain",
+        "base.athletics.athletics_country.championships_athletes_performances",
+        "m.06p0bxk"
+      ],
+      [
+        "Spain",
+        "common.topic.article",
+        "m.06mkv"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTrn-124_f3990dc9aa470fa81ec4cf2912a9924f",
+    "question": "Which movie with a character called Ajila was directed by Angelina Jolie?",
+    "answer": [
+      "In the Land of Blood and Honey"
+    ],
+    "prediction": "None",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-538_49b4e9304f18a0a1cbe37bb162f61131",
+    "question": "WHat movies have the actress who is an alumni for West Reading El Ctr a part of?",
+    "answer": [
+      "Hannah Montana: The Movie",
+      "Valentine's Day",
+      "The Lorax",
+      "Jonas Brothers: The Concert Experience",
+      "The Giver"
+    ],
+    "prediction": "[",
+    "hits1": 0,
+    "trajectory": [
+      "West Reading El Ctr",
+      "m.0ycxbfr"
+    ],
+    "visited_set": [
+      "West Reading El Ctr",
+      "m.0ycxbfr"
+    ],
+    "edges": [
+      [
+        "West Reading El Ctr",
+        "education.educational_institution.students_graduates",
+        "m.0ycxbfr"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-2722_8babdaa9ecd05a72e3227b43b1f98771",
+    "question": "For what did the personage who was educated at the Dewitt High School win a gold medal?",
+    "answer": [
+      "Gymnastics at the 2012 Summer Olympics – Women's artistic team all-around"
+    ],
+    "prediction": "None",
+    "hits1": 0,
+    "trajectory": [
+      "Dewitt High School",
+      "g.1258j0t9s",
+      "Gold medal",
+      "m.06dn7g4"
+    ],
+    "visited_set": [
+      "Dewitt High School",
+      "Gold medal",
+      "g.1258j0t9s",
+      "m.06dn7g4"
+    ],
+    "edges": [
+      [
+        "Dewitt High School",
+        "common.topic.notable_for",
+        "g.1258j0t9s"
+      ],
+      [
+        "Gold medal",
+        "base.athletics.athletics_medal.medal_winners",
+        "m.06dn7g4"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-983_ccda690fb745939d0a62c3fbcf3e3769",
+    "question": "Where did Tennessee Williams go to college where the newspaper is \"The Maneater\"?",
+    "answer": [
+      "University of Missouri"
+    ],
+    "prediction": "University of Missouri",
+    "hits1": 1,
+    "trajectory": [
+      "The Maneater",
+      "University of Missouri"
+    ],
+    "visited_set": [
+      "The Maneater",
+      "University of Missouri"
+    ],
+    "edges": [
+      [
+        "The Maneater",
+        "~education.educational_institution.newspaper",
+        "University of Missouri"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-1770_8db36acba886620a06031d39165d78de",
+    "question": "Who is the daughter of the artist who had a concert tour called I Am... World Tour?",
+    "answer": [
+      "Blue Ivy"
+    ],
+    "prediction": "Beyonce Knowles",
+    "hits1": 0,
+    "trajectory": [
+      "I Am... World Tour",
+      "Beyoncé Knowles"
+    ],
+    "visited_set": [
+      "Beyoncé Knowles",
+      "I Am... World Tour"
+    ],
+    "edges": [
+      [
+        "I Am... World Tour",
+        "music.concert_tour.artist",
+        "Beyoncé Knowles"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-1817_89670933168c3f4e5195a241f9d46e76",
+    "question": "What are the governmental types in the country whose national anthem is Tien Quan Ca?",
+    "answer": [
+      "Communist state",
+      "Socialist state",
+      "Single-party state"
+    ],
+    "prediction": "g.12mq391mw",
+    "hits1": 0,
+    "trajectory": [
+      "Tiến Quân Ca",
+      "m.0478l64",
+      "Vietnam",
+      "g.12mq391mw"
+    ],
+    "visited_set": [
+      "Tiến Quân Ca",
+      "Vietnam",
+      "g.12mq391mw",
+      "m.0478l64"
+    ],
+    "edges": [
+      [
+        "Tiến Quân Ca",
+        "~government.national_anthem_of_a_country.anthem",
+        "m.0478l64"
+      ],
+      [
+        "m.0478l64",
+        "government.national_anthem_of_a_country.country",
+        "Vietnam"
+      ],
+      [
+        "Vietnam",
+        "common.topic.notable_for",
+        "g.12mq391mw"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTrn-849_1eb0f1ddd5074471fbe3a7f6b575f202",
+    "question": "Copenhagen is the capital of which German neighboring country?",
+    "answer": [
+      "Denmark"
+    ],
+    "prediction": "m.02_m6k6",
+    "hits1": 0,
+    "trajectory": [
+      "Copenhagen",
+      "Denmark",
+      "Copenhagen",
+      "m.046cty7",
+      "Copenhagen",
+      "m.02_m6k6"
+    ],
+    "visited_set": [
+      "Copenhagen",
+      "Denmark",
+      "m.02_m6k6",
+      "m.046cty7"
+    ],
+    "edges": [
+      [
+        "Copenhagen",
+        "location.location.containedby",
+        "Denmark"
+      ],
+      [
+        "Copenhagen",
+        "location.location.adjoin_s",
+        "m.046cty7"
+      ],
+      [
+        "Copenhagen",
+        "location.location.geolocation",
+        "m.02_m6k6"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTrn-2152_92fba37c9723caee68665ad9a5e4a468",
+    "question": "Which of team owners Tom Hicks sports team are in the American League West?",
+    "answer": [
+      "Texas Rangers"
+    ],
+    "prediction": "m.02kmch",
+    "hits1": 0,
+    "trajectory": [
+      "American League West",
+      "Los Angeles Angels of Anaheim",
+      "Tom Hicks",
+      "m.02kmch"
+    ],
+    "visited_set": [
+      "American League West",
+      "Los Angeles Angels of Anaheim",
+      "Tom Hicks",
+      "m.02kmch"
+    ],
+    "edges": [
+      [
+        "American League West",
+        "~baseball.baseball_team.division",
+        "Los Angeles Angels of Anaheim"
+      ],
+      [
+        "Tom Hicks",
+        "common.topic.article",
+        "m.02kmch"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTrn-3376_0619d288bbed0ca782e60c6f841a6051",
+    "question": "What colleges did the famous person who went to Castlemont High school go to?",
+    "answer": [
+      "Temple University",
+      "Castlemont High School"
+    ],
+    "prediction": "m.0gy5x50",
+    "hits1": 0,
+    "trajectory": [
+      "Castlemont High School",
+      "m.0gy5x50"
+    ],
+    "visited_set": [
+      "Castlemont High School",
+      "m.0gy5x50"
+    ],
+    "edges": [
+      [
+        "Castlemont High School",
+        "education.educational_institution.students_graduates",
+        "m.0gy5x50"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-567_693feb48c0515cd069014e7ca2846b37",
+    "question": "What movie with the character Teklel Hafouli did Ron Howard do?",
+    "answer": [
+      "The Journey"
+    ],
+    "prediction": "m.0h7yhp_",
+    "hits1": 0,
+    "trajectory": [
+      "Ron Howard",
+      "m.0b_v1cm",
+      "Ron Howard",
+      "m.0h7yhp_"
+    ],
+    "visited_set": [
+      "Ron Howard",
+      "m.0b_v1cm",
+      "m.0h7yhp_"
+    ],
+    "edges": [
+      [
+        "Ron Howard",
+        "film.actor.film",
+        "m.0b_v1cm"
+      ],
+      [
+        "Ron Howard",
+        "film.person_or_entity_appearing_in_film.films",
+        "m.0h7yhp_"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTrn-1077_0c34ca057060e35aa5c74fbbca682dee",
+    "question": "In the nation that has the Badakhshan province, what religions are practiced?",
+    "answer": [
+      "Shia Islam",
+      "Sunni Islam"
+    ],
+    "prediction": "m.0jdq",
+    "hits1": 0,
+    "trajectory": [
+      "Badakhshan Province",
+      "Afghanistan",
+      "m.0jdq",
+      "Afghanistan",
+      "m.0jdq"
+    ],
+    "visited_set": [
+      "Afghanistan",
+      "Badakhshan Province",
+      "m.0jdq"
+    ],
+    "edges": [
+      [
+        "Badakhshan Province",
+        "location.administrative_division.country",
+        "Afghanistan"
+      ],
+      [
+        "Afghanistan",
+        "common.topic.article",
+        "m.0jdq"
+      ],
+      [
+        "m.0jdq",
+        "~common.topic.article",
+        "Afghanistan"
+      ],
+      [
+        "Afghanistan",
+        "common.topic.article",
+        "m.0jdq"
+      ]
+    ],
+    "traj_len": 5,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-1686_29e74083744b3631541b29b4094fb273",
+    "question": "Who was the governor of Arizona in 2009 that held his governmental position before 1998?",
+    "answer": [
+      "Janet Napolitano"
+    ],
+    "prediction": "Arizona",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-626_8c6b952c6bd963f0ece4e401c9eb731a",
+    "question": "What does the Missouri River bisect in the Central Time Zone?",
+    "answer": [
+      "Iowa",
+      "Kansas",
+      "Missouri",
+      "Nebraska",
+      "North Dakota",
+      "South Dakota"
+    ],
+    "prediction": "Missouri",
+    "hits1": 1,
+    "trajectory": [
+      "Central Time Zone",
+      "g.125dhx05_",
+      "Central Time Zone",
+      "Missouri"
+    ],
+    "visited_set": [
+      "Central Time Zone",
+      "Missouri",
+      "g.125dhx05_"
+    ],
+    "edges": [
+      [
+        "Central Time Zone",
+        "common.topic.notable_for",
+        "g.125dhx05_"
+      ],
+      [
+        "Central Time Zone",
+        "~location.location.time_zones",
+        "Missouri"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-12_68d745a0657c86906382873e57294d6a",
+    "question": "Who was the governor of Ohio in 2011 that was in the government prior to 3-1-1983?",
+    "answer": [
+      "Return J. Meigs, Jr.",
+      "John Kasich"
+    ],
+    "prediction": "m.0w4d_50",
+    "hits1": 0,
+    "trajectory": [
+      "Governor",
+      "m.0s91h9k",
+      "Governor",
+      "m.0w4d_50"
+    ],
+    "visited_set": [
+      "Governor",
+      "m.0s91h9k",
+      "m.0w4d_50"
+    ],
+    "edges": [
+      [
+        "Governor",
+        "organization.role.governors",
+        "m.0s91h9k"
+      ],
+      [
+        "Governor",
+        "organization.role.leaders",
+        "m.0w4d_50"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-576_906ad6be7bec9d208f4dde4f7721c261",
+    "question": "Which of the seven Central American countries had co2 emissions per capita once of 2009 metric ton?",
+    "answer": [
+      "Belize",
+      "Costa Rica",
+      "El Salvador",
+      "Guatemala",
+      "Honduras",
+      "Panama"
+    ],
+    "prediction": "Costa Rica, El Salvador, Guatemala, Honduras, Nicaragua, Panama",
+    "hits1": 1,
+    "trajectory": [
+      "Central America",
+      "Costa Rica"
+    ],
+    "visited_set": [
+      "Central America",
+      "Costa Rica"
+    ],
+    "edges": [
+      [
+        "Central America",
+        "location.location.contains",
+        "Costa Rica"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-2152_3cdf60c15a8355981dd92e3c57ac2eed",
+    "question": "What team that has a mascot named Mariner Moose is in the American League West?",
+    "answer": [
+      "Seattle Mariners"
+    ],
+    "prediction": "None",
+    "hits1": 0,
+    "trajectory": [
+      "American League West",
+      "Seattle Mariners"
+    ],
+    "visited_set": [
+      "American League West",
+      "Seattle Mariners"
+    ],
+    "edges": [
+      [
+        "American League West",
+        "baseball.baseball_division.teams",
+        "Seattle Mariners"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-61_09020cbb000c86fda5910ec084690246",
+    "question": "What religion is practiced in Indonesia and has a sacred site of Mecca?",
+    "answer": [
+      "Islam"
+    ],
+    "prediction": "Islam",
+    "hits1": 1,
+    "trajectory": [
+      "Mecca",
+      "Islam"
+    ],
+    "visited_set": [
+      "Islam",
+      "Mecca"
+    ],
+    "edges": [
+      [
+        "Mecca",
+        "religion.place_of_worship.religion",
+        "Islam"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-1864_67ecd1c247c3b2c9545fbcf1ad8d9d00",
+    "question": "Which location in the Anadyr Timezone has the biggest population?",
+    "answer": [
+      "India"
+    ],
+    "prediction": "g.1yl5xk09m",
+    "hits1": 0,
+    "trajectory": [
+      "Anadyr Time Zone",
+      "Asia",
+      "Anadyr Time Zone",
+      "g.1yl5xk09m"
+    ],
+    "visited_set": [
+      "Anadyr Time Zone",
+      "Asia",
+      "g.1yl5xk09m"
+    ],
+    "edges": [
+      [
+        "Anadyr Time Zone",
+        "time.time_zone.locations_in_this_time_zone",
+        "Asia"
+      ],
+      [
+        "Asia",
+        "location.location.time_zones",
+        "Anadyr Time Zone"
+      ],
+      [
+        "Anadyr Time Zone",
+        "common.topic.notable_for",
+        "g.1yl5xk09m"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTrn-3136_a2debf685e0c50491e35a9cf7a1e9ade",
+    "question": "Of the four regions which make up the United Kingdom, which is the country that includes the location, Down District Council?",
+    "answer": [
+      "Northern Ireland"
+    ],
+    "prediction": "United Kingdom",
+    "hits1": 0,
+    "trajectory": [
+      "Down District Council",
+      "Downpatrick",
+      "United Kingdom"
+    ],
+    "visited_set": [
+      "Down District Council",
+      "Downpatrick",
+      "United Kingdom"
+    ],
+    "edges": [
+      [
+        "Down District Council",
+        "location.location.contains",
+        "Downpatrick"
+      ],
+      [
+        "Downpatrick",
+        "location.location.containedby",
+        "United Kingdom"
+      ]
+    ],
+    "traj_len": 3,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-998_f693ae2cb9aa6b8ffdf0f103a6777b62",
+    "question": "What is the most recent event in which the sports team owned by James L. Dolan won the championship?",
+    "answer": [
+      "1973 NBA Finals"
+    ],
+    "prediction": "m.09tnxzw",
+    "hits1": 0,
+    "trajectory": [
+      "James L. Dolan",
+      "New York Knicks",
+      "James L. Dolan",
+      "The Madison Square Garden Company",
+      "James L. Dolan",
+      "m.09tnxzw"
+    ],
+    "visited_set": [
+      "James L. Dolan",
+      "New York Knicks",
+      "The Madison Square Garden Company",
+      "m.09tnxzw"
+    ],
+    "edges": [
+      [
+        "James L. Dolan",
+        "sports.sports_team_owner.teams_owned",
+        "New York Knicks"
+      ],
+      [
+        "James L. Dolan",
+        "organization.organization_founder.organizations_founded",
+        "The Madison Square Garden Company"
+      ],
+      [
+        "James L. Dolan",
+        "business.board_member.organization_board_memberships",
+        "m.09tnxzw"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTrn-1023_1e7110e48c30a2cef3caf291e3b8d394",
+    "question": "What's the currency of the country that includes the location of Buenos Aires?",
+    "answer": [
+      "Argentine peso"
+    ],
+    "prediction": "Argentine Peso",
+    "hits1": 1,
+    "trajectory": [
+      "Buenos Aires",
+      "Argentina"
+    ],
+    "visited_set": [
+      "Argentina",
+      "Buenos Aires"
+    ],
+    "edges": [
+      [
+        "Buenos Aires",
+        "location.location.containedby",
+        "Argentina"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-810_c334509bb5e02cacae1ba2e80c176499",
+    "question": "What year did the team with mascot named Lou Seal win the World Series?",
+    "answer": [
+      "2014 World Series"
+    ],
+    "prediction": "Not enough information provided in the graph",
+    "hits1": 0,
+    "trajectory": [
+      "Lou Seal",
+      "San Francisco Giants"
+    ],
+    "visited_set": [
+      "Lou Seal",
+      "San Francisco Giants"
+    ],
+    "edges": [
+      [
+        "Lou Seal",
+        "sports.mascot.team",
+        "San Francisco Giants"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-557_960c16ffdb29e173df0577fc76c7455d",
+    "question": "In the film with teh character named Winged Monkey #7, who played Dorothy?",
+    "answer": [
+      "Judy Garland"
+    ],
+    "prediction": "m.0yj6tr7",
+    "hits1": 0,
+    "trajectory": [
+      "Winged Monkey #7",
+      "g.1yfp2fklf",
+      "Winged Monkey #7",
+      "m.0yj6tr7"
+    ],
+    "visited_set": [
+      "Winged Monkey #7",
+      "g.1yfp2fklf",
+      "m.0yj6tr7"
+    ],
+    "edges": [
+      [
+        "Winged Monkey #7",
+        "common.topic.notable_for",
+        "g.1yfp2fklf"
+      ],
+      [
+        "Winged Monkey #7",
+        "~film.performance.character",
+        "m.0yj6tr7"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTrn-21_660138373d19bbffdd3d3f7a30234e4a",
+    "question": "Who holds the position of Prime Minister in the country which contains Dire Dawa?",
+    "answer": [
+      "Hailemariam Desalegn"
+    ],
+    "prediction": "Not directly found in the given graph",
+    "hits1": 0,
+    "trajectory": [
+      "Dire Dawa",
+      "Ethiopia"
+    ],
+    "visited_set": [
+      "Dire Dawa",
+      "Ethiopia"
+    ],
+    "edges": [
+      [
+        "Dire Dawa",
+        "location.location.containedby",
+        "Ethiopia"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-2286_e0906c845ea8b2e22e08e1b0e6eb9b43",
+    "question": "Where is the state with the capitol of Frankfort located?",
+    "answer": [
+      "Contiguous United States",
+      "United States of America",
+      "United States, with Territories"
+    ],
+    "prediction": "Kentucky",
+    "hits1": 0,
+    "trajectory": [
+      "Frankfort",
+      "m.0jvw4ml",
+      "Frankfort",
+      "Kentucky"
+    ],
+    "visited_set": [
+      "Frankfort",
+      "Kentucky",
+      "m.0jvw4ml"
+    ],
+    "edges": [
+      [
+        "Frankfort",
+        "location.capital_of_administrative_division.capital_of",
+        "m.0jvw4ml"
+      ],
+      [
+        "Frankfort",
+        "location.location.containedby",
+        "Kentucky"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-1320_c5498ca807d2e1ec30d4c8fdd41f0bf7",
+    "question": "What stadium does the team with mascot named Hank play at?",
+    "answer": [
+      "Miller Park"
+    ],
+    "prediction": "Milwaukee",
+    "hits1": 0,
+    "trajectory": [
+      "Hank",
+      "Milwaukee Brewers",
+      "Milwaukee"
+    ],
+    "visited_set": [
+      "Hank",
+      "Milwaukee",
+      "Milwaukee Brewers"
+    ],
+    "edges": [
+      [
+        "Hank",
+        "~sports.sports_team.team_mascot",
+        "Milwaukee Brewers"
+      ],
+      [
+        "Milwaukee Brewers",
+        "sports.sports_team.location",
+        "Milwaukee"
+      ]
+    ],
+    "traj_len": 3,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTrn-2444_8f2cd432b509e5b8fe681bb55bca2767",
+    "question": "Where is the home stadium of the team who won the 1946 World Series championship?",
+    "answer": [
+      "Busch Stadium"
+    ],
+    "prediction": "Sportsman's Park",
+    "hits1": 0,
+    "trajectory": [
+      "1946 World Series",
+      "St. Louis Cardinals",
+      "1946 World Series",
+      "Sportsman's Park"
+    ],
+    "visited_set": [
+      "1946 World Series",
+      "Sportsman's Park",
+      "St. Louis Cardinals"
+    ],
+    "edges": [
+      [
+        "1946 World Series",
+        "sports.sports_championship_event.champion",
+        "St. Louis Cardinals"
+      ],
+      [
+        "St. Louis Cardinals",
+        "~sports.sports_championship_event.champion",
+        "1946 World Series"
+      ],
+      [
+        "1946 World Series",
+        "time.event.locations",
+        "Sportsman's Park"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-100_524908899a8aa334a18a0ac00f8f2fe6",
+    "question": "People from the country that contains Nord-Est Department speak what  languages today?",
+    "answer": [
+      "Haitian Creole",
+      "French"
+    ],
+    "prediction": "Haitian Creole, French",
+    "hits1": 1,
+    "trajectory": [
+      "Nord-Est Department",
+      "Haiti"
+    ],
+    "visited_set": [
+      "Haiti",
+      "Nord-Est Department"
+    ],
+    "edges": [
+      [
+        "Nord-Est Department",
+        "location.administrative_division.country",
+        "Haiti"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-568_d54918e8e89ad97237bce821087a9818",
+    "question": "In which US county is the TV program NBC Nightside filmed in?",
+    "answer": [
+      "Mecklenburg County"
+    ],
+    "prediction": "Mecklenburg",
+    "hits1": 0,
+    "trajectory": [
+      "NBC Nightside",
+      "Charlotte"
+    ],
+    "visited_set": [
+      "Charlotte",
+      "NBC Nightside"
+    ],
+    "edges": [
+      [
+        "NBC Nightside",
+        "tv.tv_program.filming_locations",
+        "Charlotte"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-361_e24533e28da40db99eb4b25773f9d38f",
+    "question": "What museum established before 1971 is there to see in Vienna, Austria?",
+    "answer": [
+      "Kunsthistorisches Museum"
+    ],
+    "prediction": "Kunsthistorisches Museum",
+    "hits1": 1,
+    "trajectory": [
+      "Vienna",
+      "Österreichische Galerie Belvedere"
+    ],
+    "visited_set": [
+      "Vienna",
+      "Österreichische Galerie Belvedere"
+    ],
+    "edges": [
+      [
+        "Vienna",
+        "base.arthist.helynevek.intezmeny",
+        "Österreichische Galerie Belvedere"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-2215_11c4cd5a25fd84f3980d7013c0329bad",
+    "question": "Where was the artist that had This Summer Tour raised?",
+    "answer": [
+      "Glen Dale"
+    ],
+    "prediction": "None",
+    "hits1": 0,
+    "trajectory": [
+      "Beat This Summer Tour",
+      "Brad Paisley"
+    ],
+    "visited_set": [
+      "Beat This Summer Tour",
+      "Brad Paisley"
+    ],
+    "edges": [
+      [
+        "Beat This Summer Tour",
+        "music.concert_tour.artist",
+        "Brad Paisley"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-2834_6a27420dcf0528ae017dd74e40cfd38a",
+    "question": "What major US religions has a religious organization named Tamil Nadu Thowheed Jamath?",
+    "answer": [
+      "Islam"
+    ],
+    "prediction": "Islam",
+    "hits1": 1,
+    "trajectory": [
+      "Tamil Nadu Thowheed Jamath",
+      "Islam"
+    ],
+    "visited_set": [
+      "Islam",
+      "Tamil Nadu Thowheed Jamath"
+    ],
+    "edges": [
+      [
+        "Tamil Nadu Thowheed Jamath",
+        "religion.religious_organization.associated_with",
+        "Islam"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-634_000f72b60ccaedff5f056f522ee06e98",
+    "question": "A person who once lived in Mansfeld would have what profession?",
+    "answer": [
+      "Professor",
+      "Monk",
+      "Theologian",
+      "Physician",
+      "Priest",
+      "Writer"
+    ],
+    "prediction": "miner",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-857_9392f3f06e288ee4e3437a74f6bf5a37",
+    "question": "Who was the vice president of the President who attended Ramble Elementary School?",
+    "answer": [
+      "Al Gore"
+    ],
+    "prediction": "None",
+    "hits1": 0,
+    "trajectory": [
+      "Ramble Elementary",
+      "m.0b6xs_g",
+      "Bill Clinton"
+    ],
+    "visited_set": [
+      "Bill Clinton",
+      "Ramble Elementary",
+      "m.0b6xs_g"
+    ],
+    "edges": [
+      [
+        "Ramble Elementary",
+        "education.educational_institution.students_graduates",
+        "m.0b6xs_g"
+      ],
+      [
+        "m.0b6xs_g",
+        "~people.person.education",
+        "Bill Clinton"
+      ]
+    ],
+    "traj_len": 3,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTrn-810_a188aff4a054e1ec66fafba1b8021f67",
+    "question": "What year did the MLB franchise owned by Bill Neukom win the world series?",
+    "answer": [
+      "2014 World Series"
+    ],
+    "prediction": "None",
+    "hits1": 0,
+    "trajectory": [
+      "Bill Neukom",
+      "San Francisco Giants"
+    ],
+    "visited_set": [
+      "Bill Neukom",
+      "San Francisco Giants"
+    ],
+    "edges": [
+      [
+        "Bill Neukom",
+        "sports.sports_team_owner.teams_owned",
+        "San Francisco Giants"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-2026_d059b24adec4064377b957ca598769be",
+    "question": "Santo Domingo is the capital of the country with what currency?",
+    "answer": [
+      "Dominican peso"
+    ],
+    "prediction": "g.1255f00rw",
+    "hits1": 0,
+    "trajectory": [
+      "Santo Domingo",
+      "m.0q3dk13",
+      "Santo Domingo",
+      "Dominican Republic",
+      "Santo Domingo",
+      "g.1255f00rw"
+    ],
+    "visited_set": [
+      "Dominican Republic",
+      "Santo Domingo",
+      "g.1255f00rw",
+      "m.0q3dk13"
+    ],
+    "edges": [
+      [
+        "Santo Domingo",
+        "~location.administrative_division_capital_relationship.capital",
+        "m.0q3dk13"
+      ],
+      [
+        "Santo Domingo",
+        "location.location.containedby",
+        "Dominican Republic"
+      ],
+      [
+        "Santo Domingo",
+        "common.topic.notable_for",
+        "g.1255f00rw"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTrn-60_990f6babd500d25e3746174e6da58c84",
+    "question": "What Portuguese speaking country imported form Brazil?",
+    "answer": [
+      "Angola"
+    ],
+    "prediction": "None",
+    "hits1": 0,
+    "trajectory": [
+      "Portuguese",
+      "Uruguay"
+    ],
+    "visited_set": [
+      "Portuguese",
+      "Uruguay"
+    ],
+    "edges": [
+      [
+        "Portuguese",
+        "base.rosetta.local_name.locale",
+        "Uruguay"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-2570_374d1789f1735b6f08e1a829c0d075a2",
+    "question": "Who was the US President during WW2 that held his government position from 3-4-1933?",
+    "answer": [
+      "Harry S. Truman"
+    ],
+    "prediction": "m.04469y8",
+    "hits1": 0,
+    "trajectory": [
+      "President of the United States",
+      "m.04469y8"
+    ],
+    "visited_set": [
+      "President of the United States",
+      "m.04469y8"
+    ],
+    "edges": [
+      [
+        "President of the United States",
+        "government.government_office_or_title.office_holders",
+        "m.04469y8"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-484_ac67410188d0f2258139a3c84773885e",
+    "question": "What languiages are spoken by residents of the Central Western Time Zone?",
+    "answer": [
+      "English Language",
+      "Esperanto Language",
+      "Lojban"
+    ],
+    "prediction": "Lojban, Esperanto Language, English Language",
+    "hits1": 1,
+    "trajectory": [
+      "Central Western Time Zone",
+      "Australia"
+    ],
+    "visited_set": [
+      "Australia",
+      "Central Western Time Zone"
+    ],
+    "edges": [
+      [
+        "Central Western Time Zone",
+        "~location.location.time_zones",
+        "Australia"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-1785_1c178196ae53ffd4b09e5787a35c3950",
+    "question": "What TV series that had 3 episodes was Kim Richards in?",
+    "answer": [
+      "Nanny and the Professor"
+    ],
+    "prediction": "m.0bngyp9",
+    "hits1": 0,
+    "trajectory": [
+      "Kim Richards",
+      "m.0bngyp9"
+    ],
+    "visited_set": [
+      "Kim Richards",
+      "m.0bngyp9"
+    ],
+    "edges": [
+      [
+        "Kim Richards",
+        "tv.tv_actor.starring_roles",
+        "m.0bngyp9"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-3744_26401b4c33bcb760afd734acaa0a1869",
+    "question": "The Daily Cardinal is the school newspaper at which university that Russell Wilson attended?",
+    "answer": [
+      "University of Wisconsin-Madison"
+    ],
+    "prediction": "American football player",
+    "hits1": 0,
+    "trajectory": [
+      "Russell Wilson",
+      "m.0jvsppk",
+      "Russell Wilson",
+      "g.1258cg525",
+      "Russell Wilson",
+      "Cincinnati",
+      "Russell Wilson",
+      "American football player"
+    ],
+    "visited_set": [
+      "American football player",
+      "Cincinnati",
+      "Russell Wilson",
+      "g.1258cg525",
+      "m.0jvsppk"
+    ],
+    "edges": [
+      [
+        "Russell Wilson",
+        "people.person.education",
+        "m.0jvsppk"
+      ],
+      [
+        "Russell Wilson",
+        "common.topic.notable_for",
+        "g.1258cg525"
+      ],
+      [
+        "Russell Wilson",
+        "people.person.place_of_birth",
+        "Cincinnati"
+      ],
+      [
+        "Russell Wilson",
+        "people.person.profession",
+        "American football player"
+      ]
+    ],
+    "traj_len": 8,
+    "n_unique": 5
+  },
+  {
+    "qid": "WebQTrn-810_e3d40457273785e46c5b71732713a5f4",
+    "question": "When did the team with Crazy crab as their mascot win the world series?",
+    "answer": [
+      "2014 World Series"
+    ],
+    "prediction": "None",
+    "hits1": 0,
+    "trajectory": [
+      "Crazy Crab",
+      "San Francisco Giants"
+    ],
+    "visited_set": [
+      "Crazy Crab",
+      "San Francisco Giants"
+    ],
+    "edges": [
+      [
+        "Crazy Crab",
+        "~sports.sports_team.team_mascot",
+        "San Francisco Giants"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-538_92e606ef9c0429ad6820797ad2950730",
+    "question": "What movie was Taylor Swift in that had a character named Once-ler?",
+    "answer": [
+      "The Lorax"
+    ],
+    "prediction": "The Lorax",
+    "hits1": 1,
+    "trajectory": [
+      "Once-ler",
+      "m.0gwnx81",
+      "The Lorax"
+    ],
+    "visited_set": [
+      "Once-ler",
+      "The Lorax",
+      "m.0gwnx81"
+    ],
+    "edges": [
+      [
+        "Once-ler",
+        "film.film_character.portrayed_in_films",
+        "m.0gwnx81"
+      ],
+      [
+        "m.0gwnx81",
+        "film.performance.film",
+        "The Lorax"
+      ]
+    ],
+    "traj_len": 3,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTrn-2189_f4440609f5cecb091bf8e86adb47be25",
+    "question": "What is considered modern in the country where Bilady, Bilady, Bilady language is the national anthem?",
+    "answer": [
+      "Modern Standard Arabic"
+    ],
+    "prediction": "Bilady, Bilady, Bilady",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-372_a806813629e86776ae3bfe26a3e000f8",
+    "question": "What does the religion who worships in Barcelona Cathedral call their God?",
+    "answer": [
+      "Holy Spirit",
+      "Jesus Christ",
+      "The Father",
+      "God"
+    ],
+    "prediction": "God",
+    "hits1": 1,
+    "trajectory": [
+      "Barcelona Cathedral",
+      "Catholicism"
+    ],
+    "visited_set": [
+      "Barcelona Cathedral",
+      "Catholicism"
+    ],
+    "edges": [
+      [
+        "Barcelona Cathedral",
+        "religion.place_of_worship.religion",
+        "Catholicism"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-3744_b9bd90569bb7912ec3ea180bf164663c",
+    "question": "What educational institution with men's  sports team named Wisconsin Badgers did Russell Wilson go to?",
+    "answer": [
+      "University of Wisconsin-Madison"
+    ],
+    "prediction": "University of Wisconsin-Madison",
+    "hits1": 1,
+    "trajectory": [
+      "Wisconsin Badgers men's basketball",
+      "University of Wisconsin-Madison"
+    ],
+    "visited_set": [
+      "University of Wisconsin-Madison",
+      "Wisconsin Badgers men's basketball"
+    ],
+    "edges": [
+      [
+        "Wisconsin Badgers men's basketball",
+        "sports.school_sports_team.school",
+        "University of Wisconsin-Madison"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-712_6099ea03f4fd2476605c4a513318d29c",
+    "question": "What country  that appointed Liberal Government of New Zealand to governmental position is an Oceania territory?",
+    "answer": [
+      "New Zealand"
+    ],
+    "prediction": "New Zealand",
+    "hits1": 1,
+    "trajectory": [
+      "Liberal Government of New Zealand",
+      "m.0wpwwvp"
+    ],
+    "visited_set": [
+      "Liberal Government of New Zealand",
+      "m.0wpwwvp"
+    ],
+    "edges": [
+      [
+        "Liberal Government of New Zealand",
+        "~government.government_position_held.appointed_by",
+        "m.0wpwwvp"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-100_de15ac1f762e3ec1e1261f6d9c81ebf9",
+    "question": "What languages are spoken in the country that has national anthem La Dessaliniene?",
+    "answer": [
+      "Haitian Creole",
+      "French"
+    ],
+    "prediction": "Haitian Creole, French",
+    "hits1": 1,
+    "trajectory": [
+      "La Dessalinienne",
+      "m.0d9ggc4",
+      "Haiti",
+      "g.126tf08bm"
+    ],
+    "visited_set": [
+      "Haiti",
+      "La Dessalinienne",
+      "g.126tf08bm",
+      "m.0d9ggc4"
+    ],
+    "edges": [
+      [
+        "La Dessalinienne",
+        "~government.national_anthem_of_a_country.anthem",
+        "m.0d9ggc4"
+      ],
+      [
+        "m.0d9ggc4",
+        "government.national_anthem_of_a_country.country",
+        "Haiti"
+      ],
+      [
+        "Haiti",
+        "common.topic.notable_for",
+        "g.126tf08bm"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTrn-1557_edfd3507d32929ce0e9d844f7a2674de",
+    "question": "What educational institution with Le Delit Francais newspaper did Charles Drew attend?",
+    "answer": [
+      "McGill University"
+    ],
+    "prediction": "None",
+    "hits1": 0,
+    "trajectory": [
+      "Charles R. Drew",
+      "m.0n0r27v"
+    ],
+    "visited_set": [
+      "Charles R. Drew",
+      "m.0n0r27v"
+    ],
+    "edges": [
+      [
+        "Charles R. Drew",
+        "~education.education.student",
+        "m.0n0r27v"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-60_39ba4faa87698cb0767d1a5ee7ce1827",
+    "question": "What country do they speak Portuguese where the GDP real adjusted value was once 100349905926?",
+    "answer": [
+      "South Africa"
+    ],
+    "prediction": "Portugal",
+    "hits1": 0,
+    "trajectory": [
+      "Portuguese Language",
+      "Brazil",
+      "Portuguese Language",
+      "Portugal"
+    ],
+    "visited_set": [
+      "Brazil",
+      "Portugal",
+      "Portuguese Language"
+    ],
+    "edges": [
+      [
+        "Portuguese Language",
+        "language.human_language.countries_spoken_in",
+        "Brazil"
+      ],
+      [
+        "Portuguese Language",
+        "language.human_language.main_country",
+        "Portugal"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTrn-846_a29552911617e890ca2e1d6564e0990e",
+    "question": "What is the birthplace of the artist that went on The Avril Lavinge Tour?",
+    "answer": [
+      "Belleville"
+    ],
+    "prediction": "Avril Lavigne",
+    "hits1": 0,
+    "trajectory": [
+      "The Avril Lavigne Tour",
+      "Avril Lavigne"
+    ],
+    "visited_set": [
+      "Avril Lavigne",
+      "The Avril Lavigne Tour"
+    ],
+    "edges": [
+      [
+        "The Avril Lavigne Tour",
+        "music.concert_tour.artist",
+        "Avril Lavigne"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-121_333b95bd45af3e6e31e328bc8c24d84f",
+    "question": "The person educated at Chase Lane Primary School played for what team in 2011?",
+    "answer": [
+      "LA Galaxy"
+    ],
+    "prediction": "None",
+    "hits1": 0,
+    "trajectory": [
+      "Chase Lane Primary School",
+      "m.04dyl8v"
+    ],
+    "visited_set": [
+      "Chase Lane Primary School",
+      "m.04dyl8v"
+    ],
+    "edges": [
+      [
+        "Chase Lane Primary School",
+        "education.educational_institution.students_graduates",
+        "m.04dyl8v"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-626_47b990334f91b6d3bd042f82b81740f6",
+    "question": "What location appointed Dennis Daugaard to governmental position and is bisected by the Missouri River?",
+    "answer": [
+      "South Dakota"
+    ],
+    "prediction": "Iowa",
+    "hits1": 0,
+    "trajectory": [
+      "Dennis Daugaard",
+      "m.0_hhwdl",
+      "Dennis Daugaard",
+      "m.010hbrrk",
+      "Dennis Daugaard",
+      "m.0g5v9mw"
+    ],
+    "visited_set": [
+      "Dennis Daugaard",
+      "m.010hbrrk",
+      "m.0_hhwdl",
+      "m.0g5v9mw"
+    ],
+    "edges": [
+      [
+        "Dennis Daugaard",
+        "government.political_appointer.appointees",
+        "m.0_hhwdl"
+      ],
+      [
+        "m.0_hhwdl",
+        "~government.political_appointer.appointees",
+        "Dennis Daugaard"
+      ],
+      [
+        "Dennis Daugaard",
+        "government.politician.government_positions_held",
+        "m.010hbrrk"
+      ],
+      [
+        "Dennis Daugaard",
+        "people.person.places_lived",
+        "m.0g5v9mw"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTrn-2444_e5059ff268415917df330817b9c8ef8c",
+    "question": "In what stadium does the team who is owned by William DeWitt, Jr. play?",
+    "answer": [
+      "Busch Stadium"
+    ],
+    "prediction": "William DeWitt, Jr.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-2664_471b83eade9707a4dba68e201bf29d73",
+    "question": "What country located in the Greenwich Mean Time Zone that is the main trading partner of China?",
+    "answer": [
+      "Sierra Leone"
+    ],
+    "prediction": "m.0_tm_3s",
+    "hits1": 0,
+    "trajectory": [
+      "China",
+      "m.08__j05",
+      "China",
+      "m.0_tm_3s"
+    ],
+    "visited_set": [
+      "China",
+      "m.08__j05",
+      "m.0_tm_3s"
+    ],
+    "edges": [
+      [
+        "China",
+        "base.unitednations.united_nations_member_state.member_of",
+        "m.08__j05"
+      ],
+      [
+        "China",
+        "base.statistics.motor_vehicle_producer.cars_produced",
+        "m.0_tm_3s"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-576_8dfecb6548586cf236340abadabeb86c",
+    "question": "Which of the seven Central American countries uses the United States Dollar currency?",
+    "answer": [
+      "El Salvador",
+      "Panama"
+    ],
+    "prediction": "Panama",
+    "hits1": 1,
+    "trajectory": [
+      "Central America",
+      "Costa Rica"
+    ],
+    "visited_set": [
+      "Central America",
+      "Costa Rica"
+    ],
+    "edges": [
+      [
+        "Central America",
+        "location.location.contains",
+        "Costa Rica"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-124_028bb5f442b37a4af9f9fd9fa0bc5e9a",
+    "question": "What movies did the person who went to William O. Schafer Elementary School direct?",
+    "answer": [
+      "By the Sea",
+      "In the Land of Blood and Honey",
+      "A Place in Time",
+      "Unbroken"
+    ],
+    "prediction": "g.11xjkf9gh",
+    "hits1": 0,
+    "trajectory": [
+      "William O. Schaefer Elementary School",
+      "g.125bhnyjv",
+      "William O. Schaefer Elementary School",
+      "g.11xjkf9gh"
+    ],
+    "visited_set": [
+      "William O. Schaefer Elementary School",
+      "g.11xjkf9gh",
+      "g.125bhnyjv"
+    ],
+    "edges": [
+      [
+        "William O. Schaefer Elementary School",
+        "common.topic.notable_for",
+        "g.125bhnyjv"
+      ],
+      [
+        "g.125bhnyjv",
+        "~common.topic.notable_for",
+        "William O. Schaefer Elementary School"
+      ],
+      [
+        "William O. Schaefer Elementary School",
+        "education.school.school_district",
+        "g.11xjkf9gh"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTrn-2871_d7d303efc1f901f14e6aae2bb469743c",
+    "question": "What is there to see in Mountain Time Zone near the Grand Canyon?",
+    "answer": [
+      "Lake Powell",
+      "Phoenix"
+    ],
+    "prediction": "Grand Canyon Village",
+    "hits1": 0,
+    "trajectory": [
+      "Mountain Time Zone",
+      "Grand Canyon Village"
+    ],
+    "visited_set": [
+      "Grand Canyon Village",
+      "Mountain Time Zone"
+    ],
+    "edges": [
+      [
+        "Mountain Time Zone",
+        "~location.location.time_zones",
+        "Grand Canyon Village"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-750_bb35e9b8023fbf9c05df55b4245a4775",
+    "question": "In which years have the baseball club that claimed victory in the 1988 World Series won the World Series?",
+    "answer": [
+      "1981 World Series",
+      "1988 World Series",
+      "1965 World Series",
+      "1963 World Series",
+      "1959 World Series"
+    ],
+    "prediction": "1981 World Series",
+    "hits1": 1,
+    "trajectory": [
+      "1988 World Series",
+      "Los Angeles Dodgers",
+      "1988 World Series",
+      "1988 Major League Baseball Season",
+      "Los Angeles Dodgers",
+      "1981 World Series"
+    ],
+    "visited_set": [
+      "1981 World Series",
+      "1988 Major League Baseball Season",
+      "1988 World Series",
+      "Los Angeles Dodgers"
+    ],
+    "edges": [
+      [
+        "1988 World Series",
+        "sports.sports_championship_event.champion",
+        "Los Angeles Dodgers"
+      ],
+      [
+        "Los Angeles Dodgers",
+        "sports.sports_team.championships",
+        "1988 World Series"
+      ],
+      [
+        "1988 World Series",
+        "sports.sports_championship_event.season",
+        "1988 Major League Baseball Season"
+      ],
+      [
+        "Los Angeles Dodgers",
+        "sports.sports_team.championships",
+        "1981 World Series"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-96_11da03aa9cec8b011619c8ea0dbfdcf9",
+    "question": "The person who attended education institution in East Whittier Elementary School died where?",
+    "answer": [
+      "New York City"
+    ],
+    "prediction": "None",
+    "hits1": 0,
+    "trajectory": [
+      "East Whittier Elementary School",
+      "m.0_sp3dv"
+    ],
+    "visited_set": [
+      "East Whittier Elementary School",
+      "m.0_sp3dv"
+    ],
+    "edges": [
+      [
+        "East Whittier Elementary School",
+        "education.educational_institution.students_graduates",
+        "m.0_sp3dv"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-1528_25853c768670cd164d7793f094ba7cbb",
+    "question": "What film with character Luke Castelland does Logan Lerman play in?",
+    "answer": [
+      "Percy Jackson & the Olympians: The Lightning Thief",
+      "Percy Jackson: Sea of Monsters"
+    ],
+    "prediction": "The Sea of Monsters",
+    "hits1": 0,
+    "trajectory": [
+      "g.122sg15v",
+      "m.09tvx8j",
+      "g.122sg15v",
+      "The Sea of Monsters"
+    ],
+    "visited_set": [
+      "The Sea of Monsters",
+      "g.122sg15v",
+      "m.09tvx8j"
+    ],
+    "edges": [
+      [
+        "g.122sg15v",
+        "~film.performance.character",
+        "m.09tvx8j"
+      ],
+      [
+        "g.122sg15v",
+        "~book.book.characters",
+        "The Sea of Monsters"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-1260_5dd0eeca79ae03b7711252c032849eb2",
+    "question": "Rise is the mascot for the team which won the Super Bowl in what year?",
+    "answer": [
+      "Super Bowl XXXV"
+    ],
+    "prediction": "Super Bowl XI",
+    "hits1": 0,
+    "trajectory": [
+      "Super bowl",
+      "Super Bowl XI"
+    ],
+    "visited_set": [
+      "Super Bowl XI",
+      "Super bowl"
+    ],
+    "edges": [
+      [
+        "Super bowl",
+        "~common.topic.notable_types",
+        "Super Bowl XI"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-626_bd2c9bc1c0a692218e7c4182a1d52f85",
+    "question": "Mike Johanns was elected governor of what area that is bisected by the Missouri River?",
+    "answer": [
+      "Nebraska"
+    ],
+    "prediction": "m.03lhz5k",
+    "hits1": 0,
+    "trajectory": [
+      "Mike Johanns",
+      "m.05kfds4",
+      "Mike Johanns",
+      "m.0wk3l2d",
+      "Mike Johanns",
+      "m.03lhz5k"
+    ],
+    "visited_set": [
+      "Mike Johanns",
+      "m.03lhz5k",
+      "m.05kfds4",
+      "m.0wk3l2d"
+    ],
+    "edges": [
+      [
+        "Mike Johanns",
+        "government.politician.government_positions_held",
+        "m.05kfds4"
+      ],
+      [
+        "Mike Johanns",
+        "people.person.places_lived",
+        "m.0wk3l2d"
+      ],
+      [
+        "Mike Johanns",
+        "government.politician.party",
+        "m.03lhz5k"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTrn-1841_6bf772ee1b388c1b3c226b02c8244aa7",
+    "question": "Which popular sports team in Spain, that won the 2014 Eurocup Finals championship?",
+    "answer": [
+      "Valencia BC"
+    ],
+    "prediction": "Castilla-La Mancha",
+    "hits1": 0,
+    "trajectory": [
+      "Spain",
+      "g.1256shf1y",
+      "Spain",
+      "Castilla-La Mancha"
+    ],
+    "visited_set": [
+      "Castilla-La Mancha",
+      "Spain",
+      "g.1256shf1y"
+    ],
+    "edges": [
+      [
+        "Spain",
+        "common.topic.notable_for",
+        "g.1256shf1y"
+      ],
+      [
+        "Spain",
+        "base.aareas.schema.administrative_area.administrative_children",
+        "Castilla-La Mancha"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-1119_8c41904eaef9fce2d95afd27eb9150ec",
+    "question": "What organization led by Bentley B. Rayburn?",
+    "answer": [
+      "College/University"
+    ],
+    "prediction": "m.0hprvkd",
+    "hits1": 0,
+    "trajectory": [
+      "Bentley B. Rayburn",
+      "m.0hprvkd",
+      "Bentley B. Rayburn",
+      "g.125g59vh7"
+    ],
+    "visited_set": [
+      "Bentley B. Rayburn",
+      "g.125g59vh7",
+      "m.0hprvkd"
+    ],
+    "edges": [
+      [
+        "Bentley B. Rayburn",
+        "~organization.leadership.person",
+        "m.0hprvkd"
+      ],
+      [
+        "Bentley B. Rayburn",
+        "common.topic.notable_for",
+        "g.125g59vh7"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTrn-1812_5fb6c8c4d53d55c03445e4b2454ef810",
+    "question": "What Caribbean countries use the East Caribbean dollar currency?",
+    "answer": [
+      "Saint Kitts and Nevis",
+      "Saint Lucia",
+      "Anguilla"
+    ],
+    "prediction": "Saint Lucia, Saint Vincent and the Grenadines, Grenada, Montserrat, Dominica, Saint Kitts and Nevis, Antigua and Barbuda, Anguilla",
+    "hits1": 1,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-1394_dc71f08a76d71762a0cfd30f11f66535",
+    "question": "What country does Turkey trade with that contains the Annaba Province?",
+    "answer": [
+      "Algeria"
+    ],
+    "prediction": "Algeria",
+    "hits1": 1,
+    "trajectory": [
+      "Annaba Province",
+      "Annaba",
+      "Algeria"
+    ],
+    "visited_set": [
+      "Algeria",
+      "Annaba",
+      "Annaba Province"
+    ],
+    "edges": [
+      [
+        "Annaba Province",
+        "location.location.contains",
+        "Annaba"
+      ],
+      [
+        "Annaba",
+        "location.location.containedby",
+        "Algeria"
+      ]
+    ],
+    "traj_len": 3,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-1091_d3301dedbdcb2d171a75be1631e8cec5",
+    "question": "What type of religiong with a religious sacred site of Lumbini is in the United States?",
+    "answer": [
+      "Buddhism"
+    ],
+    "prediction": "Buddhism",
+    "hits1": 1,
+    "trajectory": [
+      "Lumbini",
+      "Buddhism"
+    ],
+    "visited_set": [
+      "Buddhism",
+      "Lumbini"
+    ],
+    "edges": [
+      [
+        "Lumbini",
+        "religion.place_of_worship.religion",
+        "Buddhism"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-2444_8fb3f377318c9e61f47779b2c188167b",
+    "question": "What stadium does the champion of the 1931 World Series Championship play at?",
+    "answer": [
+      "Busch Stadium"
+    ],
+    "prediction": "Shibe Park, \"Sportsman's Park\"",
+    "hits1": 0,
+    "trajectory": [
+      "1931 World Series",
+      "St. Louis Cardinals",
+      "1931 World Series"
+    ],
+    "visited_set": [
+      "1931 World Series",
+      "St. Louis Cardinals"
+    ],
+    "edges": [
+      [
+        "1931 World Series",
+        "sports.sports_championship_event.champion",
+        "St. Louis Cardinals"
+      ],
+      [
+        "St. Louis Cardinals",
+        "~sports.sports_championship_event.champion",
+        "1931 World Series"
+      ]
+    ],
+    "traj_len": 3,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-1812_c29807a955ea46fa79cdc9f7aeacba18",
+    "question": "Where was the main artist featured in the Rihanna: Live in Concert Tour raised?",
+    "answer": [
+      "Saint Michael Parish"
+    ],
+    "prediction": "Rihanna",
+    "hits1": 0,
+    "trajectory": [
+      "Rihanna: Live in Concert Tour",
+      "Rihanna"
+    ],
+    "visited_set": [
+      "Rihanna",
+      "Rihanna: Live in Concert Tour"
+    ],
+    "edges": [
+      [
+        "Rihanna: Live in Concert Tour",
+        "~music.artist.concert_tours",
+        "Rihanna"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-397_c7ee26d5c3f80107d7ae5fede489209a",
+    "question": "What are the school colors of Harvard Art Museum?",
+    "answer": [
+      "Crimson"
+    ],
+    "prediction": "Harvard University",
+    "hits1": 0,
+    "trajectory": [
+      "Harvard Art Museums",
+      "m.0jrk3_g",
+      "Harvard Art Museums",
+      "m.0ccc1gh",
+      "Harvard University"
+    ],
+    "visited_set": [
+      "Harvard Art Museums",
+      "Harvard University",
+      "m.0ccc1gh",
+      "m.0jrk3_g"
+    ],
+    "edges": [
+      [
+        "Harvard Art Museums",
+        "architecture.building_occupant.buildings_occupied",
+        "m.0jrk3_g"
+      ],
+      [
+        "m.0jrk3_g",
+        "architecture.occupancy.occupant",
+        "Harvard Art Museums"
+      ],
+      [
+        "Harvard Art Museums",
+        "organization.organization.parent",
+        "m.0ccc1gh"
+      ],
+      [
+        "m.0ccc1gh",
+        "organization.organization_relationship.parent",
+        "Harvard University"
+      ]
+    ],
+    "traj_len": 5,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTrn-2478_3e09b108c3448248556d4c34acae3cf7",
+    "question": "What is the mascot of the organization with the person named Eric F. Spina?",
+    "answer": [
+      "Syracuse University Otto the Orange"
+    ],
+    "prediction": "None",
+    "hits1": 0,
+    "trajectory": [
+      "Eric F. Spina",
+      "m.0zsrysz",
+      "Eric F. Spina",
+      "m.0zsrysz",
+      "Eric F. Spina",
+      "m.0zsrysz"
+    ],
+    "visited_set": [
+      "Eric F. Spina",
+      "m.0zsrysz"
+    ],
+    "edges": [
+      [
+        "Eric F. Spina",
+        "~organization.leadership.person",
+        "m.0zsrysz"
+      ],
+      [
+        "Eric F. Spina",
+        "business.board_member.leader_of",
+        "m.0zsrysz"
+      ],
+      [
+        "Eric F. Spina",
+        "business.board_member.leader_of",
+        "m.0zsrysz"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-2057_b64f996ceca972c0d6fea3de2705ce63",
+    "question": "The country that contains Alta Verapaz Department uses what money?",
+    "answer": [
+      "Guatemalan quetzal"
+    ],
+    "prediction": "m.046vx_5",
+    "hits1": 0,
+    "trajectory": [
+      "Alta Verapaz Department",
+      "Guatemala",
+      "m.046vx_5"
+    ],
+    "visited_set": [
+      "Alta Verapaz Department",
+      "Guatemala",
+      "m.046vx_5"
+    ],
+    "edges": [
+      [
+        "Alta Verapaz Department",
+        "location.administrative_division.country",
+        "Guatemala"
+      ],
+      [
+        "Guatemala",
+        "location.location.geolocation",
+        "m.046vx_5"
+      ]
+    ],
+    "traj_len": 3,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-1348_3bddf705b2a346fbdc2f00e9a02b84f3",
+    "question": "What team did Payton Manning's father play for that has a mascot named Viktor the Viking?",
+    "answer": [
+      "Minnesota Vikings"
+    ],
+    "prediction": "Quarterback",
+    "hits1": 0,
+    "trajectory": [
+      "Peyton Manning",
+      "m.02xh03t",
+      "Peyton Manning",
+      "m.04d90hh",
+      "Peyton Manning",
+      "Quarterback"
+    ],
+    "visited_set": [
+      "Peyton Manning",
+      "Quarterback",
+      "m.02xh03t",
+      "m.04d90hh"
+    ],
+    "edges": [
+      [
+        "Peyton Manning",
+        "people.person.education",
+        "m.02xh03t"
+      ],
+      [
+        "Peyton Manning",
+        "people.person.employment_history",
+        "m.04d90hh"
+      ],
+      [
+        "Peyton Manning",
+        "american_football.football_player.position_s",
+        "Quarterback"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTrn-60_22027d5bb310c0d956b5f22248a6811c",
+    "question": "Which country that once had a CPI inflation rate of -1.61 speaks Portuguese?",
+    "answer": [
+      "Macau"
+    ],
+    "prediction": "Guinea-Bissau",
+    "hits1": 0,
+    "trajectory": [
+      "Portuguese Language",
+      "Guinea-Bissau"
+    ],
+    "visited_set": [
+      "Guinea-Bissau",
+      "Portuguese Language"
+    ],
+    "edges": [
+      [
+        "Portuguese Language",
+        "language.human_language.countries_spoken_in",
+        "Guinea-Bissau"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-60_0b79f757e511e73c7aca0bb6f6057f2d",
+    "question": "What country that once had the CPI inflation rate at -1.56 percent do people speak Portuguese?",
+    "answer": [
+      "Macau"
+    ],
+    "prediction": "Guinea-Bissau",
+    "hits1": 0,
+    "trajectory": [
+      "Portuguese Language",
+      "Guinea-Bissau"
+    ],
+    "visited_set": [
+      "Guinea-Bissau",
+      "Portuguese Language"
+    ],
+    "edges": [
+      [
+        "Portuguese Language",
+        "language.human_language.countries_spoken_in",
+        "Guinea-Bissau"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-61_8f0d44a78a2e50f47729db23c5850da0",
+    "question": "Mary is a notable figure in which religion that is observed in Indonesia?",
+    "answer": [
+      "Catholicism"
+    ],
+    "prediction": "g.1256x4rk5",
+    "hits1": 0,
+    "trajectory": [
+      "Indonesia",
+      "g.1256x4rk5",
+      "Indonesia",
+      "m.02xm9lj",
+      "Indonesia",
+      "g.1256x4rk5"
+    ],
+    "visited_set": [
+      "Indonesia",
+      "g.1256x4rk5",
+      "m.02xm9lj"
+    ],
+    "edges": [
+      [
+        "Indonesia",
+        "common.topic.notable_for",
+        "g.1256x4rk5"
+      ],
+      [
+        "Indonesia",
+        "common.topic.webpage",
+        "m.02xm9lj"
+      ],
+      [
+        "Indonesia",
+        "common.topic.notable_for",
+        "g.1256x4rk5"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTrn-3100_d059b24adec4064377b957ca598769be",
+    "question": "What part is the country with the capital named Santo Domingo?",
+    "answer": [
+      "Greater Antilles",
+      "Latin America",
+      "North America",
+      "Americas",
+      "País"
+    ],
+    "prediction": "Dominican Republic",
+    "hits1": 0,
+    "trajectory": [
+      "Santo Domingo",
+      "m.0q3dk13",
+      "Santo Domingo",
+      "m.0q3dk13",
+      "Santo Domingo",
+      "Dominican Republic"
+    ],
+    "visited_set": [
+      "Dominican Republic",
+      "Santo Domingo",
+      "m.0q3dk13"
+    ],
+    "edges": [
+      [
+        "Santo Domingo",
+        "~location.administrative_division_capital_relationship.capital",
+        "m.0q3dk13"
+      ],
+      [
+        "Santo Domingo",
+        "location.capital_of_administrative_division.capital_of",
+        "m.0q3dk13"
+      ],
+      [
+        "Santo Domingo",
+        "location.location.containedby",
+        "Dominican Republic"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-983_b3520a12fe059da8ffda55e381a14f14",
+    "question": "What educational institution with the mascot named Washington University Bear did Tennessee Williams go to?",
+    "answer": [
+      "Washington University in St. Louis"
+    ],
+    "prediction": "Washington University in St. Louis",
+    "hits1": 1,
+    "trajectory": [
+      "Washington University Bear",
+      "Washington University in St. Louis"
+    ],
+    "visited_set": [
+      "Washington University Bear",
+      "Washington University in St. Louis"
+    ],
+    "edges": [
+      [
+        "Washington University Bear",
+        "~education.educational_institution.mascot",
+        "Washington University in St. Louis"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-1560_1bee868ed5551a3cfdba70a720adbc04",
+    "question": "Who founded New York University, which held his governmental position from after 1795-03-04?",
+    "answer": [
+      "Albert Gallatin"
+    ],
+    "prediction": "m.0k7hdm5",
+    "hits1": 0,
+    "trajectory": [
+      "New York University",
+      "m.0k7hdm5",
+      "New York University",
+      "m.0dgfyqn",
+      "New York University",
+      "m.0k7hdm5"
+    ],
+    "visited_set": [
+      "New York University",
+      "m.0dgfyqn",
+      "m.0k7hdm5"
+    ],
+    "edges": [
+      [
+        "New York University",
+        "education.educational_institution.faculty",
+        "m.0k7hdm5"
+      ],
+      [
+        "New York University",
+        "education.educational_institution.honorary_degrees_awarded",
+        "m.0dgfyqn"
+      ],
+      [
+        "New York University",
+        "education.educational_institution.faculty",
+        "m.0k7hdm5"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTrn-2570_354fb646be304159441f2497ab0a9c62",
+    "question": "Which was the earliest President during WW2 in the United States?",
+    "answer": [
+      "Franklin D. Roosevelt"
+    ],
+    "prediction": "m.04469y8",
+    "hits1": 0,
+    "trajectory": [
+      "President of the United States",
+      "m.04469y8"
+    ],
+    "visited_set": [
+      "President of the United States",
+      "m.04469y8"
+    ],
+    "edges": [
+      [
+        "President of the United States",
+        "government.government_office_or_title.office_holders",
+        "m.04469y8"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-538_d37989c422fef8a98e7289ca0144159c",
+    "question": "Which movies has the individual who attended The Wyndcroft School appeared in?",
+    "answer": [
+      "Hannah Montana: The Movie",
+      "Valentine's Day",
+      "The Lorax",
+      "Jonas Brothers: The Concert Experience",
+      "The Giver"
+    ],
+    "prediction": "[",
+    "hits1": 0,
+    "trajectory": [
+      "The Wyndcroft School",
+      "m.0nfmz4r"
+    ],
+    "visited_set": [
+      "The Wyndcroft School",
+      "m.0nfmz4r"
+    ],
+    "edges": [
+      [
+        "The Wyndcroft School",
+        "education.educational_institution.students_graduates",
+        "m.0nfmz4r"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-465_784f88e61337c424ca3d7be0719e3649",
+    "question": "What to see in the country that has Gozo?",
+    "answer": [
+      "Megalithic Temples of Malta",
+      "National Museum of Fine Arts, Malta",
+      "Casa Rocca Piccola",
+      "Fort Rinella",
+      "National Museum of Archaeology, Malta",
+      "St. Paul's Catacombs",
+      "Manoel Theatre",
+      "Gozo 360° Multivision Show",
+      "Dingli Cliffs",
+      "The Armoury and the Maritime Museum"
+    ],
+    "prediction": "Popular tourist attractions in Malta",
+    "hits1": 0,
+    "trajectory": [
+      "Gozo",
+      "Malta",
+      "g.12564hz0m",
+      "Malta",
+      "m.04v40"
+    ],
+    "visited_set": [
+      "Gozo",
+      "Malta",
+      "g.12564hz0m",
+      "m.04v40"
+    ],
+    "edges": [
+      [
+        "Gozo",
+        "location.location.containedby",
+        "Malta"
+      ],
+      [
+        "Malta",
+        "common.topic.notable_for",
+        "g.12564hz0m"
+      ],
+      [
+        "Malta",
+        "common.topic.article",
+        "m.04v40"
+      ]
+    ],
+    "traj_len": 5,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-54_d14abf7768bdbdaa66897780b56dace1",
+    "question": "What country did the person who went to B Steyr control?",
+    "answer": [
+      "Nazi Germany"
+    ],
+    "prediction": "None",
+    "hits1": 0,
+    "trajectory": [
+      "BRG Steyr",
+      "m.01064jg7"
+    ],
+    "visited_set": [
+      "BRG Steyr",
+      "m.01064jg7"
+    ],
+    "edges": [
+      [
+        "BRG Steyr",
+        "education.educational_institution.students_graduates",
+        "m.01064jg7"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-1560_e2ff014eae4ff8dbe3cacbb3e4b0002c",
+    "question": "Who are the founders of the educational institution where the sports team NYU Violets Men's Basketball plays?",
+    "answer": [
+      "Albert Gallatin",
+      "Mordecai Manuel Noah"
+    ],
+    "prediction": "NYU Violets Men's Basketball",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-590_2f40ab1d4ea497555c4c883c92a758b7",
+    "question": "Who is the leader of the country that has national anthem Allhu Akbar?",
+    "answer": [
+      "Abdullah al-Thani"
+    ],
+    "prediction": "Allahu Akbar",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-54_f0c99f377c8b944364e85b70b9f9b331",
+    "question": "The person who attended education institution Bundesrealgymnasium Linz controlled what country?",
+    "answer": [
+      "Nazi Germany"
+    ],
+    "prediction": "m.01064kcv",
+    "hits1": 0,
+    "trajectory": [
+      "Bundesrealgymnasium Linz",
+      "g.1q56fv8st",
+      "Bundesrealgymnasium Linz",
+      "m.01064kcv",
+      "Bundesrealgymnasium Linz",
+      "g.1q56fv8st"
+    ],
+    "visited_set": [
+      "Bundesrealgymnasium Linz",
+      "g.1q56fv8st",
+      "m.01064kcv"
+    ],
+    "edges": [
+      [
+        "Bundesrealgymnasium Linz",
+        "common.topic.notable_for",
+        "g.1q56fv8st"
+      ],
+      [
+        "Bundesrealgymnasium Linz",
+        "education.educational_institution.students_graduates",
+        "m.01064kcv"
+      ],
+      [
+        "Bundesrealgymnasium Linz",
+        "common.topic.notable_for",
+        "g.1q56fv8st"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-1091_c2f4807a175372c3e75691b565d1936d",
+    "question": "What religion with notable figure Athanasius of Alexandria is in the United States?",
+    "answer": [
+      "Christianity"
+    ],
+    "prediction": "Christianity",
+    "hits1": 1,
+    "trajectory": [
+      "Athanasius of Alexandria",
+      "Christianity"
+    ],
+    "visited_set": [
+      "Athanasius of Alexandria",
+      "Christianity"
+    ],
+    "edges": [
+      [
+        "Athanasius of Alexandria",
+        "~religion.religion.notable_figures",
+        "Christianity"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-1091_9be8c18e016b713cbb7f7feb6badebc7",
+    "question": "What religion that is practiced in the United States has The Bible as its religious text?",
+    "answer": [
+      "Christianity"
+    ],
+    "prediction": "Bible--Chronology",
+    "hits1": 0,
+    "trajectory": [
+      "The Bible",
+      "Bibles",
+      "The Bible",
+      "Bible--Chronology"
+    ],
+    "visited_set": [
+      "Bible--Chronology",
+      "Bibles",
+      "The Bible"
+    ],
+    "edges": [
+      [
+        "The Bible",
+        "base.bisac.bisac_equivalent_subject.bisac_equivalent_subject",
+        "Bibles"
+      ],
+      [
+        "The Bible",
+        "base.skosbase.vocabulary_equivalent_topic.narrower_concept",
+        "Bible--Chronology"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTrn-1077_83f43b9f4c2707c689543b33efe1d28d",
+    "question": "Which religion practiced in Afghanistan has a place of worship known as Ibrahim Mosque?",
+    "answer": [
+      "Sunni Islam"
+    ],
+    "prediction": "Afghanistan",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-1569_4e73509d14bda62590480b655eee8751",
+    "question": "What's the currency used in the country where the Jamaican dollar as money is called?",
+    "answer": [
+      "Jamaican dollar"
+    ],
+    "prediction": "Jamaica Dolar",
+    "hits1": 0,
+    "trajectory": [
+      "Jamaican dollar",
+      "Jamaica",
+      "m.09xwf60",
+      "Jamaica",
+      "m.03_rf"
+    ],
+    "visited_set": [
+      "Jamaica",
+      "Jamaican dollar",
+      "m.03_rf",
+      "m.09xwf60"
+    ],
+    "edges": [
+      [
+        "Jamaican dollar",
+        "finance.currency.countries_used",
+        "Jamaica"
+      ],
+      [
+        "Jamaica",
+        "common.topic.webpage",
+        "m.09xwf60"
+      ],
+      [
+        "Jamaica",
+        "common.topic.article",
+        "m.03_rf"
+      ]
+    ],
+    "traj_len": 5,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTrn-849_f6e8b7149f2e422640a49beb753be4ef",
+    "question": "What country uss the Swiss Franc as currency and shares a border with Germany?",
+    "answer": [
+      "Switzerland"
+    ],
+    "prediction": "Liechtenstein",
+    "hits1": 0,
+    "trajectory": [
+      "Swiss franc",
+      "Switzerland"
+    ],
+    "visited_set": [
+      "Swiss franc",
+      "Switzerland"
+    ],
+    "edges": [
+      [
+        "Swiss franc",
+        "finance.currency.countries_used",
+        "Switzerland"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-302_f051fbe657aaa023d74839c8e8029bef",
+    "question": "What are official colors of the champion of Super Bowl XXX?",
+    "answer": [
+      "Blue",
+      "Navy Blue",
+      "Silver",
+      "Royal blue",
+      "White"
+    ],
+    "prediction": "None",
+    "hits1": 0,
+    "trajectory": [
+      "Super Bowl XXX",
+      "Dallas Cowboys"
+    ],
+    "visited_set": [
+      "Dallas Cowboys",
+      "Super Bowl XXX"
+    ],
+    "edges": [
+      [
+        "Super Bowl XXX",
+        "sports.sports_championship_event.champion",
+        "Dallas Cowboys"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-2256_d14abf7768bdbdaa66897780b56dace1",
+    "question": "What happened to the person who went to BRG Steyr at the end of the war?",
+    "answer": [
+      "Ballistic trauma",
+      "Suicide"
+    ],
+    "prediction": "None",
+    "hits1": 0,
+    "trajectory": [
+      "BRG Steyr",
+      "m.01064jg7",
+      "BRG Steyr",
+      "m.01064jg7",
+      "BRG Steyr",
+      "g.1q56fm_5k",
+      "BRG Steyr"
+    ],
+    "visited_set": [
+      "BRG Steyr",
+      "g.1q56fm_5k",
+      "m.01064jg7"
+    ],
+    "edges": [
+      [
+        "BRG Steyr",
+        "education.educational_institution.students_graduates",
+        "m.01064jg7"
+      ],
+      [
+        "BRG Steyr",
+        "~education.education.institution",
+        "m.01064jg7"
+      ],
+      [
+        "BRG Steyr",
+        "common.topic.notable_for",
+        "g.1q56fm_5k"
+      ],
+      [
+        "g.1q56fm_5k",
+        "~common.topic.notable_for",
+        "BRG Steyr"
+      ]
+    ],
+    "traj_len": 7,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTrn-2664_513d3d27fdbcf5130896177ea2dd146f",
+    "question": "Who are the main trading partners of China that use the Lao Kip as its currency?",
+    "answer": [
+      "Laos"
+    ],
+    "prediction": "None",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-465_02714e184571525b8c510d20f11fc886",
+    "question": "What all is there to do for fun in the nation represented by the anthem L-Innu Malti?",
+    "answer": [
+      "Megalithic Temples of Malta",
+      "National Museum of Fine Arts, Malta",
+      "Casa Rocca Piccola",
+      "Fort Rinella",
+      "National Museum of Archaeology, Malta",
+      "St. Paul's Catacombs",
+      "Manoel Theatre",
+      "Gozo 360° Multivision Show",
+      "Dingli Cliffs",
+      "The Armoury and the Maritime Museum"
+    ],
+    "prediction": "m.0h_1dx5",
+    "hits1": 0,
+    "trajectory": [
+      "L-Innu Malti",
+      "m.0h_1dx5",
+      "L-Innu Malti",
+      "m.0h_1dx5"
+    ],
+    "visited_set": [
+      "L-Innu Malti",
+      "m.0h_1dx5"
+    ],
+    "edges": [
+      [
+        "L-Innu Malti",
+        "~government.national_anthem_of_a_country.anthem",
+        "m.0h_1dx5"
+      ],
+      [
+        "L-Innu Malti",
+        "~government.national_anthem_of_a_country.anthem",
+        "m.0h_1dx5"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-743_81f7ed541ce951e30c3d90697cb83dec",
+    "question": "Which of JFK's brothers held his governmental position before November 6, 1962?",
+    "answer": [
+      "Robert F. Kennedy"
+    ],
+    "prediction": "Robert F. Kennedy",
+    "hits1": 1,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-3535_dfcf84e9ba3b9baef4ee1f2cc51994b6",
+    "question": "Who did the voice of character Kovu?",
+    "answer": [
+      "Jason Marsden"
+    ],
+    "prediction": "Kovu",
+    "hits1": 0,
+    "trajectory": [
+      "Kovu",
+      "m.0k5qr5",
+      "Kovu"
+    ],
+    "visited_set": [
+      "Kovu",
+      "m.0k5qr5"
+    ],
+    "edges": [
+      [
+        "Kovu",
+        "film.film_character.portrayed_in_films",
+        "m.0k5qr5"
+      ],
+      [
+        "m.0k5qr5",
+        "film.performance.character",
+        "Kovu"
+      ]
+    ],
+    "traj_len": 3,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-996_7c4c41654239ed0a5b99ba5e6481ad5c",
+    "question": "Where does the Ireland team that won the 2003 Rugby World Cup championship play?",
+    "answer": [
+      "Aviva Stadium"
+    ],
+    "prediction": "Ireland national rugby union team",
+    "hits1": 0,
+    "trajectory": [
+      "2003 Rugby World Cup",
+      "Ireland national rugby union team"
+    ],
+    "visited_set": [
+      "2003 Rugby World Cup",
+      "Ireland national rugby union team"
+    ],
+    "edges": [
+      [
+        "2003 Rugby World Cup",
+        "~sports.sports_team.championships",
+        "Ireland national rugby union team"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-1012_7ee41dcd5e0ee726e65a46d891982c8f",
+    "question": "What Hollywood studio produced the American Gladiators TV movie?",
+    "answer": [
+      "Universal Studios Hollywood"
+    ],
+    "prediction": "20th Century Fox Television",
+    "hits1": 0,
+    "trajectory": [
+      "American Gladiators",
+      "m.0j0z071"
+    ],
+    "visited_set": [
+      "American Gladiators",
+      "m.0j0z071"
+    ],
+    "edges": [
+      [
+        "American Gladiators",
+        "tv.tv_program.original_network",
+        "m.0j0z071"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-513_59d4a153f9ac424bfd0d9a39a5704027",
+    "question": "What countries are in the location that contains Terekti District?",
+    "answer": [
+      "Bulgaria",
+      "Kingdom of Romania",
+      "Socialist Federal Republic of Yugoslavia",
+      "Grand Duchy of Lithuania",
+      "Belarusian People's Republic",
+      "Second Polish Republic",
+      "Moldova",
+      "Romania",
+      "Belarusian Central Council",
+      "Kievan Rus'",
+      "Georgia"
+    ],
+    "prediction": "Kazakhstan",
+    "hits1": 0,
+    "trajectory": [
+      "West Kazakhstan Region",
+      "Kazakhstan"
+    ],
+    "visited_set": [
+      "Kazakhstan",
+      "West Kazakhstan Region"
+    ],
+    "edges": [
+      [
+        "West Kazakhstan Region",
+        "location.location.containedby",
+        "Kazakhstan"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-484_de764c65ac3c6a870a407dd9cafd0dc9",
+    "question": "What is the currency used in the country of Brazil?",
+    "answer": [
+      "Brazilian real"
+    ],
+    "prediction": "Brazilian real",
+    "hits1": 1,
+    "trajectory": [
+      "Brazil",
+      "Brazilian real",
+      "Brazil",
+      "Brazilian real"
+    ],
+    "visited_set": [
+      "Brazil",
+      "Brazilian real"
+    ],
+    "edges": [
+      [
+        "Brazil",
+        "location.country.currency_used",
+        "Brazilian real"
+      ],
+      [
+        "Brazilian real",
+        "~location.country.currency_used",
+        "Brazil"
+      ],
+      [
+        "Brazil",
+        "location.country.currency_used",
+        "Brazilian real"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-1841_cac535ea48922ba42c75ec7ac67cf454",
+    "question": "What popular Spanish sport has a basketball team with head coach Joan Plaza?",
+    "answer": [
+      "Baloncesto Málaga"
+    ],
+    "prediction": "basketball",
+    "hits1": 0,
+    "trajectory": [
+      "Joan Plaza",
+      "Baloncesto Málaga",
+      "Spain",
+      "m.06p0bxk"
+    ],
+    "visited_set": [
+      "Baloncesto Málaga",
+      "Joan Plaza",
+      "Spain",
+      "m.06p0bxk"
+    ],
+    "edges": [
+      [
+        "Joan Plaza",
+        "~basketball.basketball_team.head_coach",
+        "Baloncesto Málaga"
+      ],
+      [
+        "Spain",
+        "base.athletics.athletics_country.championships_athletes_performances",
+        "m.06p0bxk"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTrn-3376_2d06cbcbb5ada96a239eeee425106c28",
+    "question": "What educational institution with football sports team named Temple Owls  did Kevin Hart go to?",
+    "answer": [
+      "Temple University"
+    ],
+    "prediction": "Temple University",
+    "hits1": 1,
+    "trajectory": [
+      "Temple Owls football",
+      "Temple University"
+    ],
+    "visited_set": [
+      "Temple Owls football",
+      "Temple University"
+    ],
+    "edges": [
+      [
+        "Temple Owls football",
+        "sports.school_sports_team.school",
+        "Temple University"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-2319_67d6828a804cdeef38928c85cb93bb03",
+    "question": "What are the official languages of used in the country that uses Ukrainian Hyrvnia?",
+    "answer": [
+      "Albanian language",
+      "Tatar Language",
+      "Moldovan language",
+      "Romanian Language",
+      "Hungarian language",
+      "Russian Language",
+      "Ukrainian Language"
+    ],
+    "prediction": "Ukrainian Language",
+    "hits1": 1,
+    "trajectory": [
+      "Ukrainian hryvnia",
+      "Ukraine",
+      "Ukrainian Language"
+    ],
+    "visited_set": [
+      "Ukraine",
+      "Ukrainian Language",
+      "Ukrainian hryvnia"
+    ],
+    "edges": [
+      [
+        "Ukrainian hryvnia",
+        "finance.currency.countries_used",
+        "Ukraine"
+      ],
+      [
+        "Ukraine",
+        "location.country.official_language",
+        "Ukrainian Language"
+      ]
+    ],
+    "traj_len": 3,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-1091_31c94b951f3d708ac503327d7979da93",
+    "question": "Which type of religions practiced in the United States, where the religion place of worship is called, Candi Laras?",
+    "answer": [
+      "Buddhism"
+    ],
+    "prediction": "g.122hpl76",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-2026_84e5ab7013a2c0dd11f7f61db45df94c",
+    "question": "If you are visiting a country and in the San Pedro De Marcois Province, what form of currency would you spend?",
+    "answer": [
+      "Dominican peso"
+    ],
+    "prediction": "Dominican Peso",
+    "hits1": 1,
+    "trajectory": [
+      "San Pedro de Macorís Province",
+      "Dominican Republic"
+    ],
+    "visited_set": [
+      "Dominican Republic",
+      "San Pedro de Macorís Province"
+    ],
+    "edges": [
+      [
+        "San Pedro de Macorís Province",
+        "location.location.containedby",
+        "Dominican Republic"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-1812_25c9be422f1472e5cdf7358613ad93cf",
+    "question": "What country in the Caribbean contains Saint Michael Parish?",
+    "answer": [
+      "Barbados"
+    ],
+    "prediction": "Barbados",
+    "hits1": 1,
+    "trajectory": [
+      "Saint Michael Parish",
+      "Barbados National Stadium",
+      "Saint Michael Parish",
+      "Barbados"
+    ],
+    "visited_set": [
+      "Barbados",
+      "Barbados National Stadium",
+      "Saint Michael Parish"
+    ],
+    "edges": [
+      [
+        "Saint Michael Parish",
+        "location.location.contains",
+        "Barbados National Stadium"
+      ],
+      [
+        "Saint Michael Parish",
+        "location.administrative_division.country",
+        "Barbados"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-1560_61856c62660c382e9579ce72ec422a70",
+    "question": "Who founded the college where Lindsay Zir is a grad student?",
+    "answer": [
+      "Albert Gallatin",
+      "Mordecai Manuel Noah"
+    ],
+    "prediction": "New York University",
+    "hits1": 0,
+    "trajectory": [
+      "Lindsay Zir",
+      "m.0_kzcwh",
+      "New York University"
+    ],
+    "visited_set": [
+      "Lindsay Zir",
+      "New York University",
+      "m.0_kzcwh"
+    ],
+    "edges": [
+      [
+        "Lindsay Zir",
+        "~education.education.student",
+        "m.0_kzcwh"
+      ],
+      [
+        "m.0_kzcwh",
+        "education.education.institution",
+        "New York University"
+      ]
+    ],
+    "traj_len": 3,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTrn-2834_31c94b951f3d708ac503327d7979da93",
+    "question": "Of the major religions in the United States, which has the religion place of worship of  Candi Laras?",
+    "answer": [
+      "Buddhism"
+    ],
+    "prediction": "g.122hpl76",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-1376_b1915c7cd7f743656108611e5095c2e0",
+    "question": "Which Canadian Province was the locatiuon for the TV show the Lottery?",
+    "answer": [
+      "Québec"
+    ],
+    "prediction": "Quebec",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-1077_3c58a650bf56f8c8d0f6931d08bd2598",
+    "question": "What are the religions in the area whose major exports are from fruit and tree nut farming?",
+    "answer": [
+      "Shia Islam",
+      "Sunni Islam"
+    ],
+    "prediction": "g.125cdb_pt",
+    "hits1": 0,
+    "trajectory": [
+      "Fruit and Tree Nut Farming",
+      "Crop Production",
+      "g.125cdb_pt"
+    ],
+    "visited_set": [
+      "Crop Production",
+      "Fruit and Tree Nut Farming",
+      "g.125cdb_pt"
+    ],
+    "edges": [
+      [
+        "Fruit and Tree Nut Farming",
+        "~business.industry.child_industry",
+        "Crop Production"
+      ],
+      [
+        "Crop Production",
+        "common.topic.notable_for",
+        "g.125cdb_pt"
+      ]
+    ],
+    "traj_len": 3,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-397_ef7c0ef1f2f2ee145c3e9fa70b47ab7d",
+    "question": "What colors do the school where Donald Stanley Marshall is a grad student use?",
+    "answer": [
+      "Crimson"
+    ],
+    "prediction": "m.010329c2",
+    "hits1": 0,
+    "trajectory": [
+      "Donald Stanley Marshall",
+      "m.01032909",
+      "Donald Stanley Marshall",
+      "m.010329c2"
+    ],
+    "visited_set": [
+      "Donald Stanley Marshall",
+      "m.01032909",
+      "m.010329c2"
+    ],
+    "edges": [
+      [
+        "Donald Stanley Marshall",
+        "~education.education.student",
+        "m.01032909"
+      ],
+      [
+        "Donald Stanley Marshall",
+        "people.person.places_lived",
+        "m.010329c2"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTrn-2057_8a53ef8199d789102fab4d503857c0db",
+    "question": "What is the currency used in the country of Guatemala?",
+    "answer": [
+      "Guatemalan quetzal"
+    ],
+    "prediction": "Guatemalan quetzal",
+    "hits1": 1,
+    "trajectory": [
+      "Guatemalan quetzal",
+      "Guatemala",
+      "Guatemalan quetzal",
+      "Guatemala"
+    ],
+    "visited_set": [
+      "Guatemala",
+      "Guatemalan quetzal"
+    ],
+    "edges": [
+      [
+        "Guatemalan quetzal",
+        "~location.country.currency_used",
+        "Guatemala"
+      ],
+      [
+        "Guatemala",
+        "location.country.currency_used",
+        "Guatemalan quetzal"
+      ],
+      [
+        "Guatemalan quetzal",
+        "finance.currency.countries_used",
+        "Guatemala"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-1817_e8393a7bc14f9c91e0813aacbc6d7c05",
+    "question": "What educational institution with the Cherwell newspaper did JRR Tolkien go to?",
+    "answer": [
+      "University of Oxford"
+    ],
+    "prediction": "J. R. R. Tolkien",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-493_c8b99bb380a7f157039bdf6c7b8df764",
+    "question": "What region is the country whose national anthem is BrabanÃ§onne located in?",
+    "answer": [
+      "Europe",
+      "Eurasia",
+      "Western Europe"
+    ],
+    "prediction": "Belgium",
+    "hits1": 0,
+    "trajectory": [
+      "Brabançonne",
+      "m.0d89jcn",
+      "Belgium"
+    ],
+    "visited_set": [
+      "Belgium",
+      "Brabançonne",
+      "m.0d89jcn"
+    ],
+    "edges": [
+      [
+        "Brabançonne",
+        "~government.national_anthem_of_a_country.anthem",
+        "m.0d89jcn"
+      ],
+      [
+        "m.0d89jcn",
+        "~location.country.national_anthem",
+        "Belgium"
+      ]
+    ],
+    "traj_len": 3,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTrn-2664_9f8fc8341d7c53fe16d94a6a23638ec4",
+    "question": "Which nation is a major trading partner with China and has the Malagasy ariary as its unit of currency?",
+    "answer": [
+      "Madagascar"
+    ],
+    "prediction": "Madagascar",
+    "hits1": 1,
+    "trajectory": [
+      "Malagasy ariary",
+      "m.04m2f6f",
+      "Malagasy ariary",
+      "Madagascar"
+    ],
+    "visited_set": [
+      "Madagascar",
+      "Malagasy ariary",
+      "m.04m2f6f"
+    ],
+    "edges": [
+      [
+        "Malagasy ariary",
+        "~common.webpage.topic",
+        "m.04m2f6f"
+      ],
+      [
+        "Malagasy ariary",
+        "finance.currency.countries_used",
+        "Madagascar"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-1560_260b848263a65518db6f4418d93a311e",
+    "question": "Holding his governmental position from earliest, who founde New York University?",
+    "answer": [
+      "Albert Gallatin"
+    ],
+    "prediction": "New York University",
+    "hits1": 0,
+    "trajectory": [
+      "New York University",
+      "m.0k7hdm5",
+      "New York University"
+    ],
+    "visited_set": [
+      "New York University",
+      "m.0k7hdm5"
+    ],
+    "edges": [
+      [
+        "New York University",
+        "education.educational_institution.faculty",
+        "m.0k7hdm5"
+      ],
+      [
+        "m.0k7hdm5",
+        "~education.educational_institution.faculty",
+        "New York University"
+      ]
+    ],
+    "traj_len": 3,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-1923_2d077323191d349225d8f3719925c777",
+    "question": "The person who attended Heritage Elementary School has been in what movies?",
+    "answer": [
+      "Miley Cyrus: Tongue Tied",
+      "Big Fish",
+      "Hannah Montana: The Movie",
+      "Hannah Montana and Miley Cyrus: Best of Both Worlds Concert",
+      "Sonic the Hedgehog",
+      "Sex and the City 2",
+      "Wizards on Deck with Hannah Montana",
+      "Bolt",
+      "The Last Song",
+      "Super Rhino",
+      "High School Musical 2",
+      "LOL",
+      "Radio Disney Party Jams: The Concert",
+      "The World According to Miley Cyrus",
+      "So Undercover",
+      "Family Bond",
+      "Rock Mafia Presents: The Big Bang"
+    ],
+    "prediction": "[",
+    "hits1": 0,
+    "trajectory": [
+      "Heritage Elementary School",
+      "m.0h2yk16"
+    ],
+    "visited_set": [
+      "Heritage Elementary School",
+      "m.0h2yk16"
+    ],
+    "edges": [
+      [
+        "Heritage Elementary School",
+        "education.educational_institution.students_graduates",
+        "m.0h2yk16"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-1260_018dc0c070e53555fa37f63d4b83ca87",
+    "question": "In what year did mascot Poe's team win the Super Bowl?",
+    "answer": [
+      "Super Bowl XXXV"
+    ],
+    "prediction": "m.01z0fft",
+    "hits1": 0,
+    "trajectory": [
+      "Super bowl",
+      "m.01z0ffp",
+      "m.01z0fft"
+    ],
+    "visited_set": [
+      "Super bowl",
+      "m.01z0ffp",
+      "m.01z0fft"
+    ],
+    "edges": [
+      [
+        "Super bowl",
+        "freebase.documented_object.documentation",
+        "m.01z0ffp"
+      ],
+      [
+        "m.01z0ffp",
+        "common.document.content",
+        "m.01z0fft"
+      ]
+    ],
+    "traj_len": 3,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTrn-3035_94f91513faa8a29c82e1f1184277f81a",
+    "question": "Who is governor of the place that contains part of the Uinta Mountains?",
+    "answer": [
+      "Matt Mead"
+    ],
+    "prediction": "Uinta Mountains",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-1000_a1edafe051cb7bc171f2beb523d3a90c",
+    "question": "Which nation uses the CFP Franc as currency and is located in Oceania?",
+    "answer": [
+      "New Caledonia"
+    ],
+    "prediction": "New Caledonia",
+    "hits1": 1,
+    "trajectory": [
+      "CFP franc",
+      "Wallis and Futuna"
+    ],
+    "visited_set": [
+      "CFP franc",
+      "Wallis and Futuna"
+    ],
+    "edges": [
+      [
+        "CFP franc",
+        "finance.currency.countries_used",
+        "Wallis and Futuna"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-124_792933caa19fa7b1c474993687851b6a",
+    "question": "What movie was directed by the person who attended education institution  El Rodeo School?",
+    "answer": [
+      "By the Sea",
+      "In the Land of Blood and Honey",
+      "A Place in Time",
+      "Unbroken"
+    ],
+    "prediction": "None",
+    "hits1": 0,
+    "trajectory": [
+      "El Rodeo School",
+      "m.04f1d54"
+    ],
+    "visited_set": [
+      "El Rodeo School",
+      "m.04f1d54"
+    ],
+    "edges": [
+      [
+        "El Rodeo School",
+        "common.topic.article",
+        "m.04f1d54"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-710_a188aff4a054e1ec66fafba1b8021f67",
+    "question": "When was the last World Series won by team owner Bill Neukom's sports team?",
+    "answer": [
+      "2014 World Series"
+    ],
+    "prediction": "None",
+    "hits1": 0,
+    "trajectory": [
+      "Bill Neukom",
+      "San Francisco Giants",
+      "Bill Neukom",
+      "San Francisco Giants"
+    ],
+    "visited_set": [
+      "Bill Neukom",
+      "San Francisco Giants"
+    ],
+    "edges": [
+      [
+        "Bill Neukom",
+        "~sports.professional_sports_team.owner_s",
+        "San Francisco Giants"
+      ],
+      [
+        "Bill Neukom",
+        "sports.sports_team_owner.teams_owned",
+        "San Francisco Giants"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-3216_823204b81227d73ef5fadc741254c75b",
+    "question": "What form of currency is used in the country that observes the national anthem titled L'Abidjanaise?",
+    "answer": [
+      "West African CFA franc"
+    ],
+    "prediction": "Ivory Coast",
+    "hits1": 0,
+    "trajectory": [
+      "L'Abidjanaise",
+      "m.0h_21bd",
+      "Ivory Coast"
+    ],
+    "visited_set": [
+      "Ivory Coast",
+      "L'Abidjanaise",
+      "m.0h_21bd"
+    ],
+    "edges": [
+      [
+        "L'Abidjanaise",
+        "~government.national_anthem_of_a_country.anthem",
+        "m.0h_21bd"
+      ],
+      [
+        "m.0h_21bd",
+        "government.national_anthem_of_a_country.country",
+        "Ivory Coast"
+      ]
+    ],
+    "traj_len": 3,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTrn-60_eae3033643523fd3a54b6c147fdfa728",
+    "question": "What Portuguese=speaking country had the net migration number of -10000?",
+    "answer": [
+      "Guinea-Bissau"
+    ],
+    "prediction": "None",
+    "hits1": 0,
+    "trajectory": [
+      "Portuguese Language",
+      "Guinea-Bissau"
+    ],
+    "visited_set": [
+      "Guinea-Bissau",
+      "Portuguese Language"
+    ],
+    "edges": [
+      [
+        "Portuguese Language",
+        "language.human_language.countries_spoken_in",
+        "Guinea-Bissau"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-212_8fc460cf564c16a47877b92a7c156528",
+    "question": "What state, that the Colorado River flows through, appointed Bruce Babbitt to a governmental position?",
+    "answer": [
+      "Arizona"
+    ],
+    "prediction": "San Diego",
+    "hits1": 0,
+    "trajectory": [
+      "Colorado River",
+      "United States of America",
+      "Colorado River",
+      "San Diego"
+    ],
+    "visited_set": [
+      "Colorado River",
+      "San Diego",
+      "United States of America"
+    ],
+    "edges": [
+      [
+        "Colorado River",
+        "geography.river.basin_countries",
+        "United States of America"
+      ],
+      [
+        "Colorado River",
+        "geography.river.cities",
+        "San Diego"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-576_7280a830b2275c6024614d5ba2adae18",
+    "question": "What country in Central America appointed Otto PÃ©rez Molina to a governmental position?",
+    "answer": [
+      "Guatemala"
+    ],
+    "prediction": "m.0j5_7sp",
+    "hits1": 0,
+    "trajectory": [
+      "Otto Pérez Molina",
+      "m.0j5_7sp",
+      "Otto Pérez Molina",
+      "m.0zgl458",
+      "Otto Pérez Molina",
+      "m.0j5_7sp"
+    ],
+    "visited_set": [
+      "Otto Pérez Molina",
+      "m.0j5_7sp",
+      "m.0zgl458"
+    ],
+    "edges": [
+      [
+        "Otto Pérez Molina",
+        "government.politician.government_positions_held",
+        "m.0j5_7sp"
+      ],
+      [
+        "Otto Pérez Molina",
+        "government.political_appointer.appointees",
+        "m.0zgl458"
+      ],
+      [
+        "Otto Pérez Molina",
+        "government.politician.government_positions_held",
+        "m.0j5_7sp"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTrn-21_a42ef572567ccaf4d1a2e609d11a4226",
+    "question": "Who is the prime minister of the country that has national anthem March Forward, Dear Mother Ethiopia?",
+    "answer": [
+      "Hailemariam Desalegn"
+    ],
+    "prediction": "March Forward, Dear Mother Ethiopia",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-1686_73c4a5625dc9db03b2331d9937b0fe71",
+    "question": "Who was the Arizona's Governor in 2009 who also suffered with Breast cancer?",
+    "answer": [
+      "Janet Napolitano"
+    ],
+    "prediction": "m.0s91h9k",
+    "hits1": 0,
+    "trajectory": [
+      "Governor",
+      "m.0s91h9k"
+    ],
+    "visited_set": [
+      "Governor",
+      "m.0s91h9k"
+    ],
+    "edges": [
+      [
+        "Governor",
+        "organization.role.governors",
+        "m.0s91h9k"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-534_c5498ca807d2e1ec30d4c8fdd41f0bf7",
+    "question": "What team's mascot is name Hank?",
+    "answer": [
+      "Hank",
+      "Bernie Brewer",
+      "Bonnie Brewer"
+    ],
+    "prediction": "Milwaukee Brewers",
+    "hits1": 0,
+    "trajectory": [
+      "Hank",
+      "Milwaukee Brewers"
+    ],
+    "visited_set": [
+      "Hank",
+      "Milwaukee Brewers"
+    ],
+    "edges": [
+      [
+        "Hank",
+        "~sports.sports_team.team_mascot",
+        "Milwaukee Brewers"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-3376_405c8b5bd83551a50c45836241923cca",
+    "question": "What educational institution with men's basketball sports team named Temple Owls did Kevin Hart go to school?",
+    "answer": [
+      "Temple University"
+    ],
+    "prediction": "Temple University",
+    "hits1": 1,
+    "trajectory": [
+      "Kevin Hart",
+      "m.0h1vnxt",
+      "Temple Owls men's basketball",
+      "Temple University",
+      "m.0422fxk"
+    ],
+    "visited_set": [
+      "Kevin Hart",
+      "Temple Owls men's basketball",
+      "Temple University",
+      "m.0422fxk",
+      "m.0h1vnxt"
+    ],
+    "edges": [
+      [
+        "Kevin Hart",
+        "common.topic.webpage",
+        "m.0h1vnxt"
+      ],
+      [
+        "Temple Owls men's basketball",
+        "sports.school_sports_team.school",
+        "Temple University"
+      ],
+      [
+        "Temple University",
+        "common.topic.webpage",
+        "m.0422fxk"
+      ]
+    ],
+    "traj_len": 5,
+    "n_unique": 5
+  },
+  {
+    "qid": "WebQTrn-1532_cbf60f0a8068d6c5464651a537e93b13",
+    "question": "What college with men's basketball sports team named UMKC Kangaroos did Harry S. Truman attend?",
+    "answer": [
+      "University of Missouri–Kansas City"
+    ],
+    "prediction": "US President",
+    "hits1": 0,
+    "trajectory": [
+      "Harry S. Truman",
+      "1944 Democratic National Convention",
+      "Harry S. Truman",
+      "US President"
+    ],
+    "visited_set": [
+      "1944 Democratic National Convention",
+      "Harry S. Truman",
+      "US President"
+    ],
+    "edges": [
+      [
+        "Harry S. Truman",
+        "base.politicalconventions.vice_presidential_nominee.convention_nominated_at",
+        "1944 Democratic National Convention"
+      ],
+      [
+        "Harry S. Truman",
+        "common.topic.notable_types",
+        "US President"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTrn-3376_13cf1a3ce233a65b8b835b6e2f5c86fe",
+    "question": "What educational institution with The Temple newspaper did Kevin Hart go to?",
+    "answer": [
+      "Temple University"
+    ],
+    "prediction": "m.04z3kh7",
+    "hits1": 0,
+    "trajectory": [
+      "The Temple News",
+      "g.1255vd_vb",
+      "The Temple News",
+      "m.03l3zfv",
+      "The Temple News",
+      "m.04z3kh7"
+    ],
+    "visited_set": [
+      "The Temple News",
+      "g.1255vd_vb",
+      "m.03l3zfv",
+      "m.04z3kh7"
+    ],
+    "edges": [
+      [
+        "The Temple News",
+        "common.topic.notable_for",
+        "g.1255vd_vb"
+      ],
+      [
+        "The Temple News",
+        "common.topic.webpage",
+        "m.03l3zfv"
+      ],
+      [
+        "The Temple News",
+        "book.newspaper.headquarters",
+        "m.04z3kh7"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTrn-3048_ae9a833cf2cca30c1c9725fc6a167794",
+    "question": "The country that contains Africa Proconsularis has what political system ?",
+    "answer": [
+      "Autocracy"
+    ],
+    "prediction": "parliamentary republic",
+    "hits1": 0,
+    "trajectory": [
+      "Africa Proconsularis",
+      "Tunisia"
+    ],
+    "visited_set": [
+      "Africa Proconsularis",
+      "Tunisia"
+    ],
+    "edges": [
+      [
+        "Africa Proconsularis",
+        "location.location.containedby",
+        "Tunisia"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-484_593bfb1e8da51c4ccd9f768e8f3acd97",
+    "question": "What currency is used in the country with Rio de Janeiro?",
+    "answer": [
+      "Brazilian real"
+    ],
+    "prediction": "Brazil",
+    "hits1": 0,
+    "trajectory": [
+      "Rio de Janeiro",
+      "Brazil",
+      "Rio de Janeiro",
+      "Brazil"
+    ],
+    "visited_set": [
+      "Brazil",
+      "Rio de Janeiro"
+    ],
+    "edges": [
+      [
+        "Rio de Janeiro",
+        "base.aareas.schema.administrative_area.administrative_parent",
+        "Brazil"
+      ],
+      [
+        "Rio de Janeiro",
+        "base.aareas.schema.administrative_area.administrative_parent",
+        "Brazil"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-1817_bab9c2907e69f117b3ef460ecbfd511a",
+    "question": "What type of government is used in the country with Bac Lieu Province?",
+    "answer": [
+      "Communist state",
+      "Socialist state",
+      "Single-party state"
+    ],
+    "prediction": "Vietnam",
+    "hits1": 0,
+    "trajectory": [
+      "Bac Lieu Province",
+      "Bạc Liêu",
+      "Bac Lieu Province",
+      "Vietnam"
+    ],
+    "visited_set": [
+      "Bac Lieu Province",
+      "Bạc Liêu",
+      "Vietnam"
+    ],
+    "edges": [
+      [
+        "Bac Lieu Province",
+        "location.location.contains",
+        "Bạc Liêu"
+      ],
+      [
+        "Bac Lieu Province",
+        "location.location.containedby",
+        "Vietnam"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-212_d7d303efc1f901f14e6aae2bb469743c",
+    "question": "What states does the Colorado River run through in the Mountain Time Zone?",
+    "answer": [
+      "Colorado",
+      "Nevada",
+      "Arizona"
+    ],
+    "prediction": "Phoenix",
+    "hits1": 0,
+    "trajectory": [
+      "Colorado River",
+      "Mountain Time Zone",
+      "Colorado River",
+      "San Diego",
+      "Colorado River",
+      "Phoenix"
+    ],
+    "visited_set": [
+      "Colorado River",
+      "Mountain Time Zone",
+      "Phoenix",
+      "San Diego"
+    ],
+    "edges": [
+      [
+        "Colorado River",
+        "location.location.time_zones",
+        "Mountain Time Zone"
+      ],
+      [
+        "Colorado River",
+        "geography.river.cities",
+        "San Diego"
+      ],
+      [
+        "Colorado River",
+        "geography.river.cities",
+        "Phoenix"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTrn-750_0c4812773890324eea74aa09e14de1cf",
+    "question": "In which years did the team that has Magic Johnson among its ownership claim victory in the World Series?",
+    "answer": [
+      "1981 World Series",
+      "1988 World Series",
+      "1965 World Series",
+      "1963 World Series",
+      "1959 World Series"
+    ],
+    "prediction": "m.09xftx4",
+    "hits1": 0,
+    "trajectory": [
+      "Magic Johnson",
+      "m.09xftx4",
+      "Magic Johnson",
+      "m.095p6",
+      "Magic Johnson",
+      "m.09xftx4"
+    ],
+    "visited_set": [
+      "Magic Johnson",
+      "m.095p6",
+      "m.09xftx4"
+    ],
+    "edges": [
+      [
+        "Magic Johnson",
+        "common.topic.webpage",
+        "m.09xftx4"
+      ],
+      [
+        "Magic Johnson",
+        "common.topic.article",
+        "m.095p6"
+      ],
+      [
+        "Magic Johnson",
+        "common.topic.webpage",
+        "m.09xftx4"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-212_0415f406246ee6468d7eb40867780498",
+    "question": "Which State's capital is Denver and the Colorado River runs through it?",
+    "answer": [
+      "Colorado"
+    ],
+    "prediction": "Colorado",
+    "hits1": 1,
+    "trajectory": [
+      "Denver",
+      "Colorado",
+      "Denver",
+      "Colorado"
+    ],
+    "visited_set": [
+      "Colorado",
+      "Denver"
+    ],
+    "edges": [
+      [
+        "Denver",
+        "location.location.containedby",
+        "Colorado"
+      ],
+      [
+        "Denver",
+        "location.location.containedby",
+        "Colorado"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-837_c4e06c3a9e4b4f10bd1ae97f1742c198",
+    "question": "In what year did a team win the superbowl and the 2013 AFC Championship Game ?",
+    "answer": [
+      "Super Bowl XLVII",
+      "Super Bowl XXXV"
+    ],
+    "prediction": "Super Bowl XII",
+    "hits1": 0,
+    "trajectory": [
+      "Super Bowl",
+      "Super Bowl XII"
+    ],
+    "visited_set": [
+      "Super Bowl",
+      "Super Bowl XII"
+    ],
+    "edges": [
+      [
+        "Super Bowl",
+        "sports.sports_championship.events",
+        "Super Bowl XII"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-1108_33675738b1c363431ed63babcc989cb8",
+    "question": "On what radio station in New York City would you find an organizational leader named Gary Knell?",
+    "answer": [
+      "WNYC"
+    ],
+    "prediction": "m.0n4sb7s",
+    "hits1": 0,
+    "trajectory": [
+      "Gary Knell",
+      "m.0n4sb7s",
+      "Gary Knell",
+      "m.0n4sb7s"
+    ],
+    "visited_set": [
+      "Gary Knell",
+      "m.0n4sb7s"
+    ],
+    "edges": [
+      [
+        "Gary Knell",
+        "~organization.leadership.person",
+        "m.0n4sb7s"
+      ],
+      [
+        "Gary Knell",
+        "business.board_member.leader_of",
+        "m.0n4sb7s"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-810_c264a6d11d7956741926d417b94327e2",
+    "question": "When did the team led by Larry Baer win the World Series?",
+    "answer": [
+      "2014 World Series"
+    ],
+    "prediction": "m.0n16qvm",
+    "hits1": 0,
+    "trajectory": [
+      "Larry Baer",
+      "m.011zsc4_",
+      "Larry Baer",
+      "g.1255l_47c",
+      "Larry Baer",
+      "m.011zsc4_",
+      "Larry Baer",
+      "m.0n16qvm"
+    ],
+    "visited_set": [
+      "Larry Baer",
+      "g.1255l_47c",
+      "m.011zsc4_",
+      "m.0n16qvm"
+    ],
+    "edges": [
+      [
+        "Larry Baer",
+        "~organization.leadership.person",
+        "m.011zsc4_"
+      ],
+      [
+        "Larry Baer",
+        "common.topic.notable_for",
+        "g.1255l_47c"
+      ],
+      [
+        "Larry Baer",
+        "business.board_member.leader_of",
+        "m.011zsc4_"
+      ],
+      [
+        "Larry Baer",
+        "people.person.education",
+        "m.0n16qvm"
+      ]
+    ],
+    "traj_len": 8,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-61_be64d515debe3029f7c0fb2af05bfe7e",
+    "question": "What Indonesia religion believes in the Virgin birth of Jesus?",
+    "answer": [
+      "Catholicism"
+    ],
+    "prediction": "Christianity",
+    "hits1": 0,
+    "trajectory": [
+      "Indonesia",
+      "m.0j1b_v4",
+      "Indonesia",
+      "m.03ryz"
+    ],
+    "visited_set": [
+      "Indonesia",
+      "m.03ryz",
+      "m.0j1b_v4"
+    ],
+    "edges": [
+      [
+        "Indonesia",
+        "common.topic.webpage",
+        "m.0j1b_v4"
+      ],
+      [
+        "Indonesia",
+        "common.topic.article",
+        "m.03ryz"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTrn-1484_1fbd766e1b1bf978da23e8646cadf3a1",
+    "question": "The person who attended the education institution Colegio AlemÃ¡n Alexander von Humboldt did what kind of paintings?",
+    "answer": [
+      "Magic realism",
+      "Modern art",
+      "Surrealism"
+    ],
+    "prediction": "Frida Kahlo",
+    "hits1": 0,
+    "trajectory": [
+      "Colegio Alemán Alexander von Humboldt",
+      "m.0w29njj",
+      "Frida Kahlo"
+    ],
+    "visited_set": [
+      "Colegio Alemán Alexander von Humboldt",
+      "Frida Kahlo",
+      "m.0w29njj"
+    ],
+    "edges": [
+      [
+        "Colegio Alemán Alexander von Humboldt",
+        "education.educational_institution.students_graduates",
+        "m.0w29njj"
+      ],
+      [
+        "m.0w29njj",
+        "~people.person.education",
+        "Frida Kahlo"
+      ]
+    ],
+    "traj_len": 3,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-12_c701ad2b5b8ef3f3ed26dd2ed8703d05",
+    "question": "Who held his governmental position from December 12, 1808 and was Governor of Ohio in 2011?",
+    "answer": [
+      "Return J. Meigs, Jr."
+    ],
+    "prediction": "m.0w4d_50",
+    "hits1": 0,
+    "trajectory": [
+      "Governor",
+      "m.0s91h9k",
+      "Governor",
+      "m.0w4d_50"
+    ],
+    "visited_set": [
+      "Governor",
+      "m.0s91h9k",
+      "m.0w4d_50"
+    ],
+    "edges": [
+      [
+        "Governor",
+        "organization.role.governors",
+        "m.0s91h9k"
+      ],
+      [
+        "Governor",
+        "organization.role.leaders",
+        "m.0w4d_50"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-212_3c65a82425ff4488504b53ba502d0eb7",
+    "question": "What is the name of the state that has the elected official Jan Brewer and also has the colorado river flow through it?",
+    "answer": [
+      "Arizona"
+    ],
+    "prediction": "America",
+    "hits1": 0,
+    "trajectory": [
+      "Colorado River",
+      "Phoenix"
+    ],
+    "visited_set": [
+      "Colorado River",
+      "Phoenix"
+    ],
+    "edges": [
+      [
+        "Colorado River",
+        "geography.river.cities",
+        "Phoenix"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-3035_5b4639a59ee916bc8e30fbc3bfa2d016",
+    "question": "The capital of Cheyenne has who as governor of US state?",
+    "answer": [
+      "Matt Mead"
+    ],
+    "prediction": "Wyoming",
+    "hits1": 0,
+    "trajectory": [
+      "Cheyenne",
+      "Wyoming"
+    ],
+    "visited_set": [
+      "Cheyenne",
+      "Wyoming"
+    ],
+    "edges": [
+      [
+        "Cheyenne",
+        "location.location.containedby",
+        "Wyoming"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-237_e42fb4a1fc4d571f6d9172eb77fe5b24",
+    "question": "Who is the current head coach of the NFL squad owned by the Rooney family?",
+    "answer": [
+      "Mike Tomlin"
+    ],
+    "prediction": "Pittsburgh Steelers",
+    "hits1": 0,
+    "trajectory": [
+      "Rooney family",
+      "Pittsburgh Steelers"
+    ],
+    "visited_set": [
+      "Pittsburgh Steelers",
+      "Rooney family"
+    ],
+    "edges": [
+      [
+        "Rooney family",
+        "sports.sports_team_owner.teams_owned",
+        "Pittsburgh Steelers"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-3251_ca0263d77825d6237cf0a27c79d25e45",
+    "question": "What college in Greeley, Colorado has a sports team called the Northern Colorado Bears?",
+    "answer": [
+      "University of Northern Colorado"
+    ],
+    "prediction": "University of Northern Colorado",
+    "hits1": 1,
+    "trajectory": [
+      "Northern Colorado Bears men's basketball",
+      "University of Northern Colorado"
+    ],
+    "visited_set": [
+      "Northern Colorado Bears men's basketball",
+      "University of Northern Colorado"
+    ],
+    "edges": [
+      [
+        "Northern Colorado Bears men's basketball",
+        "~education.educational_institution.sports_teams",
+        "University of Northern Colorado"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-1072_5b0246d0bc7172511480c78134ab2e39",
+    "question": "Who was the governor in 2010 of the state that appointed Bruce Babbitt?",
+    "answer": [
+      "Jan Brewer"
+    ],
+    "prediction": "m.05kj9k6",
+    "hits1": 0,
+    "trajectory": [
+      "Bruce Babbitt",
+      "m.04j8y4v",
+      "Bruce Babbitt",
+      "m.03pdxmp",
+      "Bruce Babbitt",
+      "Los Angeles",
+      "Bruce Babbitt",
+      "m.05kj9k6"
+    ],
+    "visited_set": [
+      "Bruce Babbitt",
+      "Los Angeles",
+      "m.03pdxmp",
+      "m.04j8y4v",
+      "m.05kj9k6"
+    ],
+    "edges": [
+      [
+        "Bruce Babbitt",
+        "government.politician.government_positions_held",
+        "m.04j8y4v"
+      ],
+      [
+        "m.04j8y4v",
+        "government.government_position_held.office_holder",
+        "Bruce Babbitt"
+      ],
+      [
+        "Bruce Babbitt",
+        "people.person.places_lived",
+        "m.03pdxmp"
+      ],
+      [
+        "Bruce Babbitt",
+        "people.person.place_of_birth",
+        "Los Angeles"
+      ],
+      [
+        "Bruce Babbitt",
+        "government.political_appointer.appointees",
+        "m.05kj9k6"
+      ]
+    ],
+    "traj_len": 8,
+    "n_unique": 5
+  },
+  {
+    "qid": "WebQTest-837_d95da5fb8a16d81fe56cd4ce00843254",
+    "question": "What Superbowl was won by the team with the \"Baltimore Fight Song\"?",
+    "answer": [
+      "Super Bowl XLVII",
+      "Super Bowl XXXV"
+    ],
+    "prediction": "Super Bowl XXV",
+    "hits1": 0,
+    "trajectory": [
+      "Super Bowl",
+      "Super Bowl XXV"
+    ],
+    "visited_set": [
+      "Super Bowl",
+      "Super Bowl XXV"
+    ],
+    "edges": [
+      [
+        "Super Bowl",
+        "sports.sports_championship.events",
+        "Super Bowl XXV"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-3100_0d5bc4f5ce16dafee354662c09965811",
+    "question": "What is the country that has national anthem Valiant Quisqueeyans a part of?",
+    "answer": [
+      "Greater Antilles",
+      "Latin America",
+      "North America",
+      "Americas",
+      "País"
+    ],
+    "prediction": "Not enough information provided in the graph to determine the country associated with the national anthem \"Valiant Quisqueyans\".",
+    "hits1": 0,
+    "trajectory": [
+      "Valiant Quisqueyans",
+      "m.0h_1hzg",
+      "Valiant Quisqueyans",
+      "g.125c7mjpx",
+      "Valiant Quisqueyans",
+      "m.01n3m2",
+      "Valiant Quisqueyans",
+      "m.0h_1hzg"
+    ],
+    "visited_set": [
+      "Valiant Quisqueyans",
+      "g.125c7mjpx",
+      "m.01n3m2",
+      "m.0h_1hzg"
+    ],
+    "edges": [
+      [
+        "Valiant Quisqueyans",
+        "government.national_anthem.national_anthem_of",
+        "m.0h_1hzg"
+      ],
+      [
+        "Valiant Quisqueyans",
+        "common.topic.notable_for",
+        "g.125c7mjpx"
+      ],
+      [
+        "Valiant Quisqueyans",
+        "common.topic.article",
+        "m.01n3m2"
+      ],
+      [
+        "Valiant Quisqueyans",
+        "~government.national_anthem_of_a_country.anthem",
+        "m.0h_1hzg"
+      ]
+    ],
+    "traj_len": 8,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTrn-2444_06d5101218b4299633a55b1f229e9b40",
+    "question": "What is the home field of the sports team whose mascot is named Fredbird?",
+    "answer": [
+      "Busch Stadium"
+    ],
+    "prediction": "None",
+    "hits1": 0,
+    "trajectory": [
+      "Fredbird",
+      "St. Louis Cardinals"
+    ],
+    "visited_set": [
+      "Fredbird",
+      "St. Louis Cardinals"
+    ],
+    "edges": [
+      [
+        "Fredbird",
+        "sports.mascot.team",
+        "St. Louis Cardinals"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-60_ab97cd852bcb8f41194f686282460b40",
+    "question": "What Portuguese-speaking country's minimum wage was 356.72?",
+    "answer": [
+      "Portugal"
+    ],
+    "prediction": "Brazil",
+    "hits1": 0,
+    "trajectory": [
+      "Portuguese Language",
+      "Guinea-Bissau"
+    ],
+    "visited_set": [
+      "Guinea-Bissau",
+      "Portuguese Language"
+    ],
+    "edges": [
+      [
+        "Portuguese Language",
+        "language.human_language.countries_spoken_in",
+        "Guinea-Bissau"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-962_f0c57985929ee8b823983f6e5f104971",
+    "question": "What actor played a kid in the film with a character named Veteran at War Rally?",
+    "answer": [
+      "Michael Connor Humphreys"
+    ],
+    "prediction": "m.0jycvw",
+    "hits1": 0,
+    "trajectory": [
+      "Forrest Gump",
+      "m.0jycvw"
+    ],
+    "visited_set": [
+      "Forrest Gump",
+      "m.0jycvw"
+    ],
+    "edges": [
+      [
+        "Forrest Gump",
+        "film.film_character.portrayed_in_films",
+        "m.0jycvw"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-237_abc143e50fcf4915c8267215915795b5",
+    "question": "Stelly McBeam is the team mascot for the sports team with who as head coach?",
+    "answer": [
+      "Mike Tomlin"
+    ],
+    "prediction": "Not enough information",
+    "hits1": 0,
+    "trajectory": [
+      "Steely McBeam",
+      "Pittsburgh Steelers",
+      "m.05tfy"
+    ],
+    "visited_set": [
+      "Pittsburgh Steelers",
+      "Steely McBeam",
+      "m.05tfy"
+    ],
+    "edges": [
+      [
+        "Steely McBeam",
+        "sports.mascot.team",
+        "Pittsburgh Steelers"
+      ],
+      [
+        "Pittsburgh Steelers",
+        "common.topic.article",
+        "m.05tfy"
+      ]
+    ],
+    "traj_len": 3,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTrn-60_c526e4d4d0e7cea9de3d7ee32fb2d9f5",
+    "question": "In what countries is Portugese spoken and has A Portuguesa as its national anthem?",
+    "answer": [
+      "Portugal"
+    ],
+    "prediction": "g.12589h0p4",
+    "hits1": 0,
+    "trajectory": [
+      "A Portuguesa",
+      "m.0bwnylt",
+      "A Portuguesa",
+      "m.04g84tm",
+      "A Portuguesa",
+      "Portuguese Language",
+      "g.12589h0p4"
+    ],
+    "visited_set": [
+      "A Portuguesa",
+      "Portuguese Language",
+      "g.12589h0p4",
+      "m.04g84tm",
+      "m.0bwnylt"
+    ],
+    "edges": [
+      [
+        "A Portuguesa",
+        "~government.national_anthem_of_a_country.anthem",
+        "m.0bwnylt"
+      ],
+      [
+        "A Portuguesa",
+        "government.national_anthem.national_anthem_of",
+        "m.04g84tm"
+      ],
+      [
+        "A Portuguesa",
+        "music.composition.language",
+        "Portuguese Language"
+      ],
+      [
+        "Portuguese Language",
+        "common.topic.notable_for",
+        "g.12589h0p4"
+      ]
+    ],
+    "traj_len": 7,
+    "n_unique": 5
+  },
+  {
+    "qid": "WebQTest-743_42588c6fd3d30a777953bbaf2b4079b9",
+    "question": "Who are brothers of the individual who was educated at Edward Devotion School?",
+    "answer": [
+      "Ted Kennedy",
+      "Joseph P. Kennedy, Jr.",
+      "Robert F. Kennedy"
+    ],
+    "prediction": "None",
+    "hits1": 0,
+    "trajectory": [
+      "Male",
+      "ZasPorn",
+      "Male",
+      "ZasPorn"
+    ],
+    "visited_set": [
+      "Male",
+      "ZasPorn"
+    ],
+    "edges": [
+      [
+        "Male",
+        "~common.topic.subject_of",
+        "ZasPorn"
+      ],
+      [
+        "ZasPorn",
+        "common.topic.subject_of",
+        "Male"
+      ],
+      [
+        "Male",
+        "~common.topic.subject_of",
+        "ZasPorn"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-105_f4440609f5cecb091bf8e86adb47be25",
+    "question": "The country with the national anthem Bilady, Bilady, Bilady required what currency in 2013?",
+    "answer": [
+      "Egyptian pound"
+    ],
+    "prediction": "Bilady, Bilady, Bilady",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-3100_84e5ab7013a2c0dd11f7f61db45df94c",
+    "question": "What geographic regions is the country that has the San Pedro De Marcos province considered a part of?",
+    "answer": [
+      "Greater Antilles",
+      "Latin America",
+      "North America",
+      "Americas",
+      "País"
+    ],
+    "prediction": "Greater Antilles, Caribbean Sea",
+    "hits1": 1,
+    "trajectory": [
+      "San Pedro de Macorís Province",
+      "Hispaniola"
+    ],
+    "visited_set": [
+      "Hispaniola",
+      "San Pedro de Macorís Province"
+    ],
+    "edges": [
+      [
+        "San Pedro de Macorís Province",
+        "~location.location.contains",
+        "Hispaniola"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-3335_a9b18d079f29555cbd1e1740c7d6e40e",
+    "question": "The country that contains Krasnodar Krai uses what type of currency?",
+    "answer": [
+      "Russian ruble"
+    ],
+    "prediction": "Russia",
+    "hits1": 0,
+    "trajectory": [
+      "Krasnodar Krai",
+      "Russia"
+    ],
+    "visited_set": [
+      "Krasnodar Krai",
+      "Russia"
+    ],
+    "edges": [
+      [
+        "Krasnodar Krai",
+        "location.location.containedby",
+        "Russia"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-12_7b54b31f3e5a6273f4fd2a20e565ec6d",
+    "question": "Who was the Governor of Ohio that held his position from before 1-10-2011?",
+    "answer": [
+      "Return J. Meigs, Jr.",
+      "Ted Strickland",
+      "John Kasich"
+    ],
+    "prediction": "m.0s91h9k",
+    "hits1": 0,
+    "trajectory": [
+      "Governor",
+      "m.0s91h9k"
+    ],
+    "visited_set": [
+      "Governor",
+      "m.0s91h9k"
+    ],
+    "edges": [
+      [
+        "Governor",
+        "organization.role.governors",
+        "m.0s91h9k"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-810_1315945fdcb4fad1310ab7862120be0f",
+    "question": "On what other date did the team won the 2010 World Series championship win the World Series?",
+    "answer": [
+      "2014 World Series"
+    ],
+    "prediction": "2010 World Series",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-1384_cb60fbc3dea230fc32682cbb8556ba62",
+    "question": "What is the most predominant religion in the country Benjamin Netanyahu holds a governmental position?",
+    "answer": [
+      "Judaism"
+    ],
+    "prediction": "Israel",
+    "hits1": 0,
+    "trajectory": [
+      "Benjamin Netanyahu",
+      "m.0114vpvq",
+      "Benjamin Netanyahu",
+      "m.0fpy4s2",
+      "Benjamin Netanyahu",
+      "m.010rfysf",
+      "Benjamin Netanyahu",
+      "Israel"
+    ],
+    "visited_set": [
+      "Benjamin Netanyahu",
+      "Israel",
+      "m.010rfysf",
+      "m.0114vpvq",
+      "m.0fpy4s2"
+    ],
+    "edges": [
+      [
+        "Benjamin Netanyahu",
+        "government.political_appointer.appointees",
+        "m.0114vpvq"
+      ],
+      [
+        "Benjamin Netanyahu",
+        "government.politician.government_positions_held",
+        "m.0fpy4s2"
+      ],
+      [
+        "Benjamin Netanyahu",
+        "government.politician.party",
+        "m.010rfysf"
+      ],
+      [
+        "Benjamin Netanyahu",
+        "people.person.nationality",
+        "Israel"
+      ]
+    ],
+    "traj_len": 8,
+    "n_unique": 5
+  },
+  {
+    "qid": "WebQTrn-1077_02d4f95f5b408929cedd448772a62b5b",
+    "question": "What religion in Afghanistan that worship in the mosque?",
+    "answer": [
+      "Sunni Islam"
+    ],
+    "prediction": "Islam",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-372_84e2829fbb765ceaa2993b50acbf4587",
+    "question": "What does the religion that believes in Transubstantiation call their God?",
+    "answer": [
+      "Holy Spirit",
+      "Jesus Christ",
+      "The Father",
+      "God"
+    ],
+    "prediction": "God",
+    "hits1": 1,
+    "trajectory": [
+      "Transubstantiation",
+      "Catholicism"
+    ],
+    "visited_set": [
+      "Catholicism",
+      "Transubstantiation"
+    ],
+    "edges": [
+      [
+        "Transubstantiation",
+        "religion.belief.belief_of",
+        "Catholicism"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-14_f401ff362e6098310d529ba02df1f278",
+    "question": "Where is Rome, Italy, and is a place that once had a population of 4,327,642?",
+    "answer": [
+      "Province of Rome"
+    ],
+    "prediction": "Italy",
+    "hits1": 0,
+    "trajectory": [
+      "Rome",
+      "m.0jvvn5t",
+      "Rome",
+      "g.1259x8r06",
+      "Rome",
+      "Italy"
+    ],
+    "visited_set": [
+      "Italy",
+      "Rome",
+      "g.1259x8r06",
+      "m.0jvvn5t"
+    ],
+    "edges": [
+      [
+        "Rome",
+        "location.capital_of_administrative_division.capital_of",
+        "m.0jvvn5t"
+      ],
+      [
+        "Rome",
+        "common.topic.notable_for",
+        "g.1259x8r06"
+      ],
+      [
+        "Rome",
+        "base.biblioness.bibs_location.country",
+        "Italy"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-538_7051341e8a163515972dc322874d8aa0",
+    "question": "What movies did the artist that had the concert tour called the Taylor Swift Fears 2009 Tour play in?",
+    "answer": [
+      "Hannah Montana: The Movie",
+      "Valentine's Day",
+      "The Lorax",
+      "Jonas Brothers: The Concert Experience",
+      "The Giver"
+    ],
+    "prediction": "Taylor Swift",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-710_e3d40457273785e46c5b71732713a5f4",
+    "question": "When is the last time the team whose mascot is called Crazy Cab win the World Series?",
+    "answer": [
+      "2014 World Series"
+    ],
+    "prediction": "2014",
+    "hits1": 0,
+    "trajectory": [
+      "Crazy Crab",
+      "San Francisco Giants"
+    ],
+    "visited_set": [
+      "Crazy Crab",
+      "San Francisco Giants"
+    ],
+    "edges": [
+      [
+        "Crazy Crab",
+        "~sports.sports_team.team_mascot",
+        "San Francisco Giants"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-3335_c071c552853eb739a0ff0c67bb9ed366",
+    "question": "The location that appointed Dmitry Medvedev to governmental position uses what kind of money?",
+    "answer": [
+      "Russian ruble"
+    ],
+    "prediction": "Russian Ruble",
+    "hits1": 1,
+    "trajectory": [
+      "Dmitry Medvedev",
+      "m.011fc74w",
+      "Dmitry Medvedev",
+      "m.0nf_vd9",
+      "Dmitry Medvedev",
+      "m.0jscz98",
+      "Dmitry Medvedev",
+      "Russia"
+    ],
+    "visited_set": [
+      "Dmitry Medvedev",
+      "Russia",
+      "m.011fc74w",
+      "m.0jscz98",
+      "m.0nf_vd9"
+    ],
+    "edges": [
+      [
+        "Dmitry Medvedev",
+        "people.appointer.appointment_made",
+        "m.011fc74w"
+      ],
+      [
+        "Dmitry Medvedev",
+        "government.political_appointer.appointees",
+        "m.0nf_vd9"
+      ],
+      [
+        "Dmitry Medvedev",
+        "government.politician.government_positions_held",
+        "m.0jscz98"
+      ],
+      [
+        "Dmitry Medvedev",
+        "people.person.nationality",
+        "Russia"
+      ]
+    ],
+    "traj_len": 8,
+    "n_unique": 5
+  },
+  {
+    "qid": "WebQTrn-372_5d454dfb6a760c162b099d736eecff1a",
+    "question": "Which diety is worshipped in the holy place of Santa Cecilia in Trastevere?",
+    "answer": [
+      "Holy Spirit",
+      "Jesus Christ",
+      "The Father",
+      "God"
+    ],
+    "prediction": "Saint Cecilia",
+    "hits1": 0,
+    "trajectory": [
+      "Santa Cecilia in Trastevere",
+      "Saint Cecilia"
+    ],
+    "visited_set": [
+      "Saint Cecilia",
+      "Santa Cecilia in Trastevere"
+    ],
+    "edges": [
+      [
+        "Santa Cecilia in Trastevere",
+        "symbols.namesake.named_after",
+        "Saint Cecilia"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-1785_87df014c2b1d5440ea39f0d94fe211cb",
+    "question": "Which movie has a character named Margie and featured Kim Richards as an Actor?",
+    "answer": [
+      "The Car"
+    ],
+    "prediction": "m.010ntpls",
+    "hits1": 0,
+    "trajectory": [
+      "Margie",
+      "m.010ntpls"
+    ],
+    "visited_set": [
+      "Margie",
+      "m.010ntpls"
+    ],
+    "edges": [
+      [
+        "Margie",
+        "film.film_character.portrayed_in_films",
+        "m.010ntpls"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-1251_f6e8b7149f2e422640a49beb753be4ef",
+    "question": "Which countries with a currency of Swiss Franc do people speak Germanic languages?",
+    "answer": [
+      "Liechtenstein",
+      "Switzerland"
+    ],
+    "prediction": "Switzerland, Liechtenstein",
+    "hits1": 1,
+    "trajectory": [
+      "Swiss franc",
+      "Switzerland"
+    ],
+    "visited_set": [
+      "Swiss franc",
+      "Switzerland"
+    ],
+    "edges": [
+      [
+        "Swiss franc",
+        "finance.currency.countries_used",
+        "Switzerland"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-2834_c2f4807a175372c3e75691b565d1936d",
+    "question": "What major US religion has a notable figure named Athanasius of Alexandria?",
+    "answer": [
+      "Christianity"
+    ],
+    "prediction": "Christianity",
+    "hits1": 1,
+    "trajectory": [
+      "Athanasius of Alexandria",
+      "m.0dgvxmr",
+      "Athanasius of Alexandria",
+      "Christianity"
+    ],
+    "visited_set": [
+      "Athanasius of Alexandria",
+      "Christianity",
+      "m.0dgvxmr"
+    ],
+    "edges": [
+      [
+        "Athanasius of Alexandria",
+        "~religion.religious_organization_leadership.leader",
+        "m.0dgvxmr"
+      ],
+      [
+        "Athanasius of Alexandria",
+        "~religion.religion.notable_figures",
+        "Christianity"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTrn-3766_3e65e28b17506cb5116b2460467ea42f",
+    "question": "What money is used in the Ancash Region?",
+    "answer": [
+      "Peruvian nuevo sol"
+    ],
+    "prediction": "Peru",
+    "hits1": 0,
+    "trajectory": [
+      "Ancash Region",
+      "Peru",
+      "Ancash Region",
+      "Peru"
+    ],
+    "visited_set": [
+      "Ancash Region",
+      "Peru"
+    ],
+    "edges": [
+      [
+        "Ancash Region",
+        "location.location.containedby",
+        "Peru"
+      ],
+      [
+        "Peru",
+        "location.country.administrative_divisions",
+        "Ancash Region"
+      ],
+      [
+        "Ancash Region",
+        "location.administrative_division.country",
+        "Peru"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-1155_92f2cf43c174d40942f1c72ba13096e6",
+    "question": "What type of currency is used in the country with national anthem Swiss Psalm?",
+    "answer": [
+      "Swiss franc"
+    ],
+    "prediction": "Swiss Franc",
+    "hits1": 1,
+    "trajectory": [
+      "Swiss Psalm",
+      "m.0h_1blg",
+      "Switzerland"
+    ],
+    "visited_set": [
+      "Swiss Psalm",
+      "Switzerland",
+      "m.0h_1blg"
+    ],
+    "edges": [
+      [
+        "Swiss Psalm",
+        "~government.national_anthem_of_a_country.anthem",
+        "m.0h_1blg"
+      ],
+      [
+        "m.0h_1blg",
+        "government.national_anthem_of_a_country.country",
+        "Switzerland"
+      ]
+    ],
+    "traj_len": 3,
+    "n_unique": 3
+  }
+]

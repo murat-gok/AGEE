@@ -1,0 +1,6065 @@
+[
+  {
+    "qid": "WebQTest-0",
+    "question": "what does jamaican people speak",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, Jamaican people primarily speak Jamaican Creole English and Jamaican English. Therefore, it is sufficient to answer that Jamaicans speak Jamaican Creole English.",
+    "hits1": 0,
+    "trajectory": [
+      "Jamaica",
+      "Jamaican Creole English Language",
+      "Jamaica",
+      "Jamaican Creole English Language",
+      "Jamaica",
+      "Jamaican English"
+    ],
+    "visited_set": [
+      "Jamaica",
+      "Jamaican Creole English Language",
+      "Jamaican English"
+    ],
+    "edges": [
+      [
+        "Jamaica",
+        "location.country.languages_spoken",
+        "Jamaican Creole English Language"
+      ],
+      [
+        "Jamaica",
+        "language.human_language.main_country",
+        "Jamaican Creole English Language"
+      ],
+      [
+        "Jamaica",
+        "location.country.languages_spoken",
+        "Jamaican English"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-1",
+    "question": "what did james k polk do before he was president",
+    "answer": null,
+    "prediction": "First, James K. Polk served as the 12th President of the United States from 1845 to 1849. Second, before becoming president, James K. Polk served as the Governor of Tennessee from 1839 to 1841 and as a U.S. Representative from Tennessee's 9th district from 1825 to 1839. The answer is {Governor of Tennessee and U.S. Representative from Tennessee's 9th district}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-3",
+    "question": "who plays ken barlow in coronation street",
+    "answer": null,
+    "prediction": "First, Ken Barlow is a long-running and well-known character on Coronation Street. Second, the actor who has primarily played Ken Barlow since 1980 is William Roache. The answer is {William Roache}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-6",
+    "question": "where is jamarcus russell from",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that JaMarcus Russell was born in Mobile and his nationality is United States of America. Therefore, JaMarcus Russell is from Mobile, United States.",
+    "hits1": 0,
+    "trajectory": [
+      "JaMarcus Russell",
+      "Mobile",
+      "JaMarcus Russell",
+      "United States of America",
+      "JaMarcus Russell",
+      "m.0c550qk"
+    ],
+    "visited_set": [
+      "JaMarcus Russell",
+      "Mobile",
+      "United States of America",
+      "m.0c550qk"
+    ],
+    "edges": [
+      [
+        "JaMarcus Russell",
+        "people.person.place_of_birth",
+        "Mobile"
+      ],
+      [
+        "JaMarcus Russell",
+        "people.person.nationality",
+        "United States of America"
+      ],
+      [
+        "JaMarcus Russell",
+        "sports.pro_athlete.sports_played_professionally",
+        "m.0c550qk"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-7",
+    "question": "where was george washington carver from",
+    "answer": null,
+    "prediction": "First, George Washington Carver was born in Diamond Grove, Missouri. Second, he spent a significant part of his life in Tuskegee, Alabama, associated with Tuskegee University. The answer is {Tuskegee, Alabama}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-8",
+    "question": "what else did ben franklin invent",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that Benjamin Franklin invented the Lightning rod, the Franklin stove, and Bifocals. These inventions are directly linked to Benjamin Franklin through the provided triplets. While there might be other inventions attributed to him, the information given allows us to confidently state these three inventions.",
+    "hits1": 0,
+    "trajectory": [
+      "Benjamin Franklin",
+      "Lightning rod",
+      "Benjamin Franklin",
+      "Franklin stove",
+      "Benjamin Franklin",
+      "Bifocals"
+    ],
+    "visited_set": [
+      "Benjamin Franklin",
+      "Bifocals",
+      "Franklin stove",
+      "Lightning rod"
+    ],
+    "edges": [
+      [
+        "Benjamin Franklin",
+        "law.invention.inventor",
+        "Lightning rod"
+      ],
+      [
+        "Benjamin Franklin",
+        "base.argumentmaps.innovator.original_ideas",
+        "Franklin stove"
+      ],
+      [
+        "Benjamin Franklin",
+        "law.invention.inventor",
+        "Bifocals"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-9",
+    "question": "who was richard nixon married to",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, Richard Nixon was married to \"m.02h98gq\". Using additional knowledge that \"m.02h98gq\" refers to Patricia Ryan, who is commonly known as Pat Nixon, we can answer that Richard Nixon was married to Pat Nixon.",
+    "hits1": 0,
+    "trajectory": [
+      "Richard Nixon",
+      "m.02h98gq",
+      "Richard Nixon",
+      "m.02h98gq",
+      "Richard Nixon",
+      "United States of America"
+    ],
+    "visited_set": [
+      "Richard Nixon",
+      "United States of America",
+      "m.02h98gq"
+    ],
+    "edges": [
+      [
+        "Richard Nixon",
+        "people.person.spouse_s",
+        "m.02h98gq"
+      ],
+      [
+        "Richard Nixon",
+        "people.marriage.spouse",
+        "m.02h98gq"
+      ],
+      [
+        "Richard Nixon",
+        "people.person.nationality",
+        "United States of America"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-12",
+    "question": "who is governor of ohio 2011",
+    "answer": null,
+    "prediction": "First, John Kasich was the Governor of Ohio from 2011 to 2019. The answer is {John Kasich}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-13",
+    "question": "who was vice president after kennedy died",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it's sufficient to answer the question with these triplets and additional general knowledge. The triplets indicate that John F. Kennedy was assassinated (\"cause_of_death\": \"Assassination\"), and Lyndon B. Johnson succeeded him as president (\"to_president\": \"Lyndon B. Johnson\"). Therefore, Lyndon B. Johnson became the vice president after Kennedy died.",
+    "hits1": 0,
+    "trajectory": [
+      "John F. Kennedy",
+      "Lyndon B. Johnson",
+      "John F. Kennedy",
+      "United States presidential election, 1960",
+      "John F. Kennedy",
+      "Assassination"
+    ],
+    "visited_set": [
+      "Assassination",
+      "John F. Kennedy",
+      "Lyndon B. Johnson",
+      "United States presidential election, 1960"
+    ],
+    "edges": [
+      [
+        "John F. Kennedy",
+        "government.us_vice_president.to_president",
+        "Lyndon B. Johnson"
+      ],
+      [
+        "John F. Kennedy",
+        "government.election.winner",
+        "United States presidential election, 1960"
+      ],
+      [
+        "John F. Kennedy",
+        "people.deceased_person.cause_of_death",
+        "Assassination"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-14",
+    "question": "where is the fukushima daiichi nuclear plant located",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that the Fukushima Daiichi Nuclear Power Plant is located in Okuma, Japan. The triplets provide a clear hierarchical location structure indicating that the plant is contained by Okuma and Japan.",
+    "hits1": 0,
+    "trajectory": [
+      "Fukushima Daiichi Nuclear Power Plant",
+      "Okuma",
+      "Fukushima Daiichi Nuclear Power Plant",
+      "Japan",
+      "Fukushima Daiichi Nuclear Power Plant",
+      "Okuma"
+    ],
+    "visited_set": [
+      "Fukushima Daiichi Nuclear Power Plant",
+      "Japan",
+      "Okuma"
+    ],
+    "edges": [
+      [
+        "Fukushima Daiichi Nuclear Power Plant",
+        "location.location.contains",
+        "Okuma"
+      ],
+      [
+        "Fukushima Daiichi Nuclear Power Plant",
+        "location.location.containedby",
+        "Japan"
+      ],
+      [
+        "Fukushima Daiichi Nuclear Power Plant",
+        "location.location.containedby",
+        "Okuma"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-16",
+    "question": "what countries are part of the uk",
+    "answer": null,
+    "prediction": "The United Kingdom (UK) consists of four countries: England, Scotland, Wales, and Northern Ireland. The answer is {England, Scotland, Wales, Northern Ireland}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-19",
+    "question": "what is my timezone in louisiana",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, Louisiana is located in the Central Time Zone. Therefore, you are in the Central Time Zone if you are in Louisiana.",
+    "hits1": 0,
+    "trajectory": [
+      "Louisiana",
+      "Central Time Zone",
+      "Louisiana",
+      "United States of America",
+      "Louisiana",
+      "Central Time Zone"
+    ],
+    "visited_set": [
+      "Central Time Zone",
+      "Louisiana",
+      "United States of America"
+    ],
+    "edges": [
+      [
+        "Louisiana",
+        "location.location.time_zones",
+        "Central Time Zone"
+      ],
+      [
+        "Louisiana",
+        "location.administrative_division.country",
+        "United States of America"
+      ],
+      [
+        "Louisiana",
+        "location.location.time_zones",
+        "Central Time Zone"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-20",
+    "question": "what did st augustine do",
+    "answer": null,
+    "prediction": "First, St. Augustine is known for his contributions to Christian theology and philosophy. He wrote extensively on topics such as grace, free will, and original sin. Second, St. Augustine played a significant role in the development of Western Christianity through his writings and teachings. The answer is {wrote extensively on Christian theology and philosophy}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-21",
+    "question": "who is keyshia cole dad",
+    "answer": null,
+    "prediction": "First, Keyshia Cole's father is Gerald Freeman. The answer is {Gerald Freeman}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-22",
+    "question": "what kind government does egypt have",
+    "answer": null,
+    "prediction": "First, Egypt has a semi-presidential republic system of government. The president holds significant executive power alongside the prime minister and parliament. The answer is {Semi-presidential republic}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-23",
+    "question": "what town was martin luther king assassinated in",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that Martin Luther King was assassinated in Memphis. The triplet ('Martin Luther King, Jr.', 'people.deceased_person.place_of_death', 'Memphis') directly states the location of his assassination.",
+    "hits1": 0,
+    "trajectory": [
+      "Martin Luther King, Jr.",
+      "Memphis",
+      "Martin Luther King, Jr.",
+      "Assassination",
+      "Martin Luther King, Jr.",
+      "Atlanta",
+      "Memphis",
+      "Assassination of Martin Luther King, Jr.",
+      "Atlanta",
+      "m.0pqws75",
+      "Memphis"
+    ],
+    "visited_set": [
+      "Assassination",
+      "Assassination of Martin Luther King, Jr.",
+      "Atlanta",
+      "Martin Luther King, Jr.",
+      "Memphis",
+      "m.0pqws75"
+    ],
+    "edges": [
+      [
+        "Martin Luther King, Jr.",
+        "people.deceased_person.place_of_death",
+        "Memphis"
+      ],
+      [
+        "Martin Luther King, Jr.",
+        "base.crime.crime_victim.crime_type",
+        "Assassination"
+      ],
+      [
+        "Martin Luther King, Jr.",
+        "people.person.place_of_birth",
+        "Atlanta"
+      ],
+      [
+        "Memphis",
+        "location.location.events",
+        "Assassination of Martin Luther King, Jr."
+      ],
+      [
+        "Atlanta",
+        "location.mailing_address.citytown",
+        "m.0pqws75"
+      ],
+      [
+        "Memphis",
+        "location.hud_county_place.place",
+        "Memphis"
+      ]
+    ],
+    "traj_len": 11,
+    "n_unique": 6
+  },
+  {
+    "qid": "WebQTest-24",
+    "question": "where did edgar allan poe died",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that Edgar Allan Poe died in Baltimore. The triplet directly states the place of death for Edgar Allan Poe.",
+    "hits1": 0,
+    "trajectory": [
+      "Edgar Allan Poe",
+      "Baltimore",
+      "Edgar Allan Poe",
+      "United States of America",
+      "Edgar Allan Poe",
+      "Complete stories and poems of Edgar Allan Poe."
+    ],
+    "visited_set": [
+      "Baltimore",
+      "Complete stories and poems of Edgar Allan Poe.",
+      "Edgar Allan Poe",
+      "United States of America"
+    ],
+    "edges": [
+      [
+        "Edgar Allan Poe",
+        "people.deceased_person.place_of_death",
+        "Baltimore"
+      ],
+      [
+        "Edgar Allan Poe",
+        "people.person.nationality",
+        "United States of America"
+      ],
+      [
+        "Edgar Allan Poe",
+        "book.author.book_editions_published",
+        "Complete stories and poems of Edgar Allan Poe."
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-26",
+    "question": "what to do today in atlanta with kids",
+    "answer": null,
+    "prediction": "First, consider the popular attractions and activities suitable for families in Atlanta. Second, options include visiting the Georgia Aquarium, Fernbank Museum of Natural History, or Zoo Atlanta. The specific activity depends on interests but a visit to one of these places would be suitable. The answer is {Visit Georgia Aquarium, Fernbank Museum of Natural History, or Zoo Atlanta}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-28",
+    "question": "what electorate does anna bligh represent",
+    "answer": null,
+    "prediction": "First, Anna Bligh represented the Brisbane electorate in the Queensland Legislative Assembly from 1989 to 2014. The answer is {Brisbane}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-31",
+    "question": "where did andy murray started playing tennis",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, Andy Murray started playing tennis in Glasgow, Scotland. The triplets indicate that Andy Murray was born in Glasgow and played tennis as a professional sport. Therefore, it is reasonable to conclude that he started playing tennis in Glasgow.",
+    "hits1": 0,
+    "trajectory": [
+      "Andy Murray",
+      "Glasgow",
+      "Andy Murray",
+      "m.0d5srjj",
+      "Andy Murray",
+      "m.0w5l4wl",
+      "Glasgow",
+      "Scotland",
+      "m.0d5srjj",
+      "Tennis",
+      "m.0w5l4wl",
+      "Andy Murray"
+    ],
+    "visited_set": [
+      "Andy Murray",
+      "Glasgow",
+      "Scotland",
+      "Tennis",
+      "m.0d5srjj",
+      "m.0w5l4wl"
+    ],
+    "edges": [
+      [
+        "Andy Murray",
+        "people.person.place_of_birth",
+        "Glasgow"
+      ],
+      [
+        "Andy Murray",
+        "sports.pro_athlete.sports_played_professionally",
+        "m.0d5srjj"
+      ],
+      [
+        "Andy Murray",
+        "people.person.education",
+        "m.0w5l4wl"
+      ],
+      [
+        "Glasgow",
+        "location.administrative_division.first_level_division_of",
+        "Scotland"
+      ],
+      [
+        "m.0d5srjj",
+        "sports.pro_sports_played.sport",
+        "Tennis"
+      ],
+      [
+        "m.0w5l4wl",
+        "education.education.student",
+        "Andy Murray"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 6
+  },
+  {
+    "qid": "WebQTest-32",
+    "question": "what is the australian dollar called",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it's sufficient to answer the question. The Australian dollar is explicitly mentioned as the currency used in Australia. Therefore, the answer to \"What is the Australian dollar called?\" is {Australian dollar}.",
+    "hits1": 0,
+    "trajectory": [
+      "Australian dollar",
+      "Australia",
+      "Australian dollar",
+      "m.09knr56",
+      "Australian dollar",
+      "Australia"
+    ],
+    "visited_set": [
+      "Australia",
+      "Australian dollar",
+      "m.09knr56"
+    ],
+    "edges": [
+      [
+        "Australian dollar",
+        "finance.currency.countries_used",
+        "Australia"
+      ],
+      [
+        "Australian dollar",
+        "base.ontologies.ontology_instance_mapping.freebase_topic",
+        "m.09knr56"
+      ],
+      [
+        "Australian dollar",
+        "location.country.currency_used",
+        "Australia"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-33",
+    "question": "what timezone is sweden",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, Sweden uses the Central European Time Zone. Therefore, it is sufficient to answer that Sweden is in the Central European Time Zone.",
+    "hits1": 0,
+    "trajectory": [
+      "Sweden",
+      "Central European Time Zone"
+    ],
+    "visited_set": [
+      "Central European Time Zone",
+      "Sweden"
+    ],
+    "edges": [
+      [
+        "Sweden",
+        "location.location.time_zones",
+        "Central European Time Zone"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-34",
+    "question": "who did cam newton sign with",
+    "answer": null,
+    "prediction": "First, Cam Newton signed with the Carolina Panthers after being drafted in 2011. However, he later changed teams. Second, Cam Newton signed with the Tampa Bay Buccaneers in 2021. The answer is {Tampa Bay Buccaneers}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-35",
+    "question": "what county is frederick md in",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that Frederick, MD is in Frederick County. The triplets directly state that Frederick is the county seat and contained by Frederick County.",
+    "hits1": 0,
+    "trajectory": [
+      "Frederick",
+      "Frederick County",
+      "Frederick",
+      "m.0jvw47r",
+      "Frederick",
+      "Frederick County"
+    ],
+    "visited_set": [
+      "Frederick",
+      "Frederick County",
+      "m.0jvw47r"
+    ],
+    "edges": [
+      [
+        "Frederick",
+        "location.us_county.county_seat",
+        "Frederick County"
+      ],
+      [
+        "Frederick",
+        "location.administrative_division_capital_relationship.capital",
+        "m.0jvw47r"
+      ],
+      [
+        "Frederick",
+        "location.location.containedby",
+        "Frederick County"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-36",
+    "question": "what highschool did harper lee go to",
+    "answer": null,
+    "prediction": "First, Harper Lee attended Huntingdon High School in Monroeville, Alabama. The answer is {Huntingdon High School}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-37",
+    "question": "what timezone is utah in",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that Utah is in the Mountain Time Zone. Therefore, the timezone of Utah is the Mountain Time Zone.",
+    "hits1": 0,
+    "trajectory": [
+      "Utah",
+      "Mountain Time Zone",
+      "Utah",
+      "United States of America",
+      "Utah",
+      "m.02tg9q7",
+      "Mountain Time Zone",
+      "Second Sunday in March",
+      "Mountain Time Zone",
+      "First Sunday in November",
+      "Mountain Time Zone",
+      "g.125_rngwj"
+    ],
+    "visited_set": [
+      "First Sunday in November",
+      "Mountain Time Zone",
+      "Second Sunday in March",
+      "United States of America",
+      "Utah",
+      "g.125_rngwj",
+      "m.02tg9q7"
+    ],
+    "edges": [
+      [
+        "Utah",
+        "location.location.time_zones",
+        "Mountain Time Zone"
+      ],
+      [
+        "Utah",
+        "base.aareas.schema.administrative_area.administrative_parent",
+        "United States of America"
+      ],
+      [
+        "Utah",
+        "location.location.adjoin_s",
+        "m.02tg9q7"
+      ],
+      [
+        "Mountain Time Zone",
+        "time.time_zone.day_dst_begins",
+        "Second Sunday in March"
+      ],
+      [
+        "Mountain Time Zone",
+        "time.time_zone.day_dst_ends",
+        "First Sunday in November"
+      ],
+      [
+        "Mountain Time Zone",
+        "base.schemastaging.context_name.pronunciation",
+        "g.125_rngwj"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 7
+  },
+  {
+    "qid": "WebQTest-38",
+    "question": "who did george w. bush run against for the second term",
+    "answer": null,
+    "prediction": "First, George W. Bush ran against John Kerry for the second term. The answer is {John Kerry}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-39",
+    "question": "who is niall ferguson 's wife",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that Niall Ferguson's wife is Sue Douglas. The triplets directly state that Niall Ferguson is married to \"m.0pdtjg5\" and that \"m.0pdtjg5\" is Sue Douglas.",
+    "hits1": 0,
+    "trajectory": [
+      "Niall Ferguson",
+      "m.0pdtjg5",
+      "Marriage",
+      "m.0pdtjg5",
+      "Niall Ferguson",
+      "m.0pdtjg5",
+      "Sue Douglas",
+      "m.0pdtjg5",
+      "Niall Ferguson",
+      "Glasgow",
+      "Sue Douglas",
+      "United Kingdom"
+    ],
+    "visited_set": [
+      "Glasgow",
+      "Marriage",
+      "Niall Ferguson",
+      "Sue Douglas",
+      "United Kingdom",
+      "m.0pdtjg5"
+    ],
+    "edges": [
+      [
+        "Niall Ferguson",
+        "people.marriage.spouse",
+        "m.0pdtjg5"
+      ],
+      [
+        "m.0pdtjg5",
+        "people.marriage.type_of_union",
+        "Marriage"
+      ],
+      [
+        "m.0pdtjg5",
+        "people.person.spouse_s",
+        "Niall Ferguson"
+      ],
+      [
+        "m.0pdtjg5",
+        "people.person.spouse_s",
+        "Sue Douglas"
+      ],
+      [
+        "Sue Douglas",
+        "people.marriage.spouse",
+        "m.0pdtjg5"
+      ],
+      [
+        "Niall Ferguson",
+        "people.person.place_of_birth",
+        "Glasgow"
+      ],
+      [
+        "Sue Douglas",
+        "people.person.nationality",
+        "United Kingdom"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 6
+  },
+  {
+    "qid": "WebQTest-41",
+    "question": "where is the galapagos islands located on a world map",
+    "answer": null,
+    "prediction": "The Galapagos Islands are located in the Pacific Ocean, off the western coast of Ecuador. On a world map, they would be found to the north of Peru and to the west of Ecuador. The answer is {Ecuador}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-42",
+    "question": "what are the songs that justin bieber wrote",
+    "answer": null,
+    "prediction": "First, Justin Bieber has written several songs throughout his career. Notable examples include \"Yummy,\" \"Sorry,\" and \"What Do You Mean?\" among others. The answer is {various songs such as \"Yummy,\" \"Sorry,\" and \"What Do You Mean?\"}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-43",
+    "question": "what did george clemenceau do",
+    "answer": null,
+    "prediction": "First, George Clemenceau was a French statesman and journalist who served as the Prime Minister of France during World War I and again in the early 1920s. Second, he played a significant role in shaping post-World War I Europe, particularly with his strong stance at the Paris Peace Conference in 1919, where he advocated for harsh penalties against Germany to prevent future wars.\n\nThe answer is that George Clemenceau was {a French statesman and Prime Minister who significantly influenced post-World War I Europe}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-44",
+    "question": "what is the state flower of arizona",
+    "answer": null,
+    "prediction": "The state flower of Arizona is the Saguaro Cactus Blossom. The answer is {Saguaro Cactus Blossom}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-45",
+    "question": "where was rihanna born and raised",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, Rihanna was born in Saint Michael Parish, Barbados, and she is associated with Barbados as her origin. While \"places_lived\" points to an unspecified location (m.0h30zxl), it's reasonable to infer that this refers to her upbringing in Barbados, given the context of her origin being listed as Barbados. Therefore, we can answer that Rihanna was born and raised in Barbados.",
+    "hits1": 0,
+    "trajectory": [
+      "Rihanna",
+      "Saint Michael Parish",
+      "Rihanna",
+      "m.0h30zxl",
+      "Rihanna",
+      "Barbados"
+    ],
+    "visited_set": [
+      "Barbados",
+      "Rihanna",
+      "Saint Michael Parish",
+      "m.0h30zxl"
+    ],
+    "edges": [
+      [
+        "Rihanna",
+        "people.person.place_of_birth",
+        "Saint Michael Parish"
+      ],
+      [
+        "Rihanna",
+        "people.person.places_lived",
+        "m.0h30zxl"
+      ],
+      [
+        "Rihanna",
+        "music.artist.origin",
+        "Barbados"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-46",
+    "question": "what year did president william henry harrison take office",
+    "answer": null,
+    "prediction": "First, William Henry Harrison took office in 1841 as the 9th President of the United States. The answer is {1841}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-47",
+    "question": "where george lopez was born",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, George Lopez was born in Mission Hills. Therefore, the answer to the question is {Mission Hills}.",
+    "hits1": 0,
+    "trajectory": [
+      "George Lopez",
+      "Mission Hills",
+      "George Lopez",
+      "United States of America",
+      "George Lopez",
+      "United States of America"
+    ],
+    "visited_set": [
+      "George Lopez",
+      "Mission Hills",
+      "United States of America"
+    ],
+    "edges": [
+      [
+        "George Lopez",
+        "people.person.place_of_birth",
+        "Mission Hills"
+      ],
+      [
+        "George Lopez",
+        "tv.tv_program.country_of_origin",
+        "United States of America"
+      ],
+      [
+        "George Lopez",
+        "people.person.nationality",
+        "United States of America"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-48",
+    "question": "where are samsung based",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, Samsung Group's headquarters are located in South Korea. Therefore, it is sufficient to answer that Samsung is based in South Korea.",
+    "hits1": 0,
+    "trajectory": [
+      "Samsung Group",
+      "m.03l9ynf",
+      "Samsung Group",
+      "Conglomerate",
+      "Samsung Group",
+      "m.0_6snvg",
+      "m.03l9ynf",
+      "South Korea",
+      "Conglomerate",
+      "Time Warner",
+      "m.0_6snvg",
+      "Linux Foundation"
+    ],
+    "visited_set": [
+      "Conglomerate",
+      "Linux Foundation",
+      "Samsung Group",
+      "South Korea",
+      "Time Warner",
+      "m.03l9ynf",
+      "m.0_6snvg"
+    ],
+    "edges": [
+      [
+        "Samsung Group",
+        "organization.organization.headquarters",
+        "m.03l9ynf"
+      ],
+      [
+        "Samsung Group",
+        "business.business_operation.industry",
+        "Conglomerate"
+      ],
+      [
+        "Samsung Group",
+        "organization.organization_member.member_of",
+        "m.0_6snvg"
+      ],
+      [
+        "m.03l9ynf",
+        "location.mailing_address.country",
+        "South Korea"
+      ],
+      [
+        "Conglomerate",
+        "organization.organization.organization_type",
+        "Time Warner"
+      ],
+      [
+        "m.0_6snvg",
+        "organization.organization_membership.organization",
+        "Linux Foundation"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 7
+  },
+  {
+    "qid": "WebQTest-49",
+    "question": "what did the islamic people believe in",
+    "answer": null,
+    "prediction": "First, Islamic people believe in the oneness of God (Allah) and the prophethood of Muhammad. The core beliefs include the Five Pillars of Islam: Shahada (faith), Salah (prayer), Zakat (charity), Sawm (fasting during Ramadan), and Hajj (pilgrimage to Mecca). The answer is {the oneness of God, prophethood of Muhammad, Five Pillars of Islam}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-51",
+    "question": "who will play mr gray in the film",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that Jamie Dornan will play Mr. Gray in the film \"Fifty Shades Darker\". The triplets directly link Jamie Dornan as the actor portraying Christian Grey, who is the character of Mr. Gray in the mentioned film.",
+    "hits1": 0,
+    "trajectory": [
+      "Christian Grey",
+      "m.0ydn3r2",
+      "Christian Grey",
+      "m.0ydn3r2",
+      "Christian Grey",
+      "Fifty Shades Darker",
+      "m.0ydn3r2",
+      "Jamie Dornan",
+      "Fifty Shades Darker",
+      "Christian Grey",
+      "m.0ydn3r2",
+      "Christian Grey"
+    ],
+    "visited_set": [
+      "Christian Grey",
+      "Fifty Shades Darker",
+      "Jamie Dornan",
+      "m.0ydn3r2"
+    ],
+    "edges": [
+      [
+        "Christian Grey",
+        "film.film_character.portrayed_in_films",
+        "m.0ydn3r2"
+      ],
+      [
+        "Christian Grey",
+        "film.performance.character",
+        "m.0ydn3r2"
+      ],
+      [
+        "Christian Grey",
+        "book.book_character.appears_in_book",
+        "Fifty Shades Darker"
+      ],
+      [
+        "m.0ydn3r2",
+        "film.performance.actor",
+        "Jamie Dornan"
+      ],
+      [
+        "Fifty Shades Darker",
+        "book.book_character.appears_in_book",
+        "Christian Grey"
+      ],
+      [
+        "m.0ydn3r2",
+        "film.performance.character",
+        "Christian Grey"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-52",
+    "question": "what did george orwell died of",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that George Orwell died of Tuberculosis. The triplet directly states the cause of death for George Orwell.",
+    "hits1": 0,
+    "trajectory": [
+      "George Orwell",
+      "Tuberculosis",
+      "George Orwell",
+      "London",
+      "George Orwell",
+      "England"
+    ],
+    "visited_set": [
+      "England",
+      "George Orwell",
+      "London",
+      "Tuberculosis"
+    ],
+    "edges": [
+      [
+        "George Orwell",
+        "people.deceased_person.cause_of_death",
+        "Tuberculosis"
+      ],
+      [
+        "George Orwell",
+        "people.deceased_person.place_of_death",
+        "London"
+      ],
+      [
+        "George Orwell",
+        "people.person.nationality",
+        "England"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-54",
+    "question": "what country did adolf hitler control",
+    "answer": null,
+    "prediction": "First, Adolf Hitler controlled Germany. The answer is {Germany}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-55",
+    "question": "who is michael buble",
+    "answer": null,
+    "prediction": "First, Michael Bublé is a Canadian singer, songwriter, and actor known for his jazz-influenced pop style. The answer is {Michael Bublé}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-56",
+    "question": "what county is kansas city kansas",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, Kansas City, Kansas is located in Wyandotte County. Therefore, the answer to the question \"What county is Kansas City, Kansas?\" is Wyandotte County.",
+    "hits1": 0,
+    "trajectory": [
+      "Kansas City",
+      "Wyandotte County",
+      "Kansas Speedway",
+      "66111",
+      "Kansas City",
+      "m.02sd6jx"
+    ],
+    "visited_set": [
+      "66111",
+      "Kansas City",
+      "Kansas Speedway",
+      "Wyandotte County",
+      "m.02sd6jx"
+    ],
+    "edges": [
+      [
+        "Kansas City",
+        "location.hud_county_place.county",
+        "Wyandotte County"
+      ],
+      [
+        "Kansas Speedway",
+        "location.location.contains",
+        "66111"
+      ],
+      [
+        "Kansas City",
+        "location.adjoining_relationship.adjoins",
+        "m.02sd6jx"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 5
+  },
+  {
+    "qid": "WebQTest-58",
+    "question": "who did jackie robinson first play for",
+    "answer": null,
+    "prediction": "First, Jackie Robinson first played professional baseball for the Brooklyn Dodgers. The answer is {Brooklyn Dodgers}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-59",
+    "question": "when did annie open",
+    "answer": null,
+    "prediction": "First, Annie opened on Broadway in 1973. The answer is {1973}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-60",
+    "question": "where did eleanor roosevelt die",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, Eleanor Roosevelt died in Manhattan. Therefore, the answer to the question is {Manhattan}.",
+    "hits1": 0,
+    "trajectory": [
+      "Eleanor Roosevelt",
+      "Manhattan"
+    ],
+    "visited_set": [
+      "Eleanor Roosevelt",
+      "Manhattan"
+    ],
+    "edges": [
+      [
+        "Eleanor Roosevelt",
+        "people.deceased_person.place_of_death",
+        "Manhattan"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-61",
+    "question": "what are the religions practiced in indonesia",
+    "answer": null,
+    "prediction": "The major religions practiced in Indonesia include Islam (the most widely followed), Christianity, Hinduism, Buddhism, and Confucianism. The answer is {Islam, Christianity, Hinduism, Buddhism, Confucianism}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-62",
+    "question": "what was jesse james killed with",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that Jesse James was killed with a firearm. The triplets directly state that his cause of death included an assassination by firearm and provide additional context about firearms being used as weapons.",
+    "hits1": 0,
+    "trajectory": [
+      "Jesse James",
+      "Assassination",
+      "Jesse James",
+      "Firearm",
+      "Jesse James",
+      "Kearney",
+      "Assassination",
+      "Assassination by firearm",
+      "Firearm",
+      "m.0bc293p",
+      "Firearm",
+      "Projectile weapon"
+    ],
+    "visited_set": [
+      "Assassination",
+      "Assassination by firearm",
+      "Firearm",
+      "Jesse James",
+      "Kearney",
+      "Projectile weapon",
+      "m.0bc293p"
+    ],
+    "edges": [
+      [
+        "Jesse James",
+        "people.deceased_person.cause_of_death",
+        "Assassination"
+      ],
+      [
+        "Jesse James",
+        "people.deceased_person.cause_of_death",
+        "Firearm"
+      ],
+      [
+        "Jesse James",
+        "people.person.place_of_birth",
+        "Kearney"
+      ],
+      [
+        "Assassination",
+        "people.cause_of_death.includes_causes_of_death",
+        "Assassination by firearm"
+      ],
+      [
+        "Firearm",
+        "base.disaster2.attack_process.object_used_as_weapon",
+        "m.0bc293p"
+      ],
+      [
+        "Firearm",
+        "base.weapons.weapon.parent_weapon_type",
+        "Projectile weapon"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 7
+  },
+  {
+    "qid": "WebQTest-63",
+    "question": "who was vp for lincoln",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer the question with these triplets and additional general knowledge. The triplets indicate that Abraham Lincoln had two Vice Presidents during his presidency: Andrew Johnson and Hannibal Hamlin. Therefore, the answer to \"Who was VP for Lincoln?\" can be either Andrew Johnson or Hannibal Hamlin, depending on the specific period of Lincoln's presidency in question.",
+    "hits1": 0,
+    "trajectory": [
+      "Abraham Lincoln",
+      "Andrew Johnson",
+      "Abraham Lincoln",
+      "Hannibal Hamlin",
+      "Abraham Lincoln",
+      "Politician"
+    ],
+    "visited_set": [
+      "Abraham Lincoln",
+      "Andrew Johnson",
+      "Hannibal Hamlin",
+      "Politician"
+    ],
+    "edges": [
+      [
+        "Abraham Lincoln",
+        "government.us_president.vice_president",
+        "Andrew Johnson"
+      ],
+      [
+        "Abraham Lincoln",
+        "government.us_president.vice_president",
+        "Hannibal Hamlin"
+      ],
+      [
+        "Abraham Lincoln",
+        "people.person.profession",
+        "Politician"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-64",
+    "question": "what other books did charles dickens write",
+    "answer": null,
+    "prediction": "First, Charles Dickens wrote many notable works besides A Tale of Two Cities, including Oliver Twist, David Copperfield, Great Expectations, and others. Second, to provide a comprehensive list, some key works by Charles Dickens are:\n\n- Oliver Twist\n- Nicholas Nickleby \n- A Christmas Carol\n- David Copperfield\n- Great Expectations\n- Bleak House\n- Little Dorrit\n- A Tale of Two Cities\n\nThe answer is {Oliver Twist, Nicholas Nickleby, A Christmas Carol, David Copperfield, Great Expectations, Bleak House, Little Dorrit, A Tale of Two Cities}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-65",
+    "question": "who was the first dictator of the soviet union",
+    "answer": null,
+    "prediction": "First, Joseph Stalin, Leon Trotsky and others were early leaders in the Soviet Union. Second, Joseph Stalin became the first dictator of the Soviet Union. The answer is {Joseph Stalin}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-66",
+    "question": "what is the currency of puerto rico called",
+    "answer": null,
+    "prediction": "First, Puerto Rico does not have its own currency; it uses the United States dollar (USD). The answer is {United States dollar}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-67",
+    "question": "what kind of cancer did carl wilson have",
+    "answer": null,
+    "prediction": "First, Carl Wilson was a member of the Beach Boys. Second, Carl Wilson was diagnosed with lung cancer. The answer is {lung cancer}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-68",
+    "question": "who plays the voice of kitt in knight rider",
+    "answer": null,
+    "prediction": "First, William Daniels voiced KITT in the original Knight Rider series. The answer is {William Daniels}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-69",
+    "question": "what county is brentwood tennessee in",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that Brentwood, Tennessee is in Williamson County. The triplets directly state that Brentwood is contained by Williamson County.",
+    "hits1": 0,
+    "trajectory": [
+      "Brentwood",
+      "Williamson County",
+      "Brentwood",
+      "Williamson County",
+      "Brentwood",
+      "m.0hgf5r_"
+    ],
+    "visited_set": [
+      "Brentwood",
+      "Williamson County",
+      "m.0hgf5r_"
+    ],
+    "edges": [
+      [
+        "Brentwood",
+        "location.hud_county_place.county",
+        "Williamson County"
+      ],
+      [
+        "Brentwood",
+        "location.location.containedby",
+        "Williamson County"
+      ],
+      [
+        "Brentwood",
+        "location.mailing_address.citytown",
+        "m.0hgf5r_"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-71",
+    "question": "who did michael j fox marry",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that Michael J. Fox married 'm.02kkmrn'. While the entity identifier 'm.02kkmrn' does not provide a full name, the triplets directly state his spouse. Additional knowledge would be needed to determine the full name of his spouse, but the question only asks who he married, which is answered by 'm.02kkmrn'.",
+    "hits1": 0,
+    "trajectory": [
+      "Michael J. Fox",
+      "m.02kkmrn",
+      "Michael J. Fox",
+      "m.065q2m7",
+      "Michael J. Fox",
+      "m.02kkmrn"
+    ],
+    "visited_set": [
+      "Michael J. Fox",
+      "m.02kkmrn",
+      "m.065q2m7"
+    ],
+    "edges": [
+      [
+        "Michael J. Fox",
+        "people.person.spouse_s",
+        "m.02kkmrn"
+      ],
+      [
+        "Michael J. Fox",
+        "base.popstra.celebrity.dated",
+        "m.065q2m7"
+      ],
+      [
+        "Michael J. Fox",
+        "people.marriage.spouse",
+        "m.02kkmrn"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-72",
+    "question": "what battles did stonewall jackson fight in",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that Stonewall Jackson fought in the Battle of Antietam, the Battle of Cedar Mountain, and the Battle of Chancellorsville. These battles are directly linked to Stonewall Jackson through the 'military.military_conflict.military_personnel_involved' relation.",
+    "hits1": 0,
+    "trajectory": [
+      "Stonewall Jackson",
+      "Battle of Antietam",
+      "Stonewall Jackson",
+      "Battle of Cedar Mountain",
+      "Stonewall Jackson",
+      "Battle of Chancellorsville"
+    ],
+    "visited_set": [
+      "Battle of Antietam",
+      "Battle of Cedar Mountain",
+      "Battle of Chancellorsville",
+      "Stonewall Jackson"
+    ],
+    "edges": [
+      [
+        "Stonewall Jackson",
+        "military.military_conflict.military_personnel_involved",
+        "Battle of Antietam"
+      ],
+      [
+        "Stonewall Jackson",
+        "military.military_conflict.military_personnel_involved",
+        "Battle of Cedar Mountain"
+      ],
+      [
+        "Stonewall Jackson",
+        "military.military_conflict.military_personnel_involved",
+        "Battle of Chancellorsville"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-73",
+    "question": "what language do the maasai tribe speak",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that the Maasai tribe speaks Maasai Language. The triplet directly links the Maasai people with their language, making this a direct and complete answer to the question.",
+    "hits1": 0,
+    "trajectory": [
+      "Maasai people",
+      "Maasai Language"
+    ],
+    "visited_set": [
+      "Maasai Language",
+      "Maasai people"
+    ],
+    "edges": [
+      [
+        "Maasai people",
+        "people.ethnicity.languages_spoken",
+        "Maasai Language"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-74",
+    "question": "who did benjamin franklin get married to",
+    "answer": null,
+    "prediction": "First, Benjamin Franklin was married to Deborah Read. The answer is {Deborah Read}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-75",
+    "question": "what disease did patrick swayze died from",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that Patrick Swayze died from Pancreatic cancer. The triplets directly state his cause of death as Pancreatic cancer.",
+    "hits1": 0,
+    "trajectory": [
+      "Patrick Swayze",
+      "Pancreatic cancer",
+      "Patrick Swayze",
+      "Pancreatic cancer",
+      "Patrick Swayze",
+      "m.04j2jl9"
+    ],
+    "visited_set": [
+      "Pancreatic cancer",
+      "Patrick Swayze",
+      "m.04j2jl9"
+    ],
+    "edges": [
+      [
+        "Patrick Swayze",
+        "people.deceased_person.cause_of_death",
+        "Pancreatic cancer"
+      ],
+      [
+        "Patrick Swayze",
+        "medicine.notable_person_with_medical_condition.condition",
+        "Pancreatic cancer"
+      ],
+      [
+        "Patrick Swayze",
+        "film.actor.film",
+        "m.04j2jl9"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-76",
+    "question": "what works of art did leonardo da vinci produce",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that Leonardo da Vinci produced the following works of art: Drapery for a Seated Figure, Madonna of the Yarnwinder, and St. Jerome in the Wilderness. These triplets directly link Leonardo da Vinci as a visual artist with specific artworks he created.",
+    "hits1": 0,
+    "trajectory": [
+      "Leonardo da Vinci",
+      "Drapery for a Seated Figure",
+      "Leonardo da Vinci",
+      "Madonna of the Yarnwinder",
+      "Leonardo da Vinci",
+      "St. Jerome in the Wilderness"
+    ],
+    "visited_set": [
+      "Drapery for a Seated Figure",
+      "Leonardo da Vinci",
+      "Madonna of the Yarnwinder",
+      "St. Jerome in the Wilderness"
+    ],
+    "edges": [
+      [
+        "Leonardo da Vinci",
+        "visual_art.visual_artist.artworks",
+        "Drapery for a Seated Figure"
+      ],
+      [
+        "Leonardo da Vinci",
+        "visual_art.visual_artist.artworks",
+        "Madonna of the Yarnwinder"
+      ],
+      [
+        "Leonardo da Vinci",
+        "visual_art.visual_artist.artworks",
+        "St. Jerome in the Wilderness"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-77",
+    "question": "what capital of austria",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it's sufficient to answer that the capital of Austria is Vienna. The triplet \"Austria\", \"location.country.capital\", \"Vienna\" directly provides this information.",
+    "hits1": 0,
+    "trajectory": [
+      "Austria",
+      "Vienna",
+      "Austria",
+      "Austrian statutory city",
+      "Austria",
+      "Adolf Schärf"
+    ],
+    "visited_set": [
+      "Adolf Schärf",
+      "Austria",
+      "Austrian statutory city",
+      "Vienna"
+    ],
+    "edges": [
+      [
+        "Austria",
+        "location.country.capital",
+        "Vienna"
+      ],
+      [
+        "Austria",
+        "base.aareas.schema.administrative_area_type.iso_country",
+        "Austrian statutory city"
+      ],
+      [
+        "Austria",
+        "people.person.nationality",
+        "Adolf Schärf"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-78",
+    "question": "what type of cancer did eva peron have",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that Eva Peron had cervical cancer. The triplets directly state her cause of death as cervical cancer twice.",
+    "hits1": 0,
+    "trajectory": [
+      "Eva Perón",
+      "Cervical cancer",
+      "Eva Perón",
+      "Los Toldos",
+      "Eva Perón",
+      "Cervical cancer"
+    ],
+    "visited_set": [
+      "Cervical cancer",
+      "Eva Perón",
+      "Los Toldos"
+    ],
+    "edges": [
+      [
+        "Eva Perón",
+        "people.deceased_person.cause_of_death",
+        "Cervical cancer"
+      ],
+      [
+        "Eva Perón",
+        "people.person.place_of_birth",
+        "Los Toldos"
+      ],
+      [
+        "Eva Perón",
+        "people.deceased_person.cause_of_death",
+        "Cervical cancer"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-79",
+    "question": "what country did buddha come from",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that Buddha came from Nepal. The triplet ('Gautama Buddha', 'people.person.place_of_birth', 'Kapilavastu') and ('Gautama Buddha', 'people.person.nationality', 'Nepal') directly indicate Buddha's origin.",
+    "hits1": 0,
+    "trajectory": [
+      "Gautama Buddha",
+      "Kapilavastu",
+      "Gautama Buddha",
+      "Buddhist philosophy",
+      "Gautama Buddha",
+      "Nepal"
+    ],
+    "visited_set": [
+      "Buddhist philosophy",
+      "Gautama Buddha",
+      "Kapilavastu",
+      "Nepal"
+    ],
+    "edges": [
+      [
+        "Gautama Buddha",
+        "people.person.place_of_birth",
+        "Kapilavastu"
+      ],
+      [
+        "Gautama Buddha",
+        "religion.founding_figure.religion_founded",
+        "Buddhist philosophy"
+      ],
+      [
+        "Gautama Buddha",
+        "people.person.nationality",
+        "Nepal"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-80",
+    "question": "what county is greeley colorado in",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that Greeley, Colorado is in Weld County. The triplet ('Greeley', 'location.us_county.county_seat', 'Weld County') directly states this relationship.",
+    "hits1": 0,
+    "trajectory": [
+      "Greeley",
+      "Weld County",
+      "Greeley",
+      "Academy of Natural Therapy",
+      "Weld County",
+      "United States of America",
+      "Greeley",
+      "Weld County",
+      "Academy of Natural Therapy",
+      "Greeley",
+      "United States of America",
+      "United States, with Territories",
+      "Weld County",
+      "Greeley",
+      "Weld County"
+    ],
+    "visited_set": [
+      "Academy of Natural Therapy",
+      "Greeley",
+      "United States of America",
+      "United States, with Territories",
+      "Weld County"
+    ],
+    "edges": [
+      [
+        "Greeley",
+        "location.us_county.county_seat",
+        "Weld County"
+      ],
+      [
+        "Greeley",
+        "location.hud_county_place.place",
+        "Greeley"
+      ],
+      [
+        "Greeley",
+        "location.location.contains",
+        "Academy of Natural Therapy"
+      ],
+      [
+        "Weld County",
+        "location.administrative_division.second_level_division_of",
+        "United States of America"
+      ],
+      [
+        "Greeley",
+        "location.us_county.hud_county_place",
+        "Weld County"
+      ],
+      [
+        "Academy of Natural Therapy",
+        "location.location.containedby",
+        "Greeley"
+      ],
+      [
+        "United States of America",
+        "location.administrative_division.first_level_division_of",
+        "United States, with Territories"
+      ],
+      [
+        "Weld County",
+        "location.us_county.county_seat",
+        "Greeley"
+      ],
+      [
+        "Greeley",
+        "location.hud_county_place.county",
+        "Weld County"
+      ]
+    ],
+    "traj_len": 15,
+    "n_unique": 5
+  },
+  {
+    "qid": "WebQTest-82",
+    "question": "what did peter tchaikovsky do",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, Peter Tchaikovsky (full name Pyotr Ilyich Tchaikovsky) is associated with multiple professions including Composer, Librettist, and Musician. Therefore, it is sufficient to answer that Peter Tchaikovsky was a composer, librettist, and musician.",
+    "hits1": 0,
+    "trajectory": [
+      "Pyotr Ilyich Tchaikovsky",
+      "Composer",
+      "Pyotr Ilyich Tchaikovsky",
+      "Librettist",
+      "Pyotr Ilyich Tchaikovsky",
+      "Musician"
+    ],
+    "visited_set": [
+      "Composer",
+      "Librettist",
+      "Musician",
+      "Pyotr Ilyich Tchaikovsky"
+    ],
+    "edges": [
+      [
+        "Pyotr Ilyich Tchaikovsky",
+        "people.person.profession",
+        "Composer"
+      ],
+      [
+        "Pyotr Ilyich Tchaikovsky",
+        "people.person.profession",
+        "Librettist"
+      ],
+      [
+        "Pyotr Ilyich Tchaikovsky",
+        "people.person.profession",
+        "Musician"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-83",
+    "question": "which countries speak german officially",
+    "answer": null,
+    "prediction": "First, Germany, Austria, Switzerland, Liechtenstein, and parts of Italy, Belgium, and France speak German officially or have significant German-speaking populations. The answer is {Germany, Austria, Switzerland, Liechtenstein}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-84",
+    "question": "what type of music did john lennon sing",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that John Lennon's music type includes Art rock and Blues rock. Therefore, the types of music John Lennon sang are Art rock and Blues rock.",
+    "hits1": 0,
+    "trajectory": [
+      "John Lennon",
+      "Liverpool",
+      "John Lennon",
+      "Art rock",
+      "John Lennon",
+      "Blues rock"
+    ],
+    "visited_set": [
+      "Art rock",
+      "Blues rock",
+      "John Lennon",
+      "Liverpool"
+    ],
+    "edges": [
+      [
+        "John Lennon",
+        "music.artist.origin",
+        "Liverpool"
+      ],
+      [
+        "John Lennon",
+        "music.artist.genre",
+        "Art rock"
+      ],
+      [
+        "John Lennon",
+        "music.artist.genre",
+        "Blues rock"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-85",
+    "question": "who are the colorado representatives",
+    "answer": null,
+    "prediction": "The question \"Who are the Colorado representatives?\" is too broad and does not specify a particular type of representative (e.g., U.S. Congress or state legislature). For clarity, I will provide information on both:\n\n1. U.S. House of Representatives:\n   - The current U.S. Representative for Colorado's 1st district is Lauren Boebert.\n   - The current U.S. Representative for Colorado's 2nd district is Doug Lamborn.\n   - The current U.S. Representative for Colorado's 3rd district is Joe Neguse.\n   - The current U.S. Representative for Colorado's 4th district is Jason Crow.\n   - The current U.S. Representative for Colorado's 5th district is Ken Buck.\n\n2. Colorado State House of Representatives:\n   - There are 65 members in the Colorado State House, each representing a district within the state. Specific names would depend on the current election cycle and results.\n\n3. Colorado Senate:\n   - There are 35 members in the Colorado Senate, each representing a district within the state. Specific names would depend on the current election cycle and results.\n\nFor the most accurate and up-to-date information, please refer to the official websites of the U.S. House of Representatives or",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-86",
+    "question": "which country does greenland belong to",
+    "answer": null,
+    "prediction": "First, Greenland is not a territory of another country but an autonomous constituent country within the Kingdom of Denmark. The answer is {Denmark}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-87",
+    "question": "what the zip code for seattle washington",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it's sufficient to answer that the zip code for Seattle, Washington is 98101. The triplet \"Seattle\", \"location.citytown.postal_codes\", \"98101\" directly provides the required information.",
+    "hits1": 0,
+    "trajectory": [
+      "Seattle",
+      "m.08nkwwd",
+      "Seattle",
+      "98101"
+    ],
+    "visited_set": [
+      "98101",
+      "Seattle",
+      "m.08nkwwd"
+    ],
+    "edges": [
+      [
+        "Seattle",
+        "location.adjoining_relationship.adjoins",
+        "m.08nkwwd"
+      ],
+      [
+        "Seattle",
+        "base.biblioness.bibs_topic.is_really",
+        "Seattle"
+      ],
+      [
+        "Seattle",
+        "location.citytown.postal_codes",
+        "98101"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-88",
+    "question": "who is willow smith mom name",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, Willow Smith's mother is Jada Pinkett Smith. Therefore, the answer to the question \"Who is Willow Smith's mom?\" is Jada Pinkett Smith.",
+    "hits1": 0,
+    "trajectory": [
+      "Willow Smith",
+      "Jada Pinkett Smith",
+      "Willow Smith",
+      "Will Smith",
+      "Willow Smith",
+      "United States of America"
+    ],
+    "visited_set": [
+      "Jada Pinkett Smith",
+      "United States of America",
+      "Will Smith",
+      "Willow Smith"
+    ],
+    "edges": [
+      [
+        "Willow Smith",
+        "people.person.parents",
+        "Jada Pinkett Smith"
+      ],
+      [
+        "Willow Smith",
+        "people.person.parents",
+        "Will Smith"
+      ],
+      [
+        "Willow Smith",
+        "people.person.nationality",
+        "United States of America"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-89",
+    "question": "what do you call the chinese writing system",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that the Chinese writing system is called \"Chinese characters\". The relevant triplet is:\n\n(Chinese language, language.human_language.writing_system, Chinese characters)\n\nThis directly provides the information needed to answer the question.",
+    "hits1": 0,
+    "trajectory": [
+      "Chinese language",
+      "China",
+      "Chinese language",
+      "m.07ndr4q",
+      "Chinese language",
+      "'Phags-pa script",
+      "m.07ndr4q",
+      "Chinese language",
+      "'Phags-pa script",
+      "Abugida",
+      "China",
+      "English Language",
+      "Chinese language",
+      "Chinese characters",
+      "Chinese language",
+      "China",
+      "Chinese language",
+      "'Phags-pa script"
+    ],
+    "visited_set": [
+      "'Phags-pa script",
+      "Abugida",
+      "China",
+      "Chinese characters",
+      "Chinese language",
+      "English Language",
+      "m.07ndr4q"
+    ],
+    "edges": [
+      [
+        "Chinese language",
+        "language.human_language.main_country",
+        "China"
+      ],
+      [
+        "Chinese language",
+        "base.ontologies.ontology_instance.equivalent_instances",
+        "m.07ndr4q"
+      ],
+      [
+        "Chinese language",
+        "language.human_language.writing_system",
+        "'Phags-pa script"
+      ],
+      [
+        "m.07ndr4q",
+        "base.ontologies.ontology_instance_mapping.freebase_topic",
+        "Chinese language"
+      ],
+      [
+        "'Phags-pa script",
+        "language.language_writing_system.type_of_writing",
+        "Abugida"
+      ],
+      [
+        "China",
+        "location.country.languages_spoken",
+        "English Language"
+      ],
+      [
+        "Chinese language",
+        "language.human_language.writing_system",
+        "Chinese characters"
+      ],
+      [
+        "Chinese language",
+        "language.human_language.main_country",
+        "China"
+      ],
+      [
+        "Chinese language",
+        "language.human_language.writing_system",
+        "'Phags-pa script"
+      ]
+    ],
+    "traj_len": 18,
+    "n_unique": 7
+  },
+  {
+    "qid": "WebQTest-90",
+    "question": "who played on the jeffersons",
+    "answer": null,
+    "prediction": "First, The Jeffersons featured a cast of actors including Julius Harris, Marla Frazee, and others. However, to directly answer the question about key characters:\n\nThe actor who played the character George Jefferson was Sherman Hemsley. Therefore, the answer is {Sherman Hemsley}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-91",
+    "question": "what is the name of the san francisco newspaper",
+    "answer": null,
+    "prediction": "First, there are multiple newspapers in San Francisco. Second, The San Francisco Chronicle is one of the well-known newspapers based in San Francisco. The answer is {The San Francisco Chronicle}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-93",
+    "question": "what continent does armenia belong to",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it's sufficient to answer the question. The triplet ('Armenia', 'base.locations.countries.continent', 'Europe') directly states that Armenia belongs to the continent of Europe. Therefore, the answer to the question is {Europe}.",
+    "hits1": 0,
+    "trajectory": [
+      "Armenia",
+      "Europe",
+      "Armenia",
+      "Armenian province",
+      "Armenia",
+      "Alaverdi"
+    ],
+    "visited_set": [
+      "Alaverdi",
+      "Armenia",
+      "Armenian province",
+      "Europe"
+    ],
+    "edges": [
+      [
+        "Armenia",
+        "base.locations.countries.continent",
+        "Europe"
+      ],
+      [
+        "Armenia",
+        "base.aareas.schema.administrative_area_type.pertains_to",
+        "Armenian province"
+      ],
+      [
+        "Armenia",
+        "location.administrative_division.country",
+        "Alaverdi"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-94",
+    "question": "what did randy savage died of",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that Randy Savage died of a heart attack.",
+    "hits1": 0,
+    "trajectory": [
+      "Randy Savage",
+      "heart attack",
+      "Randy Savage",
+      "Seminole",
+      "Randy Savage",
+      "Wrestler"
+    ],
+    "visited_set": [
+      "Randy Savage",
+      "Seminole",
+      "Wrestler",
+      "heart attack"
+    ],
+    "edges": [
+      [
+        "Randy Savage",
+        "people.deceased_person.cause_of_death",
+        "heart attack"
+      ],
+      [
+        "Randy Savage",
+        "people.deceased_person.place_of_death",
+        "Seminole"
+      ],
+      [
+        "Randy Savage",
+        "people.person.profession",
+        "Wrestler"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-95",
+    "question": "what was the title of the book charles darwin wrote",
+    "answer": null,
+    "prediction": "First, Charles Darwin wrote a book about his theory of evolution by natural selection. Second, the title of this book is On the Origin of Species. The answer is {On the Origin of Species}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-96",
+    "question": "where did richard nixon die",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer the question. Richard Nixon died from a stroke in New York City.",
+    "hits1": 0,
+    "trajectory": [
+      "Richard Nixon",
+      "New York City",
+      "Richard Nixon",
+      "United States of America",
+      "Richard Nixon",
+      "Stroke"
+    ],
+    "visited_set": [
+      "New York City",
+      "Richard Nixon",
+      "Stroke",
+      "United States of America"
+    ],
+    "edges": [
+      [
+        "Richard Nixon",
+        "people.deceased_person.place_of_death",
+        "New York City"
+      ],
+      [
+        "Richard Nixon",
+        "people.person.nationality",
+        "United States of America"
+      ],
+      [
+        "Richard Nixon",
+        "people.deceased_person.cause_of_death",
+        "Stroke"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-97",
+    "question": "what songs does smokey robinson sing",
+    "answer": null,
+    "prediction": "First, Smokey Robinson sings a variety of songs throughout his career, including \"Tears of a Clown,\" \"The Way You Make Me Feel (Part 1),\" and many others. The answer is {a varied list including \"Tears of a Clown\" and \"The Way You Make Me Feel (Part 1)\"}.\n\nNote: The exact list can vary widely as Smokey Robinson has an extensive discography spanning multiple decades.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-98",
+    "question": "who was vice president when jfk was president",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that Lyndon B. Johnson was the Vice President when John F. Kennedy was President. The triplet \"John F. Kennedy\", \"government.us_president.vice_president\", \"Lyndon B. Johnson\" directly provides this information.",
+    "hits1": 0,
+    "trajectory": [
+      "John F. Kennedy",
+      "Lyndon B. Johnson",
+      "John F. Kennedy",
+      "United States presidential election, 1960",
+      "John F. Kennedy",
+      "Irish American",
+      "Lyndon B. Johnson",
+      "John F. Kennedy",
+      "United States presidential election, 1960",
+      "President of the United States",
+      "Lyndon B. Johnson",
+      "United States of America"
+    ],
+    "visited_set": [
+      "Irish American",
+      "John F. Kennedy",
+      "Lyndon B. Johnson",
+      "President of the United States",
+      "United States of America",
+      "United States presidential election, 1960"
+    ],
+    "edges": [
+      [
+        "John F. Kennedy",
+        "government.us_president.vice_president",
+        "Lyndon B. Johnson"
+      ],
+      [
+        "John F. Kennedy",
+        "government.election.winner",
+        "United States presidential election, 1960"
+      ],
+      [
+        "John F. Kennedy",
+        "people.person.ethnicity",
+        "Irish American"
+      ],
+      [
+        "Lyndon B. Johnson",
+        "government.us_vice_president.to_president",
+        "John F. Kennedy"
+      ],
+      [
+        "United States presidential election, 1960",
+        "government.election.office",
+        "President of the United States"
+      ],
+      [
+        "Lyndon B. Johnson",
+        "people.person.nationality",
+        "United States of America"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 6
+  },
+  {
+    "qid": "WebQTest-99",
+    "question": "what is serbian language called",
+    "answer": null,
+    "prediction": "The Serbian language is called {Serbian}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-100",
+    "question": "what language is spoken in haiti today",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that Haitian Creole is spoken in Haiti today. The triplets directly state that Haitian Creole is the main language spoken in Haiti.",
+    "hits1": 0,
+    "trajectory": [
+      "Haiti",
+      "Haitian Creole",
+      "Haiti",
+      "Haitian Creole"
+    ],
+    "visited_set": [
+      "Haiti",
+      "Haitian Creole"
+    ],
+    "edges": [
+      [
+        "Haiti",
+        "location.country.languages_spoken",
+        "Haitian Creole"
+      ],
+      [
+        "Haiti",
+        "language.human_language.main_country",
+        "Haitian Creole"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-102",
+    "question": "who played barbara gordon batgirl",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it's sufficient to answer that Danielle Judovits played Barbara Gordon (Batgirl) in the TV show \"Birds of Prey\". The relevant triplet is:\n- ('Barbara Gordon', 'tv.tv_character.appeared_in_tv_program', 'm.0wyc2dy')\n- ('m.0wyc2dy', 'tv.regular_tv_appearance.actor', 'Danielle Judovits')\n\nThis directly links Danielle Judovits to playing the role of Barbara Gordon in \"Birds of Prey\".",
+    "hits1": 0,
+    "trajectory": [
+      "Barbara Gordon",
+      "Birds of Prey",
+      "Barbara Gordon",
+      "m.0wyc2dy",
+      "Barbara Gordon",
+      "m.041w0vy",
+      "m.0wyc2dy",
+      "Danielle Judovits",
+      "m.041w0vy",
+      "Barbara Gordon",
+      "Birds of Prey",
+      "m.0cgn08z"
+    ],
+    "visited_set": [
+      "Barbara Gordon",
+      "Birds of Prey",
+      "Danielle Judovits",
+      "m.041w0vy",
+      "m.0cgn08z",
+      "m.0wyc2dy"
+    ],
+    "edges": [
+      [
+        "Barbara Gordon",
+        "comic_books.comic_book_character.regular_featured_appearances",
+        "Birds of Prey"
+      ],
+      [
+        "Barbara Gordon",
+        "tv.tv_character.appeared_in_tv_program",
+        "m.0wyc2dy"
+      ],
+      [
+        "Barbara Gordon",
+        "film.film_character.portrayed_in_films",
+        "m.041w0vy"
+      ],
+      [
+        "m.0wyc2dy",
+        "tv.regular_tv_appearance.actor",
+        "Danielle Judovits"
+      ],
+      [
+        "m.041w0vy",
+        "film.performance.character",
+        "Barbara Gordon"
+      ],
+      [
+        "Birds of Prey",
+        "tv.regular_tv_appearance.series",
+        "m.0cgn08z"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 6
+  },
+  {
+    "qid": "WebQTest-103",
+    "question": "what basketball teams has shaq played for",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that Shaquille O'Neal played for the Los Angeles Lakers. The triplets directly link Shaquille O'Neal to the team \"m.04fw72l\", which is associated with the Los Angeles Lakers through the roster relationship.",
+    "hits1": 0,
+    "trajectory": [
+      "Shaquille O'Neal",
+      "m.04fw73v",
+      "Shaquille O'Neal",
+      "m.04fw72l",
+      "Shaquille O'Neal",
+      "m.04fw72v",
+      "m.04fw72l",
+      "Shaquille O'Neal",
+      "m.04fw72l",
+      "Los Angeles Lakers",
+      "m.04fw72v",
+      "Shaquille O'Neal"
+    ],
+    "visited_set": [
+      "Los Angeles Lakers",
+      "Shaquille O'Neal",
+      "m.04fw72l",
+      "m.04fw72v",
+      "m.04fw73v"
+    ],
+    "edges": [
+      [
+        "Shaquille O'Neal",
+        "basketball.basketball_player_career_stats.player",
+        "m.04fw73v"
+      ],
+      [
+        "Shaquille O'Neal",
+        "sports.pro_athlete.teams",
+        "m.04fw72l"
+      ],
+      [
+        "Shaquille O'Neal",
+        "sports.pro_athlete.teams",
+        "m.04fw72v"
+      ],
+      [
+        "m.04fw72l",
+        "sports.sports_team_roster.player",
+        "Shaquille O'Neal"
+      ],
+      [
+        "m.04fw72l",
+        "sports.sports_team_roster.team",
+        "Los Angeles Lakers"
+      ],
+      [
+        "m.04fw72v",
+        "sports.sports_team_roster.player",
+        "Shaquille O'Neal"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 5
+  },
+  {
+    "qid": "WebQTest-104",
+    "question": "where is jay leno from",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that Jay Leno was born in New Rochelle and his nationality is United States of America. Therefore, we can conclude that Jay Leno is from the United States.",
+    "hits1": 0,
+    "trajectory": [
+      "Jay Leno",
+      "New Rochelle",
+      "Jay Leno",
+      "United States of America",
+      "Jay Leno",
+      "Italian American"
+    ],
+    "visited_set": [
+      "Italian American",
+      "Jay Leno",
+      "New Rochelle",
+      "United States of America"
+    ],
+    "edges": [
+      [
+        "Jay Leno",
+        "people.person.place_of_birth",
+        "New Rochelle"
+      ],
+      [
+        "Jay Leno",
+        "people.person.nationality",
+        "United States of America"
+      ],
+      [
+        "Jay Leno",
+        "people.person.ethnicity",
+        "Italian American"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-105",
+    "question": "what language do people from thailand speak",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that people from Thailand speak Thai Language. The triplets directly link Thailand with the Thai Language as the main country and language spoken there.",
+    "hits1": 0,
+    "trajectory": [
+      "Thailand",
+      "Thai Language",
+      "Thailand",
+      "Thai Language",
+      "Thailand",
+      "m.07nfxs6"
+    ],
+    "visited_set": [
+      "Thai Language",
+      "Thailand",
+      "m.07nfxs6"
+    ],
+    "edges": [
+      [
+        "Thailand",
+        "language.human_language.main_country",
+        "Thai Language"
+      ],
+      [
+        "Thailand",
+        "location.country.languages_spoken",
+        "Thai Language"
+      ],
+      [
+        "Thailand",
+        "base.ontologies.ontology_instance.equivalent_instances",
+        "m.07nfxs6"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-106",
+    "question": "who did armie hammer play in the social network",
+    "answer": null,
+    "prediction": "First, Armie Hammer played the character of Eduardo Saverin in The Social Network. The answer is {Eduardo Saverin}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-107",
+    "question": "what was thomas jefferson role in the declaration of independence",
+    "answer": null,
+    "prediction": "First, Thomas Jefferson wrote the Declaration of Independence. Second, Thomas Jefferson's role in the Declaration of Independence was to draft the document. The answer is {drafting the Declaration of Independence}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-108",
+    "question": "what was the book written by charles darwin",
+    "answer": null,
+    "prediction": "First, Charles Darwin wrote \"On the Origin of Species.\" This book introduced his theory of evolution by natural selection. The answer is {\"On the Origin of Species\"}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-109",
+    "question": "who did tim tebow play college football for",
+    "answer": null,
+    "prediction": "First, Tim Tebow played college football for the University of Florida. The answer is {University of Florida}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-110",
+    "question": "who does peyton manning play football for",
+    "answer": null,
+    "prediction": "First, Peyton Manning played football for the Denver Broncos and Indianapolis Colts during his NFL career. Since the question does not specify a particular time period, the most recent team he played for was the Denver Broncos. The answer is {Denver Broncos}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-111",
+    "question": "where is the carpathian mountain range located",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it's sufficient to answer that the Carpathian Mountain range is located in Europe. The triplets indicate that the Carpathian Mountains are contained by Europe, which directly answers the question about their location.",
+    "hits1": 0,
+    "trajectory": [
+      "Carpathian Mountains",
+      "Čertovica",
+      "Carpathian Mountains",
+      "Šturec",
+      "Carpathian Mountains",
+      "Europe"
+    ],
+    "visited_set": [
+      "Carpathian Mountains",
+      "Europe",
+      "Čertovica",
+      "Šturec"
+    ],
+    "edges": [
+      [
+        "Carpathian Mountains",
+        "geography.mountain_pass.range",
+        "Čertovica"
+      ],
+      [
+        "Carpathian Mountains",
+        "geography.mountain_pass.range",
+        "Šturec"
+      ],
+      [
+        "Carpathian Mountains",
+        "location.location.containedby",
+        "Europe"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-112",
+    "question": "what was robert burns",
+    "answer": null,
+    "prediction": "First, Robert Burns was a poet and lyricist. Second, he lived from 1759 to 1796. The answer is {Robert Burns was a Scottish poet and lyricist}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-114",
+    "question": "who did the voice of darth vader in episode 3",
+    "answer": null,
+    "prediction": "First, Ian McDiarmid voiced Darth Vader in Episode III: Revenge of the Sith. However, David Prowse provided the iconic sound effects and dialogue for the character's suit. Second, James Earl Jones is known for voicing Darth Vader's famous line \"I am your father\" in Episode V: The Empire Strikes Back, which became synonymous with the character. For Episode III specifically, the voice actor was David Prowse. The answer is {David Prowse}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-115",
+    "question": "what super bowl did peyton manning win",
+    "answer": null,
+    "prediction": "First, Peyton Manning won Super Bowl XLIX with the New England Patriots in 2015. However, he is most famously known for winning two Super Bowls with the Indianapolis Colts: Super Bowl XLI in 2006 and Super Bowl XLVIII in 2014. The answer is {Super Bowl XLI and Super Bowl XLVIII}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-116",
+    "question": "which country was justin bieber born in",
+    "answer": null,
+    "prediction": "First, Justin Bieber was born in London, Ontario, Canada. The answer is {Canada}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-118",
+    "question": "who fought in the gulf war 1991",
+    "answer": null,
+    "prediction": "First, Iraq fought against a coalition of countries including the United States, the United Kingdom, France, and others during the Gulf War in 1991. The answer is {Iraq}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-119",
+    "question": "who plays london tipton in suite life on deck",
+    "answer": null,
+    "prediction": "First, the character London Tipton in \"The Suite Life on Deck\" is played by actress Hayley Joy Duff. The answer is {Hayley Joy Duff}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-121",
+    "question": "what team did david beckham play for in 2011",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it's sufficient to answer that David Beckham played for LA Galaxy in 2011. The triplets indicate that David Beckham was a player on the team \"m.02nr829,\" which is identified as LA Galaxy.",
+    "hits1": 0,
+    "trajectory": [
+      "David Beckham",
+      "Athlete",
+      "David Beckham",
+      "m.0d5fbb8",
+      "David Beckham",
+      "m.02nr829",
+      "m.0d5fbb8",
+      "David Beckham",
+      "m.02nr829",
+      "David Beckham",
+      "m.02nr829",
+      "LA Galaxy"
+    ],
+    "visited_set": [
+      "Athlete",
+      "David Beckham",
+      "LA Galaxy",
+      "m.02nr829",
+      "m.0d5fbb8"
+    ],
+    "edges": [
+      [
+        "David Beckham",
+        "people.person.profession",
+        "Athlete"
+      ],
+      [
+        "David Beckham",
+        "sports.pro_sports_played.athlete",
+        "m.0d5fbb8"
+      ],
+      [
+        "David Beckham",
+        "sports.pro_athlete.teams",
+        "m.02nr829"
+      ],
+      [
+        "m.0d5fbb8",
+        "sports.pro_athlete.sports_played_professionally",
+        "David Beckham"
+      ],
+      [
+        "m.02nr829",
+        "sports.sports_team_roster.player",
+        "David Beckham"
+      ],
+      [
+        "m.02nr829",
+        "sports.sports_team_roster.team",
+        "LA Galaxy"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 5
+  },
+  {
+    "qid": "WebQTest-122",
+    "question": "where did francisco coronado come from",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that Francisco Vázquez de Coronado came from Spain, specifically from Salamanca. The triplets provide his nationality and place of birth, which directly answers the question.",
+    "hits1": 0,
+    "trajectory": [
+      "Francisco Vázquez de Coronado",
+      "Spain",
+      "Francisco Vázquez de Coronado",
+      "Salamanca",
+      "Francisco Vázquez de Coronado",
+      "Salamanca"
+    ],
+    "visited_set": [
+      "Francisco Vázquez de Coronado",
+      "Salamanca",
+      "Spain"
+    ],
+    "edges": [
+      [
+        "Francisco Vázquez de Coronado",
+        "people.person.nationality",
+        "Spain"
+      ],
+      [
+        "Francisco Vázquez de Coronado",
+        "people.person.place_of_birth",
+        "Salamanca"
+      ],
+      [
+        "Francisco Vázquez de Coronado",
+        "location.location.people_born_here",
+        "Salamanca"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-123",
+    "question": "what all does google now do",
+    "answer": null,
+    "prediction": "Google Now provides a variety of functionalities including:\n- Providing real-time information such as weather updates and traffic conditions.\n- Offering reminders and notifications based on user preferences or location.\n- Answering questions directly through voice search.\n- Suggesting places to visit based on current location.\n- Integrating with other Google services like Gmail, Calendar, and Maps.\n\nThe answer is {providing real-time information, offering reminders and notifications, answering questions via voice search, suggesting places to visit, integrating with other Google services}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-124",
+    "question": "what language does egyptian people speak",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that Egyptian people primarily speak Arabic. The triplets indicate that Arabic Language and Arabic, Sudanese Spoken Language are spoken in Egypt, which implies that these languages are used by Egyptian people. Therefore, the answer to the question \"What language do Egyptian people speak?\" is Arabic.",
+    "hits1": 0,
+    "trajectory": [
+      "Egypt",
+      "Egyptian governorate",
+      "Egypt",
+      "Arabic Language",
+      "Egypt",
+      "Arabic, Sudanese Spoken Language"
+    ],
+    "visited_set": [
+      "Arabic Language",
+      "Arabic, Sudanese Spoken Language",
+      "Egypt",
+      "Egyptian governorate"
+    ],
+    "edges": [
+      [
+        "Egypt",
+        "base.aareas.schema.administrative_area_type.iso_country",
+        "Egyptian governorate"
+      ],
+      [
+        "Egypt",
+        "language.human_language.countries_spoken_in",
+        "Arabic Language"
+      ],
+      [
+        "Egypt",
+        "language.human_language.countries_spoken_in",
+        "Arabic, Sudanese Spoken Language"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-125",
+    "question": "what are abraham sons names",
+    "answer": null,
+    "prediction": "First, Abraham had two sons named Ishmael and Isaac according to the Bible. The answer is {Ishmael, Isaac}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-126",
+    "question": "who wrote the jana gana mana",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that Rabindranath Tagore wrote the lyrics for \"Jana Gana Mana.\" The triplet ('Jana Gana Mana', 'music.composition.lyricist', 'Rabindranath Tagore') directly provides this information.",
+    "hits1": 0,
+    "trajectory": [
+      "Jana Gana Mana",
+      "Rabindranath Tagore",
+      "Jana Gana Mana",
+      "Bengali Language",
+      "Jana Gana Mana",
+      "m.03wmm6s"
+    ],
+    "visited_set": [
+      "Bengali Language",
+      "Jana Gana Mana",
+      "Rabindranath Tagore",
+      "m.03wmm6s"
+    ],
+    "edges": [
+      [
+        "Jana Gana Mana",
+        "music.composition.lyricist",
+        "Rabindranath Tagore"
+      ],
+      [
+        "Jana Gana Mana",
+        "music.composition.language",
+        "Bengali Language"
+      ],
+      [
+        "Jana Gana Mana",
+        "government.national_anthem_of_a_country.anthem",
+        "m.03wmm6s"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-127",
+    "question": "what type of cancer did gilda radner die of",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that Gilda Radner died of ovarian cancer. The triplet directly states that her cause_of_death was Ovarian cancer.",
+    "hits1": 0,
+    "trajectory": [
+      "Gilda Radner",
+      "Ovarian cancer",
+      "Gilda Radner",
+      "Bulimia nervosa",
+      "Gilda Radner",
+      "m.0468780"
+    ],
+    "visited_set": [
+      "Bulimia nervosa",
+      "Gilda Radner",
+      "Ovarian cancer",
+      "m.0468780"
+    ],
+    "edges": [
+      [
+        "Gilda Radner",
+        "people.deceased_person.cause_of_death",
+        "Ovarian cancer"
+      ],
+      [
+        "Gilda Radner",
+        "medicine.notable_person_with_medical_condition.condition",
+        "Bulimia nervosa"
+      ],
+      [
+        "Gilda Radner",
+        "base.americancomedy.comedy_group_member.belongs_to",
+        "m.0468780"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-128",
+    "question": "who plays juni cortez",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, Daryl Sabara plays Juni Cortez in the TV program associated with 'g.11b7vvcxwb'. Therefore, we can answer that Daryl Sabara plays Juni Cortez.",
+    "hits1": 0,
+    "trajectory": [
+      "Juni Cortez",
+      "g.11b7vvcxwb",
+      "Juni Cortez",
+      "Male",
+      "Juni Cortez",
+      "m.02s9trw",
+      "g.11b7vvcxwb",
+      "Daryl Sabara",
+      "Male",
+      "Daryl Sabara",
+      "m.02s9trw",
+      "Juni Cortez"
+    ],
+    "visited_set": [
+      "Daryl Sabara",
+      "Juni Cortez",
+      "Male",
+      "g.11b7vvcxwb",
+      "m.02s9trw"
+    ],
+    "edges": [
+      [
+        "Juni Cortez",
+        "tv.tv_character.appeared_in_tv_program",
+        "g.11b7vvcxwb"
+      ],
+      [
+        "Juni Cortez",
+        "fictional_universe.fictional_character.gender",
+        "Male"
+      ],
+      [
+        "Juni Cortez",
+        "film.film_character.portrayed_in_films",
+        "m.02s9trw"
+      ],
+      [
+        "g.11b7vvcxwb",
+        "tv.tv_actor.starring_roles",
+        "Daryl Sabara"
+      ],
+      [
+        "Male",
+        "people.person.gender",
+        "Daryl Sabara"
+      ],
+      [
+        "m.02s9trw",
+        "film.performance.character",
+        "Juni Cortez"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 5
+  },
+  {
+    "qid": "WebQTest-129",
+    "question": "what was lucille ball",
+    "answer": null,
+    "prediction": "First, Lucille Ball was an American actress and producer. She is best known for her role as Lucy Ricardo on the television sitcom \"I Love Lucy.\" The answer is {Lucille Ball, American actress and producer}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-131",
+    "question": "who inspired obama",
+    "answer": null,
+    "prediction": "First, Barack Obama has cited several inspirations throughout his life, including Martin Luther King Jr., Harry S. Truman, and others. However, the specific individual often highlighted as a major inspiration for Obama's political career and values is his grandmother, Madelyn Dunham. The answer is {Madelyn Dunham}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-132",
+    "question": "who is michael j fox wife",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, Michael J. Fox's wife is Tracy Pollan. The triplet (\"Michael J. Fox\", \"people.person.spouse_s\", \"m.02kkmrn\") indicates that Michael J. Fox is married to an entity represented by \"m.02kkmrn\". The subsequent triplet (\"m.02kkmrn\", \"people.marriage.spouse\", \"Tracy Pollan\") directly states that the entity \"m.02kkmrn\" is Tracy Pollan, thus confirming that Tracy Pollan is Michael J. Fox's wife.",
+    "hits1": 0,
+    "trajectory": [
+      "Michael J. Fox",
+      "m.02kkmrn",
+      "Michael J. Fox",
+      "m.0cy4qv7",
+      "Michael J. Fox",
+      "m.065q2m7",
+      "m.02kkmrn",
+      "Tracy Pollan",
+      "m.0cy4qv7",
+      "Michael J. Fox",
+      "m.0cy4qv7",
+      "Nancy McKeon"
+    ],
+    "visited_set": [
+      "Michael J. Fox",
+      "Nancy McKeon",
+      "Tracy Pollan",
+      "m.02kkmrn",
+      "m.065q2m7",
+      "m.0cy4qv7"
+    ],
+    "edges": [
+      [
+        "Michael J. Fox",
+        "people.person.spouse_s",
+        "m.02kkmrn"
+      ],
+      [
+        "Michael J. Fox",
+        "celebrities.romantic_relationship.celebrity",
+        "m.0cy4qv7"
+      ],
+      [
+        "Michael J. Fox",
+        "base.popstra.celebrity.dated",
+        "m.065q2m7"
+      ],
+      [
+        "m.02kkmrn",
+        "people.marriage.spouse",
+        "Tracy Pollan"
+      ],
+      [
+        "m.0cy4qv7",
+        "celebrities.celebrity.sexual_relationships",
+        "Michael J. Fox"
+      ],
+      [
+        "m.0cy4qv7",
+        "celebrities.celebrity.sexual_relationships",
+        "Nancy McKeon"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 6
+  },
+  {
+    "qid": "WebQTest-133",
+    "question": "where did dolly parton grow up",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that Dolly Parton grew up in Sevierville, Tennessee. The triplets provide direct information about her place of birth (Sevierville) and indicate that Sevierville is located in Tennessee, which is where she lived during her upbringing.",
+    "hits1": 0,
+    "trajectory": [
+      "Dolly Parton",
+      "Sevierville",
+      "Dolly Parton",
+      "United States of America",
+      "Dolly Parton",
+      "m.03pkvzp",
+      "Tennessee",
+      "Sevierville",
+      "Sevier County",
+      "m.03pkvzp",
+      "Dolly Parton"
+    ],
+    "visited_set": [
+      "Dolly Parton",
+      "Sevier County",
+      "Sevierville",
+      "Tennessee",
+      "United States of America",
+      "m.03pkvzp"
+    ],
+    "edges": [
+      [
+        "Dolly Parton",
+        "people.person.place_of_birth",
+        "Sevierville"
+      ],
+      [
+        "Dolly Parton",
+        "people.person.nationality",
+        "United States of America"
+      ],
+      [
+        "Dolly Parton",
+        "people.person.places_lived",
+        "m.03pkvzp"
+      ],
+      [
+        "m.03pkvzp",
+        "people.place_lived.location",
+        "Tennessee"
+      ],
+      [
+        "Sevierville",
+        "location.us_county.county_seat",
+        "Sevier County"
+      ],
+      [
+        "m.03pkvzp",
+        "people.place_lived.person",
+        "Dolly Parton"
+      ]
+    ],
+    "traj_len": 11,
+    "n_unique": 6
+  },
+  {
+    "qid": "WebQTest-134",
+    "question": "what type of books did agatha christie wrote",
+    "answer": null,
+    "prediction": "First, Agatha Christie wrote mystery and detective novels. The answer is {mystery and detective novels}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-138",
+    "question": "what are the four main languages spoken in spain",
+    "answer": null,
+    "prediction": "The four main languages spoken in Spain are:\n\n1. Spanish (Castilian)\n2. Catalan\n3. Galician\n4. Basque\n\nThese languages are widely spoken and have significant cultural importance in their respective regions within Spain.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-139",
+    "question": "where is the nra headquarters located",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that the National Rifle Association (NRA) headquarters is located in Fairfax. The relevant triplet indicates that the organization's headquarters is in Fairfax, and another triplet confirms this by providing the city name directly.",
+    "hits1": 0,
+    "trajectory": [
+      "National Rifle Association",
+      "m.04300ty",
+      "National Rifle Association",
+      "m.01224c7r",
+      "National Rifle Association",
+      "m.07nhcfw",
+      "m.04300ty",
+      "Fairfax",
+      "m.07nhcfw",
+      "National Rifle Association",
+      "m.07nhcfw",
+      "OpenCyc"
+    ],
+    "visited_set": [
+      "Fairfax",
+      "National Rifle Association",
+      "OpenCyc",
+      "m.01224c7r",
+      "m.04300ty",
+      "m.07nhcfw"
+    ],
+    "edges": [
+      [
+        "National Rifle Association",
+        "organization.organization.headquarters",
+        "m.04300ty"
+      ],
+      [
+        "National Rifle Association",
+        "location.location.geolocation",
+        "m.01224c7r"
+      ],
+      [
+        "National Rifle Association",
+        "base.ontologies.ontology_instance.equivalent_instances",
+        "m.07nhcfw"
+      ],
+      [
+        "m.04300ty",
+        "location.mailing_address.citytown",
+        "Fairfax"
+      ],
+      [
+        "m.07nhcfw",
+        "base.ontologies.ontology_instance_mapping.freebase_topic",
+        "National Rifle Association"
+      ],
+      [
+        "m.07nhcfw",
+        "base.ontologies.ontology_instance_mapping.ontology",
+        "OpenCyc"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 6
+  },
+  {
+    "qid": "WebQTest-141",
+    "question": "who is gimli 's father in the hobbit",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that Gimli's father in \"The Hobbit\" is Gloin. The triplet (\"Gimli\", \"fictional_universe.fictional_character.parents\", \"Gloin\") directly provides this information.",
+    "hits1": 0,
+    "trajectory": [
+      "Gimli",
+      "Gloin",
+      "Gimli",
+      "Unfinished Tales",
+      "Gimli",
+      "Dwarf"
+    ],
+    "visited_set": [
+      "Dwarf",
+      "Gimli",
+      "Gloin",
+      "Unfinished Tales"
+    ],
+    "edges": [
+      [
+        "Gimli",
+        "fictional_universe.fictional_character.parents",
+        "Gloin"
+      ],
+      [
+        "Gimli",
+        "book.book_character.appears_in_book",
+        "Unfinished Tales"
+      ],
+      [
+        "Gimli",
+        "fictional_universe.character_species.characters_of_this_species",
+        "Dwarf"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-142",
+    "question": "who developed the tcp ip reference model",
+    "answer": null,
+    "prediction": "First, the TCP/IP reference model was developed by Vint Cerf and Bob Kahn. The answer is {Vint Cerf and Bob Kahn}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-145",
+    "question": "what college did albert einstein go to",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that Albert Einstein went to ETH Zurich for his higher education. The triplet (\"Albert Einstein\", \"education.education.student\", \"ETH Zurich\") directly states this information.",
+    "hits1": 0,
+    "trajectory": [
+      "Albert Einstein",
+      "m.0k03_k5",
+      "Albert Einstein",
+      "Ulm",
+      "Albert Einstein",
+      "m.0j_z4g5",
+      "m.0k03_k5",
+      "ETH Zurich",
+      "m.0j_z4g5",
+      "Luitpold Gymnasium",
+      "m.0k03_k5",
+      "Albert Einstein"
+    ],
+    "visited_set": [
+      "Albert Einstein",
+      "ETH Zurich",
+      "Luitpold Gymnasium",
+      "Ulm",
+      "m.0j_z4g5",
+      "m.0k03_k5"
+    ],
+    "edges": [
+      [
+        "Albert Einstein",
+        "education.education.student",
+        "m.0k03_k5"
+      ],
+      [
+        "Albert Einstein",
+        "people.person.place_of_birth",
+        "Ulm"
+      ],
+      [
+        "Albert Einstein",
+        "people.person.education",
+        "m.0j_z4g5"
+      ],
+      [
+        "m.0k03_k5",
+        "education.education.institution",
+        "ETH Zurich"
+      ],
+      [
+        "m.0j_z4g5",
+        "education.education.institution",
+        "Luitpold Gymnasium"
+      ],
+      [
+        "m.0k03_k5",
+        "people.person.education",
+        "Albert Einstein"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 6
+  },
+  {
+    "qid": "WebQTest-146",
+    "question": "what team does jordan own",
+    "answer": null,
+    "prediction": "First, Michael Jordan owns ownership in the Chicago Bulls and Charlotte Hornets basketball teams. The answer is {Chicago Bulls, Charlotte Hornets}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-147",
+    "question": "who is the state governor of tennessee",
+    "answer": null,
+    "prediction": "First, the current state governor of Tennessee is Bill Lee. The answer is {Bill Lee}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-149",
+    "question": "what do portuguese people speak",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that Portuguese people speak Portuguese. The triplets indicate that in Portugal, the main language spoken is the Portuguese Language. Therefore, we can conclude that Portuguese people speak Portuguese.",
+    "hits1": 0,
+    "trajectory": [
+      "Portugal",
+      "Portuguese Language",
+      "Portugal",
+      "Portuguese Language"
+    ],
+    "visited_set": [
+      "Portugal",
+      "Portuguese Language"
+    ],
+    "edges": [
+      [
+        "Portugal",
+        "location.country.languages_spoken",
+        "Portuguese Language"
+      ],
+      [
+        "Portugal",
+        "language.human_language.main_country",
+        "Portuguese Language"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-150",
+    "question": "what language does cuba speak",
+    "answer": null,
+    "prediction": "First, Cuba's official language is Spanish. The answer is {Spanish}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-153",
+    "question": "what are the sights to see in madrid",
+    "answer": null,
+    "prediction": "The main sights to see in Madrid include:\n- Prado Museum\n- Reina Sofia Museum\n- Plaza Mayor\n- Royal Palace of Madrid\n- Retiro Park\n- Thyssen-Bornemisza Museum\n\nThe answer is {Prado Museum, Reina Sofia Museum, Plaza Mayor, Royal Palace of Madrid, Retiro Park, Thyssen-Bornemisza Museum}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-154",
+    "question": "what instruments did louis armstrong play",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that Louis Armstrong played the Cornet and Trumpet. Therefore, the answer to the question \"What instruments did Louis Armstrong play?\" is Cornet and Trumpet.",
+    "hits1": 0,
+    "trajectory": [
+      "Louis Armstrong",
+      "Cornet",
+      "Louis Armstrong",
+      "Trumpet",
+      "Louis Armstrong",
+      "Musician"
+    ],
+    "visited_set": [
+      "Cornet",
+      "Louis Armstrong",
+      "Musician",
+      "Trumpet"
+    ],
+    "edges": [
+      [
+        "Louis Armstrong",
+        "music.group_member.instruments_played",
+        "Cornet"
+      ],
+      [
+        "Louis Armstrong",
+        "music.group_member.instruments_played",
+        "Trumpet"
+      ],
+      [
+        "Louis Armstrong",
+        "people.person.profession",
+        "Musician"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-155",
+    "question": "what year was george w bush elected",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it's sufficient to answer that George W. Bush was elected in both 2000 and 2004. Therefore, the years when George W. Bush was elected are 2000 and 2004.",
+    "hits1": 0,
+    "trajectory": [
+      "George W. Bush",
+      "United States presidential election, 2000",
+      "George W. Bush",
+      "United States presidential election, 2004",
+      "George W. Bush",
+      "Dick Cheney"
+    ],
+    "visited_set": [
+      "Dick Cheney",
+      "George W. Bush",
+      "United States presidential election, 2000",
+      "United States presidential election, 2004"
+    ],
+    "edges": [
+      [
+        "George W. Bush",
+        "government.election.winner",
+        "United States presidential election, 2000"
+      ],
+      [
+        "George W. Bush",
+        "government.election.winner",
+        "United States presidential election, 2004"
+      ],
+      [
+        "George W. Bush",
+        "government.us_president.vice_president",
+        "Dick Cheney"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-156",
+    "question": "what time zone am i in california",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it's sufficient to answer that you are in the Pacific Time Zone if you are in California. The triplets directly state that both California and Sacramento (its capital) are located in the Pacific Time Zone.",
+    "hits1": 0,
+    "trajectory": [
+      "California",
+      "Pacific Time Zone",
+      "California",
+      "Sacramento",
+      "California",
+      "m.03yyf3d",
+      "Sacramento",
+      "Pacific Time Zone",
+      "Sacramento",
+      "California",
+      "Sacramento",
+      "m.0jvw4ky"
+    ],
+    "visited_set": [
+      "California",
+      "Pacific Time Zone",
+      "Sacramento",
+      "m.03yyf3d",
+      "m.0jvw4ky"
+    ],
+    "edges": [
+      [
+        "California",
+        "location.location.time_zones",
+        "Pacific Time Zone"
+      ],
+      [
+        "California",
+        "base.aareas.schema.administrative_area.capital",
+        "Sacramento"
+      ],
+      [
+        "California",
+        "location.adjoining_relationship.adjoins",
+        "m.03yyf3d"
+      ],
+      [
+        "Sacramento",
+        "location.location.time_zones",
+        "Pacific Time Zone"
+      ],
+      [
+        "Sacramento",
+        "base.biblioness.bibs_location.state",
+        "California"
+      ],
+      [
+        "Sacramento",
+        "location.administrative_division_capital_relationship.capital",
+        "m.0jvw4ky"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 5
+  },
+  {
+    "qid": "WebQTest-157",
+    "question": "where is mission san buenaventura located",
+    "answer": null,
+    "prediction": "First, Mission San Buenaventura was established in 1782. Second, it is located in Ventura, California. The answer is {California}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-159",
+    "question": "what time in hilo hawaii",
+    "answer": null,
+    "prediction": "The question \"what time in hilo hawaii\" is asking for the current time in Hilo, Hawaii. Without a specific date provided, I cannot give an exact time. However, if you need the current time, you would typically check a clock or online time zone converter that reflects Hawaii Standard Time (HST) or Hawaii-Aleutian Standard Time (HAST), depending on the time of year.\n\nThe answer format requested is: {Hilo, Hawaii}\n\nSo, the response is:\n{Hilo, Hawaii}",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-160",
+    "question": "where did rudolf virchow conduct his research",
+    "answer": null,
+    "prediction": "First, Rudolf Virchow conducted his research at the University of Würzburg and later at the Charité in Berlin. The answer is {University of Würzburg, Charité in Berlin}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-161",
+    "question": "what university did gordon brown attend",
+    "answer": null,
+    "prediction": "Based on the given knowledge triplets, we do not have direct information about the university that Gordon Brown attended. However, it is widely known from historical records and biographical sources that Gordon Brown attended the University of Edinburgh for his undergraduate studies and later went on to study law at New College, Oxford.\n\nGiven the constraints of the provided triplets, I cannot directly answer this question using only the given information. Therefore, my response must reflect the lack of relevant data:\n\nQ: What university did Gordon Brown attend?\nA: The available knowledge does not provide information about the specific universities attended by Gordon Brown. However, historically, Gordon Brown studied at the University of Edinburgh and later at New College, Oxford.",
+    "hits1": 0,
+    "trajectory": [
+      "Gordon Brown",
+      "United Kingdom",
+      "Gordon Brown",
+      "m.0gd3kn8",
+      "Gordon Brown",
+      "m.0n67bt2",
+      "United Kingdom",
+      "Labour Party",
+      "m.0gd3kn8",
+      "Commission for Africa",
+      "United Kingdom",
+      "Scottish people"
+    ],
+    "visited_set": [
+      "Commission for Africa",
+      "Gordon Brown",
+      "Labour Party",
+      "Scottish people",
+      "United Kingdom",
+      "m.0gd3kn8",
+      "m.0n67bt2"
+    ],
+    "edges": [
+      [
+        "Gordon Brown",
+        "people.person.nationality",
+        "United Kingdom"
+      ],
+      [
+        "Gordon Brown",
+        "organization.leadership.person",
+        "m.0gd3kn8"
+      ],
+      [
+        "Gordon Brown",
+        "organization.leadership.person",
+        "m.0n67bt2"
+      ],
+      [
+        "United Kingdom",
+        "organization.organization.geographic_scope",
+        "Labour Party"
+      ],
+      [
+        "m.0gd3kn8",
+        "organization.organization.leadership",
+        "Commission for Africa"
+      ],
+      [
+        "United Kingdom",
+        "people.ethnicity.geographic_distribution",
+        "Scottish people"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 7
+  },
+  {
+    "qid": "WebQTest-162",
+    "question": "what countries does greece share borders with",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, Greece shares borders with Turkey, Albania, and Bulgaria. Therefore, the answer to the question is Turkey, Albania, and Bulgaria.",
+    "hits1": 0,
+    "trajectory": [
+      "Greece",
+      "m.02wj9g8",
+      "Greece",
+      "m.045m2yw",
+      "Greece",
+      "m.04dsr4q",
+      "m.045m2yw",
+      "Turkey",
+      "m.04dsr4q",
+      "Albania",
+      "m.02wj9g8",
+      "Bulgaria"
+    ],
+    "visited_set": [
+      "Albania",
+      "Bulgaria",
+      "Greece",
+      "Turkey",
+      "m.02wj9g8",
+      "m.045m2yw",
+      "m.04dsr4q"
+    ],
+    "edges": [
+      [
+        "Greece",
+        "location.adjoining_relationship.adjoins",
+        "m.02wj9g8"
+      ],
+      [
+        "Greece",
+        "location.adjoining_relationship.adjoins",
+        "m.045m2yw"
+      ],
+      [
+        "Greece",
+        "location.adjoining_relationship.adjoins",
+        "m.04dsr4q"
+      ],
+      [
+        "m.045m2yw",
+        "location.location.adjoin_s",
+        "Turkey"
+      ],
+      [
+        "m.04dsr4q",
+        "location.location.adjoin_s",
+        "Albania"
+      ],
+      [
+        "m.02wj9g8",
+        "location.location.adjoin_s",
+        "Bulgaria"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 7
+  },
+  {
+    "qid": "WebQTest-163",
+    "question": "what year did the seahawks win the superbowl",
+    "answer": null,
+    "prediction": "First, the Seattle Seahawks won Super Bowl XLVIII in 2014. The answer is {2014}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-164",
+    "question": "what did stephen hawking become famous for",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that Stephen Hawking became famous for his work on \"Hawking radiation,\" which is one of his original ideas as an astronomer. The triplets directly link Stephen Hawking to this concept and confirm its significance in his career.",
+    "hits1": 0,
+    "trajectory": [
+      "Stephen Hawking",
+      "m.0y_xy7t",
+      "Stephen Hawking",
+      "Hawking radiation",
+      "Stephen Hawking",
+      "Astronomer",
+      "Hawking radiation",
+      "Stephen Hawking",
+      "m.0y_xy7t",
+      "Fonseca Prize",
+      "Astronomer",
+      "m.0_z7s44"
+    ],
+    "visited_set": [
+      "Astronomer",
+      "Fonseca Prize",
+      "Hawking radiation",
+      "Stephen Hawking",
+      "m.0_z7s44",
+      "m.0y_xy7t"
+    ],
+    "edges": [
+      [
+        "Stephen Hawking",
+        "award.award_winner.awards_won",
+        "m.0y_xy7t"
+      ],
+      [
+        "Stephen Hawking",
+        "base.argumentmaps.innovator.original_ideas",
+        "Hawking radiation"
+      ],
+      [
+        "Stephen Hawking",
+        "people.person.profession",
+        "Astronomer"
+      ],
+      [
+        "Hawking radiation",
+        "base.argumentmaps.original_idea.innovator",
+        "Stephen Hawking"
+      ],
+      [
+        "m.0y_xy7t",
+        "award.award_category.winners",
+        "Fonseca Prize"
+      ],
+      [
+        "Astronomer",
+        "base.descriptive_names.names.descriptive_name",
+        "m.0_z7s44"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 6
+  },
+  {
+    "qid": "WebQTest-165",
+    "question": "who plays donna noble",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that Catherine Tate plays Donna Noble. The triplet \"m.010pxvzy\", \"tv.regular_tv Appearance.actor\", \"Catherine Tate\" directly links Catherine Tate as the actress who portrayed Donna Noble in the TV series.",
+    "hits1": 0,
+    "trajectory": [
+      "Donna Noble",
+      "Whoniverse",
+      "Donna Noble",
+      "Doomsday",
+      "Donna Noble",
+      "m.010pxvzy",
+      "Doomsday",
+      "m.04gf2cp",
+      "m.010pxvzy",
+      "Catherine Tate",
+      "m.010pxvzy",
+      "Donna Noble"
+    ],
+    "visited_set": [
+      "Catherine Tate",
+      "Donna Noble",
+      "Doomsday",
+      "Whoniverse",
+      "m.010pxvzy",
+      "m.04gf2cp"
+    ],
+    "edges": [
+      [
+        "Donna Noble",
+        "fictional_universe.fictional_character.appears_in_these_fictional_universes",
+        "Whoniverse"
+      ],
+      [
+        "Donna Noble",
+        "tv.tv_character.first_tv_appearance",
+        "Doomsday"
+      ],
+      [
+        "Donna Noble",
+        "tv.regular_tv_appearance.character",
+        "m.010pxvzy"
+      ],
+      [
+        "Doomsday",
+        "tv.tv_guest_role.episodes_appeared_in",
+        "m.04gf2cp"
+      ],
+      [
+        "m.010pxvzy",
+        "tv.regular_tv_appearance.actor",
+        "Catherine Tate"
+      ],
+      [
+        "m.010pxvzy",
+        "tv.tv_character.appeared_in_tv_program",
+        "Donna Noble"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 6
+  },
+  {
+    "qid": "WebQTest-166",
+    "question": "what was dr seuss education",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that Dr Seuss (whose real name was Theodore Lesieg) attended Dartmouth College and the University of Oxford. Additionally, he also studied at Lincoln College, Oxford. Therefore, his education included these institutions.",
+    "hits1": 0,
+    "trajectory": [
+      "Theodore Lesieg",
+      "m.03p87mv",
+      "Theodore Lesieg",
+      "m.04ytk85",
+      "Theodore Lesieg",
+      "m.0n1kynd",
+      "m.03p87mv",
+      "Lincoln College, Oxford",
+      "m.04ytk85",
+      "Dartmouth College",
+      "m.0n1kynd",
+      "University of Oxford"
+    ],
+    "visited_set": [
+      "Dartmouth College",
+      "Lincoln College, Oxford",
+      "Theodore Lesieg",
+      "University of Oxford",
+      "m.03p87mv",
+      "m.04ytk85",
+      "m.0n1kynd"
+    ],
+    "edges": [
+      [
+        "Theodore Lesieg",
+        "people.person.education",
+        "m.03p87mv"
+      ],
+      [
+        "Theodore Lesieg",
+        "people.person.education",
+        "m.04ytk85"
+      ],
+      [
+        "Theodore Lesieg",
+        "people.person.education",
+        "m.0n1kynd"
+      ],
+      [
+        "m.03p87mv",
+        "education.education.institution",
+        "Lincoln College, Oxford"
+      ],
+      [
+        "m.04ytk85",
+        "education.education.institution",
+        "Dartmouth College"
+      ],
+      [
+        "m.0n1kynd",
+        "education.education.institution",
+        "University of Oxford"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 7
+  },
+  {
+    "qid": "WebQTest-167",
+    "question": "where did queensland get its name from",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, Queensland got its name from Queen Victoria. The triplet \"('Queensland', 'symbols.namesake.named_after', 'Queen Victoria')\" directly indicates that Queensland was named after Queen Victoria. Therefore, it is sufficient to answer the question with this information and no additional knowledge is needed.",
+    "hits1": 0,
+    "trajectory": [
+      "Queensland",
+      "Queen Victoria",
+      "Queensland",
+      "Australia",
+      "Queensland",
+      "Australia"
+    ],
+    "visited_set": [
+      "Australia",
+      "Queen Victoria",
+      "Queensland"
+    ],
+    "edges": [
+      [
+        "Queensland",
+        "symbols.namesake.named_after",
+        "Queen Victoria"
+      ],
+      [
+        "Queensland",
+        "location.administrative_division.country",
+        "Australia"
+      ],
+      [
+        "Queensland",
+        "base.aareas.schema.administrative_area.administrative_parent",
+        "Australia"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-168",
+    "question": "what document did james madison write",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that James Madison wrote \"Federalist No. 45,\" which is part of The Federalist Papers.",
+    "hits1": 0,
+    "trajectory": [
+      "James Madison",
+      "Federalist No. 45",
+      "James Madison",
+      "Elbridge Gerry",
+      "James Madison",
+      "George Clinton",
+      "Elbridge Gerry",
+      "Elbridge Gerry papers",
+      "Federalist No. 45",
+      "James Madison",
+      "Federalist No. 45",
+      "The Federalist Papers"
+    ],
+    "visited_set": [
+      "Elbridge Gerry",
+      "Elbridge Gerry papers",
+      "Federalist No. 45",
+      "George Clinton",
+      "James Madison",
+      "The Federalist Papers"
+    ],
+    "edges": [
+      [
+        "James Madison",
+        "book.author.works_written",
+        "Federalist No. 45"
+      ],
+      [
+        "James Madison",
+        "government.us_president.vice_president",
+        "Elbridge Gerry"
+      ],
+      [
+        "James Madison",
+        "government.us_president.vice_president",
+        "George Clinton"
+      ],
+      [
+        "Elbridge Gerry",
+        "book.author.works_written",
+        "Elbridge Gerry papers"
+      ],
+      [
+        "Federalist No. 45",
+        "book.written_work.author",
+        "James Madison"
+      ],
+      [
+        "Federalist No. 45",
+        "book.written_work.part_of_series",
+        "The Federalist Papers"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 6
+  },
+  {
+    "qid": "WebQTest-169",
+    "question": "what are the three official languages of belgium",
+    "answer": null,
+    "prediction": "Based on the given knowledge triplets, we can see information about Belgium's form of government but not about its official languages. To answer the question \"What are the three official languages of Belgium?\", we need to use additional knowledge.\n\nThe three official languages of Belgium are Dutch, French, and German.",
+    "hits1": 0,
+    "trajectory": [
+      "Belgium",
+      "Federation",
+      "Belgium",
+      "Parliamentary system",
+      "Belgium",
+      "Popular monarchy"
+    ],
+    "visited_set": [
+      "Belgium",
+      "Federation",
+      "Parliamentary system",
+      "Popular monarchy"
+    ],
+    "edges": [
+      [
+        "Belgium",
+        "government.form_of_government.countries",
+        "Federation"
+      ],
+      [
+        "Belgium",
+        "government.form_of_government.countries",
+        "Parliamentary system"
+      ],
+      [
+        "Belgium",
+        "government.form_of_government.countries",
+        "Popular monarchy"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-170",
+    "question": "who played bilbo in lord of the rings",
+    "answer": null,
+    "prediction": "First, Elijah Wood portrayed Bilbo Baggins in \"The Lord of the Rings.\" However, it's important to note that Bilbo Baggins is a character from J.R.R. Tolkien's books and appears as an older hobbit in the films, not playing the role himself. The main Bilbo-like character in the film trilogy is actually played by Ian Holm, who portrayed Younger Bilbo Baggins in \"The Lord of the Rings: The Fellowship of the Ring\" and Bilbo Baggins (as an older hobbit) in \"The Lord of the Rings: The Two Towers\" and \"The Lord of the Rings: The Return of the King.\" The answer is {Ian Holm}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-171",
+    "question": "what airport do you fly into to get to destin fl",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, you can fly into either Destin Executive Airport or Destin–Fort Walton Beach Airport to get to Destin FL. Therefore, it is sufficient to answer the question with these triplets and additional knowledge that there are two primary airports serving Destin.",
+    "hits1": 0,
+    "trajectory": [
+      "Destin",
+      "m.0k078mq",
+      "Destin",
+      "Destin Executive Airport",
+      "Destin",
+      "Destin–Fort Walton Beach Airport"
+    ],
+    "visited_set": [
+      "Destin",
+      "Destin Executive Airport",
+      "Destin–Fort Walton Beach Airport",
+      "m.0k078mq"
+    ],
+    "edges": [
+      [
+        "Destin",
+        "travel.travel_destination.how_to_get_here",
+        "m.0k078mq"
+      ],
+      [
+        "Destin",
+        "location.location.nearby_airports",
+        "Destin Executive Airport"
+      ],
+      [
+        "Destin",
+        "location.location.nearby_airports",
+        "Destin–Fort Walton Beach Airport"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-172",
+    "question": "what do you call members of the senate",
+    "answer": null,
+    "prediction": "The members of the Senate are called Senators.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-173",
+    "question": "what countries are part of the baltic",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that the countries part of the Baltic are Estonia and Latvia. The triplets indicate that the Baltic states contain Estonia and Latvia, which are typically considered part of the Baltic region along with Lithuania. However, since Lithuania is not mentioned in the provided triplets, we can only confirm Estonia and Latvia based on the given information.",
+    "hits1": 0,
+    "trajectory": [
+      "Baltic states",
+      "Northern Europe",
+      "Baltic states",
+      "Estonia",
+      "Baltic states",
+      "Latvia"
+    ],
+    "visited_set": [
+      "Baltic states",
+      "Estonia",
+      "Latvia",
+      "Northern Europe"
+    ],
+    "edges": [
+      [
+        "Baltic states",
+        "location.location.containedby",
+        "Northern Europe"
+      ],
+      [
+        "Baltic states",
+        "location.location.contains",
+        "Estonia"
+      ],
+      [
+        "Baltic states",
+        "location.location.contains",
+        "Latvia"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-174",
+    "question": "what team does colin kaepernick play for",
+    "answer": null,
+    "prediction": "First, Colin Kaepernick was a free agent and did not play for any team as of the last update in 2023. He previously played for the San Francisco 49ers and the NFL's Baltimore Ravens. The answer is {None, he is currently a free agent}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-175",
+    "question": "where did joe flacco attend college",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that Joe Flacco attended college at University of Delaware. The triplet ('Joe Flacco', 'people.person.education', 'm.0hpxy33') links Joe Flacco's education to an entity, and the triplet ('m.0hpxy33', 'education.education.institution', 'University of Delaware') directly states his educational institution as University of Delaware.",
+    "hits1": 0,
+    "trajectory": [
+      "Joe Flacco",
+      "m.0hpxy33",
+      "Joe Flacco",
+      "m.0d5vyjt",
+      "Joe Flacco",
+      "Audubon",
+      "m.0hpxy33",
+      "University of Delaware",
+      "m.0d5vyjt",
+      "Joe Flacco",
+      "Audubon",
+      "m.0wkkybd"
+    ],
+    "visited_set": [
+      "Audubon",
+      "Joe Flacco",
+      "University of Delaware",
+      "m.0d5vyjt",
+      "m.0hpxy33",
+      "m.0wkkybd"
+    ],
+    "edges": [
+      [
+        "Joe Flacco",
+        "people.person.education",
+        "m.0hpxy33"
+      ],
+      [
+        "Joe Flacco",
+        "sports.pro_athlete.sports_played_professionally",
+        "m.0d5vyjt"
+      ],
+      [
+        "Joe Flacco",
+        "people.person.place_of_birth",
+        "Audubon"
+      ],
+      [
+        "m.0hpxy33",
+        "education.education.institution",
+        "University of Delaware"
+      ],
+      [
+        "m.0d5vyjt",
+        "sports.pro_sports_played.athlete",
+        "Joe Flacco"
+      ],
+      [
+        "Audubon",
+        "people.place_lived.location",
+        "m.0wkkybd"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 6
+  },
+  {
+    "qid": "WebQTest-176",
+    "question": "who is emma stone father",
+    "answer": null,
+    "prediction": "First, Emma Stone's father is Thomas Eugene Stone. The answer is {Thomas Eugene Stone}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-177",
+    "question": "where was theodore roosevelt buried",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer the question. The triplets indicate that Theodore Roosevelt was buried at Youngs Memorial Cemetery. Therefore, the answer to \"Where was Theodore Roosevelt buried?\" is Youngs Memorial Cemetery.",
+    "hits1": 0,
+    "trajectory": [
+      "Theodore Roosevelt",
+      "Youngs Memorial Cemetery",
+      "Theodore Roosevelt",
+      "Cardiovascular disease",
+      "Theodore Roosevelt",
+      "Manhattan"
+    ],
+    "visited_set": [
+      "Cardiovascular disease",
+      "Manhattan",
+      "Theodore Roosevelt",
+      "Youngs Memorial Cemetery"
+    ],
+    "edges": [
+      [
+        "Theodore Roosevelt",
+        "people.deceased_person.place_of_burial",
+        "Youngs Memorial Cemetery"
+      ],
+      [
+        "Theodore Roosevelt",
+        "people.deceased_person.cause_of_death",
+        "Cardiovascular disease"
+      ],
+      [
+        "Theodore Roosevelt",
+        "people.person.place_of_birth",
+        "Manhattan"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-178",
+    "question": "who was the leader of the us during wwii",
+    "answer": null,
+    "prediction": "First, Franklin D. Roosevelt led the United States during World War II. The answer is {Franklin D. Roosevelt}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-179",
+    "question": "what artistic movement did henri matisse belong to",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that Henri Matisse belonged to the Fauvism artistic movement. The triplets directly state his association with Fauvism through both visual artist and art period/movement relations.",
+    "hits1": 0,
+    "trajectory": [
+      "Henri Matisse",
+      "Fauvism",
+      "Henri Matisse",
+      "Fauvism",
+      "Henri Matisse",
+      "Artist"
+    ],
+    "visited_set": [
+      "Artist",
+      "Fauvism",
+      "Henri Matisse"
+    ],
+    "edges": [
+      [
+        "Henri Matisse",
+        "visual_art.visual_artist.associated_periods_or_movements",
+        "Fauvism"
+      ],
+      [
+        "Henri Matisse",
+        "visual_art.art_period_movement.associated_artists",
+        "Fauvism"
+      ],
+      [
+        "Henri Matisse",
+        "people.person.profession",
+        "Artist"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-180",
+    "question": "where the missouri river ends",
+    "answer": null,
+    "prediction": "First, the Missouri River ends at the Upper Mississippi River in Saint Louis, Missouri. The answer is {the Upper Mississippi River in Saint Louis, Missouri}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-181",
+    "question": "what type of currency do they use in thailand",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it's sufficient to answer the question. The triplet \"Thailand\", \"location.country.currency_used\", \"Thai baht\" directly states that the currency used in Thailand is Thai baht. Therefore, the answer to the question is {Thai baht}.",
+    "hits1": 0,
+    "trajectory": [
+      "Thailand",
+      "Thai baht",
+      "Thailand",
+      "Bangkok",
+      "Thailand",
+      "Parliamentary system"
+    ],
+    "visited_set": [
+      "Bangkok",
+      "Parliamentary system",
+      "Thai baht",
+      "Thailand"
+    ],
+    "edges": [
+      [
+        "Thailand",
+        "location.country.currency_used",
+        "Thai baht"
+      ],
+      [
+        "Thailand",
+        "base.biblioness.bibs_location.country",
+        "Bangkok"
+      ],
+      [
+        "Thailand",
+        "government.form_of_government.countries",
+        "Parliamentary system"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-182",
+    "question": "who is khloe kardashian 's husband",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that Khloe Kardashian's husband is \"m.07y7d6c\". While the exact name is not provided in the triplet, this unique identifier can be used to look up the corresponding person, who is Kris Humphries (and later Tristan Thompson).",
+    "hits1": 0,
+    "trajectory": [
+      "Khloé Kardashian",
+      "m.07y7d6c",
+      "Khloé Kardashian",
+      "Kardashian Family",
+      "Khloé Kardashian",
+      "m.01132swn"
+    ],
+    "visited_set": [
+      "Kardashian Family",
+      "Khloé Kardashian",
+      "m.01132swn",
+      "m.07y7d6c"
+    ],
+    "edges": [
+      [
+        "Khloé Kardashian",
+        "people.person.spouse_s",
+        "m.07y7d6c"
+      ],
+      [
+        "Khloé Kardashian",
+        "people.family.members",
+        "Kardashian Family"
+      ],
+      [
+        "Khloé Kardashian",
+        "tv.tv_personality.tv_regular_appearances",
+        "m.01132swn"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-184",
+    "question": "what state does romney live in",
+    "answer": null,
+    "prediction": "First, Mitt Romney lives in Massachusetts. The answer is {Massachusetts}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-185",
+    "question": "what type of government does france use",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, France uses a Constitutional republic and a Semi-presidential system as its form of government. Therefore, it is sufficient to answer that France has a Constitutional republic type of government (with elements of a semi-presidential system).",
+    "hits1": 0,
+    "trajectory": [
+      "France",
+      "Constitutional republic",
+      "France",
+      "Semi-presidential system",
+      "France",
+      "Constitutional republic"
+    ],
+    "visited_set": [
+      "Constitutional republic",
+      "France",
+      "Semi-presidential system"
+    ],
+    "edges": [
+      [
+        "France",
+        "location.country.form_of_government",
+        "Constitutional republic"
+      ],
+      [
+        "France",
+        "location.country.form_of_government",
+        "Semi-presidential system"
+      ],
+      [
+        "France",
+        "government.form_of_government.countries",
+        "Constitutional republic"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-186",
+    "question": "who rules denmark right now",
+    "answer": null,
+    "prediction": "First, Denmark is a constitutional monarchy. Second, the current monarch of Denmark is King Frederik IX, who is represented by his son, King Christian X. However, as of my last update, the reigning monarch of Denmark is King Frederik V (Frederik IX's full name). The answer is {King Frederik V}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-187",
+    "question": "what did stephen hawking study",
+    "answer": null,
+    "prediction": "First, Stephen Hawking studied physics and cosmology. The answer is {physics and cosmology}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-188",
+    "question": "where did bristol palin go to school",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that Bristol Palin went to Wasilla High School for her education. The triplets directly link Bristol Palin's educational institution to Wasilla High School.",
+    "hits1": 0,
+    "trajectory": [
+      "Bristol Palin",
+      "Wasilla",
+      "Bristol Palin",
+      "Wasilla",
+      "Bristol Palin",
+      "m.0byl4zl",
+      "Wasilla High School",
+      "Wasilla",
+      "Bristol Palin",
+      "m.0byl4zl",
+      "Bristol Palin"
+    ],
+    "visited_set": [
+      "Bristol Palin",
+      "Wasilla",
+      "Wasilla High School",
+      "m.0byl4zl"
+    ],
+    "edges": [
+      [
+        "Bristol Palin",
+        "location.location.people_born_here",
+        "Wasilla"
+      ],
+      [
+        "Bristol Palin",
+        "people.person.place_of_birth",
+        "Wasilla"
+      ],
+      [
+        "Bristol Palin",
+        "people.person.education",
+        "m.0byl4zl"
+      ],
+      [
+        "m.0byl4zl",
+        "education.education.institution",
+        "Wasilla High School"
+      ],
+      [
+        "Wasilla",
+        "people.person.place_of_birth",
+        "Bristol Palin"
+      ],
+      [
+        "m.0byl4zl",
+        "education.education.student",
+        "Bristol Palin"
+      ]
+    ],
+    "traj_len": 11,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-189",
+    "question": "what region of the world is egypt associated with",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, Egypt is associated with Africa and the Arab world. Therefore, it can be concluded that Egypt is primarily associated with the African continent.",
+    "hits1": 0,
+    "trajectory": [
+      "Egypt",
+      "Egyptian governorate",
+      "Egypt",
+      "Africa",
+      "Egypt",
+      "Arab world"
+    ],
+    "visited_set": [
+      "Africa",
+      "Arab world",
+      "Egypt",
+      "Egyptian governorate"
+    ],
+    "edges": [
+      [
+        "Egypt",
+        "base.aareas.schema.administrative_area_type.iso_country",
+        "Egyptian governorate"
+      ],
+      [
+        "Egypt",
+        "base.locations.countries.continent",
+        "Africa"
+      ],
+      [
+        "Egypt",
+        "location.location.containedby",
+        "Arab world"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-190",
+    "question": "what did dr. seuss do",
+    "answer": null,
+    "prediction": "First, Dr. Seuss was a renowned American children's author and poet. He created numerous beloved books such as \"The Cat in the Hat,\" \"Green Eggs and Ham,\" and \"How the Grinch Stole Christmas.\" The answer is {wrote children's books, authored poetry}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-191",
+    "question": "where did drew brees go to college wikianswers",
+    "answer": null,
+    "prediction": "First, Drew Brees attended Louisiana State University. The answer is {Louisiana State University}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-193",
+    "question": "what school did ben roethlisberger go to",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that Ben Roethlisberger went to Miami University. The triplets directly state that 'm.02wns4p' (which refers to Ben Roethlisberger) attended the institution Miami University.",
+    "hits1": 0,
+    "trajectory": [
+      "Ben Roethlisberger",
+      "m.02wns4p",
+      "Ben Roethlisberger",
+      "m.02wns4p",
+      "Ben Roethlisberger",
+      "Lima",
+      "m.02wns4p",
+      "Miami University",
+      "Lima",
+      "Allen County",
+      "m.02wns4p",
+      "Ben Roethlisberger"
+    ],
+    "visited_set": [
+      "Allen County",
+      "Ben Roethlisberger",
+      "Lima",
+      "Miami University",
+      "m.02wns4p"
+    ],
+    "edges": [
+      [
+        "Ben Roethlisberger",
+        "people.person.education",
+        "m.02wns4p"
+      ],
+      [
+        "Ben Roethlisberger",
+        "education.education.student",
+        "m.02wns4p"
+      ],
+      [
+        "Ben Roethlisberger",
+        "people.person.place_of_birth",
+        "Lima"
+      ],
+      [
+        "m.02wns4p",
+        "education.education.institution",
+        "Miami University"
+      ],
+      [
+        "Lima",
+        "location.us_county.county_seat",
+        "Allen County"
+      ],
+      [
+        "m.02wns4p",
+        "education.education.student",
+        "Ben Roethlisberger"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 5
+  },
+  {
+    "qid": "WebQTest-194",
+    "question": "where did the iroquois indians come from",
+    "answer": null,
+    "prediction": "First, the Iroquois Indians are indigenous to northeastern North America. Second, they primarily came from the Great Lakes region, specifically in what is now upstate New York and parts of Canada. The answer is {the Great Lakes region}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-195",
+    "question": "what kind of guitar did george harrison use",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that George Harrison used both a Fender Stratocaster and a Rickenbacker 360/12 guitar. Therefore, the answer to the question \"What kind of guitar did George Harrison use?\" can be stated as either a Fender Stratocaster or a Rickenbacker 360/12.",
+    "hits1": 0,
+    "trajectory": [
+      "George Harrison",
+      "Fender Stratocaster",
+      "George Harrison",
+      "Rickenbacker 360/12",
+      "George Harrison",
+      "m.04p4_7l"
+    ],
+    "visited_set": [
+      "Fender Stratocaster",
+      "George Harrison",
+      "Rickenbacker 360/12",
+      "m.04p4_7l"
+    ],
+    "edges": [
+      [
+        "George Harrison",
+        "music.guitarist.guitars_played",
+        "Fender Stratocaster"
+      ],
+      [
+        "George Harrison",
+        "music.guitarist.guitars_played",
+        "Rickenbacker 360/12"
+      ],
+      [
+        "George Harrison",
+        "base.saturdaynightlive.snl_musical_guest.musical_performance",
+        "m.04p4_7l"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-196",
+    "question": "what language do navajo people speak",
+    "answer": null,
+    "prediction": "The Navajo people primarily speak Navajo (Diné Bizaad). The answer is {Navajo}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-197",
+    "question": "what places make up new england",
+    "answer": null,
+    "prediction": "The six states that make up New England are Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island, and Vermont.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-199",
+    "question": "what type of government does iraq have now",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, Iraq has a Parliamentary Republic form of government. Therefore, it is sufficient to answer that Iraq now has a parliamentary system of government.",
+    "hits1": 0,
+    "trajectory": [
+      "Iraq",
+      "Parliamentary system",
+      "Iraq",
+      "Parliamentary republic",
+      "Iraq",
+      "Iraqi province"
+    ],
+    "visited_set": [
+      "Iraq",
+      "Iraqi province",
+      "Parliamentary republic",
+      "Parliamentary system"
+    ],
+    "edges": [
+      [
+        "Iraq",
+        "government.form_of_government.countries",
+        "Parliamentary system"
+      ],
+      [
+        "Iraq",
+        "location.country.form_of_government",
+        "Parliamentary republic"
+      ],
+      [
+        "Iraq",
+        "base.aareas.schema.administrative_area_type.iso_country",
+        "Iraqi province"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-200",
+    "question": "where was the vietnam war location",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that the Vietnam War took place in locations including North Vietnam, Cambodia, and Laos. Therefore, these locations can be used to fully answer the question about where the Vietnam War occurred.",
+    "hits1": 0,
+    "trajectory": [
+      "Vietnam War",
+      "North Vietnam",
+      "Vietnam War",
+      "Cambodia",
+      "Vietnam War",
+      "Laos"
+    ],
+    "visited_set": [
+      "Cambodia",
+      "Laos",
+      "North Vietnam",
+      "Vietnam War"
+    ],
+    "edges": [
+      [
+        "Vietnam War",
+        "location.location.events",
+        "North Vietnam"
+      ],
+      [
+        "Vietnam War",
+        "location.location.events",
+        "Cambodia"
+      ],
+      [
+        "Vietnam War",
+        "location.location.events",
+        "Laos"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-201",
+    "question": "who did gerald ford select as his vice president when he became president",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that Gerald Ford selected Nelson Rockefeller as his vice president when he became president. The triplets directly link Gerald Ford as the appointer and Nelson Rockefeller as the appointed vice president under Gerald Ford's presidency.",
+    "hits1": 0,
+    "trajectory": [
+      "Gerald Ford",
+      "Nelson Rockefeller",
+      "Gerald Ford",
+      "m.0hmslqq",
+      "Gerald Ford",
+      "m.01xrx8h",
+      "Nelson Rockefeller",
+      "Gerald Ford",
+      "m.0hmslqq",
+      "Gerald Ford",
+      "m.01xrx8h",
+      "Gerald Ford"
+    ],
+    "visited_set": [
+      "Gerald Ford",
+      "Nelson Rockefeller",
+      "m.01xrx8h",
+      "m.0hmslqq"
+    ],
+    "edges": [
+      [
+        "Gerald Ford",
+        "government.us_president.vice_president",
+        "Nelson Rockefeller"
+      ],
+      [
+        "Gerald Ford",
+        "people.appointer.appointment_made",
+        "m.0hmslqq"
+      ],
+      [
+        "Gerald Ford",
+        "government.government_position_held.appointed_by",
+        "m.01xrx8h"
+      ],
+      [
+        "Nelson Rockefeller",
+        "government.us_vice_president.to_president",
+        "Gerald Ford"
+      ],
+      [
+        "m.0hmslqq",
+        "people.appointment.appointed_by",
+        "Gerald Ford"
+      ],
+      [
+        "m.01xrx8h",
+        "government.political_appointer.appointees",
+        "Gerald Ford"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-202",
+    "question": "what is the currency used in italy",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that the currency used in Italy is Euro. The triplets directly state that Italy uses the Euro as its currency.",
+    "hits1": 0,
+    "trajectory": [
+      "Italy",
+      "Euro",
+      "Italy",
+      "m.07nf5rq",
+      "Italy",
+      "Euro"
+    ],
+    "visited_set": [
+      "Euro",
+      "Italy",
+      "m.07nf5rq"
+    ],
+    "edges": [
+      [
+        "Italy",
+        "location.country.currency_used",
+        "Euro"
+      ],
+      [
+        "Italy",
+        "base.ontologies.ontology_instance.equivalent_instances",
+        "m.07nf5rq"
+      ],
+      [
+        "Italy",
+        "finance.currency.countries_used",
+        "Euro"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-204",
+    "question": "what is the capital of modern egypt",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that the capital of modern Egypt is Cairo. The triplet \"Egypt\", \"location.country.capital\", \"Cairo\" directly provides this information.",
+    "hits1": 0,
+    "trajectory": [
+      "Egypt",
+      "Cairo",
+      "Egypt",
+      "Mohamed Abdel Ghani el-Gamasy",
+      "Egypt",
+      "Provisional government",
+      "Cairo",
+      "Cairo Governorate",
+      "Cairo",
+      "Egypt",
+      "Cairo",
+      "Egypt"
+    ],
+    "visited_set": [
+      "Cairo",
+      "Cairo Governorate",
+      "Egypt",
+      "Mohamed Abdel Ghani el-Gamasy",
+      "Provisional government"
+    ],
+    "edges": [
+      [
+        "Egypt",
+        "location.country.capital",
+        "Cairo"
+      ],
+      [
+        "Egypt",
+        "people.person.place_of_birth",
+        "Mohamed Abdel Ghani el-Gamasy"
+      ],
+      [
+        "Egypt",
+        "government.form_of_government.countries",
+        "Provisional government"
+      ],
+      [
+        "Cairo",
+        "location.location.contains",
+        "Cairo Governorate"
+      ],
+      [
+        "Cairo",
+        "base.biblioness.bibs_location.country",
+        "Egypt"
+      ],
+      [
+        "Cairo",
+        "location.administrative_division.country",
+        "Egypt"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 5
+  },
+  {
+    "qid": "WebQTest-205",
+    "question": "what school did sir ernest rutherford go to",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer the question. The relevant triplet indicates that Ernest Rutherford's education includes \"Nelson College\" and \"University of Canterbury\". Therefore, we can conclude that Sir Ernest Rutherford went to Nelson College and University of Canterbury.",
+    "hits1": 0,
+    "trajectory": [
+      "Ernest Rutherford",
+      "m.0kv984f",
+      "Ernest Rutherford",
+      "Brightwater",
+      "Ernest Rutherford",
+      "m.02kq20k",
+      "m.0kv984f",
+      "Nelson College",
+      "m.02kq20k",
+      "University of Canterbury",
+      "Brightwater",
+      "Tasman District"
+    ],
+    "visited_set": [
+      "Brightwater",
+      "Ernest Rutherford",
+      "Nelson College",
+      "Tasman District",
+      "University of Canterbury",
+      "m.02kq20k",
+      "m.0kv984f"
+    ],
+    "edges": [
+      [
+        "Ernest Rutherford",
+        "education.education.student",
+        "m.0kv984f"
+      ],
+      [
+        "Ernest Rutherford",
+        "people.person.place_of_birth",
+        "Brightwater"
+      ],
+      [
+        "Ernest Rutherford",
+        "people.person.education",
+        "m.02kq20k"
+      ],
+      [
+        "m.0kv984f",
+        "education.education.institution",
+        "Nelson College"
+      ],
+      [
+        "m.02kq20k",
+        "education.education.institution",
+        "University of Canterbury"
+      ],
+      [
+        "Brightwater",
+        "location.location.contains",
+        "Tasman District"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 7
+  },
+  {
+    "qid": "WebQTest-206",
+    "question": "what position does brandon roy play",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that Brandon Roy played as both a Small forward and Point guard in basketball.",
+    "hits1": 0,
+    "trajectory": [
+      "Brandon Roy",
+      "m.0c53rsf",
+      "Brandon Roy",
+      "Small forward",
+      "Brandon Roy",
+      "Point guard"
+    ],
+    "visited_set": [
+      "Brandon Roy",
+      "Point guard",
+      "Small forward",
+      "m.0c53rsf"
+    ],
+    "edges": [
+      [
+        "Brandon Roy",
+        "sports.pro_athlete.sports_played_professionally",
+        "m.0c53rsf"
+      ],
+      [
+        "Brandon Roy",
+        "basketball.basketball_player.position_s",
+        "Small forward"
+      ],
+      [
+        "Brandon Roy",
+        "basketball.basketball_player.position_s",
+        "Point guard"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-207",
+    "question": "where is harvard university",
+    "answer": null,
+    "prediction": "First, Harvard University is located in Cambridge, Massachusetts. The answer is {Cambridge, Massachusetts}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-209",
+    "question": "where is laos in world map",
+    "answer": null,
+    "prediction": "First, Laos is located in Southeast Asia. Second, it borders China, Vietnam, Thailand, Myanmar, and Cambodia. The answer is that Laos can be found on a world map in Southeast Asia, bordering China, Vietnam, Thailand, Myanmar, and Cambodia.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-210",
+    "question": "where is tyrese gibson from",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that Tyrese Gibson was born in Watts and his nationality indicates he is from the United States of America. Therefore, a concise answer would be \"Tyrese Gibson is from Los Angeles, California, specifically the Watts neighborhood, and the United States.\"",
+    "hits1": 0,
+    "trajectory": [
+      "Tyrese Gibson",
+      "Watts",
+      "Tyrese Gibson",
+      "United States of America",
+      "Tyrese Gibson",
+      "m.05tj8p8"
+    ],
+    "visited_set": [
+      "Tyrese Gibson",
+      "United States of America",
+      "Watts",
+      "m.05tj8p8"
+    ],
+    "edges": [
+      [
+        "Tyrese Gibson",
+        "people.person.place_of_birth",
+        "Watts"
+      ],
+      [
+        "Tyrese Gibson",
+        "people.person.nationality",
+        "United States of America"
+      ],
+      [
+        "Tyrese Gibson",
+        "people.person.spouse_s",
+        "m.05tj8p8"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-211",
+    "question": "what countries are near italy",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, Italy is bordered by Switzerland and another entity that adjoins Italy, which can be inferred to also be a country bordering Italy. Therefore, we can conclude that countries near Italy include Switzerland, France (which borders Aosta Valley), and Slovenia (which borders Friuli-Venezia Giulia). However, with the provided triplets alone, we can confirm that Italy borders Switzerland and another unnamed entity that adjoins it.",
+    "hits1": 0,
+    "trajectory": [
+      "Italy",
+      "m.02nzg8z",
+      "Italy",
+      "Aosta Valley",
+      "Italy",
+      "Basilicata",
+      "m.02nzg8z",
+      "Italy",
+      "m.02nzg8z",
+      "Italy",
+      "m.02nzg8z",
+      "Switzerland"
+    ],
+    "visited_set": [
+      "Aosta Valley",
+      "Basilicata",
+      "Italy",
+      "Switzerland",
+      "m.02nzg8z"
+    ],
+    "edges": [
+      [
+        "Italy",
+        "location.adjoining_relationship.adjoins",
+        "m.02nzg8z"
+      ],
+      [
+        "Italy",
+        "location.country.first_level_divisions",
+        "Aosta Valley"
+      ],
+      [
+        "Italy",
+        "location.country.first_level_divisions",
+        "Basilicata"
+      ],
+      [
+        "m.02nzg8z",
+        "location.location.adjoin_s",
+        "Italy"
+      ],
+      [
+        "m.02nzg8z",
+        "location.location.adjoin_s",
+        "Italy"
+      ],
+      [
+        "m.02nzg8z",
+        "location.location.adjoin_s",
+        "Switzerland"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 5
+  },
+  {
+    "qid": "WebQTest-212",
+    "question": "which states does the colorado river run through",
+    "answer": null,
+    "prediction": "First, the Colorado River runs through Colorado, Arizona, Nevada, California, Utah, New Mexico, and Mexico. The answer is {Colorado, Arizona, Nevada, California, Utah, New Mexico}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-213",
+    "question": "who did scarlett johansson date",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it's sufficient to answer the question with these triplets and additional general knowledge. The triplets indicate that Scarlett Johansson dated individuals associated with the identifier \"m.064fp5j\" and \"m.064jrnt\". While the specific names are not provided in the triplets, they suggest that Scarlett Johansson has been involved with multiple people who can be looked up by their identifiers to find their real names. Therefore, the answer is {Yes}.",
+    "hits1": 0,
+    "trajectory": [
+      "Scarlett Johansson",
+      "m.0_zfwq6",
+      "Scarlett Johansson",
+      "m.064fp5j",
+      "Scarlett Johansson",
+      "m.064jrnt"
+    ],
+    "visited_set": [
+      "Scarlett Johansson",
+      "m.064fp5j",
+      "m.064jrnt",
+      "m.0_zfwq6"
+    ],
+    "edges": [
+      [
+        "Scarlett Johansson",
+        "people.person.spouse_s",
+        "m.0_zfwq6"
+      ],
+      [
+        "Scarlett Johansson",
+        "base.popstra.dated.participant",
+        "m.064fp5j"
+      ],
+      [
+        "Scarlett Johansson",
+        "base.popstra.dated.participant",
+        "m.064jrnt"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-214",
+    "question": "which continents were part of the roman empire",
+    "answer": null,
+    "prediction": "First, the Roman Empire at its height encompassed three continents: Europe, Africa (or specifically, parts of North Africa), and Asia. The answer is {Europe, Africa, Asia}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-215",
+    "question": "where was elvis costello born",
+    "answer": null,
+    "prediction": "First, Elvis Costello was born in London, England. The answer is {London}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-216",
+    "question": "where are the gobi desert located on a map",
+    "answer": null,
+    "prediction": "The Gobi Desert is located in East Asia, primarily covering parts of northern Mongolia and southern Inner Mongolia, China. On a map, you can find it between the Altai Mountains to the north and the Tibetan Plateau to the south. The answer is {East Asia, spanning northern Mongolia and southern Inner Mongolia, China}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-217",
+    "question": "what type of government does the us follow",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that the United States follows a form of government that includes elements of a Constitutional republic, Federal republic, and Presidential system. Therefore, the U.S. can be described as having a government structure that combines these characteristics.",
+    "hits1": 0,
+    "trajectory": [
+      "United States of America",
+      "Constitutional republic",
+      "United States of America",
+      "Federal republic",
+      "United States of America",
+      "Presidential system"
+    ],
+    "visited_set": [
+      "Constitutional republic",
+      "Federal republic",
+      "Presidential system",
+      "United States of America"
+    ],
+    "edges": [
+      [
+        "United States of America",
+        "government.form_of_government.countries",
+        "Constitutional republic"
+      ],
+      [
+        "United States of America",
+        "government.form_of_government.countries",
+        "Federal republic"
+      ],
+      [
+        "United States of America",
+        "government.form_of_government.countries",
+        "Presidential system"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-218",
+    "question": "in which continent is germany",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that Germany is in Europe. The triplets directly state that Germany is contained by Europe ('Germany', 'location.location.containedby', 'Europe'). Therefore, we can conclude that Germany is in Europe.",
+    "hits1": 0,
+    "trajectory": [
+      "Germany",
+      "m.05kp257",
+      "Germany",
+      "Lake Constance",
+      "m.0wg8r9_",
+      "Lake Constance",
+      "Austria",
+      "Lake Constance",
+      "Germany",
+      "Austria",
+      "Europe",
+      "m.0wg8r9_",
+      "Germany",
+      "Europe"
+    ],
+    "visited_set": [
+      "Austria",
+      "Europe",
+      "Germany",
+      "Lake Constance",
+      "m.05kp257",
+      "m.0wg8r9_"
+    ],
+    "edges": [
+      [
+        "Germany",
+        "base.crime.crime_accusation.accuser",
+        "m.05kp257"
+      ],
+      [
+        "Germany",
+        "geography.lake.basin_countries",
+        "Lake Constance"
+      ],
+      [
+        "Lake Constance",
+        "location.location.partially_contained_by",
+        "m.0wg8r9_"
+      ],
+      [
+        "Lake Constance",
+        "location.location.partially_contains",
+        "Austria"
+      ],
+      [
+        "Lake Constance",
+        "location.location.partially_contains",
+        "Germany"
+      ],
+      [
+        "Austria",
+        "base.locations.countries.continent",
+        "Europe"
+      ],
+      [
+        "m.0wg8r9_",
+        "location.location.partiallycontains",
+        "Germany"
+      ],
+      [
+        "Germany",
+        "location.location.containedby",
+        "Europe"
+      ]
+    ],
+    "traj_len": 14,
+    "n_unique": 6
+  },
+  {
+    "qid": "WebQTest-220",
+    "question": "what language turkey people speak",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that the primary language spoken by people in Turkey is Turkish. While other languages like Kurdish and Ladino are also spoken, Turkish is the main language according to the provided information.",
+    "hits1": 0,
+    "trajectory": [
+      "Turkey",
+      "Kurdish languages",
+      "Turkey",
+      "Ladino Language",
+      "Turkey",
+      "Turkish Language"
+    ],
+    "visited_set": [
+      "Kurdish languages",
+      "Ladino Language",
+      "Turkey",
+      "Turkish Language"
+    ],
+    "edges": [
+      [
+        "Turkey",
+        "location.country.languages_spoken",
+        "Kurdish languages"
+      ],
+      [
+        "Turkey",
+        "location.country.languages_spoken",
+        "Ladino Language"
+      ],
+      [
+        "Turkey",
+        "language.human_language.main_country",
+        "Turkish Language"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-221",
+    "question": "who does jeremy lin play for",
+    "answer": null,
+    "prediction": "First, Jeremy Lin currently plays for the Los Angeles Clippers in the NBA. The answer is {Los Angeles Clippers}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-222",
+    "question": "where is the seychelles on world map",
+    "answer": null,
+    "prediction": "First, Seychelles is an island country located in the Indian Ocean. Second, it is northeast of Madagascar and southeast of India on the world map. The answer is {Seychelles}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-224",
+    "question": "where did william morris go to college",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that William Morris went to Marlborough College for his education. The triplet directly links William Morris's education to Marlborough College.",
+    "hits1": 0,
+    "trajectory": [
+      "William Morris",
+      "m.04q1gj3",
+      "William Morris",
+      "Pre-Raphaelite Brotherhood",
+      "William Morris",
+      "Worcester",
+      "m.04q1gj3",
+      "Marlborough College",
+      "m.04q1gj3",
+      "William Morris",
+      "Pre-Raphaelite Brotherhood",
+      "Christina Rossetti"
+    ],
+    "visited_set": [
+      "Christina Rossetti",
+      "Marlborough College",
+      "Pre-Raphaelite Brotherhood",
+      "William Morris",
+      "Worcester",
+      "m.04q1gj3"
+    ],
+    "edges": [
+      [
+        "William Morris",
+        "people.person.education",
+        "m.04q1gj3"
+      ],
+      [
+        "William Morris",
+        "book.author.school_or_movement",
+        "Pre-Raphaelite Brotherhood"
+      ],
+      [
+        "William Morris",
+        "people.person.place_of_birth",
+        "Worcester"
+      ],
+      [
+        "m.04q1gj3",
+        "education.education.institution",
+        "Marlborough College"
+      ],
+      [
+        "m.04q1gj3",
+        "education.education.student",
+        "William Morris"
+      ],
+      [
+        "Pre-Raphaelite Brotherhood",
+        "book.school_or_movement.associated_authors",
+        "Christina Rossetti"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 6
+  },
+  {
+    "qid": "WebQTest-225",
+    "question": "what state is mount st. helens in",
+    "answer": null,
+    "prediction": "The answer is {Washington}. Mount St. Helens is located in Washington state.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-226",
+    "question": "who is jimmy savile",
+    "answer": null,
+    "prediction": "First, Jimmy Savile was a British television and radio presenter, disc jockey, and charity fundraiser. Second, he is known for his sexual abuse of children and adults over several decades. The answer is {Jimmy Savile}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-227",
+    "question": "where were the seneca indians located",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that the Seneca Indians were located in New York and Ontario. The triplets directly provide this geographic information about the Seneca people's distribution.",
+    "hits1": 0,
+    "trajectory": [
+      "Seneca people",
+      "New York",
+      "Seneca people",
+      "Ontario",
+      "Seneca people",
+      "Iroquois"
+    ],
+    "visited_set": [
+      "Iroquois",
+      "New York",
+      "Ontario",
+      "Seneca people"
+    ],
+    "edges": [
+      [
+        "Seneca people",
+        "people.ethnicity.geographic_distribution",
+        "New York"
+      ],
+      [
+        "Seneca people",
+        "people.ethnicity.geographic_distribution",
+        "Ontario"
+      ],
+      [
+        "Seneca people",
+        "people.ethnicity.includes_groups",
+        "Iroquois"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-231",
+    "question": "when did florida marlins join mlb",
+    "answer": null,
+    "prediction": "First, the Florida Marlins joined MLB in 1993 as an expansion team replacing the Montreal Expos. The answer is {1993}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-232",
+    "question": "what countries have spanish as the national language",
+    "answer": null,
+    "prediction": "First, Spain, Mexico, Argentina, Colombia, and etc. have Spanish as the national language. The answer is {Spain, Mexico, Argentina, Colombia, etc.}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-233",
+    "question": "what to see in phoenix arizona",
+    "answer": null,
+    "prediction": "First, Phoenix, Arizona offers numerous attractions and points of interest for visitors. Some notable places to see include the Heard Museum, Phoenix Art Museum, Desert Botanical Garden, Phoenix Zoo, and Scottsdale Scenics Railway. The answer is {Heard Museum, Phoenix Art Museum, Desert Botanical Garden, Phoenix Zoo, Scottsdale Scenics Railway}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-234",
+    "question": "what countries does the panama canal go through",
+    "answer": null,
+    "prediction": "The Panama Canal goes through Panama. The answer is {Panama}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-235",
+    "question": "what is charlie chaplin famous for",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that Charlie Chaplin is famous for his comedic film performances, particularly for portraying the character \"The Tramp\" (represented by the entity 'm.01110f9m'). Additionally, the film \"Charlie Chaplin: His Life & Work\" is also a comedy, further emphasizing his association with this genre.",
+    "hits1": 0,
+    "trajectory": [
+      "Charlie Chaplin",
+      "Charlie Chaplin: His Life & Work",
+      "Charlie Chaplin",
+      "m.01110f9m",
+      "Charlie Chaplin",
+      "m.02vcr6x",
+      "m.01110f9m",
+      "Charlie Chaplin",
+      "m.02vcr6x",
+      "Charlie Chaplin",
+      "Charlie Chaplin: His Life & Work",
+      "Comedy"
+    ],
+    "visited_set": [
+      "Charlie Chaplin",
+      "Charlie Chaplin: His Life & Work",
+      "Comedy",
+      "m.01110f9m",
+      "m.02vcr6x"
+    ],
+    "edges": [
+      [
+        "Charlie Chaplin",
+        "film.director.film",
+        "Charlie Chaplin: His Life & Work"
+      ],
+      [
+        "Charlie Chaplin",
+        "film.performance.character",
+        "m.01110f9m"
+      ],
+      [
+        "Charlie Chaplin",
+        "film.performance.character",
+        "m.02vcr6x"
+      ],
+      [
+        "m.01110f9m",
+        "film.film_character.portrayed_in_films",
+        "Charlie Chaplin"
+      ],
+      [
+        "m.02vcr6x",
+        "film.film_character.portrayed_in_films",
+        "Charlie Chaplin"
+      ],
+      [
+        "Charlie Chaplin: His Life & Work",
+        "film.film.genre",
+        "Comedy"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 5
+  },
+  {
+    "qid": "WebQTest-237",
+    "question": "what did fred durst do",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, Fred Durst is associated with the following professions:\n- Music artist (genre: Alternative rock)\n- Actor\n- Businessperson\n\nTherefore, it is sufficient to answer that Fred Durst has done various things including being a musician, actor, and businessperson.",
+    "hits1": 0,
+    "trajectory": [
+      "Fred Durst",
+      "Alternative rock",
+      "Fred Durst",
+      "Actor",
+      "Fred Durst",
+      "Businessperson"
+    ],
+    "visited_set": [
+      "Actor",
+      "Alternative rock",
+      "Businessperson",
+      "Fred Durst"
+    ],
+    "edges": [
+      [
+        "Fred Durst",
+        "music.artist.genre",
+        "Alternative rock"
+      ],
+      [
+        "Fred Durst",
+        "people.person.profession",
+        "Actor"
+      ],
+      [
+        "Fred Durst",
+        "people.person.profession",
+        "Businessperson"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-239",
+    "question": "where do american bulldogs originate from",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that American Bulldogs originate from the United States of America. The triplets directly provide the place of origin for the American Bulldog breed.",
+    "hits1": 0,
+    "trajectory": [
+      "American Bulldog",
+      "United States of America",
+      "American Bulldog",
+      "Very friendly",
+      "American Bulldog",
+      "Dog"
+    ],
+    "visited_set": [
+      "American Bulldog",
+      "Dog",
+      "United States of America",
+      "Very friendly"
+    ],
+    "edges": [
+      [
+        "American Bulldog",
+        "biology.animal_breed.place_of_origin",
+        "United States of America"
+      ],
+      [
+        "American Bulldog",
+        "base.petbreeds.dog_breed.family_friendly",
+        "Very friendly"
+      ],
+      [
+        "American Bulldog",
+        "biology.animal_breed.breed_of",
+        "Dog"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-240",
+    "question": "what colleges did albert einstein teach at",
+    "answer": null,
+    "prediction": "First, Albert Einstein taught at Princeton University and the Institute for Advanced Study in Princeton. The answer is {Princeton University, Institute for Advanced Study}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-241",
+    "question": "who plays the voice of brian on family guy",
+    "answer": null,
+    "prediction": "First, Seth MacFarlane voices the character Brian on Family Guy. The answer is {Seth MacFarlane}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-243",
+    "question": "where did george w bush live as a child",
+    "answer": null,
+    "prediction": "First, George W. Bush lived in Texas as a child. Specifically, he spent his early childhood years in Midland and later in Houston. The answer is {Texas}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-245",
+    "question": "what year was the first miss america pageant held",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that the first Miss America pageant was held in 1921. The triplets indicate \"Miss America 1921\" as an instance of the recurring competition \"Miss America,\" which directly answers the question.",
+    "hits1": 0,
+    "trajectory": [
+      "Miss America",
+      "Miss America 1921",
+      "Miss America",
+      "Miss America 1923",
+      "Miss America 1921",
+      "Miss America",
+      "Miss America 1923",
+      "Miss America",
+      "Miss America 1921",
+      "Miss America"
+    ],
+    "visited_set": [
+      "Miss America",
+      "Miss America 1921",
+      "Miss America 1923"
+    ],
+    "edges": [
+      [
+        "Miss America",
+        "award.competition.instance_of_recurring_competition",
+        "Miss America 1921"
+      ],
+      [
+        "Miss America",
+        "time.recurring_event.instances",
+        "Miss America 1923"
+      ],
+      [
+        "Miss America 1921",
+        "award.recurring_competition.individual_competitions",
+        "Miss America"
+      ],
+      [
+        "Miss America 1923",
+        "time.event.instance_of_recurring_event",
+        "Miss America"
+      ],
+      [
+        "Miss America 1921",
+        "time.event.instance_of_recurring_event",
+        "Miss America"
+      ]
+    ],
+    "traj_len": 10,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-246",
+    "question": "what was nikola tesla inventions",
+    "answer": null,
+    "prediction": "First, Nikola Tesla made numerous inventions and contributions to science and technology. Some of his notable inventions include the alternating current (AC) electrical supply system, Tesla coil, wireless communication, and remote control. The answer is {alternating current (AC) electrical supply system, Tesla coil, wireless communication, and remote control}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-247",
+    "question": "where did flemish people come from",
+    "answer": null,
+    "prediction": "First, Flemish people originate from Flanders, a region in Belgium. The answer is {Flanders, Belgium}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  }
+]

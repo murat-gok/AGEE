@@ -1,0 +1,12 @@
+{
+  "dataset": "webqsp",
+  "backbone": "qwen",
+  "n_questions": 200,
+  "n_valid_traversal": 164,
+  "exploration_rate": 0.82,
+  "hits1_overall": 0.405,
+  "AGEE_mean_valid": 0.5014,
+  "S_mean_valid": 0.6245,
+  "I_mean_valid": 0.2888,
+  "E_mean_valid": 0.8042
+}

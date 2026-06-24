@@ -1,0 +1,6886 @@
+[
+  {
+    "qid": "WebQTest-0",
+    "question": "what does jamaican people speak",
+    "answer": [
+      "Jamaican English",
+      "Jamaican Creole English Language"
+    ],
+    "prediction": "Jamaican English",
+    "hits1": 1,
+    "trajectory": [
+      "Jamaica",
+      "Jamaican English"
+    ],
+    "visited_set": [
+      "Jamaica",
+      "Jamaican English"
+    ],
+    "edges": [
+      [
+        "Jamaica",
+        "location.country.official_language",
+        "Jamaican English"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-1",
+    "question": "what did james k polk do before he was president",
+    "answer": [
+      "United States Representative",
+      "Governor of Tennessee",
+      "Speaker of the United States House of Representatives"
+    ],
+    "prediction": "United States Naval Academy",
+    "hits1": 0,
+    "trajectory": [
+      "James K. Polk",
+      "m.03l5_lg",
+      "James K. Polk",
+      "m.04j60kc",
+      "James K. Polk",
+      "United States Naval Academy"
+    ],
+    "visited_set": [
+      "James K. Polk",
+      "United States Naval Academy",
+      "m.03l5_lg",
+      "m.04j60kc"
+    ],
+    "edges": [
+      [
+        "James K. Polk",
+        "people.person.education",
+        "m.03l5_lg"
+      ],
+      [
+        "James K. Polk",
+        "government.politician.government_positions_held",
+        "m.04j60kc"
+      ],
+      [
+        "James K. Polk",
+        "organization.organization_founder.organizations_founded",
+        "United States Naval Academy"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-3",
+    "question": "who plays ken barlow in coronation street",
+    "answer": [
+      "William Roache"
+    ],
+    "prediction": "m.0wkd82f",
+    "hits1": 0,
+    "trajectory": [
+      "Coronation Street",
+      "m.0wkd82f"
+    ],
+    "visited_set": [
+      "Coronation Street",
+      "m.0wkd82f"
+    ],
+    "edges": [
+      [
+        "Coronation Street",
+        "~tv.regular_tv_appearance.series",
+        "m.0wkd82f"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-6",
+    "question": "where is jamarcus russell from",
+    "answer": [
+      "Mobile"
+    ],
+    "prediction": "Mobile",
+    "hits1": 1,
+    "trajectory": [
+      "JaMarcus Russell",
+      "Mobile"
+    ],
+    "visited_set": [
+      "JaMarcus Russell",
+      "Mobile"
+    ],
+    "edges": [
+      [
+        "JaMarcus Russell",
+        "people.person.place_of_birth",
+        "Mobile"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-7",
+    "question": "where was george washington carver from",
+    "answer": [
+      "Diamond"
+    ],
+    "prediction": "United States of America",
+    "hits1": 0,
+    "trajectory": [
+      "George Washington Carver",
+      "United States of America"
+    ],
+    "visited_set": [
+      "George Washington Carver",
+      "United States of America"
+    ],
+    "edges": [
+      [
+        "George Washington Carver",
+        "people.person.nationality",
+        "United States of America"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-8",
+    "question": "what else did ben franklin invent",
+    "answer": [
+      "Lightning rod",
+      "Glass harmonica",
+      "Bifocals",
+      "Franklin stove"
+    ],
+    "prediction": "Franklin stove",
+    "hits1": 1,
+    "trajectory": [
+      "Benjamin Franklin",
+      "g.125g980qq",
+      "Benjamin Franklin",
+      "Franklin stove"
+    ],
+    "visited_set": [
+      "Benjamin Franklin",
+      "Franklin stove",
+      "g.125g980qq"
+    ],
+    "edges": [
+      [
+        "Benjamin Franklin",
+        "common.topic.notable_for",
+        "g.125g980qq"
+      ],
+      [
+        "Benjamin Franklin",
+        "base.argumentmaps.innovator.original_ideas",
+        "Franklin stove"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-9",
+    "question": "who was richard nixon married to",
+    "answer": [
+      "Pat Nixon"
+    ],
+    "prediction": "m.06c9k",
+    "hits1": 0,
+    "trajectory": [
+      "Richard Nixon",
+      "g.1258jn7q8",
+      "Richard Nixon",
+      "m.09y7_p7",
+      "Richard Nixon",
+      "m.06c9k"
+    ],
+    "visited_set": [
+      "Richard Nixon",
+      "g.1258jn7q8",
+      "m.06c9k",
+      "m.09y7_p7"
+    ],
+    "edges": [
+      [
+        "Richard Nixon",
+        "common.topic.notable_for",
+        "g.1258jn7q8"
+      ],
+      [
+        "Richard Nixon",
+        "common.topic.webpage",
+        "m.09y7_p7"
+      ],
+      [
+        "Richard Nixon",
+        "common.topic.article",
+        "m.06c9k"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-12",
+    "question": "who is governor of ohio 2011",
+    "answer": [
+      "John Kasich",
+      "Ted Strickland",
+      "Return J. Meigs, Jr."
+    ],
+    "prediction": "Ohio",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-13",
+    "question": "who was vice president after kennedy died",
+    "answer": [
+      "Lyndon B. Johnson"
+    ],
+    "prediction": "m.0230ccb",
+    "hits1": 0,
+    "trajectory": [
+      "John F. Kennedy",
+      "m.05bsz7m",
+      "John F. Kennedy",
+      "m.0230ccb"
+    ],
+    "visited_set": [
+      "John F. Kennedy",
+      "m.0230ccb",
+      "m.05bsz7m"
+    ],
+    "edges": [
+      [
+        "John F. Kennedy",
+        "common.topic.article",
+        "m.05bsz7m"
+      ],
+      [
+        "John F. Kennedy",
+        "common.topic.article",
+        "m.0230ccb"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-14",
+    "question": "where is the fukushima daiichi nuclear plant located",
+    "answer": [
+      "Japan",
+      "Okuma"
+    ],
+    "prediction": "Okuma, Fukushima Prefecture, Japan",
+    "hits1": 1,
+    "trajectory": [
+      "Fukushima Daiichi Nuclear Power Plant",
+      "Okuma"
+    ],
+    "visited_set": [
+      "Fukushima Daiichi Nuclear Power Plant",
+      "Okuma"
+    ],
+    "edges": [
+      [
+        "Fukushima Daiichi Nuclear Power Plant",
+        "location.location.containedby",
+        "Okuma"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-16",
+    "question": "what countries are part of the uk",
+    "answer": [
+      "Wales",
+      "Northern Ireland",
+      "Scotland",
+      "England"
+    ],
+    "prediction": "England, Northern Ireland, Scotland, Wales",
+    "hits1": 1,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-19",
+    "question": "what is my timezone in louisiana",
+    "answer": [
+      "Central Time Zone"
+    ],
+    "prediction": "Central Time",
+    "hits1": 0,
+    "trajectory": [
+      "Louisiana",
+      "United States of America",
+      "Louisiana",
+      "m.0jvw4mr"
+    ],
+    "visited_set": [
+      "Louisiana",
+      "United States of America",
+      "m.0jvw4mr"
+    ],
+    "edges": [
+      [
+        "Louisiana",
+        "location.administrative_division.country",
+        "United States of America"
+      ],
+      [
+        "Louisiana",
+        "location.administrative_division.capital",
+        "m.0jvw4mr"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-20",
+    "question": "what did st augustine do",
+    "answer": [
+      "Writer",
+      "Physician",
+      "Philosopher"
+    ],
+    "prediction": "Writer, Philosopher",
+    "hits1": 1,
+    "trajectory": [
+      "Augustine of Hippo",
+      "g.125953w9h"
+    ],
+    "visited_set": [
+      "Augustine of Hippo",
+      "g.125953w9h"
+    ],
+    "edges": [
+      [
+        "Augustine of Hippo",
+        "common.topic.notable_for",
+        "g.125953w9h"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-21",
+    "question": "who is keyshia cole dad",
+    "answer": [
+      "Sal Gibson",
+      "Francine Lons",
+      "Leon Cole"
+    ],
+    "prediction": "m.09wlb3r",
+    "hits1": 0,
+    "trajectory": [
+      "Keyshia Cole",
+      "m.0vvb4tb",
+      "Keyshia Cole",
+      "m.09wlb3r"
+    ],
+    "visited_set": [
+      "Keyshia Cole",
+      "m.09wlb3r",
+      "m.0vvb4tb"
+    ],
+    "edges": [
+      [
+        "Keyshia Cole",
+        "music.artist.contribution",
+        "m.0vvb4tb"
+      ],
+      [
+        "Keyshia Cole",
+        "common.topic.webpage",
+        "m.09wlb3r"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-22",
+    "question": "what kind government does egypt have",
+    "answer": [
+      "Semi-presidential system",
+      "Provisional government"
+    ],
+    "prediction": "Republic",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-23",
+    "question": "what town was martin luther king assassinated in",
+    "answer": [
+      "Memphis"
+    ],
+    "prediction": "Martin Luther King, Jr.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-24",
+    "question": "where did edgar allan poe died",
+    "answer": [
+      "Baltimore"
+    ],
+    "prediction": "Edgar Allan Poe",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-26",
+    "question": "what to do today in atlanta with kids",
+    "answer": [
+      "Fox Theatre",
+      "Jimmy Carter Library and Museum",
+      "Centennial Olympic Park",
+      "Cobb Energy Performing Arts Centre",
+      "Omni Coliseum",
+      "Atlanta Jewish Film Festival",
+      "Georgia Dome",
+      "Masquerade",
+      "The Tabernacle",
+      "Atlanta History Center",
+      "Four Seasons Hotel Atlanta",
+      "Center for Puppetry Arts",
+      "Woodruff Arts Center",
+      "Variety Playhouse",
+      "Martin Luther King, Jr. National Historic Site",
+      "Margaret Mitchell House & Museum",
+      "Arbor Place Mall",
+      "World of Coca-Cola",
+      "Philips Arena",
+      "Turner Field",
+      "Underground Atlanta",
+      "Fernbank Museum of Natural History",
+      "Six Flags Over Georgia",
+      "Atlanta Symphony Orchestra",
+      "Zoo Atlanta",
+      "Atlanta Ballet",
+      "Peachtree Road Race",
+      "Georgia State Capitol",
+      "Georgia Aquarium",
+      "Atlanta Cyclorama & Civil War Museum",
+      "Fernbank Science Center",
+      "CNN Center",
+      "Atlanta Marriott Marquis",
+      "Six Flags White Water",
+      "Georgia World Congress Center",
+      "Hyatt Regency Atlanta"
+    ],
+    "prediction": "Atlanta",
+    "hits1": 0,
+    "trajectory": [
+      "Atlanta",
+      "m.013z0",
+      "Atlanta",
+      "g.125b6pdys",
+      "Atlanta",
+      "m.09wxy6_"
+    ],
+    "visited_set": [
+      "Atlanta",
+      "g.125b6pdys",
+      "m.013z0",
+      "m.09wxy6_"
+    ],
+    "edges": [
+      [
+        "Atlanta",
+        "common.topic.article",
+        "m.013z0"
+      ],
+      [
+        "Atlanta",
+        "common.topic.notable_for",
+        "g.125b6pdys"
+      ],
+      [
+        "Atlanta",
+        "common.topic.webpage",
+        "m.09wxy6_"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-28",
+    "question": "what electorate does anna bligh represent",
+    "answer": [
+      "Electoral district of South Brisbane"
+    ],
+    "prediction": "Queensland",
+    "hits1": 0,
+    "trajectory": [
+      "Anna Bligh",
+      "m.0cr301h",
+      "Anna Bligh",
+      "g.1255hgx7g",
+      "Anna Bligh",
+      "m.0lr0z2j",
+      "Anna Bligh",
+      "m.0cr320w"
+    ],
+    "visited_set": [
+      "Anna Bligh",
+      "g.1255hgx7g",
+      "m.0cr301h",
+      "m.0cr320w",
+      "m.0lr0z2j"
+    ],
+    "edges": [
+      [
+        "Anna Bligh",
+        "government.politician.government_positions_held",
+        "m.0cr301h"
+      ],
+      [
+        "Anna Bligh",
+        "common.topic.notable_for",
+        "g.1255hgx7g"
+      ],
+      [
+        "Anna Bligh",
+        "government.politician.party",
+        "m.0lr0z2j"
+      ],
+      [
+        "Anna Bligh",
+        "government.politician.government_positions_held",
+        "m.0cr320w"
+      ]
+    ],
+    "traj_len": 8,
+    "n_unique": 5
+  },
+  {
+    "qid": "WebQTest-31",
+    "question": "where did andy murray started playing tennis",
+    "answer": [
+      "2005"
+    ],
+    "prediction": "Glasgow",
+    "hits1": 0,
+    "trajectory": [
+      "Andy Murray",
+      "Glasgow"
+    ],
+    "visited_set": [
+      "Andy Murray",
+      "Glasgow"
+    ],
+    "edges": [
+      [
+        "Andy Murray",
+        "people.person.place_of_birth",
+        "Glasgow"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-32",
+    "question": "what is the australian dollar called",
+    "answer": [
+      "AUD"
+    ],
+    "prediction": "Australian dollar",
+    "hits1": 0,
+    "trajectory": [
+      "Australian dollar",
+      "Australia",
+      "Australian dollar"
+    ],
+    "visited_set": [
+      "Australia",
+      "Australian dollar"
+    ],
+    "edges": [
+      [
+        "Australian dollar",
+        "~location.country.currency_used",
+        "Australia"
+      ],
+      [
+        "Australia",
+        "location.country.currency_used",
+        "Australian dollar"
+      ]
+    ],
+    "traj_len": 3,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-33",
+    "question": "what timezone is sweden",
+    "answer": [
+      "Central European Time Zone"
+    ],
+    "prediction": "Central European Time (CET), Central European Summer Time (CEST)",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-34",
+    "question": "who did cam newton sign with",
+    "answer": [
+      "Carolina Panthers"
+    ],
+    "prediction": "m.0hpgp94",
+    "hits1": 0,
+    "trajectory": [
+      "Cam Newton",
+      "m.0hpgnsj",
+      "Cam Newton",
+      "m.0hpgp94"
+    ],
+    "visited_set": [
+      "Cam Newton",
+      "m.0hpgnsj",
+      "m.0hpgp94"
+    ],
+    "edges": [
+      [
+        "Cam Newton",
+        "sports.pro_athlete.teams",
+        "m.0hpgnsj"
+      ],
+      [
+        "Cam Newton",
+        "american_football.football_player.forty_yard_dash_time",
+        "m.0hpgp94"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-35",
+    "question": "what county is frederick md in",
+    "answer": [
+      "Frederick County"
+    ],
+    "prediction": "Frederick County",
+    "hits1": 1,
+    "trajectory": [
+      "Frederick",
+      "Frederick County"
+    ],
+    "visited_set": [
+      "Frederick",
+      "Frederick County"
+    ],
+    "edges": [
+      [
+        "Frederick",
+        "location.hud_county_place.county",
+        "Frederick County"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-36",
+    "question": "what highschool did harper lee go to",
+    "answer": [
+      "Monroe County High School"
+    ],
+    "prediction": "None",
+    "hits1": 0,
+    "trajectory": [
+      "Harper Lee",
+      "m.0lwxmyl",
+      "Harper Lee",
+      "m.0cq4j60"
+    ],
+    "visited_set": [
+      "Harper Lee",
+      "m.0cq4j60",
+      "m.0lwxmyl"
+    ],
+    "edges": [
+      [
+        "Harper Lee",
+        "people.person.education",
+        "m.0lwxmyl"
+      ],
+      [
+        "Harper Lee",
+        "common.topic.webpage",
+        "m.0cq4j60"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-37",
+    "question": "what timezone is utah in",
+    "answer": [
+      "Mountain Time Zone"
+    ],
+    "prediction": "Mountain Time",
+    "hits1": 0,
+    "trajectory": [
+      "Utah",
+      "United States of America"
+    ],
+    "visited_set": [
+      "United States of America",
+      "Utah"
+    ],
+    "edges": [
+      [
+        "Utah",
+        "location.administrative_division.country",
+        "United States of America"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-38",
+    "question": "who did george w. bush run against for the second term",
+    "answer": [
+      "John Kerry",
+      "Ralph Nader",
+      "Michael Peroutka",
+      "Gene Amondson"
+    ],
+    "prediction": "2000 Republican National Convention",
+    "hits1": 0,
+    "trajectory": [
+      "George W. Bush",
+      "2000 Republican National Convention"
+    ],
+    "visited_set": [
+      "2000 Republican National Convention",
+      "George W. Bush"
+    ],
+    "edges": [
+      [
+        "George W. Bush",
+        "base.politicalconventions.presidential_nominee.nominated_at",
+        "2000 Republican National Convention"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-39",
+    "question": "who is niall ferguson 's wife",
+    "answer": [
+      "Ayaan Hirsi Ali"
+    ],
+    "prediction": "m.0pdtjg5",
+    "hits1": 0,
+    "trajectory": [
+      "Niall Ferguson",
+      "m.0pdtjg5"
+    ],
+    "visited_set": [
+      "Niall Ferguson",
+      "m.0pdtjg5"
+    ],
+    "edges": [
+      [
+        "Niall Ferguson",
+        "people.person.spouse_s",
+        "m.0pdtjg5"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-41",
+    "question": "where is the galapagos islands located on a world map",
+    "answer": [
+      "Ecuador",
+      "Pacific Ocean",
+      "Galápagos Province"
+    ],
+    "prediction": "Galápagos Islands",
+    "hits1": 0,
+    "trajectory": [
+      "Galápagos Islands",
+      "Galápagos National Park",
+      "Galápagos Islands",
+      "m.05nf0pq"
+    ],
+    "visited_set": [
+      "Galápagos Islands",
+      "Galápagos National Park",
+      "m.05nf0pq"
+    ],
+    "edges": [
+      [
+        "Galápagos Islands",
+        "location.location.contains",
+        "Galápagos National Park"
+      ],
+      [
+        "Galápagos Islands",
+        "location.location.geolocation",
+        "m.05nf0pq"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-42",
+    "question": "what are the songs that justin bieber wrote",
+    "answer": [
+      "Somebody to Love",
+      "All Around The World",
+      "Wait for a Minute",
+      "Roller Coaster",
+      "Never Let You Go",
+      "Change Me",
+      "As Long as You Love Me",
+      "Confident",
+      "All Bad",
+      "Eenie Meenie",
+      "All That Matters",
+      "Turn to You (Mother's Day Dedication)",
+      "Heartbreaker",
+      "Never Say Never",
+      "Thought Of You",
+      "Home to Mama",
+      "Baby",
+      "Right Here",
+      "Bigger",
+      "Recovery",
+      "Bad Day",
+      "#thatPower",
+      "PYD",
+      "First Dance",
+      "Boyfriend",
+      "Live My Life",
+      "Die in Your Arms",
+      "Hold Tight",
+      "Pray",
+      "Beauty And A Beat",
+      "Lolly"
+    ],
+    "prediction": "Hot Wired Radio, Big R Radio - The Hawk, Emphatic Radio.com!, 1Club.FM: Channel One, .977 The Hits Channel, Big R Radio - Top 40 Hits, 1Club.FM: Mix 106, BeirutNights.com Radio, radioIO Todays POP, 1.FM Top 40, HitzRadio.com, Sunshine Radio",
+    "hits1": 0,
+    "trajectory": [
+      "Justin Bieber",
+      "m.0p85jpp"
+    ],
+    "visited_set": [
+      "Justin Bieber",
+      "m.0p85jpp"
+    ],
+    "edges": [
+      [
+        "Justin Bieber",
+        "film.person_or_entity_appearing_in_film.films",
+        "m.0p85jpp"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-43",
+    "question": "what did george clemenceau do",
+    "answer": [
+      "Physician",
+      "Writer",
+      "Statesman",
+      "Journalist",
+      "Publisher"
+    ],
+    "prediction": "m.0hffl",
+    "hits1": 0,
+    "trajectory": [
+      "Georges Clémenceau",
+      "m.0hffl"
+    ],
+    "visited_set": [
+      "Georges Clémenceau",
+      "m.0hffl"
+    ],
+    "edges": [
+      [
+        "Georges Clémenceau",
+        "common.topic.article",
+        "m.0hffl"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-44",
+    "question": "what is the state flower of arizona",
+    "answer": [
+      "Saguaro"
+    ],
+    "prediction": "Arizona",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-45",
+    "question": "where was rihanna born and raised",
+    "answer": [
+      "Saint Michael Parish"
+    ],
+    "prediction": "Not directly available in the given graph",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-46",
+    "question": "what year did president william henry harrison take office",
+    "answer": [
+      "1841-03-04"
+    ],
+    "prediction": "m.0bfmkg2",
+    "hits1": 0,
+    "trajectory": [
+      "William Henry Harrison",
+      "m.0bfmkg2"
+    ],
+    "visited_set": [
+      "William Henry Harrison",
+      "m.0bfmkg2"
+    ],
+    "edges": [
+      [
+        "William Henry Harrison",
+        "government.politician.government_positions_held",
+        "m.0bfmkg2"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-47",
+    "question": "where george lopez was born",
+    "answer": [
+      "Mission Hills"
+    ],
+    "prediction": "m.0948qtd",
+    "hits1": 0,
+    "trajectory": [
+      "George Lopez",
+      "g.12h323xvh",
+      "George Lopez",
+      "m.09xzsq2",
+      "George Lopez",
+      "m.0948qtd"
+    ],
+    "visited_set": [
+      "George Lopez",
+      "g.12h323xvh",
+      "m.0948qtd",
+      "m.09xzsq2"
+    ],
+    "edges": [
+      [
+        "George Lopez",
+        "common.topic.notable_for",
+        "g.12h323xvh"
+      ],
+      [
+        "George Lopez",
+        "common.topic.webpage",
+        "m.09xzsq2"
+      ],
+      [
+        "George Lopez",
+        "common.resource.annotations",
+        "m.0948qtd"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-48",
+    "question": "where are samsung based",
+    "answer": [
+      "Suwon"
+    ],
+    "prediction": "Samsung Group Headquarters",
+    "hits1": 0,
+    "trajectory": [
+      "Samsung Group",
+      "m.03l9ynf"
+    ],
+    "visited_set": [
+      "Samsung Group",
+      "m.03l9ynf"
+    ],
+    "edges": [
+      [
+        "Samsung Group",
+        "organization.organization.headquarters",
+        "m.03l9ynf"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-49",
+    "question": "what did the islamic people believe in",
+    "answer": [
+      "Ṭūbā",
+      "Mahdi",
+      "Monotheism",
+      "Prophets in Islam",
+      "Predestination in Islam",
+      "Qiyamah",
+      "Islamic holy books",
+      "Sharia",
+      "Islamic view of angels",
+      "Tawhid",
+      "Entering Heaven alive",
+      "God in Islam",
+      "Masih ad-Dajjal"
+    ],
+    "prediction": "Monotheism, Tawhid",
+    "hits1": 1,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-51",
+    "question": "who will play mr gray in the film",
+    "answer": [
+      "Jamie Dornan"
+    ],
+    "prediction": "Dakota Johnson",
+    "hits1": 0,
+    "trajectory": [
+      "Christian Grey",
+      "m.0ydn3r2"
+    ],
+    "visited_set": [
+      "Christian Grey",
+      "m.0ydn3r2"
+    ],
+    "edges": [
+      [
+        "Christian Grey",
+        "film.film_character.portrayed_in_films",
+        "m.0ydn3r2"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-52",
+    "question": "what did george orwell died of",
+    "answer": [
+      "Tuberculosis"
+    ],
+    "prediction": "Tuberculosis",
+    "hits1": 1,
+    "trajectory": [
+      "George Orwell",
+      "Tuberculosis"
+    ],
+    "visited_set": [
+      "George Orwell",
+      "Tuberculosis"
+    ],
+    "edges": [
+      [
+        "George Orwell",
+        "people.deceased_person.cause_of_death",
+        "Tuberculosis"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-54",
+    "question": "what country did adolf hitler control",
+    "answer": [
+      "Nazi Germany"
+    ],
+    "prediction": "g.1254zbtvv",
+    "hits1": 0,
+    "trajectory": [
+      "Adolf Hitler",
+      "g.1254zbtvv"
+    ],
+    "visited_set": [
+      "Adolf Hitler",
+      "g.1254zbtvv"
+    ],
+    "edges": [
+      [
+        "Adolf Hitler",
+        "common.topic.notable_for",
+        "g.1254zbtvv"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-55",
+    "question": "who is michael buble",
+    "answer": [
+      "Actor",
+      "Singer",
+      "Songwriter"
+    ],
+    "prediction": "Michael Bublé",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-56",
+    "question": "what county is kansas city kansas",
+    "answer": [
+      "Wyandotte County"
+    ],
+    "prediction": "Wyandotte County",
+    "hits1": 1,
+    "trajectory": [
+      "Kansas City",
+      "Wyandotte County"
+    ],
+    "visited_set": [
+      "Kansas City",
+      "Wyandotte County"
+    ],
+    "edges": [
+      [
+        "Kansas City",
+        "location.hud_county_place.county",
+        "Wyandotte County"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-58",
+    "question": "who did jackie robinson first play for",
+    "answer": [
+      "UCLA Bruins football"
+    ],
+    "prediction": "Brooklyn Dodgers",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-59",
+    "question": "when did annie open",
+    "answer": [
+      "1976-08-10"
+    ],
+    "prediction": "Not enough information provided in the graph to determine the exact opening date of Annie.",
+    "hits1": 0,
+    "trajectory": [
+      "Annie",
+      "m.0hzv102"
+    ],
+    "visited_set": [
+      "Annie",
+      "m.0hzv102"
+    ],
+    "edges": [
+      [
+        "Annie",
+        "film.film.distributors",
+        "m.0hzv102"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-60",
+    "question": "where did eleanor roosevelt die",
+    "answer": [
+      "Manhattan"
+    ],
+    "prediction": "Hyde Park, New York",
+    "hits1": 0,
+    "trajectory": [
+      "Eleanor Roosevelt",
+      "g.1256vs3r8",
+      "Eleanor Roosevelt",
+      "m.03j_v1s",
+      "Eleanor Roosevelt",
+      "m.07k_p8q"
+    ],
+    "visited_set": [
+      "Eleanor Roosevelt",
+      "g.1256vs3r8",
+      "m.03j_v1s",
+      "m.07k_p8q"
+    ],
+    "edges": [
+      [
+        "Eleanor Roosevelt",
+        "common.topic.notable_for",
+        "g.1256vs3r8"
+      ],
+      [
+        "Eleanor Roosevelt",
+        "common.topic.webpage",
+        "m.03j_v1s"
+      ],
+      [
+        "Eleanor Roosevelt",
+        "common.topic.article",
+        "m.07k_p8q"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-61",
+    "question": "what are the religions practiced in indonesia",
+    "answer": [
+      "Catholicism",
+      "Hinduism",
+      "Protestantism",
+      "Islam"
+    ],
+    "prediction": "m.0j1b_v4",
+    "hits1": 0,
+    "trajectory": [
+      "Indonesia",
+      "m.0j1b_v4"
+    ],
+    "visited_set": [
+      "Indonesia",
+      "m.0j1b_v4"
+    ],
+    "edges": [
+      [
+        "Indonesia",
+        "common.topic.webpage",
+        "m.0j1b_v4"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-62",
+    "question": "what was jesse james killed with",
+    "answer": [
+      "Firearm"
+    ],
+    "prediction": "m.0hz33t7",
+    "hits1": 0,
+    "trajectory": [
+      "Jesse James",
+      "g.1254z5y4y",
+      "Jesse James",
+      "m.09xm2c0",
+      "Jesse James",
+      "m.0hz33t7"
+    ],
+    "visited_set": [
+      "Jesse James",
+      "g.1254z5y4y",
+      "m.09xm2c0",
+      "m.0hz33t7"
+    ],
+    "edges": [
+      [
+        "Jesse James",
+        "common.topic.notable_for",
+        "g.1254z5y4y"
+      ],
+      [
+        "Jesse James",
+        "common.topic.webpage",
+        "m.09xm2c0"
+      ],
+      [
+        "Jesse James",
+        "common.topic.article",
+        "m.0hz33t7"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-63",
+    "question": "who was vp for lincoln",
+    "answer": [
+      "Hannibal Hamlin",
+      "Andrew Johnson"
+    ],
+    "prediction": "1860 Republican National Convention",
+    "hits1": 0,
+    "trajectory": [
+      "Abraham Lincoln",
+      "1860 Republican National Convention"
+    ],
+    "visited_set": [
+      "1860 Republican National Convention",
+      "Abraham Lincoln"
+    ],
+    "edges": [
+      [
+        "Abraham Lincoln",
+        "base.politicalconventions.presidential_nominee.nominated_at",
+        "1860 Republican National Convention"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-64",
+    "question": "what other books did charles dickens write",
+    "answer": [
+      "A Christmas Carol (Chrysalis Children's Classics Series)",
+      "A Tale of Two Cities (Everyman's Library (Paper))",
+      "A Christmas Carol",
+      "A Tale of Two Cities (Lake Illustrated Classics, Collection 2)",
+      "Sketches by Boz",
+      "The mystery of Edwin Drood",
+      "A Tale of Two Cities",
+      "Hard times",
+      "A Christmas Carol (Whole Story)",
+      "Dombey and Son",
+      "A Christmas Carol (Bantam Classic)",
+      "Great expectations",
+      "The Old Curiosity Shop",
+      "A Christmas Carol (Pacemaker Classic)",
+      "Our mutual friend",
+      "The Pickwick papers",
+      "A Tale of Two Cities (Clear Print)",
+      "A Christmas Carol (Watermill Classic)",
+      "Little Dorrit",
+      "A Tale of Two Cities (Webster's Portuguese Thesaurus Edition)",
+      "Great expectations.",
+      "Oliver Twist",
+      "A Tale of Two Cities (Cover to Cover Classics)",
+      "A Christmas Carol (Dramascripts)",
+      "A Tale of Two Cities (Webster's Chinese-Traditional Thesaurus Edition)",
+      "A Christmas Carol (Classic Fiction)",
+      "A Tale of Two Cities (Simple English)",
+      "A Tale of Two Cities (Isis Clear Type Classic)",
+      "A Tale of Two Cities (Courage Literary Classics)",
+      "Bleak House.",
+      "David Copperfield",
+      "A Tale of Two Cities (Masterworks)",
+      "A Christmas Carol (Read & Listen Books)",
+      "A Tale of Two Cities (Student's Novels)",
+      "A Tale of Two Cities (Penguin Popular Classics)",
+      "A Tale of Two Cities (Classics Illustrated)",
+      "A Tale of Two Cities (Large Print Edition)",
+      "A Tale of Two Cities (Classic Fiction)",
+      "A Tale of Two Cities (Cyber Classics)",
+      "Bleak House",
+      "A Tale of Two Cities (Longman Fiction)",
+      "Martin Chuzzlewit",
+      "A Christmas Carol (Through the Magic Window Series)",
+      "A Christmas Carol (Green Integer, 50)",
+      "A Christmas Carol (Watermill Classics)",
+      "A Christmas Carol (Clear Print)",
+      "A Tale of Two Cities (Illustrated Junior Library)",
+      "A Christmas Carol (Children's Classics)",
+      "A Tale of Two Cities (Piccolo Books)",
+      "A Tale of Two Cities (Silver Classics)",
+      "David Copperfield.",
+      "Our mutual friend.",
+      "A Christmas Carol (Gollancz Children's Classics)",
+      "A Tale Of Two Cities (Classic Books on Cassettes Collection)",
+      "A Tale of Two Cities (Bookcassette(r) Edition)",
+      "A Christmas Carol (Soundings)",
+      "A Christmas Carol (Great Stories)",
+      "A Tale of Two Cities (Oxford Bookworms Library)",
+      "A Christmas Carol (The Kennett Library)",
+      "A Christmas Carol (Thornes Classic Novels)",
+      "A Christmas Carol (Apple Classics)",
+      "A Tale of Two Cities (Enriched Classic)",
+      "A Tale of Two Cities (Naxos AudioBooks)",
+      "A Tale of Two Cities (Pacemaker Classics)",
+      "The life and adventures of Nicholas Nickleby",
+      "A Christmas Carol (Illustrated Classics)",
+      "A Christmas Carol (Ladybird Children's Classics)",
+      "A Tale of Two Cities (Soundings)",
+      "A Christmas Carol (Everyman's Library Children's Classics)",
+      "A Tale of Two Cities (Bantam Classic)",
+      "A Christmas Carol (Usborne Young Reading)",
+      "A Tale of Two Cities (Penguin Classics)",
+      "A Tale of Two Cities (Collected Works of Charles Dickens)",
+      "A Tale Of Two Cities (Adult Classics in Audio)",
+      "A Christmas Carol (Young Reading Series 2)",
+      "The cricket on the hearth",
+      "A Christmas Carol (Value Books)",
+      "A Christmas Carol (Acting Edition)",
+      "A Tale of Two Cities (Webster's Chinese-Simplified Thesaurus Edition)",
+      "A Tale of Two Cities (Illustrated Classics)",
+      "A Tale of Two Cities (New Oxford Illustrated Dickens)",
+      "A Tale of Two Cities (Dramatized)",
+      "A Tale of Two Cities (Dramascripts S.)",
+      "A Christmas Carol (Cp 1135)",
+      "A Christmas Carol (Limited Editions)",
+      "A Christmas Carol (Classics Illustrated)",
+      "A Tale of Two Cities (BBC Audio Series)",
+      "A Christmas Carol. (Lernmaterialien)",
+      "A Christmas Carol (Classic Books on Cassettes Collection)",
+      "A Tale of Two Cities (Compact English Classics)",
+      "A Tale of Two Cities (Progressive English)",
+      "A Tale of Two Cities (Collector's Library)",
+      "A Christmas Carol (Scholastic Classics)",
+      "A Tale of Two Cities (The Greatest Historical Novels)",
+      "A Christmas Carol (Children's Theatre Playscript)",
+      "A Christmas Carol (Illustrated Classics (Graphic Novels))",
+      "A Tale of Two Cities (Saddleback Classics)",
+      "A Christmas Carol (Penguin Readers, Level 2)",
+      "A Christmas Carol (R)",
+      "A Christmas Carol (Take Part)",
+      "A Tale of Two Cities (Signet Classics)",
+      "A Tale of Two Cities (Macmillan Students' Novels)",
+      "A Tale of Two Cities (Unabridged Classics)",
+      "A Tale of Two Cities (Tor Classics)",
+      "A Tale of Two Cities (Penguin Readers, Level 5)",
+      "A Christmas Carol (Audio Editions)",
+      "A Christmas Carol (Penguin Student Editions)",
+      "A Tale of Two Cities (Amsco Literature Program - N 380 ALS)",
+      "A Christmas Carol (Pacemaker Classics)",
+      "The old curiosity shop.",
+      "A Christmas Carol (Large Print)",
+      "A Christmas Carol (Puffin Classics)",
+      "A Tale of Two Cities (Everyman Paperbacks)",
+      "A Christmas Carol (Reissue)",
+      "A Tale of Two Cities (Konemann Classics)",
+      "A Christmas Carol (Radio Theatre)",
+      "A Tale of Two Cities (Puffin Classics)",
+      "A Tale of Two Cities (Unabridged Classics for High School and Adults)",
+      "A Christmas Carol (Wordsworth Collection) (Wordsworth Collection)",
+      "A Christmas Carol (Webster's Korean Thesaurus Edition)",
+      "A Tale of Two Cities (Barnes & Noble Classics Series)",
+      "A Christmas Carol (Family Classics)",
+      "A Christmas Carol (Classics for Young Adults and Adults)",
+      "A Tale of Two Cities (Classics Illustrated Notes)",
+      "A Christmas Carol (Aladdin Classics)",
+      "A Tale of Two Cities (10 Cassettes)",
+      "A Christmas Carol (Nelson Graded Readers)",
+      "A Tale of Two Cities (Adopted Classic)",
+      "A Christmas Carol (Oxford Bookworms Library)",
+      "A Tale of Two Cities (Classic Literature with Classical Music)",
+      "A Tale of Two Cities (Ultimate Classics)",
+      "A Tale of Two Cities (Paperback Classics)",
+      "A Tale of Two Cities (Classic Retelling)",
+      "Dombey and Son.",
+      "A Christmas Carol (Classic Collection)",
+      "A Christmas Carol (Classic, Picture, Ladybird)",
+      "A Tale of Two Cities (Webster's Italian Thesaurus Edition)",
+      "A Tale of Two Cities (Dover Thrift Editions)",
+      "A Christmas Carol (Enriched Classics)",
+      "A Tale of Two Cities (Prentice Hall Science)",
+      "A Christmas Carol (Ladybird Classics)",
+      "A Tale Of Two Cities (Adult Classics)",
+      "A Tale of Two Cities (Longman Classics, Stage 2)",
+      "A Tale of Two Cities (Acting Edition)",
+      "A Christmas Carol (Saddleback Classics)",
+      "A Tale of Two Cities (Webster's German Thesaurus Edition)",
+      "A Tale of Two Cities (The Classic Collection)",
+      "A Christmas Carol (Tor Classics)",
+      "A Tale of Two Cities (Wordsworth Classics)",
+      "A Tale of Two Cities (Dodo Press)",
+      "A Christmas Carol (Webster's Portuguese Thesaurus Edition)",
+      "A Christmas Carol (Cover to Cover)",
+      "A Tale of Two Cities (Oxford Playscripts)",
+      "A Christmas Carol (Dramascripts Classic Texts)",
+      "A Christmas Carol (Puffin Choice)",
+      "A Christmas Carol (New Longman Literature)",
+      "A Tale of Two Cities (40th Anniversary Edition)",
+      "A Tale of Two Cities (Ladybird Children's Classics)",
+      "A Tale of Two Cities (Everyman's Library Classics)",
+      "A Tale of Two Cities (Cassette (1 Hr).)"
+    ],
+    "prediction": "Coffee with Dickens, Drood: A Novel",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-65",
+    "question": "who was the first dictator of the soviet union",
+    "answer": [
+      "Vladimir Lenin"
+    ],
+    "prediction": "Joseph Stalin",
+    "hits1": 0,
+    "trajectory": [
+      "Soviet Union",
+      "m.049x6yv"
+    ],
+    "visited_set": [
+      "Soviet Union",
+      "m.049x6yv"
+    ],
+    "edges": [
+      [
+        "Soviet Union",
+        "government.governmental_jurisdiction.governing_officials",
+        "m.049x6yv"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-66",
+    "question": "what is the currency of puerto rico called",
+    "answer": [
+      "United States Dollar"
+    ],
+    "prediction": "United States dollar",
+    "hits1": 1,
+    "trajectory": [
+      "Puerto Rico",
+      "United States of America"
+    ],
+    "visited_set": [
+      "Puerto Rico",
+      "United States of America"
+    ],
+    "edges": [
+      [
+        "Puerto Rico",
+        "base.biblioness.bibs_location.country",
+        "United States of America"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-67",
+    "question": "what kind of cancer did carl wilson have",
+    "answer": [
+      "Lung cancer",
+      "Brain tumor"
+    ],
+    "prediction": "Lung cancer, Brain tumor",
+    "hits1": 1,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-68",
+    "question": "who plays the voice of kitt in knight rider",
+    "answer": [
+      "William Daniels"
+    ],
+    "prediction": "m.0kv9d1z",
+    "hits1": 0,
+    "trajectory": [
+      "Knight Rider",
+      "m.0kv9d1z"
+    ],
+    "visited_set": [
+      "Knight Rider",
+      "m.0kv9d1z"
+    ],
+    "edges": [
+      [
+        "Knight Rider",
+        "tv.tv_program.regular_cast",
+        "m.0kv9d1z"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-69",
+    "question": "what county is brentwood tennessee in",
+    "answer": [
+      "Williamson County"
+    ],
+    "prediction": "Williamson County",
+    "hits1": 1,
+    "trajectory": [
+      "Brentwood",
+      "Williamson County"
+    ],
+    "visited_set": [
+      "Brentwood",
+      "Williamson County"
+    ],
+    "edges": [
+      [
+        "Brentwood",
+        "location.hud_county_place.county",
+        "Williamson County"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-71",
+    "question": "who did michael j fox marry",
+    "answer": [
+      "Tracy Pollan"
+    ],
+    "prediction": "Catherine Todd Fox",
+    "hits1": 0,
+    "trajectory": [
+      "Michael J. Fox",
+      "m.0cy4qv7",
+      "Michael J. Fox",
+      "m.065q2m7"
+    ],
+    "visited_set": [
+      "Michael J. Fox",
+      "m.065q2m7",
+      "m.0cy4qv7"
+    ],
+    "edges": [
+      [
+        "Michael J. Fox",
+        "celebrities.celebrity.sexual_relationships",
+        "m.0cy4qv7"
+      ],
+      [
+        "Michael J. Fox",
+        "base.popstra.celebrity.dated",
+        "m.065q2m7"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-72",
+    "question": "what battles did stonewall jackson fight in",
+    "answer": [
+      "Manassas Station Operations",
+      "First Battle of Kernstown",
+      "First Battle of Rappahannock Station",
+      "Second Battle of Bull Run",
+      "Battle of McDowell",
+      "Battle of Chancellorsville",
+      "Battle of Harpers Ferry",
+      "First Battle of Winchester",
+      "Battle of Chantilly",
+      "How Few Remain",
+      "American Civil War",
+      "Battle of Port Republic",
+      "Battle of White Oak Swamp",
+      "Romney Expedition",
+      "Battle of Hoke's Run",
+      "Jackson's Valley Campaign",
+      "Battle of Cedar Mountain",
+      "Battle of Front Royal",
+      "Battle of Hancock"
+    ],
+    "prediction": "Battle of Harpers Ferry, First Battle of Bull Run, Battle of Fredericksburg",
+    "hits1": 1,
+    "trajectory": [
+      "Stonewall Jackson",
+      "Battle of Harpers Ferry"
+    ],
+    "visited_set": [
+      "Battle of Harpers Ferry",
+      "Stonewall Jackson"
+    ],
+    "edges": [
+      [
+        "Stonewall Jackson",
+        "military.military_person.participated_in_conflicts",
+        "Battle of Harpers Ferry"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-73",
+    "question": "what language do the maasai tribe speak",
+    "answer": [
+      "Maasai Language"
+    ],
+    "prediction": "Maasai Language",
+    "hits1": 1,
+    "trajectory": [
+      "Maasai people",
+      "Maasai Language"
+    ],
+    "visited_set": [
+      "Maasai Language",
+      "Maasai people"
+    ],
+    "edges": [
+      [
+        "Maasai people",
+        "people.ethnicity.languages_spoken",
+        "Maasai Language"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-74",
+    "question": "who did benjamin franklin get married to",
+    "answer": [
+      "Deborah Read"
+    ],
+    "prediction": "m.09xnq7h",
+    "hits1": 0,
+    "trajectory": [
+      "Benjamin Franklin",
+      "g.125g980qq",
+      "Benjamin Franklin",
+      "m.09xnq7h"
+    ],
+    "visited_set": [
+      "Benjamin Franklin",
+      "g.125g980qq",
+      "m.09xnq7h"
+    ],
+    "edges": [
+      [
+        "Benjamin Franklin",
+        "common.topic.notable_for",
+        "g.125g980qq"
+      ],
+      [
+        "Benjamin Franklin",
+        "common.topic.webpage",
+        "m.09xnq7h"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-75",
+    "question": "what disease did patrick swayze died from",
+    "answer": [
+      "Pancreatic cancer"
+    ],
+    "prediction": "Pancreatic cancer",
+    "hits1": 1,
+    "trajectory": [
+      "Patrick Swayze",
+      "Pancreatic cancer"
+    ],
+    "visited_set": [
+      "Pancreatic cancer",
+      "Patrick Swayze"
+    ],
+    "edges": [
+      [
+        "Patrick Swayze",
+        "people.deceased_person.cause_of_death",
+        "Pancreatic cancer"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-76",
+    "question": "what works of art did leonardo da vinci produce",
+    "answer": [
+      "g.121wt37c",
+      "g.1224tf0c",
+      "Sala delle Asse",
+      "Ginevra de' Benci",
+      "Leonardo's horse",
+      "Madonna and Child with St Joseph",
+      "St. John the Baptist",
+      "Lucan portrait of Leonardo da Vinci",
+      "Leda and the Swan",
+      "Adoration of the Magi",
+      "g.1239jd9p",
+      "Horse and Rider",
+      "g.120vt1gz",
+      "Bacchus",
+      "Drapery for a Seated Figure",
+      "Portrait of a Young Fiancée",
+      "Madonna of the Yarnwinder",
+      "The Baptism of Christ",
+      "The Battle of Anghiari",
+      "The Holy Infants Embracing",
+      "g.12314dm1",
+      "Portrait of Isabella d'Este",
+      "Medusa",
+      "St. Jerome in the Wilderness",
+      "The Virgin and Child with St Anne and St John the Baptist",
+      "Lady with an Ermine",
+      "Portrait of a man in red chalk",
+      "g.1219sb0g",
+      "Virgin of the Rocks",
+      "g.1213jb_b",
+      "Madonna of the Carnation",
+      "Benois Madonna",
+      "Annunciation",
+      "Madonna of Laroque",
+      "Salvator Mundi",
+      "Head of a Woman",
+      "Mona Lisa",
+      "g.121yh91r",
+      "g.12215rxg",
+      "Madonna Litta",
+      "The Virgin and Child with St. Anne",
+      "The Last Supper",
+      "Portrait of a Musician",
+      "La belle ferronnière",
+      "Vitruvian Man"
+    ],
+    "prediction": "m.09yr3hq",
+    "hits1": 0,
+    "trajectory": [
+      "Leonardo da Vinci",
+      "Codex Atlanticus",
+      "Leonardo da Vinci",
+      "g.1254yrdl_",
+      "Leonardo da Vinci",
+      "m.09yr3hq"
+    ],
+    "visited_set": [
+      "Codex Atlanticus",
+      "Leonardo da Vinci",
+      "g.1254yrdl_",
+      "m.09yr3hq"
+    ],
+    "edges": [
+      [
+        "Leonardo da Vinci",
+        "book.author.works_written",
+        "Codex Atlanticus"
+      ],
+      [
+        "Leonardo da Vinci",
+        "common.topic.notable_for",
+        "g.1254yrdl_"
+      ],
+      [
+        "Leonardo da Vinci",
+        "common.topic.webpage",
+        "m.09yr3hq"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-77",
+    "question": "what capital of austria",
+    "answer": [
+      "Vienna"
+    ],
+    "prediction": "Vienna",
+    "hits1": 1,
+    "trajectory": [
+      "Austria",
+      "Vienna"
+    ],
+    "visited_set": [
+      "Austria",
+      "Vienna"
+    ],
+    "edges": [
+      [
+        "Austria",
+        "base.aareas.schema.administrative_area.capital",
+        "Vienna"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-78",
+    "question": "what type of cancer did eva peron have",
+    "answer": [
+      "Cervical cancer"
+    ],
+    "prediction": "Cervical cancer",
+    "hits1": 1,
+    "trajectory": [
+      "Eva Perón",
+      "Cervical cancer"
+    ],
+    "visited_set": [
+      "Cervical cancer",
+      "Eva Perón"
+    ],
+    "edges": [
+      [
+        "Eva Perón",
+        "people.deceased_person.cause_of_death",
+        "Cervical cancer"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-79",
+    "question": "what country did buddha come from",
+    "answer": [
+      "Nepal"
+    ],
+    "prediction": "Nepal",
+    "hits1": 1,
+    "trajectory": [
+      "Gautama Buddha",
+      "Kapilavastu",
+      "Nepal"
+    ],
+    "visited_set": [
+      "Gautama Buddha",
+      "Kapilavastu",
+      "Nepal"
+    ],
+    "edges": [
+      [
+        "Gautama Buddha",
+        "people.person.place_of_birth",
+        "Kapilavastu"
+      ],
+      [
+        "Kapilavastu",
+        "location.location.containedby",
+        "Nepal"
+      ]
+    ],
+    "traj_len": 3,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-80",
+    "question": "what county is greeley colorado in",
+    "answer": [
+      "Weld County"
+    ],
+    "prediction": "Weld County",
+    "hits1": 1,
+    "trajectory": [
+      "Greeley",
+      "Weld County"
+    ],
+    "visited_set": [
+      "Greeley",
+      "Weld County"
+    ],
+    "edges": [
+      [
+        "Greeley",
+        "location.hud_county_place.county",
+        "Weld County"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-82",
+    "question": "what did peter tchaikovsky do",
+    "answer": [
+      "Musician",
+      "Librettist",
+      "Composer"
+    ],
+    "prediction": "The Nutcracker, Swan Lake, The Sleeping Beauty",
+    "hits1": 0,
+    "trajectory": [
+      "Pyotr Ilyich Tchaikovsky",
+      "g.125cvpgwd"
+    ],
+    "visited_set": [
+      "Pyotr Ilyich Tchaikovsky",
+      "g.125cvpgwd"
+    ],
+    "edges": [
+      [
+        "Pyotr Ilyich Tchaikovsky",
+        "common.topic.notable_for",
+        "g.125cvpgwd"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-83",
+    "question": "which countries speak german officially",
+    "answer": [
+      "Belgium",
+      "Germany",
+      "Switzerland",
+      "East Germany",
+      "Austria",
+      "Luxembourg",
+      "Liechtenstein"
+    ],
+    "prediction": "Germany, South Africa, Switzerland, Second Polish Republic, Liechtenstein, Belgium, East Germany, Denmark, Canada, Luxembourg, Austria, Czech Republic, West Germany, Vatican City, Cyprus",
+    "hits1": 1,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-84",
+    "question": "what type of music did john lennon sing",
+    "answer": [
+      "Rock music",
+      "Psychedelic rock",
+      "Pop rock",
+      "Blues rock",
+      "Art rock",
+      "Pop music",
+      "Experimental music",
+      "Experimental rock",
+      "Soft rock"
+    ],
+    "prediction": "Oldies, Classic Rock, Pop",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-85",
+    "question": "who are the colorado representatives",
+    "answer": [
+      "Mark Udall",
+      "Michael Bennet"
+    ],
+    "prediction": "m.0x1ylhs",
+    "hits1": 0,
+    "trajectory": [
+      "Colorado",
+      "m.0x1ylhs",
+      "Colorado",
+      "m.0x1ylhs"
+    ],
+    "visited_set": [
+      "Colorado",
+      "m.0x1ylhs"
+    ],
+    "edges": [
+      [
+        "Colorado",
+        "government.governmental_jurisdiction.governing_officials",
+        "m.0x1ylhs"
+      ],
+      [
+        "Colorado",
+        "government.governmental_jurisdiction.governing_officials",
+        "m.0x1ylhs"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-86",
+    "question": "which country does greenland belong to",
+    "answer": [
+      "Denmark"
+    ],
+    "prediction": "Denmark",
+    "hits1": 1,
+    "trajectory": [
+      "Greenland",
+      "Denmark"
+    ],
+    "visited_set": [
+      "Denmark",
+      "Greenland"
+    ],
+    "edges": [
+      [
+        "Greenland",
+        "location.administrative_division.country",
+        "Denmark"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-87",
+    "question": "what the zip code for seattle washington",
+    "answer": [
+      "98185",
+      "98174",
+      "98109",
+      "98132",
+      "98114",
+      "98121",
+      "98105",
+      "98138",
+      "98160",
+      "98139",
+      "98191",
+      "98102",
+      "98146",
+      "98190",
+      "98107",
+      "98158",
+      "98154",
+      "98175",
+      "98145",
+      "98164",
+      "98103",
+      "98104",
+      "98117",
+      "98119",
+      "98136",
+      "98113",
+      "98161",
+      "98199",
+      "98115",
+      "98184",
+      "98129",
+      "98125",
+      "98181",
+      "98155",
+      "98124",
+      "98131",
+      "98148",
+      "98195",
+      "98119-4114",
+      "98111",
+      "98165",
+      "98168",
+      "98122",
+      "98198",
+      "98133",
+      "98166",
+      "98194",
+      "98127",
+      "98170",
+      "98101",
+      "98177",
+      "98144",
+      "98116",
+      "98178",
+      "98134",
+      "98106",
+      "98126",
+      "98171",
+      "98141",
+      "98108",
+      "98118",
+      "98188",
+      "98112"
+    ],
+    "prediction": "g.12589b84x",
+    "hits1": 0,
+    "trajectory": [
+      "Seattle",
+      "Washington",
+      "Seattle",
+      "m.0jvvsgk",
+      "Seattle",
+      "g.12589b84x"
+    ],
+    "visited_set": [
+      "Seattle",
+      "Washington",
+      "g.12589b84x",
+      "m.0jvvsgk"
+    ],
+    "edges": [
+      [
+        "Seattle",
+        "base.biblioness.bibs_location.state",
+        "Washington"
+      ],
+      [
+        "Seattle",
+        "location.capital_of_administrative_division.capital_of",
+        "m.0jvvsgk"
+      ],
+      [
+        "Seattle",
+        "common.topic.notable_for",
+        "g.12589b84x"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-88",
+    "question": "who is willow smith mom name",
+    "answer": [
+      "Jada Pinkett Smith"
+    ],
+    "prediction": "Jada Pinkett Smith",
+    "hits1": 1,
+    "trajectory": [
+      "Willow Smith",
+      "Will Smith"
+    ],
+    "visited_set": [
+      "Will Smith",
+      "Willow Smith"
+    ],
+    "edges": [
+      [
+        "Willow Smith",
+        "people.person.parents",
+        "Will Smith"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-89",
+    "question": "what do you call the chinese writing system",
+    "answer": [
+      "Simplified Chinese character",
+      "Chinese characters",
+      "Nüshu script",
+      "Traditional Chinese characters",
+      "'Phags-pa script"
+    ],
+    "prediction": "Chinese characters",
+    "hits1": 1,
+    "trajectory": [
+      "Chinese language",
+      "Chinese characters"
+    ],
+    "visited_set": [
+      "Chinese characters",
+      "Chinese language"
+    ],
+    "edges": [
+      [
+        "Chinese language",
+        "language.human_language.writing_system",
+        "Chinese characters"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-90",
+    "question": "who played on the jeffersons",
+    "answer": [
+      "Damon Evans",
+      "Jay Hammer",
+      "Isabel Sanford",
+      "Sherman Hemsley",
+      "Marla Gibbs",
+      "Berlinda Tolbert",
+      "Zara Cully",
+      "Franklin Cover",
+      "Mike Evans",
+      "Roxie Roker",
+      "Paul Benedict"
+    ],
+    "prediction": "m.03lkkf3",
+    "hits1": 0,
+    "trajectory": [
+      "The Jeffersons",
+      "m.03lkkf3"
+    ],
+    "visited_set": [
+      "The Jeffersons",
+      "m.03lkkf3"
+    ],
+    "edges": [
+      [
+        "The Jeffersons",
+        "tv.tv_program.regular_cast",
+        "m.03lkkf3"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-91",
+    "question": "what is the name of the san francisco newspaper",
+    "answer": [
+      "Synapse",
+      "San Francisco Call",
+      "San Francisco Business Times",
+      "The Golden Era",
+      "Free Society",
+      "The San Francisco Examiner",
+      "The Daily Alta California",
+      "AsianWeek",
+      "Dock of the Bay",
+      "California Star",
+      "Sing Tao Daily",
+      "San Francisco Bay Times",
+      "Street Sheet",
+      "San Francisco Chronicle",
+      "San Francisco News-Call Bulletin Newspaper",
+      "San Francisco Daily",
+      "San Francisco Bay Guardian",
+      "San Francisco Foghorn",
+      "Bay Area Reporter",
+      "San Francisco Bay View"
+    ],
+    "prediction": "m.0d6l_",
+    "hits1": 0,
+    "trajectory": [
+      "San Francisco",
+      "g.1255z32m2",
+      "San Francisco",
+      "m.09yb31v",
+      "San Francisco",
+      "m.0d6l_"
+    ],
+    "visited_set": [
+      "San Francisco",
+      "g.1255z32m2",
+      "m.09yb31v",
+      "m.0d6l_"
+    ],
+    "edges": [
+      [
+        "San Francisco",
+        "common.topic.notable_for",
+        "g.1255z32m2"
+      ],
+      [
+        "San Francisco",
+        "common.topic.webpage",
+        "m.09yb31v"
+      ],
+      [
+        "San Francisco",
+        "common.topic.article",
+        "m.0d6l_"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-93",
+    "question": "what continent does armenia belong to",
+    "answer": [
+      "Europe"
+    ],
+    "prediction": "Europe",
+    "hits1": 1,
+    "trajectory": [
+      "Armenia",
+      "Europe"
+    ],
+    "visited_set": [
+      "Armenia",
+      "Europe"
+    ],
+    "edges": [
+      [
+        "Armenia",
+        "base.locations.countries.continent",
+        "Europe"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-94",
+    "question": "what did randy savage died of",
+    "answer": [
+      "heart attack"
+    ],
+    "prediction": "heart attack",
+    "hits1": 1,
+    "trajectory": [
+      "Randy Savage",
+      "heart attack"
+    ],
+    "visited_set": [
+      "Randy Savage",
+      "heart attack"
+    ],
+    "edges": [
+      [
+        "Randy Savage",
+        "people.deceased_person.cause_of_death",
+        "heart attack"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-95",
+    "question": "what was the title of the book charles darwin wrote",
+    "answer": [
+      "On evolution",
+      "The Voyage of the Beagle",
+      "Théorie de l'évolution",
+      "To the members of the Down Friendly Club",
+      "The Correspondence of Charles Darwin, Volume 3: 1844-1846",
+      "Proiskhozhdenie vidov",
+      "Geology from A Manual of scientific enquiry; prepared for the use of Her Majesty's Navy: and adapted for travellers in general",
+      "Darwin and Henslow",
+      "Resa kring jorden",
+      "Darwinism stated by Darwin himself",
+      "The zoology of the voyage of H.M.S. Beagle during the years 1832-1836",
+      "Darwin",
+      "The Darwin Reader First Edition",
+      "Diary of the voyage of H.M.S. Beagle",
+      "A Monograph on the Fossil Balanidæ and Verrucidæ of Great Britain",
+      "Journal of researches into the natural history and geology of the countries visited during the voyage round the world of the H. M. S. 'Beagle' under the command of Captain Fitz Roy, R. N",
+      "Charles Darwin's letters",
+      "The Structure and Distribution of Coral Reefs",
+      "Motsa ha-minim",
+      "Gesammelte kleinere Schriften",
+      "The Correspondence of Charles Darwin, Volume 15: 1867",
+      "The Formation of Vegetable Mould through the Action of Worms",
+      "Het uitdrukken van emoties bij mens en dier",
+      "Evolution and natural selection",
+      "The Correspondence of Charles Darwin, Volume 12: 1864",
+      "On the tendency of species to form varieties",
+      "Darwin's journal",
+      "The Descent of Man, and Selection in Relation to Sex",
+      "Die verschiedenen Blütenformen an Pflanzen der nämlichen Art",
+      "Darwin-Wallace",
+      "Part I: Contributions to the Theory of Natural Selection / Part II",
+      "Charles Darwin",
+      "Darwin for Today",
+      "The Correspondence of Charles Darwin, Volume 16: 1868",
+      "A student's introduction to Charles Darwin",
+      "Geological Observations on the Volcanic Islands",
+      "From so simple a beginning",
+      "Les mouvements et les habitudes des plantes grimpantes",
+      "Charles Darwin's marginalia",
+      "The Correspondence of Charles Darwin, Volume 8: 1860",
+      "The Correspondence of Charles Darwin, Volume 2: 1837-1843",
+      "A Darwin Selection",
+      "red notebook of Charles Darwin",
+      "The voyage of Charles Darwin",
+      "Tesakneri tsagumě",
+      "Cartas de Darwin 18251859",
+      "Un mémoire inédit de Charles Darwin sur l'instinct",
+      "Works",
+      "The Correspondence of Charles Darwin, Volume 9: 1861",
+      "The Correspondence of Charles Darwin, Volume 4: 1847-1850",
+      "Les moyens d'expression chez les animaux",
+      "Les récifs de corail, leur structure et leur distribution",
+      "A Monograph of the Sub-class Cirripedia, with Figures of all the Species. The Balanidae (or Sessile Cirripedes); the Verrucidae, etc.",
+      "La faculté motrice dans les plantes",
+      "The Correspondence of Charles Darwin, Volume 5: 1851-1855",
+      "Notebooks on transmutation of species",
+      "The Autobiography of Charles Darwin",
+      "Opshṭamung fun menshen",
+      "Fertilisation of Orchids",
+      "Darwin's insects",
+      "Charles Darwin on the routes of male humble bees",
+      "Reise eines Naturforschers um die Welt",
+      "Seul celui qui change reste fidèle à lui-même",
+      "A Monograph of the Sub-class Cirripedia, with Figures of all the Species. The Lepadidae; or, Pedunculated Cirripedes.",
+      "Human nature, Darwin's view",
+      "Das Variiren der Thiere und Pflanzen im Zustande der Domestication",
+      "Evolutionary Writings: Including the Autobiographies",
+      "The Life of Erasmus Darwin",
+      "geneseōs tōn eidōn",
+      "The Correspondence of Charles Darwin, Volume 11: 1863",
+      "Evolution by natural selection",
+      "The collected papers of Charles Darwin",
+      "Insectivorous Plants",
+      "The Effects of Cross and Self Fertilisation in the Vegetable Kingdom",
+      "Memorias y epistolario íntimo",
+      "The Life and Letters of Charles Darwin Volume 2",
+      "El Origin De Las Especies",
+      "A Monograph on the Fossil Lepadidae, or, Pedunculated Cirripedes of Great Britain",
+      "Die fundamente zur entstehung der arten",
+      "On the Movements and Habits of Climbing Plants",
+      "Darwin from Insectivorous Plants to Worms",
+      "The portable Darwin",
+      "variëeren der huisdieren en cultuurplanten",
+      "Darwin Compendium",
+      "The Correspondence of Charles Darwin, Volume 10: 1862",
+      "The foundations of the Origin of species",
+      "The education of Darwin",
+      "ontstaan der soorten door natuurlijke teeltkeus",
+      "The Expression of the Emotions in Man and Animals",
+      "Metaphysics, Materialism, & the evolution of mind",
+      "Der Ausdruck der Gemüthsbewegungen bei dem Menschen und den Thieren",
+      "The Correspondence of Charles Darwin, Volume 13: 1865",
+      "monograph on the sub-class Cirripedia",
+      "La vie et la correspondance de Charles Darwin",
+      "The Darwin Reader Second Edition",
+      "The geology of the voyage of H.M.S. Beagle",
+      "From Darwin's unpublished notebooks",
+      "Darwin on humus and the earthworm",
+      "The Correspondence of Charles Darwin, Volume 17: 1869",
+      "The Correspondence of Charles Darwin, Volume 14: 1866",
+      "Reise um die Welt 1831 - 36",
+      "Viaje de Un Naturalista Alrededor del Mundo 2 Vol",
+      "Diario del Viaje de Un Naturalista Alrededor",
+      "The living thoughts of Darwin",
+      "The principal works",
+      "Über den Bau und die Verbreitung der Corallen-Riffe",
+      "The Correspondence of Charles Darwin, Volume 18: 1870",
+      "Notes on the fertilization of orchids",
+      "Evolution",
+      "Monographs of the fossil Lepadidae and the fossil Balanidae",
+      "South American Geology",
+      "On a remarkable bar of sandstone off Pernambuco",
+      "Charles Darwin's natural selection",
+      "La descendance de l'homme et la s©Øelection sexuelle",
+      "Darwin en Patagonia",
+      "Del Plata a Tierra del Fuego",
+      "Geological observations on the volcanic islands and parts of South America visited during the voyage of H.M.S. 'Beagle",
+      "The Life and Letters of Charles Darwin Volume 1",
+      "The Power of Movement in Plants",
+      "Origins",
+      "Kleinere geologische Abhandlungen",
+      "Letters from C. Darwin, Esq., to A. Hancock, Esq",
+      "The Orgin of Species",
+      "Die Entstehung der Arten durch natürliche Zuchtwahl",
+      "The action of carbonate of ammonia on the roots of certain plants",
+      "More Letters of Charles Darwin",
+      "Beagle letters",
+      "The Correspondence of Charles Darwin, Volume 1: 1821-1836",
+      "Darwin's notebooks on transmutation of species",
+      "Rejse om jorden",
+      "The Different Forms of Flowers on Plants of the Same Species",
+      "H.M.S. Beagle in South America",
+      "Vospominanii︠a︡ o razvitii moego uma i kharaktera",
+      "Questions about the breeding of animals",
+      "The Correspondence of Charles Darwin, Volume 7: 1858-1859",
+      "The Essential Darwin",
+      "Leben und Briefe von Charles Darwin",
+      "Die Bewegungen und Lebensweise der kletternden Pflanzen",
+      "Voyage d'un naturaliste autour du monde",
+      "Über die Wege der Hummel-Männchen",
+      "Darwin Darwin",
+      "The Variation of Animals and Plants under Domestication",
+      "Die geschlechtliche Zuchtwahl",
+      "Darwin's Ornithological notes",
+      "Wu zhong qi yuan",
+      "On Natural Selection",
+      "Charles Darwin's zoology notes & specimen lists from H.M.S. Beagle",
+      "On the origin of species by means of natural selection",
+      "Geological Observations on South America",
+      "Die Wirkungen der Kreuz- und Selbst-Befruchtung im Pflanzenreich",
+      "The Correspondence of Charles Darwin, Volume 6: 1856-1857",
+      "Volcanic Islands",
+      "Charles Darwin, 1809-1882--Anton Dohrn, 1840-1909"
+    ],
+    "prediction": "Charles Darwin",
+    "hits1": 1,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-96",
+    "question": "where did richard nixon die",
+    "answer": [
+      "New York City"
+    ],
+    "prediction": "m.09y7_p7",
+    "hits1": 0,
+    "trajectory": [
+      "Richard Nixon",
+      "g.1258jn7q8",
+      "Richard Nixon",
+      "m.06c9k",
+      "Richard Nixon",
+      "m.09y7_p7"
+    ],
+    "visited_set": [
+      "Richard Nixon",
+      "g.1258jn7q8",
+      "m.06c9k",
+      "m.09y7_p7"
+    ],
+    "edges": [
+      [
+        "Richard Nixon",
+        "common.topic.notable_for",
+        "g.1258jn7q8"
+      ],
+      [
+        "Richard Nixon",
+        "common.topic.article",
+        "m.06c9k"
+      ],
+      [
+        "Richard Nixon",
+        "common.topic.webpage",
+        "m.09y7_p7"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-97",
+    "question": "what songs does smokey robinson sing",
+    "answer": [
+      "Just to See Her",
+      "Tracks of my Tears",
+      "Because of You It's the Best It's Ever Been",
+      "Baby That's Backatcha",
+      "Be Kind to the Growing Mind",
+      "Blame It On Love (Duet with Barbara Mitchell)",
+      "Sleepless Nights",
+      "A Tattoo",
+      "Being With You",
+      "Coincidentally",
+      "Mother's Son",
+      "Night and Day",
+      "And I Don't Love You (Larry Levan instrumental dub)",
+      "Cruisin'",
+      "Who's Sad",
+      "Quiet Storm",
+      "Just a Touch Away",
+      "Whole Lot of Shakin’ in My Heart (Since I Met You)",
+      "Going to a Go-Go",
+      "It's a Good Feeling",
+      "Jesus Told Me To Love You",
+      "Get Ready",
+      "That Place",
+      "Satisfy You",
+      "It's Her Turn to Live",
+      "Time After Time",
+      "I Want You Back",
+      "It's Time to Stop Shoppin' Around",
+      "The Hurt's On You",
+      "A Child Is Waiting",
+      "Tears Of A Clown",
+      "Virgin Man",
+      "Walk on By",
+      "The Road to Damascus",
+      "Shoe Soul",
+      "My Guy",
+      "Why Do Happy Memories Hurt So Bad",
+      "Fulfill Your Need",
+      "Deck the Halls",
+      "Let Me Be the Clock",
+      "Open",
+      "Standing On Jesus",
+      "You're the One for Me (feat. Joss Stone)",
+      "Love Bath",
+      "Ain't That Peculiar",
+      "I Am, I Am",
+      "My Girl",
+      "Tell Me Tomorrow",
+      "Wedding Song",
+      "Double Good Everything",
+      "We Are The Warriors",
+      "Whatcha Gonna Do",
+      "You Take Me Away",
+      "The Tracks Of My Tears",
+      "It's A Good Night",
+      "Holly",
+      "I Second That Emotion",
+      "I Second That Emotions",
+      "I Hear The Children Singing",
+      "Christmas Everyday",
+      "Don't Know Why",
+      "The Love Between Me and My Kids",
+      "It's Christmas Time",
+      "More Than You Know",
+      "The Track of My Tears",
+      "Don't Play Another Love Song",
+      "You Really Got a Hold on Me",
+      "Pops, We Love You (disco)",
+      "You've Really Go a Hold on Me",
+      "Rack Me Back",
+      "Nearness of You",
+      "Can't Fight Love",
+      "Photograph in My Mind",
+      "Everything You Touch",
+      "Bad Girl",
+      "Close Encounters of the First Kind",
+      "The Tears of a Clown",
+      "In My Corner",
+      "Blame It on Love",
+      "So Bad",
+      "Love Don' Give No Reason (12 Inch Club Mix)",
+      "The Tracks of My Heart",
+      "I Have Prayed On It",
+      "Ooh Baby Baby",
+      "Santa Claus is Coming to Town",
+      "Be Who You Are",
+      "Will You Love Me Tomorrow",
+      "Everything for Christmas",
+      "One Heartbeat",
+      "The Christmas Song (Chestnuts Roasting on an Open Fire) (feat. The Temptations)",
+      "Shop Around",
+      "Heavy On Pride (Light On Love)",
+      "When Smokey Sings Tears Of A Clown",
+      "Ebony Eyes (Duet with Rick James)",
+      "Ooo Baby Baby (live)",
+      "Fly Me to the Moon (In Other Words)",
+      "I Can't Give You Anything but Love",
+      "I Can’t Stand to See You Cry (Commercial version)",
+      "One Time",
+      "Take Me Through The Night",
+      "You Don't Know What It's Like",
+      "Ebony Eyes",
+      "The Agony and the Ecstasy",
+      "The Tracks of My Tears (live)",
+      "If You Wanna Make Love (Come 'round Here)",
+      "Let Your Light Shine On Me",
+      "You Are So Beautiful (feat. Dave Koz)",
+      "Aqui Contigo (Being With You) (Eric Bodi Rivera Mix)",
+      "Baby Come Close",
+      "I Can't Get Enough",
+      "You Are Forever",
+      "Food For Thought",
+      "You've Really Got a Hold on Me",
+      "Just My Soul Responding",
+      "I Care About Detroit",
+      "She's Only a Baby Herself",
+      "Season's Greetings from Smokey Robinson",
+      "Love Don't Give No Reason",
+      "Speak Low",
+      "Same Old Love",
+      "There Will Come A Day ( I'm Gonna Happen To You )",
+      "Share It",
+      "Love Brought Us Here",
+      "Come by Here (Kum Ba Ya)",
+      "Girlfriend",
+      "Hanging on by a Thread",
+      "Ever Had A Dream",
+      "We've Saved The Best For Last (Kenny G with Smokey Robinson)",
+      "I'll Keep My Light In My Window",
+      "A Silent Partner in a Three-Way Love Affair",
+      "Going to a Go Go",
+      "Be Kind To The Growing Mind (with The Temptations)",
+      "I'm in the Mood for Love",
+      "Going to a Gogo",
+      "Tell Me Tomorrow, Part 1",
+      "Why",
+      "I've Made Love to You a Thousand Times",
+      "Love So Fine",
+      "Cruisin",
+      "What's Too Much",
+      "Te Quiero Como Si No Hubiera Un Manana",
+      "Christmas Every Day",
+      "Crusin'",
+      "I Know You by Heart",
+      "Be Careful What You Wish For (instrumental)",
+      "Time Flies",
+      "Tracks Of My Tears (Live)",
+      "First Time on a Ferris Wheel (Love Theme From \\\"Berry Gordy's The Last Dragon\\\")",
+      "Theme From the Big Time",
+      "Ooo Baby Baby",
+      "Asleep on My Love",
+      "Wishful Thinking",
+      "Jingle Bells",
+      "(It's The) Same Old Love",
+      "Love' n Life",
+      "I Like Your Face",
+      "Melody Man",
+      "Tears of a Sweet Free Clown",
+      "He Can Fix Anything",
+      "Winter Wonderland",
+      "Unless You Do It Again",
+      "We've Saved the Best for Last",
+      "Away in the Manger / Coventry Carol",
+      "Train of Thought",
+      "Skid Row",
+      "Really Gonna Miss You",
+      "There Will Come a Day (I'm Gonna Happen to You)",
+      "Driving Thru Life in the Fast Lane",
+      "Mickey's Monkey",
+      "You're Just My Life (feat. India.Arie)",
+      "Just To See Her Again",
+      "Medley: Never My Love / Never Can Say Goodbye",
+      "And I Love Her",
+      "And I Don't Love You",
+      "Tell Me Tomorrow (12\\\" extended mix)",
+      "Quiet Storm (Groove Boutique remix)",
+      "More Love",
+      "The Way You Do (The Things You Do)",
+      "Hold on to Your Love",
+      "As You Do",
+      "Happy (Love Theme From Lady Sings the Blues)",
+      "Sweet Harmony",
+      "The Christmas Song",
+      "Don't Wanna Be Just Physical",
+      "Did You Know (Berry's Theme)",
+      "Rewind",
+      "Quiet Storm (single version)",
+      "When A Woman Cries",
+      "I Love The Nearness Of You",
+      "Just Passing Through",
+      "Love Letters",
+      "If You Want My Love",
+      "Christmas Greeting",
+      "Daylight & Darkness",
+      "God Rest Ye Merry Gentlemen",
+      "I Can’t Stand to See You Cry (Stereo Promo version)",
+      "Our Love Is Here to Stay",
+      "If You Wanna Make Love",
+      "You Made Me Feel Love",
+      "Easy",
+      "Fallin'",
+      "Love Is The Light",
+      "Please Come Home for Christmas",
+      "Why Are You Running From My Love",
+      "Jasmin",
+      "Crusin",
+      "Just Another Kiss",
+      "Some People Will Do Anything for Love",
+      "Vitamin U",
+      "Aqui Con Tigo (Being With You)",
+      "Quiet Storm (Groove Boutique Chill Jazz mix)",
+      "Wanna Know My Mind",
+      "I Can't Find",
+      "Will You Still Love Me Tomorrow",
+      "Just Like You",
+      "Will You Love Me Tomorrow?",
+      "You Go to My Head",
+      "I Love Your Face",
+      "Yester Love",
+      "Be Careful What You Wish For",
+      "Save Me",
+      "Gone Forever",
+      "We’ve Come Too Far to End It Now",
+      "Never My Love / Never Can Say Goodbye",
+      "Girl I'm Standing There",
+      "My World",
+      "Little Girl Little Girl",
+      "Keep Me",
+      "I Am I Am",
+      "I’ve Got You Under My Skin",
+      "Gang Bangin'",
+      "The Family Song",
+      "With Your Love Came",
+      "No Time to Stop Believing",
+      "Pops, We Love You",
+      "Little Girl, Little Girl",
+      "Come to Me Soon",
+      "Noël",
+      "You Cannot Laugh Alone",
+      "If You Can Want",
+      "Quiet Storm (Groove Boutique Chill Jazz mix feat. Ray Ayers)",
+      "I Praise & Worship You Father",
+      "I'm Glad There Is You",
+      "I've Got You Under My Skin",
+      "It's Fantastic",
+      "Noel",
+      "Yes It's You Lady",
+      "Tea for Two",
+      "Please Don't Take Your Love (feat. Carlos Santana)"
+    ],
+    "prediction": "Hallelujah Time, Please Come Home for Christmas, \"You've Really Got a Hold on Me\", The Tracks of My Tears, \"Ebony Eyes (feat. Smokey Robinson)\", I Second That Emotion, Tracks of My Tears, Ebony Eyes, \"Ton't Think Too Much\", \"We've Saved the Best for Last\", First Time on a Ferris Wheel, \"You Really Got a Hold on Me\"",
+    "hits1": 1,
+    "trajectory": [
+      "Smokey Robinson",
+      "Warm Thoughts"
+    ],
+    "visited_set": [
+      "Smokey Robinson",
+      "Warm Thoughts"
+    ],
+    "edges": [
+      [
+        "Smokey Robinson",
+        "music.artist.album",
+        "Warm Thoughts"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-98",
+    "question": "who was vice president when jfk was president",
+    "answer": [
+      "Lyndon B. Johnson"
+    ],
+    "prediction": "Lyndon B. Johnson",
+    "hits1": 1,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-99",
+    "question": "what is serbian language called",
+    "answer": [
+      "Serbian language"
+    ],
+    "prediction": "m.077qz",
+    "hits1": 0,
+    "trajectory": [
+      "Serbia",
+      "m.09y4s4x",
+      "Serbia",
+      "m.077qz"
+    ],
+    "visited_set": [
+      "Serbia",
+      "m.077qz",
+      "m.09y4s4x"
+    ],
+    "edges": [
+      [
+        "Serbia",
+        "common.topic.webpage",
+        "m.09y4s4x"
+      ],
+      [
+        "Serbia",
+        "common.topic.article",
+        "m.077qz"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-100",
+    "question": "what language is spoken in haiti today",
+    "answer": [
+      "Haitian Creole",
+      "French"
+    ],
+    "prediction": "Haitian Creole, French",
+    "hits1": 1,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-102",
+    "question": "who played barbara gordon batgirl",
+    "answer": [
+      "Melinda McGraw",
+      "Hannah Gunn",
+      "Ilyssa Fradin"
+    ],
+    "prediction": "Melinda McGraw",
+    "hits1": 1,
+    "trajectory": [
+      "Barbara Gordon",
+      "m.0c04kpn",
+      "Melinda McGraw"
+    ],
+    "visited_set": [
+      "Barbara Gordon",
+      "Melinda McGraw",
+      "m.0c04kpn"
+    ],
+    "edges": [
+      [
+        "Barbara Gordon",
+        "film.film_character.portrayed_in_films",
+        "m.0c04kpn"
+      ],
+      [
+        "m.0c04kpn",
+        "~film.actor.film",
+        "Melinda McGraw"
+      ]
+    ],
+    "traj_len": 3,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-103",
+    "question": "what basketball teams has shaq played for",
+    "answer": [
+      "Miami Heat",
+      "Orlando Magic",
+      "LSU Tigers men's basketball",
+      "Phoenix Suns",
+      "Los Angeles Lakers",
+      "Cleveland Cavaliers",
+      "Boston Celtics"
+    ],
+    "prediction": "m.04qr7hm",
+    "hits1": 0,
+    "trajectory": [
+      "Shaquille O'Neal",
+      "m.04qr7hm"
+    ],
+    "visited_set": [
+      "Shaquille O'Neal",
+      "m.04qr7hm"
+    ],
+    "edges": [
+      [
+        "Shaquille O'Neal",
+        "basketball.basketball_player.player_statistics",
+        "m.04qr7hm"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-104",
+    "question": "where is jay leno from",
+    "answer": [
+      "New Rochelle"
+    ],
+    "prediction": "United States",
+    "hits1": 0,
+    "trajectory": [
+      "Jay Leno",
+      "m.065pw2p"
+    ],
+    "visited_set": [
+      "Jay Leno",
+      "m.065pw2p"
+    ],
+    "edges": [
+      [
+        "Jay Leno",
+        "base.popstra.celebrity.dated",
+        "m.065pw2p"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-105",
+    "question": "what language do people from thailand speak",
+    "answer": [
+      "Mon Language",
+      "Saek language",
+      "Akha Language",
+      "Hmong language",
+      "Nyaw Language",
+      "Thai Language",
+      "Cham language",
+      "Mlabri Language",
+      "Malay, Pattani Language",
+      "Phu Thai language",
+      "Khmer language",
+      "Vietnamese Language",
+      "Lao Language"
+    ],
+    "prediction": "m.07f26",
+    "hits1": 0,
+    "trajectory": [
+      "Thailand",
+      "m.0b49h2q",
+      "Thailand",
+      "m.07f26"
+    ],
+    "visited_set": [
+      "Thailand",
+      "m.07f26",
+      "m.0b49h2q"
+    ],
+    "edges": [
+      [
+        "Thailand",
+        "common.topic.webpage",
+        "m.0b49h2q"
+      ],
+      [
+        "Thailand",
+        "common.topic.article",
+        "m.07f26"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-106",
+    "question": "who did armie hammer play in the social network",
+    "answer": [
+      "Cameron Winklevoss",
+      "Tyler Winklevoss"
+    ],
+    "prediction": "Armie Hammer",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-107",
+    "question": "what was thomas jefferson role in the declaration of independence",
+    "answer": [
+      "Lawyer",
+      "Author",
+      "Writer",
+      "Statesman",
+      "Teacher",
+      "Philosopher",
+      "Farmer",
+      "Archaeologist",
+      "Inventor",
+      "Architect"
+    ],
+    "prediction": "Thomas Jefferson",
+    "hits1": 0,
+    "trajectory": [
+      "Thomas Jefferson",
+      "g.125drcq04"
+    ],
+    "visited_set": [
+      "Thomas Jefferson",
+      "g.125drcq04"
+    ],
+    "edges": [
+      [
+        "Thomas Jefferson",
+        "common.topic.notable_for",
+        "g.125drcq04"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-108",
+    "question": "what was the book written by charles darwin",
+    "answer": [
+      "On evolution",
+      "The Autobiography of Charles Darwin, and selected letters",
+      "The Voyage of the Beagle",
+      "The Voyage of the Beagle (Great Minds Series)",
+      "Théorie de l'évolution",
+      "To the members of the Down Friendly Club",
+      "The Correspondence of Charles Darwin, Volume 3: 1844-1846",
+      "Descent of Man and Selection in Relation to Sex (Barnes & Noble Library of Essential Reading)",
+      "Origin of Species",
+      "The Origin Of Species",
+      "The Voyage of the Beagle (Classics of World Literature) (Classics of World Literature)",
+      "Proiskhozhdenie vidov",
+      "Darwin and Henslow",
+      "Resa kring jorden",
+      "Darwinism stated by Darwin himself",
+      "The Voyage of the Beagle (Unabridged Classics)",
+      "The zoology of the voyage of H.M.S. Beagle during the years 1832-1836",
+      "Darwin",
+      "The Darwin Reader First Edition",
+      "From So Simple a Beginning",
+      "Diary of the voyage of H.M.S. Beagle",
+      "Journal of researches into the natural history and geology of the countries visited during the voyage round the world of the H. M. S. 'Beagle' under the command of Captain Fitz Roy, R. N",
+      "Voyage of the Beagle (NG Adventure Classics)",
+      "Charles Darwin's letters",
+      "Origin of Species (Everyman's University Paperbacks)",
+      "The Expression Of The Emotions In Man And Animals",
+      "The Structure and Distribution of Coral Reefs",
+      "The Formation of Vegetable Mould through the Action of Worms",
+      "Gesammelte kleinere Schriften",
+      "Het uitdrukken van emoties bij mens en dier",
+      "Evolution and natural selection",
+      "The Correspondence of Charles Darwin, Volume 12: 1864",
+      "Voyage of the Beagle (Harvard Classics, Part 29)",
+      "On the tendency of species to form varieties",
+      "The descent of man, and selection in relation to sex",
+      "The Correspondence of Charles Darwin, Volume 15: 1867",
+      "Darwin's journal",
+      "The Origin of Species (Collector's Library)",
+      "Die verschiedenen Blütenformen an Pflanzen der nämlichen Art",
+      "Darwin-Wallace",
+      "Part I: Contributions to the Theory of Natural Selection / Part II",
+      "Charles Darwin",
+      "Darwin for Today",
+      "The Origin of Species (Barnes & Noble Classics Series) (Barnes & Noble Classics)",
+      "The Correspondence of Charles Darwin, Volume 16: 1868",
+      "A student's introduction to Charles Darwin",
+      "The autobiography of Charles Darwin",
+      "Les mouvements et les habitudes des plantes grimpantes",
+      "Charles Darwin's marginalia",
+      "The Correspondence of Charles Darwin, Volume 8: 1860",
+      "The Correspondence of Charles Darwin, Volume 2: 1837-1843",
+      "Autobiography of Charles Darwin",
+      "A Darwin Selection",
+      "Charles Darwin's zoology notes & specimen lists from H.M.S. Beagle",
+      "red notebook of Charles Darwin",
+      "The Origin of Species (Great Books : Learning Channel)",
+      "The Correspondence of Charles Darwin, Volume 4",
+      "Questions about the breeding of animals",
+      "The voyage of Charles Darwin",
+      "The Correspondence of Charles Darwin, Volume 6",
+      "Tesakneri tsagumě",
+      "Cartas de Darwin 18251859",
+      "Un mémoire inédit de Charles Darwin sur l'instinct",
+      "Works",
+      "The Correspondence of Charles Darwin, Volume 9: 1861",
+      "The Origin of Species (Variorum Reprint)",
+      "On Natural Selection",
+      "The Correspondence of Charles Darwin, Volume 4: 1847-1850",
+      "The expression of the emotions in man and animals.",
+      "Les récifs de corail, leur structure et leur distribution",
+      "Les moyens d'expression chez les animaux",
+      "The Autobiography of Charles Darwin (Great Minds Series)",
+      "The Correspondence of Charles Darwin, Volume 14",
+      "The autobiography of Charles Darwin, 1809-1882",
+      "The Correspondence of Charles Darwin, Volume 8",
+      "La faculté motrice dans les plantes",
+      "The Origin of Species (Enriched Classics)",
+      "The Correspondence of Charles Darwin, Volume 5: 1851-1855",
+      "Notebooks on transmutation of species",
+      "Opshṭamung fun menshen",
+      "Fertilisation of Orchids",
+      "The Correspondence of Charles Darwin, Volume 2",
+      "Voyage of the Beagle",
+      "The Voyage of the \\\"Beagle\\\" (Everyman's Classics)",
+      "Darwin's insects",
+      "Charles Darwin on the routes of male humble bees",
+      "Reise eines Naturforschers um die Welt",
+      "Seul celui qui change reste fidèle à lui-même",
+      "The Correspondence of Charles Darwin, Volume 1",
+      "Human nature, Darwin's view",
+      "The structure and distribution of coral reefs.",
+      "The descent of man, and selection in relation to sex.",
+      "Das Variiren der Thiere und Pflanzen im Zustande der Domestication",
+      "The Life of Erasmus Darwin",
+      "The Correspondence of Charles Darwin, Volume 15",
+      "geneseōs tōn eidōn",
+      "The Correspondence of Charles Darwin, Volume 11: 1863",
+      "The Descent of Man and Selection in Relation to Sex",
+      "Evolution by natural selection",
+      "The collected papers of Charles Darwin",
+      "Insectivorous Plants",
+      "The Effects of Cross and Self Fertilisation in the Vegetable Kingdom",
+      "The Correspondence of Charles Darwin, Volume 5",
+      "Memorias y epistolario íntimo",
+      "El Origin De Las Especies",
+      "H.M.S. Beagle in South America",
+      "THE ORIGIN OF SPECIES (Wordsworth Collection) (Wordsworth Collection)",
+      "Die fundamente zur entstehung der arten",
+      "On the Movements and Habits of Climbing Plants",
+      "variëeren der huisdieren en cultuurplanten",
+      "Darwin Compendium",
+      "Origin of Species (Harvard Classics, Part 11)",
+      "The portable Darwin",
+      "The Correspondence of Charles Darwin, Volume 10: 1862",
+      "The foundations of the Origin of species",
+      "The education of Darwin",
+      "ontstaan der soorten door natuurlijke teeltkeus",
+      "Metaphysics, Materialism, & the evolution of mind",
+      "Der Ausdruck der Gemüthsbewegungen bei dem Menschen und den Thieren",
+      "The Correspondence of Charles Darwin, Volume 13: 1865",
+      "monograph on the sub-class Cirripedia",
+      "La vie et la correspondance de Charles Darwin",
+      "The voyage of the Beagle.",
+      "The Origin of Species (Great Minds Series)",
+      "The Darwin Reader Second Edition",
+      "The geology of the voyage of H.M.S. Beagle",
+      "The Correspondence of Charles Darwin, Volume 11",
+      "The Autobiography of Charles Darwin (Dodo Press)",
+      "The Origin of Species (Oxford World's Classics)",
+      "From Darwin's unpublished notebooks",
+      "The Autobiography of Charles Darwin [EasyRead Edition]",
+      "Darwin on humus and the earthworm",
+      "The Voyage of the Beagle (Adventure Classics)",
+      "The Correspondence of Charles Darwin, Volume 14: 1866",
+      "The Correspondence of Charles Darwin, Volume 17: 1869",
+      "The descent of man and selection in relation to sex.",
+      "The Correspondence of Charles Darwin, Volume 13",
+      "The Autobiography of Charles Darwin [EasyRead Large Edition]",
+      "Reise um die Welt 1831 - 36",
+      "The Descent Of Man And Selection In Relation To Sex (Kessinger Publishing's Rare Reprints)",
+      "Viaje de Un Naturalista Alrededor del Mundo 2 Vol",
+      "Diario del Viaje de Un Naturalista Alrededor",
+      "Charles Darwin's natural selection",
+      "The Origin of Species (Mentor)",
+      "The living thoughts of Darwin",
+      "The principal works",
+      "Über den Bau und die Verbreitung der Corallen-Riffe",
+      "The origin of species : complete and fully illustrated",
+      "Notes on the fertilization of orchids",
+      "The Correspondence of Charles Darwin, Volume 18: 1870",
+      "Evolution",
+      "Monographs of the fossil Lepadidae and the fossil Balanidae",
+      "On a remarkable bar of sandstone off Pernambuco",
+      "The Correspondence of Charles Darwin, Volume 7: 1858-1859",
+      "The Correspondence of Charles Darwin, Volume 3",
+      "La descendance de l'homme et la s©Øelection sexuelle",
+      "Darwin en Patagonia",
+      "Del Plata a Tierra del Fuego",
+      "Geological observations on the volcanic islands and parts of South America visited during the voyage of H.M.S. 'Beagle",
+      "The Power of Movement in Plants",
+      "Origins",
+      "Kleinere geologische Abhandlungen",
+      "The Correspondence of Charles Darwin, Volume 1: 1821-1836",
+      "Letters from C. Darwin, Esq., to A. Hancock, Esq",
+      "The Orgin of Species",
+      "Die Entstehung der Arten durch natürliche Zuchtwahl",
+      "The action of carbonate of ammonia on the roots of certain plants",
+      "The Autobiography of Charles Darwin [EasyRead Comfort Edition]",
+      "The Voyage of the Beagle (Everyman Paperbacks)",
+      "More Letters of Charles Darwin",
+      "The Expression of the Emotions in Man and Animals (Large Print Edition): The Expression of the Emotions in Man and Animals (Large Print Edition)",
+      "Beagle letters",
+      "The Correspondence of Charles Darwin, Volume 10",
+      "The Correspondence of Charles Darwin, Volume 7",
+      "Rejse om jorden",
+      "The Different Forms of Flowers on Plants of the Same Species",
+      "Darwin's notebooks on transmutation of species",
+      "Vospominanii︠a︡ o razvitii moego uma i kharaktera",
+      "The Essential Darwin",
+      "The Autobiography of Charles Darwin (Large Print)",
+      "Leben und Briefe von Charles Darwin",
+      "Die Bewegungen und Lebensweise der kletternden Pflanzen",
+      "Voyage d'un naturaliste autour du monde",
+      "Über die Wege der Hummel-Männchen",
+      "Darwin Darwin",
+      "The Origin of Species (World's Classics)",
+      "Motsa ha-minim",
+      "The Variation of Animals and Plants under Domestication",
+      "Die geschlechtliche Zuchtwahl",
+      "Darwin's Ornithological notes",
+      "Wu zhong qi yuan",
+      "The origin of species by means of natural selection, or, The preservation of favored races in the struggle for life",
+      "Voyage of the Beagle (Dover Value Editions)",
+      "The Correspondence of Charles Darwin, Volume 9",
+      "On the origin of species by means of natural selection",
+      "Geological Observations on South America",
+      "The Voyage of the Beagle (Mentor)",
+      "Die Wirkungen der Kreuz- und Selbst-Befruchtung im Pflanzenreich",
+      "The Correspondence of Charles Darwin, Volume 6: 1856-1857",
+      "The Correspondence of Charles Darwin, Volume 12",
+      "Volcanic Islands",
+      "Charles Darwin, 1809-1882--Anton Dohrn, 1840-1909"
+    ],
+    "prediction": "On the Origin of Species",
+    "hits1": 1,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-109",
+    "question": "who did tim tebow play college football for",
+    "answer": [
+      "Florida Gators football"
+    ],
+    "prediction": "m.0j37y45",
+    "hits1": 0,
+    "trajectory": [
+      "Tim Tebow",
+      "m.0z_9xnd",
+      "Tim Tebow",
+      "m.05v4mnl",
+      "Tim Tebow",
+      "m.0hpc6lz",
+      "Tim Tebow",
+      "m.0j37y45"
+    ],
+    "visited_set": [
+      "Tim Tebow",
+      "m.05v4mnl",
+      "m.0hpc6lz",
+      "m.0j37y45",
+      "m.0z_9xnd"
+    ],
+    "edges": [
+      [
+        "Tim Tebow",
+        "people.person.employment_history",
+        "m.0z_9xnd"
+      ],
+      [
+        "Tim Tebow",
+        "people.person.education",
+        "m.05v4mnl"
+      ],
+      [
+        "Tim Tebow",
+        "american_football.football_player.forty_yard_dash_time",
+        "m.0hpc6lz"
+      ],
+      [
+        "Tim Tebow",
+        "american_football.football_player.passing",
+        "m.0j37y45"
+      ]
+    ],
+    "traj_len": 8,
+    "n_unique": 5
+  },
+  {
+    "qid": "WebQTest-110",
+    "question": "who does peyton manning play football for",
+    "answer": [
+      "Denver Broncos"
+    ],
+    "prediction": "Peyton Manning",
+    "hits1": 0,
+    "trajectory": [
+      "Peyton Manning",
+      "m.04d90hh",
+      "Peyton Manning",
+      "m.0wk2m4l",
+      "Peyton Manning"
+    ],
+    "visited_set": [
+      "Peyton Manning",
+      "m.04d90hh",
+      "m.0wk2m4l"
+    ],
+    "edges": [
+      [
+        "Peyton Manning",
+        "people.person.employment_history",
+        "m.04d90hh"
+      ],
+      [
+        "Peyton Manning",
+        "american_football.football_player.forty_yard_dash_time",
+        "m.0wk2m4l"
+      ],
+      [
+        "m.0wk2m4l",
+        "~american_football.football_player.forty_yard_dash_time",
+        "Peyton Manning"
+      ]
+    ],
+    "traj_len": 5,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-111",
+    "question": "where is the carpathian mountain range located",
+    "answer": [
+      "Europe"
+    ],
+    "prediction": "Europe",
+    "hits1": 1,
+    "trajectory": [
+      "Carpathian Mountains",
+      "Europe"
+    ],
+    "visited_set": [
+      "Carpathian Mountains",
+      "Europe"
+    ],
+    "edges": [
+      [
+        "Carpathian Mountains",
+        "location.location.containedby",
+        "Europe"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-112",
+    "question": "what was robert burns",
+    "answer": [
+      "Bard",
+      "Author",
+      "Writer",
+      "Poet"
+    ],
+    "prediction": "Poet",
+    "hits1": 1,
+    "trajectory": [
+      "Robert Burns",
+      "Poet"
+    ],
+    "visited_set": [
+      "Poet",
+      "Robert Burns"
+    ],
+    "edges": [
+      [
+        "Robert Burns",
+        "people.person.profession",
+        "Poet"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-114",
+    "question": "who did the voice of darth vader in episode 3",
+    "answer": [
+      "Hayden Christensen"
+    ],
+    "prediction": "Darth Vader",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-115",
+    "question": "what super bowl did peyton manning win",
+    "answer": [
+      "Super Bowl XLI"
+    ],
+    "prediction": "m.07yc3lg",
+    "hits1": 0,
+    "trajectory": [
+      "Peyton Manning",
+      "m.0z61x4l",
+      "Peyton Manning",
+      "m.07yc3lg"
+    ],
+    "visited_set": [
+      "Peyton Manning",
+      "m.07yc3lg",
+      "m.0z61x4l"
+    ],
+    "edges": [
+      [
+        "Peyton Manning",
+        "award.award_winner.awards_won",
+        "m.0z61x4l"
+      ],
+      [
+        "Peyton Manning",
+        "american_football.football_player.games",
+        "m.07yc3lg"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-116",
+    "question": "which country was justin bieber born in",
+    "answer": [
+      "Canada"
+    ],
+    "prediction": "Canada",
+    "hits1": 1,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-118",
+    "question": "who fought in the gulf war 1991",
+    "answer": [
+      "France",
+      "Australia",
+      "United States of America",
+      "Argentina",
+      "Iraq",
+      "United Kingdom",
+      "Saudi Arabia"
+    ],
+    "prediction": "Persian Gulf, Kuwait, Arabian Peninsula, Iraq, Israel, Saudi Arabia",
+    "hits1": 1,
+    "trajectory": [
+      "Gulf War",
+      "m.03z973l",
+      "Gulf War",
+      "Coalition of the Gulf War",
+      "m.03z973l",
+      "Gulf War"
+    ],
+    "visited_set": [
+      "Coalition of the Gulf War",
+      "Gulf War",
+      "m.03z973l"
+    ],
+    "edges": [
+      [
+        "Gulf War",
+        "military.military_conflict.combatants",
+        "m.03z973l"
+      ],
+      [
+        "Gulf War",
+        "base.culturalevent.event.entity_involved",
+        "Coalition of the Gulf War"
+      ],
+      [
+        "m.03z973l",
+        "~military.military_conflict.combatants",
+        "Gulf War"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-119",
+    "question": "who plays london tipton in suite life on deck",
+    "answer": [
+      "Brenda Song"
+    ],
+    "prediction": "m.05v3ngr",
+    "hits1": 0,
+    "trajectory": [
+      "The Suite Life on Deck",
+      "m.05v3ngr"
+    ],
+    "visited_set": [
+      "The Suite Life on Deck",
+      "m.05v3ngr"
+    ],
+    "edges": [
+      [
+        "The Suite Life on Deck",
+        "tv.tv_program.regular_cast",
+        "m.05v3ngr"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-121",
+    "question": "what team did david beckham play for in 2011",
+    "answer": [
+      "LA Galaxy"
+    ],
+    "prediction": "m.0644x7_",
+    "hits1": 0,
+    "trajectory": [
+      "David Beckham",
+      "m.0qzkj58",
+      "David Beckham",
+      "m.0j2zzq_",
+      "David Beckham",
+      "m.0644x7_"
+    ],
+    "visited_set": [
+      "David Beckham",
+      "m.0644x7_",
+      "m.0j2zzq_",
+      "m.0qzkj58"
+    ],
+    "edges": [
+      [
+        "David Beckham",
+        "base.schemastaging.athlete_extra.salary",
+        "m.0qzkj58"
+      ],
+      [
+        "David Beckham",
+        "base.schemastaging.person_extra.net_worth",
+        "m.0j2zzq_"
+      ],
+      [
+        "David Beckham",
+        "base.popstra.celebrity.dated",
+        "m.0644x7_"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-122",
+    "question": "where did francisco coronado come from",
+    "answer": [
+      "Salamanca"
+    ],
+    "prediction": "Spain",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-123",
+    "question": "what all does google now do",
+    "answer": [
+      "Google Glass",
+      "Google Drive",
+      "Nexus 10",
+      "Google Maps",
+      "Nexus 7",
+      "Google Docs, Sheets, and Slides",
+      "Google Classroom",
+      "Nexus Q",
+      "Google Earth",
+      "Apache Wave",
+      "Google Buzz",
+      "Nexus S",
+      "Chromecast"
+    ],
+    "prediction": "Gmail, Google Apps for Work",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-124",
+    "question": "what language does egyptian people speak",
+    "answer": [
+      "Modern Standard Arabic"
+    ],
+    "prediction": "Egyptian language",
+    "hits1": 0,
+    "trajectory": [
+      "Egypt",
+      "Egyptian language"
+    ],
+    "visited_set": [
+      "Egypt",
+      "Egyptian language"
+    ],
+    "edges": [
+      [
+        "Egypt",
+        "base.militaryinfiction.location_in_fiction.languages",
+        "Egyptian language"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-125",
+    "question": "what are abraham sons names",
+    "answer": [
+      "Midian",
+      "Isaac",
+      "Medan",
+      "Ishmael",
+      "Zimran",
+      "Jokshan",
+      "Ishbak",
+      "Shuah"
+    ],
+    "prediction": "Isaac, Ishmael",
+    "hits1": 1,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-126",
+    "question": "who wrote the jana gana mana",
+    "answer": [
+      "Ram Singh Thakur",
+      "Rabindranath Tagore"
+    ],
+    "prediction": "Rabindranath Tagore",
+    "hits1": 1,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-127",
+    "question": "what type of cancer did gilda radner die of",
+    "answer": [
+      "Ovarian cancer"
+    ],
+    "prediction": "Ovarian cancer",
+    "hits1": 1,
+    "trajectory": [
+      "Gilda Radner",
+      "Ovarian cancer"
+    ],
+    "visited_set": [
+      "Gilda Radner",
+      "Ovarian cancer"
+    ],
+    "edges": [
+      [
+        "Gilda Radner",
+        "people.deceased_person.cause_of_death",
+        "Ovarian cancer"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-128",
+    "question": "who plays juni cortez",
+    "answer": [
+      "Daryl Sabara"
+    ],
+    "prediction": "m.02s9ttl",
+    "hits1": 0,
+    "trajectory": [
+      "Juni Cortez",
+      "m.02s9ttl"
+    ],
+    "visited_set": [
+      "Juni Cortez",
+      "m.02s9ttl"
+    ],
+    "edges": [
+      [
+        "Juni Cortez",
+        "film.film_character.portrayed_in_films",
+        "m.02s9ttl"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-129",
+    "question": "what was lucille ball",
+    "answer": [
+      "Actor",
+      "Comedian",
+      "Television producer",
+      "Model",
+      "Singer"
+    ],
+    "prediction": "Film actor",
+    "hits1": 1,
+    "trajectory": [
+      "Lucille Ball",
+      "g.125ffts6g",
+      "Lucille Ball",
+      "Film actor"
+    ],
+    "visited_set": [
+      "Film actor",
+      "Lucille Ball",
+      "g.125ffts6g"
+    ],
+    "edges": [
+      [
+        "Lucille Ball",
+        "common.topic.notable_for",
+        "g.125ffts6g"
+      ],
+      [
+        "Lucille Ball",
+        "common.topic.notable_types",
+        "Film actor"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-131",
+    "question": "who inspired obama",
+    "answer": [
+      "Nipsey Russell",
+      "Reinhold Niebuhr",
+      "Saul Alinsky"
+    ],
+    "prediction": "m.05gmrc3",
+    "hits1": 0,
+    "trajectory": [
+      "Barack Obama",
+      "m.063wnrl",
+      "Barack Obama",
+      "m.06505l2",
+      "Barack Obama",
+      "m.063wp3h",
+      "Barack Obama",
+      "m.05gmrc3"
+    ],
+    "visited_set": [
+      "Barack Obama",
+      "m.05gmrc3",
+      "m.063wnrl",
+      "m.063wp3h",
+      "m.06505l2"
+    ],
+    "edges": [
+      [
+        "Barack Obama",
+        "base.popstra.celebrity.friendship",
+        "m.063wnrl"
+      ],
+      [
+        "Barack Obama",
+        "base.popstra.organization.supporter",
+        "m.06505l2"
+      ],
+      [
+        "Barack Obama",
+        "base.popstra.celebrity.eats_at",
+        "m.063wp3h"
+      ],
+      [
+        "Barack Obama",
+        "base.firsts.first.achievements",
+        "m.05gmrc3"
+      ]
+    ],
+    "traj_len": 8,
+    "n_unique": 5
+  },
+  {
+    "qid": "WebQTest-132",
+    "question": "who is michael j fox wife",
+    "answer": [
+      "Tracy Pollan"
+    ],
+    "prediction": "m.0kycf9l",
+    "hits1": 0,
+    "trajectory": [
+      "Michael J. Fox",
+      "m.0cy4qv7",
+      "Michael J. Fox",
+      "m.0kycf9l"
+    ],
+    "visited_set": [
+      "Michael J. Fox",
+      "m.0cy4qv7",
+      "m.0kycf9l"
+    ],
+    "edges": [
+      [
+        "Michael J. Fox",
+        "celebrities.celebrity.sexual_relationships",
+        "m.0cy4qv7"
+      ],
+      [
+        "Michael J. Fox",
+        "film.person_or_entity_appearing_in_film.films",
+        "m.0kycf9l"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-133",
+    "question": "where did dolly parton grow up",
+    "answer": [
+      "Sevierville"
+    ],
+    "prediction": "m.094g4ks",
+    "hits1": 0,
+    "trajectory": [
+      "Dolly Parton",
+      "g.1258qx7hs",
+      "Dolly Parton",
+      "m.09495y3",
+      "Dolly Parton",
+      "m.094g4ks"
+    ],
+    "visited_set": [
+      "Dolly Parton",
+      "g.1258qx7hs",
+      "m.09495y3",
+      "m.094g4ks"
+    ],
+    "edges": [
+      [
+        "Dolly Parton",
+        "common.topic.notable_for",
+        "g.1258qx7hs"
+      ],
+      [
+        "Dolly Parton",
+        "common.topic.webpage",
+        "m.09495y3"
+      ],
+      [
+        "Dolly Parton",
+        "common.resource.annotations",
+        "m.094g4ks"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-134",
+    "question": "what type of books did agatha christie wrote",
+    "answer": [
+      "Writer",
+      "Screenwriter",
+      "Playwright",
+      "Novelist",
+      "Poet"
+    ],
+    "prediction": "mystery, detective",
+    "hits1": 0,
+    "trajectory": [
+      "Agatha Christie",
+      "The Complete Christie: An Agatha Christie Encyclopedia"
+    ],
+    "visited_set": [
+      "Agatha Christie",
+      "The Complete Christie: An Agatha Christie Encyclopedia"
+    ],
+    "edges": [
+      [
+        "Agatha Christie",
+        "book.book_subject.works",
+        "The Complete Christie: An Agatha Christie Encyclopedia"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-138",
+    "question": "what are the four main languages spoken in spain",
+    "answer": [
+      "Catalan language",
+      "Occitan language",
+      "Spanish Language",
+      "Galician Language",
+      "Basque Language"
+    ],
+    "prediction": "Spanish, Catalan, Galician, Basque",
+    "hits1": 0,
+    "trajectory": [
+      "Spain",
+      "Catalonia"
+    ],
+    "visited_set": [
+      "Catalonia",
+      "Spain"
+    ],
+    "edges": [
+      [
+        "Spain",
+        "base.aareas.schema.administrative_area.administrative_children",
+        "Catalonia"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-139",
+    "question": "where is the nra headquarters located",
+    "answer": [
+      "Fairfax"
+    ],
+    "prediction": "Fairfax",
+    "hits1": 1,
+    "trajectory": [
+      "National Rifle Association",
+      "m.04300ty",
+      "Fairfax"
+    ],
+    "visited_set": [
+      "Fairfax",
+      "National Rifle Association",
+      "m.04300ty"
+    ],
+    "edges": [
+      [
+        "National Rifle Association",
+        "organization.organization.headquarters",
+        "m.04300ty"
+      ],
+      [
+        "m.04300ty",
+        "location.mailing_address.citytown",
+        "Fairfax"
+      ]
+    ],
+    "traj_len": 3,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-141",
+    "question": "who is gimli 's father in the hobbit",
+    "answer": [
+      "Gloin"
+    ],
+    "prediction": "Gloin",
+    "hits1": 1,
+    "trajectory": [
+      "Gimli",
+      "Gloin"
+    ],
+    "visited_set": [
+      "Gimli",
+      "Gloin"
+    ],
+    "edges": [
+      [
+        "Gimli",
+        "fictional_universe.fictional_character.parents",
+        "Gloin"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-142",
+    "question": "who developed the tcp ip reference model",
+    "answer": [
+      "Vint Cerf",
+      "Robert  E. Kahn"
+    ],
+    "prediction": "Robert E. Kahn, Vint Cerf",
+    "hits1": 1,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-145",
+    "question": "what college did albert einstein go to",
+    "answer": [
+      "ETH Zurich",
+      "University of Zurich"
+    ],
+    "prediction": "albert einstein worked with walther hermann nernst",
+    "hits1": 0,
+    "trajectory": [
+      "Albert Einstein",
+      "m.0k34yy_",
+      "Albert Einstein",
+      "albert einstein worked with walther hermann nernst"
+    ],
+    "visited_set": [
+      "Albert Einstein",
+      "albert einstein worked with walther hermann nernst",
+      "m.0k34yy_"
+    ],
+    "edges": [
+      [
+        "Albert Einstein",
+        "common.topic.article",
+        "m.0k34yy_"
+      ],
+      [
+        "Albert Einstein",
+        "base.kwebbase.kwtopic.connections_from",
+        "albert einstein worked with walther hermann nernst"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-146",
+    "question": "what team does jordan own",
+    "answer": [
+      "Jordan national football team",
+      "Al-Wehdat SC"
+    ],
+    "prediction": "None",
+    "hits1": 0,
+    "trajectory": [
+      "Jordan",
+      "Amman Governorate",
+      "Jordan",
+      "g.12567dzc8"
+    ],
+    "visited_set": [
+      "Amman Governorate",
+      "Jordan",
+      "g.12567dzc8"
+    ],
+    "edges": [
+      [
+        "Jordan",
+        "location.country.administrative_divisions",
+        "Amman Governorate"
+      ],
+      [
+        "Jordan",
+        "common.topic.notable_for",
+        "g.12567dzc8"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-147",
+    "question": "who is the state governor of tennessee",
+    "answer": [
+      "William Haslam"
+    ],
+    "prediction": "m.0102ns1z",
+    "hits1": 0,
+    "trajectory": [
+      "Tennessee",
+      "m.0102ns1z",
+      "Tennessee",
+      "m.0102ns1z"
+    ],
+    "visited_set": [
+      "Tennessee",
+      "m.0102ns1z"
+    ],
+    "edges": [
+      [
+        "Tennessee",
+        "government.governmental_jurisdiction.governing_officials",
+        "m.0102ns1z"
+      ],
+      [
+        "Tennessee",
+        "government.governmental_jurisdiction.governing_officials",
+        "m.0102ns1z"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-149",
+    "question": "what do portuguese people speak",
+    "answer": [
+      "Portuguese Language"
+    ],
+    "prediction": "Portuguese Language",
+    "hits1": 1,
+    "trajectory": [
+      "Portugal",
+      "Portuguese Language"
+    ],
+    "visited_set": [
+      "Portugal",
+      "Portuguese Language"
+    ],
+    "edges": [
+      [
+        "Portugal",
+        "location.country.official_language",
+        "Portuguese Language"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-150",
+    "question": "what language does cuba speak",
+    "answer": [
+      "Haitian Creole",
+      "Spanish Language",
+      "Lucumi Language"
+    ],
+    "prediction": "Spanish Language",
+    "hits1": 1,
+    "trajectory": [
+      "Cuba",
+      "Spanish Language"
+    ],
+    "visited_set": [
+      "Cuba",
+      "Spanish Language"
+    ],
+    "edges": [
+      [
+        "Cuba",
+        "location.country.official_language",
+        "Spanish Language"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-153",
+    "question": "what are the sights to see in madrid",
+    "answer": [
+      "Madrid Arena",
+      "Festimad",
+      "Parque Warner Madrid",
+      "Plaza de Cibeles",
+      "Puerta del Sol",
+      "Summercase",
+      "Thyssen-Bornemisza Museum",
+      "Madrid Marathon",
+      "Museum of Lázaro Galdiano",
+      "Gran Vía",
+      "Paseo del Prado",
+      "El Escorial",
+      "Temple of Debod",
+      "Palace of la Bolsa de Madrid",
+      "Royal Palace of Madrid",
+      "Plaza Mayor, Madrid",
+      "Museo Nacional Del Prado",
+      "Almudena Cathedral",
+      "La Vaguada",
+      "Museo Nacional Centro de Arte Reina Sofía",
+      "Buen Retiro Park",
+      "Sorolla Museum"
+    ],
+    "prediction": "Madrid",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-154",
+    "question": "what instruments did louis armstrong play",
+    "answer": [
+      "Cornet",
+      "Trumpet"
+    ],
+    "prediction": "m.04n3d",
+    "hits1": 0,
+    "trajectory": [
+      "Louis Armstrong",
+      "m.04n3d"
+    ],
+    "visited_set": [
+      "Louis Armstrong",
+      "m.04n3d"
+    ],
+    "edges": [
+      [
+        "Louis Armstrong",
+        "common.topic.article",
+        "m.04n3d"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-155",
+    "question": "what year was george w bush elected",
+    "answer": [
+      "2000-11-07",
+      "2004-11-02"
+    ],
+    "prediction": "2000 Republican National Convention",
+    "hits1": 0,
+    "trajectory": [
+      "George W. Bush",
+      "m.05yx9x9",
+      "George W. Bush",
+      "2000 Republican National Convention"
+    ],
+    "visited_set": [
+      "2000 Republican National Convention",
+      "George W. Bush",
+      "m.05yx9x9"
+    ],
+    "edges": [
+      [
+        "George W. Bush",
+        "base.argumentmaps.decision_maker.motivation",
+        "m.05yx9x9"
+      ],
+      [
+        "George W. Bush",
+        "base.politicalconventions.presidential_nominee.nominated_at",
+        "2000 Republican National Convention"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-156",
+    "question": "what time zone am i in california",
+    "answer": [
+      "Pacific Time Zone"
+    ],
+    "prediction": "California",
+    "hits1": 0,
+    "trajectory": [
+      "California",
+      "United States of America",
+      "California"
+    ],
+    "visited_set": [
+      "California",
+      "United States of America"
+    ],
+    "edges": [
+      [
+        "California",
+        "base.locations.states_and_provences.country",
+        "United States of America"
+      ],
+      [
+        "United States of America",
+        "base.aareas.schema.administrative_area.administrative_children",
+        "California"
+      ]
+    ],
+    "traj_len": 3,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-157",
+    "question": "where is mission san buenaventura located",
+    "answer": [
+      "Ventura County",
+      "93001"
+    ],
+    "prediction": "Ventura County",
+    "hits1": 1,
+    "trajectory": [
+      "Mission San Buenaventura",
+      "Ventura County"
+    ],
+    "visited_set": [
+      "Mission San Buenaventura",
+      "Ventura County"
+    ],
+    "edges": [
+      [
+        "Mission San Buenaventura",
+        "location.location.containedby",
+        "Ventura County"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-159",
+    "question": "what time in hilo hawaii",
+    "answer": [
+      "Hawaii-Aleutian Time Zone"
+    ],
+    "prediction": "Hawaii-Aleutian Time Zone",
+    "hits1": 1,
+    "trajectory": [
+      "Hilo",
+      "Hawaii-Aleutian Time Zone"
+    ],
+    "visited_set": [
+      "Hawaii-Aleutian Time Zone",
+      "Hilo"
+    ],
+    "edges": [
+      [
+        "Hilo",
+        "location.location.time_zones",
+        "Hawaii-Aleutian Time Zone"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-160",
+    "question": "where did rudolf virchow conduct his research",
+    "answer": [
+      "Humboldt University of Berlin",
+      "University of Würzburg"
+    ],
+    "prediction": "Świdwin",
+    "hits1": 0,
+    "trajectory": [
+      "Rudolf Virchow",
+      "m.04hx7xj",
+      "Rudolf Virchow",
+      "m.0z43ckj",
+      "Rudolf Virchow",
+      "Świdwin"
+    ],
+    "visited_set": [
+      "Rudolf Virchow",
+      "m.04hx7xj",
+      "m.0z43ckj",
+      "Świdwin"
+    ],
+    "edges": [
+      [
+        "Rudolf Virchow",
+        "people.person.employment_history",
+        "m.04hx7xj"
+      ],
+      [
+        "Rudolf Virchow",
+        "people.person.education",
+        "m.0z43ckj"
+      ],
+      [
+        "Rudolf Virchow",
+        "people.person.place_of_birth",
+        "Świdwin"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-161",
+    "question": "what university did gordon brown attend",
+    "answer": [
+      "University of Edinburgh"
+    ],
+    "prediction": "United Kingdom",
+    "hits1": 0,
+    "trajectory": [
+      "Gordon Brown",
+      "m.0k1qt_h",
+      "Gordon Brown",
+      "United Kingdom"
+    ],
+    "visited_set": [
+      "Gordon Brown",
+      "United Kingdom",
+      "m.0k1qt_h"
+    ],
+    "edges": [
+      [
+        "Gordon Brown",
+        "people.person.education",
+        "m.0k1qt_h"
+      ],
+      [
+        "Gordon Brown",
+        "people.person.nationality",
+        "United Kingdom"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-162",
+    "question": "what countries does greece share borders with",
+    "answer": [
+      "Albania",
+      "Bulgaria",
+      "Republic of Macedonia",
+      "Turkey"
+    ],
+    "prediction": "Western Macedonia",
+    "hits1": 0,
+    "trajectory": [
+      "Greece",
+      "Western Macedonia"
+    ],
+    "visited_set": [
+      "Greece",
+      "Western Macedonia"
+    ],
+    "edges": [
+      [
+        "Greece",
+        "base.aareas.schema.administrative_area.administrative_children",
+        "Western Macedonia"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-163",
+    "question": "what year did the seahawks win the superbowl",
+    "answer": [
+      "Super Bowl XLVIII"
+    ],
+    "prediction": "Super Bowl XLVIII",
+    "hits1": 1,
+    "trajectory": [
+      "Seattle Seahawks",
+      "Super Bowl XLVIII",
+      "Seattle Seahawks",
+      "Super Bowl XLVIII"
+    ],
+    "visited_set": [
+      "Seattle Seahawks",
+      "Super Bowl XLVIII"
+    ],
+    "edges": [
+      [
+        "Seattle Seahawks",
+        "sports.sports_team.championships",
+        "Super Bowl XLVIII"
+      ],
+      [
+        "Seattle Seahawks",
+        "sports.sports_team.championships",
+        "Super Bowl XLVIII"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-164",
+    "question": "what did stephen hawking become famous for",
+    "answer": [
+      "Cosmologist",
+      "Mathematician",
+      "Author",
+      "Physicist",
+      "Writer",
+      "Astronomer",
+      "Science writer",
+      "Astrophysicist",
+      "Professor",
+      "Scientist"
+    ],
+    "prediction": "m.07nfvz4",
+    "hits1": 0,
+    "trajectory": [
+      "Stephen Hawking",
+      "g.1yy126n5y",
+      "Stephen Hawking",
+      "g.1yy126n5y",
+      "Stephen Hawking",
+      "m.07nfvz4"
+    ],
+    "visited_set": [
+      "Stephen Hawking",
+      "g.1yy126n5y",
+      "m.07nfvz4"
+    ],
+    "edges": [
+      [
+        "Stephen Hawking",
+        "common.topic.notable_for",
+        "g.1yy126n5y"
+      ],
+      [
+        "Stephen Hawking",
+        "common.topic.notable_for",
+        "g.1yy126n5y"
+      ],
+      [
+        "Stephen Hawking",
+        "base.ontologies.ontology_instance.equivalent_instances",
+        "m.07nfvz4"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-165",
+    "question": "who plays donna noble",
+    "answer": [
+      "Catherine Tate"
+    ],
+    "prediction": "m.010pxvzy",
+    "hits1": 0,
+    "trajectory": [
+      "Donna Noble",
+      "m.010pxvzy",
+      "Donna Noble",
+      "m.04gf2bq",
+      "Donna Noble",
+      "Doomsday",
+      "Donna Noble",
+      "m.010pxvzy"
+    ],
+    "visited_set": [
+      "Donna Noble",
+      "Doomsday",
+      "m.010pxvzy",
+      "m.04gf2bq"
+    ],
+    "edges": [
+      [
+        "Donna Noble",
+        "tv.tv_character.appeared_in_tv_program",
+        "m.010pxvzy"
+      ],
+      [
+        "Donna Noble",
+        "tv.tv_character.appeared_in_tv_episodes",
+        "m.04gf2bq"
+      ],
+      [
+        "Donna Noble",
+        "tv.tv_character.first_tv_appearance",
+        "Doomsday"
+      ],
+      [
+        "Donna Noble",
+        "tv.tv_character.appeared_in_tv_program",
+        "m.010pxvzy"
+      ]
+    ],
+    "traj_len": 8,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-166",
+    "question": "what was dr seuss education",
+    "answer": [
+      "Lincoln College, Oxford",
+      "University of Oxford",
+      "Dartmouth College"
+    ],
+    "prediction": "m.0cq400n",
+    "hits1": 0,
+    "trajectory": [
+      "Theodore Lesieg",
+      "m.0cq400n"
+    ],
+    "visited_set": [
+      "Theodore Lesieg",
+      "m.0cq400n"
+    ],
+    "edges": [
+      [
+        "Theodore Lesieg",
+        "common.topic.webpage",
+        "m.0cq400n"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-167",
+    "question": "where did queensland get its name from",
+    "answer": [
+      "Queen Victoria"
+    ],
+    "prediction": "g.125g9fm7g",
+    "hits1": 0,
+    "trajectory": [
+      "Queensland",
+      "m.02t6r8y",
+      "Queensland",
+      "m.09x1p_0",
+      "Queensland",
+      "g.125g9fm7g"
+    ],
+    "visited_set": [
+      "Queensland",
+      "g.125g9fm7g",
+      "m.02t6r8y",
+      "m.09x1p_0"
+    ],
+    "edges": [
+      [
+        "Queensland",
+        "location.location.adjoin_s",
+        "m.02t6r8y"
+      ],
+      [
+        "Queensland",
+        "common.topic.webpage",
+        "m.09x1p_0"
+      ],
+      [
+        "Queensland",
+        "common.topic.notable_for",
+        "g.125g9fm7g"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-168",
+    "question": "what document did james madison write",
+    "answer": [
+      "The Papers of James Madison, Secretary of State Series, Vol. 2",
+      "The Papers of James Madison, Vol. 4",
+      "Federalist No. 56",
+      "Federalist No. 20",
+      "The Papers of James Madison, Secretary of State Series, Vol. 3",
+      "Federalist No. 55",
+      "The Papers of James Madison, Secretary of State Series, Vol. 6",
+      "The James Madison Papers, 1723 - 1836",
+      "An examination of the British doctrine",
+      "Federalist No. 49",
+      "The complete Madison",
+      "Federalist No. 37",
+      "Jonathan Bull and Mary Bull",
+      "Federalist No. 53",
+      "Federalist No. 48",
+      "The Papers of James Madison, Presidential Series Vol. 6",
+      "The Papers of James Madison, Presidential Series Vol. 7",
+      "Federalist No. 39",
+      "An examination of the British doctrine, which subjects to capture a neutral trade, not open in time of peace",
+      "The reply of Mr. Madison, in answer to Mr. Rose, in discussing the affair of the Chesapeake",
+      "The Papers of James Madison, Secretary of State Series, Vol. 5",
+      "The Papers of James Madison, Presidential Series Vol. 3",
+      "Federalist No. 38",
+      "Mr. Madison's motion for commercial restrictions",
+      "Federalist No. 62",
+      "The Papers of James Madison, Presidential Series Vol. 5",
+      "President Madison's inaugural speech",
+      "Federalist No. 18",
+      "Extract of a letter from the Secretary of State to Mr. Monroe, relative to impressments",
+      "A vocabulary of New Jersey Delaware",
+      "The Papers of James Madison, Secretary of State Series, Vol. 4",
+      "The Papers of James Madison, Secretary of State Series, Vol. 7",
+      "The Federalist Papers",
+      "Federalist No. 45",
+      "Equal religious liberty stated and defended",
+      "Federalist No. 50",
+      "The Papers of James Madison, Secretary of State Series, Vol. 9",
+      "Federalist No. 42",
+      "The Papers of James Madison Retirement Series, Volume 1: 4 March 1817-31 January 1820",
+      "Federalist No. 46",
+      "Federalist No. 54",
+      "James Madison: Writings",
+      "James Madison, 1751-1836",
+      "Federalist No. 43",
+      "The mind of the founder",
+      "Federalist No. 40",
+      "Federalist No. 44",
+      "Letters and other writings of James Madison",
+      "Federalist No. 41",
+      "All impressments unlawful and inadmissible",
+      "Federalist No. 51",
+      "Federalist No. 47",
+      "Selections from the private correspondence of James Madison, from 1813 to 1836",
+      "Federalist No. 14",
+      "The forging of American federalism",
+      "Federalist No. 58",
+      "Calendar of the correspondence of James Madison",
+      "The Papers of James Madison Congressional Series, Vol. 12: 2 October 1789 - 20 January 1790",
+      "Federalist No. 63",
+      "Federalist No. 52",
+      "The Papers of James Madison, Secretary of State Series, Vol. 8",
+      "Papers of James Madison Volume 10: May 27, 1787-March 3, 1788",
+      "The Papers of James Madison, Presidential Series Vol. 2",
+      "The Papers of James Madison, Secretary of State Series, Vol. 1",
+      "Religious freedom",
+      "An address delivered before the Agricultural Society of Albemarle, on Tuesday, May 12, 1818",
+      "Letters from the Secretary of State to Messrs. Monroe and Pinkney, on subjects committed to their joint negotiations",
+      "Letters from the Secretary of State to Mr. Monroe, on the subject of impressments, &c",
+      "Federalist No. 10",
+      "Federalist No. 57",
+      "Federalist No. 19",
+      "The Papers of James Madison, Presidential Series Vol. 1",
+      "The Papers of James Madison, Presidential Series Vol. 4"
+    ],
+    "prediction": "Federalist No. 39",
+    "hits1": 1,
+    "trajectory": [
+      "James Madison",
+      "Federalist No. 39"
+    ],
+    "visited_set": [
+      "Federalist No. 39",
+      "James Madison"
+    ],
+    "edges": [
+      [
+        "James Madison",
+        "book.author.works_written",
+        "Federalist No. 39"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-169",
+    "question": "what are the three official languages of belgium",
+    "answer": [
+      "Dutch Language",
+      "French",
+      "German Language"
+    ],
+    "prediction": "Federal Government of Belgium",
+    "hits1": 0,
+    "trajectory": [
+      "Belgium",
+      "Brussels-Capital Region",
+      "Belgium",
+      "Federal Government of Belgium"
+    ],
+    "visited_set": [
+      "Belgium",
+      "Brussels-Capital Region",
+      "Federal Government of Belgium"
+    ],
+    "edges": [
+      [
+        "Belgium",
+        "base.aareas.schema.administrative_area.administrative_children",
+        "Brussels-Capital Region"
+      ],
+      [
+        "Belgium",
+        "government.governmental_jurisdiction.government",
+        "Federal Government of Belgium"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-170",
+    "question": "who played bilbo in lord of the rings",
+    "answer": [
+      "Norman Bird"
+    ],
+    "prediction": "m.012mb0pt",
+    "hits1": 0,
+    "trajectory": [
+      "Old Bilbo",
+      "m.0glw4lg",
+      "Old Bilbo",
+      "m.012mb0pt"
+    ],
+    "visited_set": [
+      "Old Bilbo",
+      "m.012mb0pt",
+      "m.0glw4lg"
+    ],
+    "edges": [
+      [
+        "Old Bilbo",
+        "film.film_character.portrayed_in_films",
+        "m.0glw4lg"
+      ],
+      [
+        "Old Bilbo",
+        "film.film_character.portrayed_in_films_dubbed",
+        "m.012mb0pt"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-171",
+    "question": "what airport do you fly into to get to destin fl",
+    "answer": [
+      "Destin–Fort Walton Beach Airport",
+      "Destin Executive Airport"
+    ],
+    "prediction": "Destin–Fort Walton Beach Airport",
+    "hits1": 1,
+    "trajectory": [
+      "Destin",
+      "Destin–Fort Walton Beach Airport"
+    ],
+    "visited_set": [
+      "Destin",
+      "Destin–Fort Walton Beach Airport"
+    ],
+    "edges": [
+      [
+        "Destin",
+        "location.location.nearby_airports",
+        "Destin–Fort Walton Beach Airport"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-172",
+    "question": "what do you call members of the senate",
+    "answer": [
+      "Senator",
+      "Senate majority leader",
+      "President pro tempore",
+      "President of the Senate",
+      "Chief of staff",
+      "State Senator"
+    ],
+    "prediction": "United States Senator",
+    "hits1": 1,
+    "trajectory": [
+      "United States Senate",
+      "United States Senator"
+    ],
+    "visited_set": [
+      "United States Senate",
+      "United States Senator"
+    ],
+    "edges": [
+      [
+        "United States Senate",
+        "government.governmental_body.offices_positions",
+        "United States Senator"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-173",
+    "question": "what countries are part of the baltic",
+    "answer": [
+      "Latvia",
+      "Estonia",
+      "Lithuania"
+    ],
+    "prediction": "Estonia, Lithuania, Latvия",
+    "hits1": 1,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-174",
+    "question": "what team does colin kaepernick play for",
+    "answer": [
+      "San Francisco 49ers"
+    ],
+    "prediction": "m.0d6m2sq",
+    "hits1": 0,
+    "trajectory": [
+      "Colin Kaepernick",
+      "m.0hqf2xx",
+      "Colin Kaepernick",
+      "m.0d6m2sq"
+    ],
+    "visited_set": [
+      "Colin Kaepernick",
+      "m.0d6m2sq",
+      "m.0hqf2xx"
+    ],
+    "edges": [
+      [
+        "Colin Kaepernick",
+        "sports.pro_athlete.teams",
+        "m.0hqf2xx"
+      ],
+      [
+        "Colin Kaepernick",
+        "sports.pro_athlete.sports_played_professionally",
+        "m.0d6m2sq"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-175",
+    "question": "where did joe flacco attend college",
+    "answer": [
+      "University of Delaware"
+    ],
+    "prediction": "Audubon",
+    "hits1": 0,
+    "trajectory": [
+      "Joe Flacco",
+      "m.0hpxy33",
+      "Joe Flacco",
+      "Audubon"
+    ],
+    "visited_set": [
+      "Audubon",
+      "Joe Flacco",
+      "m.0hpxy33"
+    ],
+    "edges": [
+      [
+        "Joe Flacco",
+        "people.person.education",
+        "m.0hpxy33"
+      ],
+      [
+        "Joe Flacco",
+        "people.person.place_of_birth",
+        "Audubon"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-176",
+    "question": "who is emma stone father",
+    "answer": [
+      "Jeff Stone"
+    ],
+    "prediction": "Jeff Stone",
+    "hits1": 1,
+    "trajectory": [
+      "Emma Stone",
+      "Jeff Stone"
+    ],
+    "visited_set": [
+      "Emma Stone",
+      "Jeff Stone"
+    ],
+    "edges": [
+      [
+        "Emma Stone",
+        "people.person.parents",
+        "Jeff Stone"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-177",
+    "question": "where was theodore roosevelt buried",
+    "answer": [
+      "Youngs Memorial Cemetery"
+    ],
+    "prediction": "Theodore Roosevelt",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-178",
+    "question": "who was the leader of the us during wwii",
+    "answer": [
+      "Franklin D. Roosevelt",
+      "Harry S. Truman"
+    ],
+    "prediction": "Franklin D. Roosevelt",
+    "hits1": 1,
+    "trajectory": [
+      "World War II",
+      "m.0w5sb93"
+    ],
+    "visited_set": [
+      "World War II",
+      "m.0w5sb93"
+    ],
+    "edges": [
+      [
+        "World War II",
+        "military.military_conflict.commanders",
+        "m.0w5sb93"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-179",
+    "question": "what artistic movement did henri matisse belong to",
+    "answer": [
+      "Neo-impressionism",
+      "Modernism",
+      "Modern art",
+      "Impressionism",
+      "Fauvism"
+    ],
+    "prediction": "m.0gcv9",
+    "hits1": 0,
+    "trajectory": [
+      "Henri Matisse",
+      "g.1259dx7qc",
+      "Henri Matisse",
+      "m.0b6rq05",
+      "Henri Matisse",
+      "m.0gcv9"
+    ],
+    "visited_set": [
+      "Henri Matisse",
+      "g.1259dx7qc",
+      "m.0b6rq05",
+      "m.0gcv9"
+    ],
+    "edges": [
+      [
+        "Henri Matisse",
+        "common.topic.notable_for",
+        "g.1259dx7qc"
+      ],
+      [
+        "Henri Matisse",
+        "common.topic.webpage",
+        "m.0b6rq05"
+      ],
+      [
+        "Henri Matisse",
+        "common.topic.article",
+        "m.0gcv9"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-180",
+    "question": "where the missouri river ends",
+    "answer": [
+      "Mississippi River"
+    ],
+    "prediction": "Gulf of Mexico",
+    "hits1": 0,
+    "trajectory": [
+      "Missouri River",
+      "m.04d0kpv",
+      "Missouri River",
+      "m.04d0kpv",
+      "Missouri River",
+      "Mississippi River",
+      "Gulf of Mexico"
+    ],
+    "visited_set": [
+      "Gulf of Mexico",
+      "Mississippi River",
+      "Missouri River",
+      "m.04d0kpv"
+    ],
+    "edges": [
+      [
+        "Missouri River",
+        "geography.river.mouth_long_lat",
+        "m.04d0kpv"
+      ],
+      [
+        "Missouri River",
+        "geography.river.mouth_long_lat",
+        "m.04d0kpv"
+      ],
+      [
+        "Missouri River",
+        "geography.river.mouth",
+        "Mississippi River"
+      ],
+      [
+        "Mississippi River",
+        "geography.river.mouth",
+        "Gulf of Mexico"
+      ]
+    ],
+    "traj_len": 7,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-181",
+    "question": "what type of currency do they use in thailand",
+    "answer": [
+      "Thai baht"
+    ],
+    "prediction": "Thai baht",
+    "hits1": 1,
+    "trajectory": [
+      "Thailand",
+      "Thai region",
+      "Thailand",
+      "m.0b49h2q"
+    ],
+    "visited_set": [
+      "Thai region",
+      "Thailand",
+      "m.0b49h2q"
+    ],
+    "edges": [
+      [
+        "Thailand",
+        "base.aareas.schema.administrative_area.subdividing_type",
+        "Thai region"
+      ],
+      [
+        "Thailand",
+        "common.topic.webpage",
+        "m.0b49h2q"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-182",
+    "question": "who is khloe kardashian 's husband",
+    "answer": [
+      "Lamar Odom"
+    ],
+    "prediction": "m.010bqp30",
+    "hits1": 0,
+    "trajectory": [
+      "Khloé Kardashian",
+      "m.0k3cm29",
+      "Khloé Kardashian",
+      "m.010bqp30"
+    ],
+    "visited_set": [
+      "Khloé Kardashian",
+      "m.010bqp30",
+      "m.0k3cm29"
+    ],
+    "edges": [
+      [
+        "Khloé Kardashian",
+        "people.person.sibling_s",
+        "m.0k3cm29"
+      ],
+      [
+        "Khloé Kardashian",
+        "celebrities.celebrity.sexual_relationships",
+        "m.010bqp30"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-184",
+    "question": "what state does romney live in",
+    "answer": [
+      "Massachusetts"
+    ],
+    "prediction": "m.04stpgl",
+    "hits1": 0,
+    "trajectory": [
+      "Mitt Romney",
+      "m.02kvks1",
+      "Mitt Romney",
+      "m.04stpgl"
+    ],
+    "visited_set": [
+      "Mitt Romney",
+      "m.02kvks1",
+      "m.04stpgl"
+    ],
+    "edges": [
+      [
+        "Mitt Romney",
+        "people.person.employment_history",
+        "m.02kvks1"
+      ],
+      [
+        "Mitt Romney",
+        "government.politician.government_positions_held",
+        "m.04stpgl"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-185",
+    "question": "what type of government does france use",
+    "answer": [
+      "Semi-presidential system",
+      "Unitary state",
+      "Constitutional republic"
+    ],
+    "prediction": "French Republic",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-186",
+    "question": "who rules denmark right now",
+    "answer": [
+      "Helle Thorning-Schmidt",
+      "Margrethe II of Denmark",
+      "Margrethe Vestager"
+    ],
+    "prediction": "m.0w2wk3b",
+    "hits1": 0,
+    "trajectory": [
+      "Denmark",
+      "m.0w2wk3b",
+      "Denmark",
+      "m.0w2wk3b"
+    ],
+    "visited_set": [
+      "Denmark",
+      "m.0w2wk3b"
+    ],
+    "edges": [
+      [
+        "Denmark",
+        "government.governmental_jurisdiction.governing_officials",
+        "m.0w2wk3b"
+      ],
+      [
+        "Denmark",
+        "government.governmental_jurisdiction.governing_officials",
+        "m.0w2wk3b"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-187",
+    "question": "what did stephen hawking study",
+    "answer": [
+      "Physics"
+    ],
+    "prediction": "Theoretical Physics, Cosmology",
+    "hits1": 1,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-188",
+    "question": "where did bristol palin go to school",
+    "answer": [
+      "West Anchorage High School",
+      "Wasilla High School",
+      "Juneau-Douglas High School"
+    ],
+    "prediction": "m.0byl4zl",
+    "hits1": 0,
+    "trajectory": [
+      "Bristol Palin",
+      "m.0byl4zl"
+    ],
+    "visited_set": [
+      "Bristol Palin",
+      "m.0byl4zl"
+    ],
+    "edges": [
+      [
+        "Bristol Palin",
+        "people.person.education",
+        "m.0byl4zl"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-189",
+    "question": "what region of the world is egypt associated with",
+    "answer": [
+      "Middle East"
+    ],
+    "prediction": "Africa",
+    "hits1": 0,
+    "trajectory": [
+      "Egypt",
+      "Africa"
+    ],
+    "visited_set": [
+      "Africa",
+      "Egypt"
+    ],
+    "edges": [
+      [
+        "Egypt",
+        "base.locations.countries.continent",
+        "Africa"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-190",
+    "question": "what did dr. seuss do",
+    "answer": [
+      "Visual Artist",
+      "Illustrator",
+      "Writer",
+      "Television producer",
+      "Songwriter",
+      "Screenwriter",
+      "Cartoonist",
+      "Animator",
+      "Film Producer",
+      "Artist",
+      "Poet"
+    ],
+    "prediction": "works_written",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-191",
+    "question": "where did drew brees go to college wikianswers",
+    "answer": [
+      "Stanford Graduate School of Business",
+      "Purdue University"
+    ],
+    "prediction": "Duke University",
+    "hits1": 0,
+    "trajectory": [
+      "Drew Brees",
+      "m.0j_8p_y",
+      "Drew Brees",
+      "m.03pdy47",
+      "Drew Brees",
+      "m.030bdl"
+    ],
+    "visited_set": [
+      "Drew Brees",
+      "m.030bdl",
+      "m.03pdy47",
+      "m.0j_8p_y"
+    ],
+    "edges": [
+      [
+        "Drew Brees",
+        "people.person.education",
+        "m.0j_8p_y"
+      ],
+      [
+        "Drew Brees",
+        "people.person.places_lived",
+        "m.03pdy47"
+      ],
+      [
+        "Drew Brees",
+        "common.topic.article",
+        "m.030bdl"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-193",
+    "question": "what school did ben roethlisberger go to",
+    "answer": [
+      "Miami University"
+    ],
+    "prediction": "Kenneth Todd Roethlisberger",
+    "hits1": 0,
+    "trajectory": [
+      "Ben Roethlisberger",
+      "m.02wns4p",
+      "Ben Roethlisberger",
+      "Kenneth Todd Roethlisberger"
+    ],
+    "visited_set": [
+      "Ben Roethlisberger",
+      "Kenneth Todd Roethlisberger",
+      "m.02wns4p"
+    ],
+    "edges": [
+      [
+        "Ben Roethlisberger",
+        "people.person.education",
+        "m.02wns4p"
+      ],
+      [
+        "Ben Roethlisberger",
+        "people.person.parents",
+        "Kenneth Todd Roethlisberger"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-194",
+    "question": "where did the iroquois indians come from",
+    "answer": [
+      "Québec",
+      "Ontario"
+    ],
+    "prediction": "Québec, Ontario",
+    "hits1": 1,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-195",
+    "question": "what kind of guitar did george harrison use",
+    "answer": [
+      "Rickenbacker 360/12",
+      "Fender Stratocaster"
+    ],
+    "prediction": "Rickenbacker",
+    "hits1": 0,
+    "trajectory": [
+      "George Harrison",
+      "g.1255tjskw",
+      "George Harrison",
+      "George Harrison Anthology",
+      "George Harrison",
+      "m.04p4_7l"
+    ],
+    "visited_set": [
+      "George Harrison",
+      "George Harrison Anthology",
+      "g.1255tjskw",
+      "m.04p4_7l"
+    ],
+    "edges": [
+      [
+        "George Harrison",
+        "common.topic.notable_for",
+        "g.1255tjskw"
+      ],
+      [
+        "George Harrison",
+        "book.author.works_written",
+        "George Harrison Anthology"
+      ],
+      [
+        "George Harrison",
+        "base.saturdaynightlive.snl_musical_guest.musical_performance",
+        "m.04p4_7l"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-196",
+    "question": "what language do navajo people speak",
+    "answer": [
+      "Navajo Language",
+      "Spanish Language",
+      "English Language"
+    ],
+    "prediction": "Navajo Language",
+    "hits1": 1,
+    "trajectory": [
+      "Navajo people",
+      "Navajo Language"
+    ],
+    "visited_set": [
+      "Navajo Language",
+      "Navajo people"
+    ],
+    "edges": [
+      [
+        "Navajo people",
+        "people.ethnicity.languages_spoken",
+        "Navajo Language"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-197",
+    "question": "what places make up new england",
+    "answer": [
+      "New Hampshire",
+      "Connecticut",
+      "Maine",
+      "Massachusetts",
+      "Rhode Island",
+      "Vermont"
+    ],
+    "prediction": "Connecticut, Massachusetts, Rhode Island, Vermont, New Hampshire",
+    "hits1": 1,
+    "trajectory": [
+      "New England",
+      "Connecticut"
+    ],
+    "visited_set": [
+      "Connecticut",
+      "New England"
+    ],
+    "edges": [
+      [
+        "New England",
+        "location.location.contains",
+        "Connecticut"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-199",
+    "question": "what type of government does iraq have now",
+    "answer": [
+      "Parliamentary system",
+      "Parliamentary republic",
+      "Federal republic",
+      "Republic"
+    ],
+    "prediction": "Federal government of Iraq",
+    "hits1": 0,
+    "trajectory": [
+      "Iraq",
+      "Federal government of Iraq"
+    ],
+    "visited_set": [
+      "Federal government of Iraq",
+      "Iraq"
+    ],
+    "edges": [
+      [
+        "Iraq",
+        "government.governmental_jurisdiction.government",
+        "Federal government of Iraq"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-200",
+    "question": "where was the vietnam war location",
+    "answer": [
+      "Vietnam",
+      "South Vietnam",
+      "Southeast Asia",
+      "Laos",
+      "North Vietnam",
+      "Cambodia"
+    ],
+    "prediction": "South Vietnam, North Vietnam",
+    "hits1": 1,
+    "trajectory": [
+      "Vietnam War",
+      "South Vietnam"
+    ],
+    "visited_set": [
+      "South Vietnam",
+      "Vietnam War"
+    ],
+    "edges": [
+      [
+        "Vietnam War",
+        "base.culturalevent.event.entity_involved",
+        "South Vietnam"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-201",
+    "question": "who did gerald ford select as his vice president when he became president",
+    "answer": [
+      "Nelson Rockefeller"
+    ],
+    "prediction": "Nelson Rockefeller",
+    "hits1": 1,
+    "trajectory": [
+      "Gerald Ford",
+      "m.09rmnqh"
+    ],
+    "visited_set": [
+      "Gerald Ford",
+      "m.09rmnqh"
+    ],
+    "edges": [
+      [
+        "Gerald Ford",
+        "government.political_appointer.appointees",
+        "m.09rmnqh"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-202",
+    "question": "what is the currency used in italy",
+    "answer": [
+      "Euro"
+    ],
+    "prediction": "Italy",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-204",
+    "question": "what is the capital of modern egypt",
+    "answer": [
+      "Cairo"
+    ],
+    "prediction": "Cairo",
+    "hits1": 1,
+    "trajectory": [
+      "Egypt",
+      "Cairo Governorate",
+      "Egypt"
+    ],
+    "visited_set": [
+      "Cairo Governorate",
+      "Egypt"
+    ],
+    "edges": [
+      [
+        "Egypt",
+        "base.aareas.schema.administrative_area.administrative_children",
+        "Cairo Governorate"
+      ],
+      [
+        "Cairo Governorate",
+        "base.aareas.schema.administrative_area.administrative_parent",
+        "Egypt"
+      ]
+    ],
+    "traj_len": 3,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-205",
+    "question": "what school did sir ernest rutherford go to",
+    "answer": [
+      "University of Cambridge",
+      "Trinity College, Cambridge",
+      "Nelson College",
+      "University of New Zealand",
+      "University of Canterbury"
+    ],
+    "prediction": "School of Physics and Astronomy, University of Manchester",
+    "hits1": 0,
+    "trajectory": [
+      "Ernest Rutherford",
+      "m.02kq21s",
+      "Ernest Rutherford",
+      "School of Physics and Astronomy, University of Manchester"
+    ],
+    "visited_set": [
+      "Ernest Rutherford",
+      "School of Physics and Astronomy, University of Manchester",
+      "m.02kq21s"
+    ],
+    "edges": [
+      [
+        "Ernest Rutherford",
+        "people.person.education",
+        "m.02kq21s"
+      ],
+      [
+        "Ernest Rutherford",
+        "education.academic.departments_old",
+        "School of Physics and Astronomy, University of Manchester"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-206",
+    "question": "what position does brandon roy play",
+    "answer": [
+      "Small forward",
+      "Shooting guard",
+      "Point guard"
+    ],
+    "prediction": "Shooting guard, Point guard, Small forward",
+    "hits1": 1,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-207",
+    "question": "where is harvard university",
+    "answer": [
+      "United States of America",
+      "Cambridge",
+      "Massachusetts"
+    ],
+    "prediction": "Cambridge, Massachusetts",
+    "hits1": 1,
+    "trajectory": [
+      "Harvard University",
+      "m.010b6t20"
+    ],
+    "visited_set": [
+      "Harvard University",
+      "m.010b6t20"
+    ],
+    "edges": [
+      [
+        "Harvard University",
+        "base.schemastaging.organization_extra.contact_webpages",
+        "m.010b6t20"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-209",
+    "question": "where is laos in world map",
+    "answer": [
+      "Southeast Asia"
+    ],
+    "prediction": "Asia",
+    "hits1": 0,
+    "trajectory": [
+      "Laos",
+      "Asia"
+    ],
+    "visited_set": [
+      "Asia",
+      "Laos"
+    ],
+    "edges": [
+      [
+        "Laos",
+        "base.locations.countries.continent",
+        "Asia"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-210",
+    "question": "where is tyrese gibson from",
+    "answer": [
+      "Watts"
+    ],
+    "prediction": "Los Angeles",
+    "hits1": 0,
+    "trajectory": [
+      "Tyrese Gibson",
+      "Los Angeles"
+    ],
+    "visited_set": [
+      "Los Angeles",
+      "Tyrese Gibson"
+    ],
+    "edges": [
+      [
+        "Tyrese Gibson",
+        "music.artist.origin",
+        "Los Angeles"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-211",
+    "question": "what countries are near italy",
+    "answer": [
+      "Slovenia",
+      "Switzerland",
+      "Austria",
+      "France"
+    ],
+    "prediction": "Italy",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-212",
+    "question": "which states does the colorado river run through",
+    "answer": [
+      "Arizona",
+      "Colorado",
+      "Nevada",
+      "California"
+    ],
+    "prediction": "California, Arizona, Nevada",
+    "hits1": 1,
+    "trajectory": [
+      "Colorado River",
+      "United States of America"
+    ],
+    "visited_set": [
+      "Colorado River",
+      "United States of America"
+    ],
+    "edges": [
+      [
+        "Colorado River",
+        "geography.river.basin_countries",
+        "United States of America"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-213",
+    "question": "who did scarlett johansson date",
+    "answer": [
+      "Patrick Wilson",
+      "Justin Timberlake",
+      "Benicio del Toro",
+      "Romain Dauriac",
+      "nm1157013",
+      "Josh Hartnett",
+      "Jared Leto",
+      "Topher Grace",
+      "Ryan Reynolds"
+    ],
+    "prediction": "None",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-214",
+    "question": "which continents were part of the roman empire",
+    "answer": [
+      "Europe",
+      "North Africa",
+      "Middle East"
+    ],
+    "prediction": "m.0wmrmtf",
+    "hits1": 0,
+    "trajectory": [
+      "Roman Empire",
+      "g.120phpf9",
+      "Roman Empire",
+      "m.0ws8w38",
+      "Roman Empire",
+      "m.0wmrmtf"
+    ],
+    "visited_set": [
+      "Roman Empire",
+      "g.120phpf9",
+      "m.0wmrmtf",
+      "m.0ws8w38"
+    ],
+    "edges": [
+      [
+        "Roman Empire",
+        "location.location.contains",
+        "g.120phpf9"
+      ],
+      [
+        "Roman Empire",
+        "location.location.partially_contained_by",
+        "m.0ws8w38"
+      ],
+      [
+        "Roman Empire",
+        "location.location.geolocation",
+        "m.0wmrmtf"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-215",
+    "question": "where was elvis costello born",
+    "answer": [
+      "Paddington"
+    ],
+    "prediction": "Elvis Costello",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-216",
+    "question": "where are the gobi desert located on a map",
+    "answer": [
+      "Mongolia"
+    ],
+    "prediction": "East Asia",
+    "hits1": 0,
+    "trajectory": [
+      "Gobi Desert",
+      "Mongolia",
+      "East Asia"
+    ],
+    "visited_set": [
+      "East Asia",
+      "Gobi Desert",
+      "Mongolia"
+    ],
+    "edges": [
+      [
+        "Gobi Desert",
+        "location.location.containedby",
+        "Mongolia"
+      ],
+      [
+        "Mongolia",
+        "location.location.containedby",
+        "East Asia"
+      ]
+    ],
+    "traj_len": 3,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-217",
+    "question": "what type of government does the us follow",
+    "answer": [
+      "Presidential system",
+      "Federal republic",
+      "Constitutional republic"
+    ],
+    "prediction": "federal republic",
+    "hits1": 1,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-218",
+    "question": "in which continent is germany",
+    "answer": [
+      "Europe"
+    ],
+    "prediction": "Europe",
+    "hits1": 1,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-220",
+    "question": "what language turkey people speak",
+    "answer": [
+      "Ladino Language",
+      "Kurdish languages",
+      "Arabic Language",
+      "Zaza language",
+      "Turkish Language"
+    ],
+    "prediction": "Turkish Language",
+    "hits1": 1,
+    "trajectory": [
+      "Turkey",
+      "Turkish Language"
+    ],
+    "visited_set": [
+      "Turkey",
+      "Turkish Language"
+    ],
+    "edges": [
+      [
+        "Turkey",
+        "location.country.official_language",
+        "Turkish Language"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-221",
+    "question": "who does jeremy lin play for",
+    "answer": [
+      "Los Angeles Lakers"
+    ],
+    "prediction": "m.0j2dfqc",
+    "hits1": 0,
+    "trajectory": [
+      "Jeremy Lin",
+      "m.0j2dfqc"
+    ],
+    "visited_set": [
+      "Jeremy Lin",
+      "m.0j2dfqc"
+    ],
+    "edges": [
+      [
+        "Jeremy Lin",
+        "sports.pro_athlete.teams",
+        "m.0j2dfqc"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-222",
+    "question": "where is the seychelles on world map",
+    "answer": [
+      "Africa",
+      "Southern Sun Hotel Group"
+    ],
+    "prediction": "Seychelles",
+    "hits1": 0,
+    "trajectory": [
+      "Seychelles",
+      "Victoria",
+      "Seychelles"
+    ],
+    "visited_set": [
+      "Seychelles",
+      "Victoria"
+    ],
+    "edges": [
+      [
+        "Seychelles",
+        "location.country.capital",
+        "Victoria"
+      ],
+      [
+        "Victoria",
+        "~location.country.capital",
+        "Seychelles"
+      ]
+    ],
+    "traj_len": 3,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-224",
+    "question": "where did william morris go to college",
+    "answer": [
+      "Exeter College, Oxford",
+      "University of Oxford"
+    ],
+    "prediction": "m.0bmyrrh",
+    "hits1": 0,
+    "trajectory": [
+      "William Morris",
+      "m.04q1gj3",
+      "William Morris",
+      "william morris met walter sickert",
+      "William Morris",
+      "m.0bmyrrh"
+    ],
+    "visited_set": [
+      "William Morris",
+      "m.04q1gj3",
+      "m.0bmyrrh",
+      "william morris met walter sickert"
+    ],
+    "edges": [
+      [
+        "William Morris",
+        "people.person.education",
+        "m.04q1gj3"
+      ],
+      [
+        "William Morris",
+        "base.kwebbase.kwtopic.connections_from",
+        "william morris met walter sickert"
+      ],
+      [
+        "William Morris",
+        "people.person.employment_history",
+        "m.0bmyrrh"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-225",
+    "question": "what state is mount st. helens in",
+    "answer": [
+      "Washington"
+    ],
+    "prediction": "Washington",
+    "hits1": 1,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-226",
+    "question": "who is jimmy savile",
+    "answer": [
+      "Disc jockey",
+      "Radio personality",
+      "Presenter"
+    ],
+    "prediction": "Jimmy Savile",
+    "hits1": 0,
+    "trajectory": [
+      "Jimmy Savile",
+      "g.12599cc42",
+      "Jimmy Savile",
+      "m.01wg10"
+    ],
+    "visited_set": [
+      "Jimmy Savile",
+      "g.12599cc42",
+      "m.01wg10"
+    ],
+    "edges": [
+      [
+        "Jimmy Savile",
+        "common.topic.notable_for",
+        "g.12599cc42"
+      ],
+      [
+        "Jimmy Savile",
+        "common.topic.article",
+        "m.01wg10"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-227",
+    "question": "where were the seneca indians located",
+    "answer": [
+      "New York",
+      "Ontario"
+    ],
+    "prediction": "New York, Ontario",
+    "hits1": 1,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-231",
+    "question": "when did florida marlins join mlb",
+    "answer": [
+      "1994 Major League Baseball Season"
+    ],
+    "prediction": "m.03006",
+    "hits1": 0,
+    "trajectory": [
+      "Miami Marlins",
+      "m.0hh9p10",
+      "Miami Marlins",
+      "m.03006"
+    ],
+    "visited_set": [
+      "Miami Marlins",
+      "m.03006",
+      "m.0hh9p10"
+    ],
+    "edges": [
+      [
+        "Miami Marlins",
+        "baseball.baseball_team.historical_managers",
+        "m.0hh9p10"
+      ],
+      [
+        "Miami Marlins",
+        "common.topic.article",
+        "m.03006"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-232",
+    "question": "what countries have spanish as the national language",
+    "answer": [
+      "Equatorial Guinea",
+      "Andorra",
+      "Ecuador",
+      "Saint Lucia",
+      "Guatemala",
+      "Puerto Rico",
+      "Cuba",
+      "Uruguay",
+      "Guyana",
+      "Mexico",
+      "Colombia",
+      "Vatican City",
+      "Bolivia",
+      "Panama",
+      "Canada",
+      "Venezuela",
+      "Costa Rica",
+      "Spain",
+      "Dominican Republic",
+      "Northern Mariana Islands",
+      "Belize",
+      "Argentina",
+      "Honduras",
+      "Nicaragua",
+      "Paraguay",
+      "El Salvador",
+      "Western Sahara",
+      "Kingdom of Aragon",
+      "Peru",
+      "United States of America",
+      "Barbados",
+      "Chile",
+      "Gibraltar",
+      "Curaçao"
+    ],
+    "prediction": "Dominican Republic, Barbados, Gibraltar, Paraguay, Puerto Rico, Chile, Nicaragua, Colombia, Venezuela, United States of America, Andorra, Saint Lucia, Northern Mariana Islands, Western Sahara, El Salvador, Curaçao, Costa Rica, Cuba, Kingdom of Aragon, Guatemala, Spain, Bolivia, Argentina, Vatican City, Equatorial Guinea, Peru, Canada, Honduras, Ecuador, Guyana",
+    "hits1": 1,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-233",
+    "question": "what to see in phoenix arizona",
+    "answer": [
+      "Pueblo Grande Ruin",
+      "Arizona Science Center",
+      "Heard Museum",
+      "Mesa Arts Center",
+      "Ro Ho En",
+      "Phoenix Art Museum",
+      "Grand Canyon",
+      "Phoenix Mountain Preserve",
+      "Musical Instrument Museum",
+      "Desert Botanical Garden",
+      "Castle Hot Springs"
+    ],
+    "prediction": "m.09wtmrx",
+    "hits1": 0,
+    "trajectory": [
+      "Phoenix",
+      "g.1255yzj41",
+      "Phoenix",
+      "Beyond the Law",
+      "Phoenix",
+      "m.09wtmrx"
+    ],
+    "visited_set": [
+      "Beyond the Law",
+      "Phoenix",
+      "g.1255yzj41",
+      "m.09wtmrx"
+    ],
+    "edges": [
+      [
+        "Phoenix",
+        "common.topic.notable_for",
+        "g.1255yzj41"
+      ],
+      [
+        "Phoenix",
+        "film.film_location.featured_in_films",
+        "Beyond the Law"
+      ],
+      [
+        "Phoenix",
+        "common.topic.webpage",
+        "m.09wtmrx"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-234",
+    "question": "what countries does the panama canal go through",
+    "answer": [
+      "Panama"
+    ],
+    "prediction": "Panama",
+    "hits1": 1,
+    "trajectory": [
+      "Panama Canal",
+      "Panama"
+    ],
+    "visited_set": [
+      "Panama",
+      "Panama Canal"
+    ],
+    "edges": [
+      [
+        "Panama Canal",
+        "location.location.containedby",
+        "Panama"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-235",
+    "question": "what is charlie chaplin famous for",
+    "answer": [
+      "Actor",
+      "Comedian",
+      "Film Editor",
+      "Screenwriter",
+      "Film director",
+      "Composer",
+      "Film Score Composer",
+      "Film Producer"
+    ],
+    "prediction": "The Gold Rush",
+    "hits1": 0,
+    "trajectory": [
+      "Charlie Chaplin",
+      "g.125640rnm",
+      "Charlie Chaplin",
+      "m.0946yr4",
+      "Charlie Chaplin",
+      "The Gold Rush"
+    ],
+    "visited_set": [
+      "Charlie Chaplin",
+      "The Gold Rush",
+      "g.125640rnm",
+      "m.0946yr4"
+    ],
+    "edges": [
+      [
+        "Charlie Chaplin",
+        "common.topic.notable_for",
+        "g.125640rnm"
+      ],
+      [
+        "Charlie Chaplin",
+        "common.topic.webpage",
+        "m.0946yr4"
+      ],
+      [
+        "Charlie Chaplin",
+        "film.director.film",
+        "The Gold Rush"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-237",
+    "question": "what did fred durst do",
+    "answer": [
+      "Actor",
+      "Businessperson",
+      "Rapper",
+      "Film director",
+      "Musician",
+      "Singer",
+      "Songwriter",
+      "Guitarist"
+    ],
+    "prediction": "The Education of Charlie Banks",
+    "hits1": 0,
+    "trajectory": [
+      "Fred Durst",
+      "g.12590c828",
+      "Fred Durst",
+      "m.0gxj0w9",
+      "Fred Durst",
+      "The Education of Charlie Banks"
+    ],
+    "visited_set": [
+      "Fred Durst",
+      "The Education of Charlie Banks",
+      "g.12590c828",
+      "m.0gxj0w9"
+    ],
+    "edges": [
+      [
+        "Fred Durst",
+        "common.topic.notable_for",
+        "g.12590c828"
+      ],
+      [
+        "Fred Durst",
+        "film.actor.film",
+        "m.0gxj0w9"
+      ],
+      [
+        "Fred Durst",
+        "film.director.film",
+        "The Education of Charlie Banks"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-239",
+    "question": "where do american bulldogs originate from",
+    "answer": [
+      "United States of America"
+    ],
+    "prediction": "United States of America",
+    "hits1": 1,
+    "trajectory": [
+      "American Bulldog",
+      "United States of America"
+    ],
+    "visited_set": [
+      "American Bulldog",
+      "United States of America"
+    ],
+    "edges": [
+      [
+        "American Bulldog",
+        "biology.animal_breed.place_of_origin",
+        "United States of America"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-240",
+    "question": "what colleges did albert einstein teach at",
+    "answer": [
+      "ETH Zurich",
+      "University of Zurich",
+      "Charles University in Prague",
+      "Institute for Advanced Study",
+      "Leiden University"
+    ],
+    "prediction": "Albert Einstein",
+    "hits1": 0,
+    "trajectory": [
+      "Albert Einstein",
+      "m.03p8_sr"
+    ],
+    "visited_set": [
+      "Albert Einstein",
+      "m.03p8_sr"
+    ],
+    "edges": [
+      [
+        "Albert Einstein",
+        "business.board_member.organization_board_memberships",
+        "m.03p8_sr"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-241",
+    "question": "who plays the voice of brian on family guy",
+    "answer": [
+      "Seth MacFarlane"
+    ],
+    "prediction": "m.019nnw",
+    "hits1": 0,
+    "trajectory": [
+      "Family Guy",
+      "m.019nnw"
+    ],
+    "visited_set": [
+      "Family Guy",
+      "m.019nnw"
+    ],
+    "edges": [
+      [
+        "Family Guy",
+        "common.topic.article",
+        "m.019nnw"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-243",
+    "question": "where did george w bush live as a child",
+    "answer": [
+      "New Haven"
+    ],
+    "prediction": "George W. Bush",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-245",
+    "question": "what year was the first miss america pageant held",
+    "answer": [
+      "1921-09"
+    ],
+    "prediction": "1921",
+    "hits1": 0,
+    "trajectory": [
+      "Miss America",
+      "Miss America 1921"
+    ],
+    "visited_set": [
+      "Miss America",
+      "Miss America 1921"
+    ],
+    "edges": [
+      [
+        "Miss America",
+        "~award.competition.instance_of_recurring_competition",
+        "Miss America 1921"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-246",
+    "question": "what was nikola tesla inventions",
+    "answer": [
+      "Wireless telegraphy",
+      "Alternating current",
+      "Three-phase electric power",
+      "Tesla coil",
+      "Neon lamp",
+      "Remote control",
+      "Induction motor"
+    ],
+    "prediction": "Famous Scientific Illusions",
+    "hits1": 0,
+    "trajectory": [
+      "Nikola Tesla",
+      "g.1257v73s6",
+      "Nikola Tesla",
+      "Famous Scientific Illusions"
+    ],
+    "visited_set": [
+      "Famous Scientific Illusions",
+      "Nikola Tesla",
+      "g.1257v73s6"
+    ],
+    "edges": [
+      [
+        "Nikola Tesla",
+        "common.topic.notable_for",
+        "g.1257v73s6"
+      ],
+      [
+        "Nikola Tesla",
+        "book.author.works_written",
+        "Famous Scientific Illusions"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-247",
+    "question": "where did flemish people come from",
+    "answer": [
+      "France",
+      "Belgium",
+      "South Africa",
+      "Canada",
+      "Australia",
+      "United States of America",
+      "Brazil"
+    ],
+    "prediction": "Belgium",
+    "hits1": 1,
+    "trajectory": [
+      "Flemish people",
+      "Belgium"
+    ],
+    "visited_set": [
+      "Belgium",
+      "Flemish people"
+    ],
+    "edges": [
+      [
+        "Flemish people",
+        "people.ethnicity.geographic_distribution",
+        "Belgium"
+      ]
+    ],
+    "traj_len": 2,
+    "n_unique": 2
+  }
+]

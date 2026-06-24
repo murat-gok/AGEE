@@ -1,0 +1,5168 @@
+[
+  {
+    "qid": "WebQTest-832_c334509bb5e02cacae1ba2e80c176499",
+    "question": "Lou Seal is the mascot for the team that last won the World Series when?",
+    "answer": null,
+    "prediction": "First, Lou Seal is the mascot for the San Francisco Giants. Second, the San Francisco Giants last won the World Series in 2010. The answer is {2010}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-1259_1997cb4922db71983be26e6a509950f4",
+    "question": "Where did the \"Country Nation World Tour\" concert artist go to college?",
+    "answer": null,
+    "prediction": "First, the artist who performed on the \"Country Nation World Tour\" is Brad Paisley. Second, Brad Paisley attended Middle Tennessee State University. The answer is {Middle Tennessee State University}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-1384_744a496b907e407b16bc5d7c197dc3f0",
+    "question": "What is the predominant religion where the leader is Ovadia Yosef?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, Ovadia Yosef is associated with Haredi Judaism and Judaism as his religion. Therefore, the predominant religion where he is a leader is Judaism.",
+    "hits1": 0,
+    "trajectory": [
+      "Ovadia Yosef",
+      "Haredi Judaism",
+      "Ovadia Yosef",
+      "m.048bcbz",
+      "Ovadia Yosef",
+      "Judaism"
+    ],
+    "visited_set": [
+      "Haredi Judaism",
+      "Judaism",
+      "Ovadia Yosef",
+      "m.048bcbz"
+    ],
+    "edges": [
+      [
+        "Ovadia Yosef",
+        "people.person.religion",
+        "Haredi Judaism"
+      ],
+      [
+        "Ovadia Yosef",
+        "religion.religious_leader.religious_leadership",
+        "m.048bcbz"
+      ],
+      [
+        "Ovadia Yosef",
+        "people.person.religion",
+        "Judaism"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTrn-241_dfb6c97ac9bf2f0ac07f27dd80f9edc2",
+    "question": "What country bordering France contains an airport that serves Nijmegen?",
+    "answer": null,
+    "prediction": "First, the airport that serves Nijmegen is Eindhoven Airport. Second, Eindhoven Airport borders the Netherlands. The answer is {Netherlands}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-1077_f4a9e5f1e0dcfb82cbadf4771eda7bb5",
+    "question": "The national anthem Afghan National Anthem is from the country which practices what religions?",
+    "answer": null,
+    "prediction": "First, the national anthem of Afghanistan is \"Milli Hava\". Second, Afghanistan practices various religions including Sunni Islam (the official state religion) and Shia Islam. Additionally, there are small communities practicing Hazara Shiism, Ismaili Islam, Christianity, Zikir, and others. The answer is {Sunni Islam, Shia Islam, other minority religions}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-576_01e2da60a2779c4ae4b5d1547499a4f8",
+    "question": "Which nation has the Alta Verapaz Department and is in Central America?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, Alta Verapaz Department is located in Guatemala, and Guatemala is a country in Central America. Therefore, the answer to the question is {Guatemala}.",
+    "hits1": 0,
+    "trajectory": [
+      "Alta Verapaz Department",
+      "Guatemala",
+      "Central America",
+      "Americas",
+      "Country",
+      "m.07ndpsh"
+    ],
+    "visited_set": [
+      "Alta Verapaz Department",
+      "Americas",
+      "Central America",
+      "Country",
+      "Guatemala",
+      "m.07ndpsh"
+    ],
+    "edges": [
+      [
+        "Alta Verapaz Department",
+        "location.administrative_division.country",
+        "Guatemala"
+      ],
+      [
+        "Central America",
+        "location.location.containedby",
+        "Americas"
+      ],
+      [
+        "Country",
+        "base.ontologies.ontology_instance_mapping.freebase_topic",
+        "m.07ndpsh"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 6
+  },
+  {
+    "qid": "WebQTest-590_6aad73acb74f304bc9acae44314164be",
+    "question": "Which man is the leader of the country that uses Libya, Libya, Libya as its national anthem?",
+    "answer": null,
+    "prediction": "First, the country that uses \"Libya, Libya, Libya\" as its national anthem is Libya itself. Second, the current leader (as of 2023) of Libya is Abdul Hakeem Belhaj, who serves as the Prime Minister. The answer is {Abdul Hakeem Belhaj}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-3251_d8cddfe5e947e414b7735780ef1efff8",
+    "question": "What educational institution has a football sports team named Northern Colorado Bears is in Greeley, Colorado?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it's sufficient to answer the question. The triplets indicate that:\n\n- \"Northern Colorado Bears football\" is a sports team at an educational institution.\n- This institution is named \"University of Northern Colorado\".\n- The location \"Greeley\" contains \"Jackson Field\".\n\nTherefore, the educational institution with a football sports team named Northern Colorado Bears in Greeley, Colorado is the University of Northern Colorado.",
+    "hits1": 0,
+    "trajectory": [
+      "College/University",
+      "m.011clh9l",
+      "Northern Colorado Bears football",
+      "University of Northern Colorado",
+      "Greeley",
+      "Jackson Field"
+    ],
+    "visited_set": [
+      "College/University",
+      "Greeley",
+      "Jackson Field",
+      "Northern Colorado Bears football",
+      "University of Northern Colorado",
+      "m.011clh9l"
+    ],
+    "edges": [
+      [
+        "College/University",
+        "base.descriptive_names.names.descriptive_name",
+        "m.011clh9l"
+      ],
+      [
+        "Northern Colorado Bears football",
+        "education.educational_institution.sports_teams",
+        "University of Northern Colorado"
+      ],
+      [
+        "Greeley",
+        "location.location.contains",
+        "Jackson Field"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 6
+  },
+  {
+    "qid": "WebQTrn-2069_0fa727f3b282196eb1097410b4be6818",
+    "question": "What language is spoken in the location that appointed Michelle Bachelet to a governmental position speak?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it can be inferred that Michelle Bachelet was appointed by entities in Chile. Since Chile's languages spoken include Spanish Language, the answer to the question is {Spanish}.",
+    "hits1": 0,
+    "trajectory": [
+      "Michelle Bachelet",
+      "Chile",
+      "Michelle Bachelet",
+      "m.0104wly0",
+      "Michelle Bachelet",
+      "m.01076mz_",
+      "m.0104wly0",
+      "Michelle Bachelet",
+      "m.01076mz_",
+      "Alberto Arenas",
+      "Chile",
+      "Spanish Language"
+    ],
+    "visited_set": [
+      "Alberto Arenas",
+      "Chile",
+      "Michelle Bachelet",
+      "Spanish Language",
+      "m.0104wly0",
+      "m.01076mz_"
+    ],
+    "edges": [
+      [
+        "Michelle Bachelet",
+        "people.person.nationality",
+        "Chile"
+      ],
+      [
+        "Michelle Bachelet",
+        "government.government_position_held.appointed_by",
+        "m.0104wly0"
+      ],
+      [
+        "Michelle Bachelet",
+        "government.government_position_held.appointed_by",
+        "m.01076mz_"
+      ],
+      [
+        "m.0104wly0",
+        "government.political_appointer.appointees",
+        "Michelle Bachelet"
+      ],
+      [
+        "m.01076mz_",
+        "government.politician.government_positions_held",
+        "Alberto Arenas"
+      ],
+      [
+        "Chile",
+        "location.country.languages_spoken",
+        "Spanish Language"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 6
+  },
+  {
+    "qid": "WebQTrn-1938_7322a2a4d46bf36b95bfab4418c9a32b",
+    "question": "What type of government is used in the country with Northern District?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it's sufficient to answer the question. The triplets indicate that Israel uses a Parliamentary system as its form of government and that Northern District is part of Israel. Therefore, the type of government used in the country with the Northern District is a Parliamentary system.",
+    "hits1": 0,
+    "trajectory": [
+      "Northern District",
+      "Israel",
+      "Northern District",
+      "Israel",
+      "Northern District",
+      "Israeli district",
+      "Israel",
+      "Parliamentary system",
+      "Israeli district",
+      "Israel",
+      "Israeli district",
+      "Israel"
+    ],
+    "visited_set": [
+      "Israel",
+      "Israeli district",
+      "Northern District",
+      "Parliamentary system"
+    ],
+    "edges": [
+      [
+        "Northern District",
+        "location.administrative_division.country",
+        "Israel"
+      ],
+      [
+        "Northern District",
+        "location.country.first_level_divisions",
+        "Israel"
+      ],
+      [
+        "Northern District",
+        "base.aareas.schema.administrative_area.administrative_area_type",
+        "Israeli district"
+      ],
+      [
+        "Israel",
+        "government.form_of_government.countries",
+        "Parliamentary system"
+      ],
+      [
+        "Israeli district",
+        "base.aareas.schema.administrative_area_type.sovereignty",
+        "Israel"
+      ],
+      [
+        "Israeli district",
+        "base.aareas.schema.administrative_area_type.pertains_to",
+        "Israel"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTrn-60_68f0d0ad309d64a4af858a5ef4fb5713",
+    "question": "In which countries do the people speak Portuguese, where the child labor percentage was once 1.8?",
+    "answer": null,
+    "prediction": "Based on the given knowledge triplets, we can deduce that Portuguese is spoken in Andorra and Timor-Leste. However, only Timor-Leste has information about child labor percentage, which was once 1.8%.\n\nTherefore, the answer to the question is:\n- Countries where people speak Portuguese: Andorra, Timor-Leste\n- The country where the child labor percentage was once 1.8%: Timor-Leste",
+    "hits1": 0,
+    "trajectory": [
+      "Portuguese Language",
+      "Augusto Ramos Soares",
+      "Portuguese Language",
+      "Nuno Roque",
+      "Portuguese Language",
+      "Andorra",
+      "Augusto Ramos Soares",
+      "Timor-Leste",
+      "Nuno Roque",
+      "Portugal",
+      "Nuno Roque",
+      "m.012ngqk4",
+      "Academia Contemporânea do Espectáculo - Escola de Artes",
+      "Timor-Leste",
+      "g.1hhc45qdb",
+      "Timor-Leste",
+      "g.1hhc4nnhn"
+    ],
+    "visited_set": [
+      "Academia Contemporânea do Espectáculo - Escola de Artes",
+      "Andorra",
+      "Augusto Ramos Soares",
+      "Nuno Roque",
+      "Portugal",
+      "Portuguese Language",
+      "Timor-Leste",
+      "g.1hhc45qdb",
+      "g.1hhc4nnhn",
+      "m.012ngqk4"
+    ],
+    "edges": [
+      [
+        "Portuguese Language",
+        "people.person.languages",
+        "Augusto Ramos Soares"
+      ],
+      [
+        "Portuguese Language",
+        "people.person.languages",
+        "Nuno Roque"
+      ],
+      [
+        "Portuguese Language",
+        "language.human_language.countries_spoken_in",
+        "Andorra"
+      ],
+      [
+        "Augusto Ramos Soares",
+        "people.person.nationality",
+        "Timor-Leste"
+      ],
+      [
+        "Nuno Roque",
+        "people.person.nationality",
+        "Portugal"
+      ],
+      [
+        "Nuno Roque",
+        "education.education.student",
+        "m.012ngqk4"
+      ],
+      [
+        "m.012ngqk4",
+        "education.educational_institution.students_graduates",
+        "Academia Contemporânea do Espectáculo - Escola de Artes"
+      ],
+      [
+        "Timor-Leste",
+        "location.statistical_region.child_labor_percent",
+        "g.1hhc45qdb"
+      ],
+      [
+        "Timor-Leste",
+        "location.statistical_region.child_labor_percent",
+        "g.1hhc4nnhn"
+      ]
+    ],
+    "traj_len": 17,
+    "n_unique": 10
+  },
+  {
+    "qid": "WebQTest-100_bf66fd89b6e9fc5fcb96c8b3f7a0e616",
+    "question": "The people from the country that contains Nord-Ouest Department speak what languages today?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer the question. The administrative division Nord-Ouest Department is located in Haiti. Haiti's languages spoken are French and Haitian Creole. Therefore, people from Haiti today speak both French and Haitian Creole.",
+    "hits1": 0,
+    "trajectory": [
+      "Nord-Ouest Department",
+      "Haiti",
+      "Nord-Ouest Department",
+      "Haiti",
+      "French",
+      "Haiti",
+      "Unitary state",
+      "Haiti",
+      "Haitian Creole"
+    ],
+    "visited_set": [
+      "French",
+      "Haiti",
+      "Haitian Creole",
+      "Nord-Ouest Department",
+      "Unitary state"
+    ],
+    "edges": [
+      [
+        "Nord-Ouest Department",
+        "location.administrative_division.country",
+        "Haiti"
+      ],
+      [
+        "Nord-Ouest Department",
+        "location.administrative_division.first_level_division_of",
+        "Haiti"
+      ],
+      [
+        "Haiti",
+        "location.country.languages_spoken",
+        "French"
+      ],
+      [
+        "Haiti",
+        "government.form_of_government.countries",
+        "Unitary state"
+      ],
+      [
+        "Haiti",
+        "location.country.languages_spoken",
+        "Haitian Creole"
+      ]
+    ],
+    "traj_len": 9,
+    "n_unique": 5
+  },
+  {
+    "qid": "WebQTrn-962_032f61bfcfed69da8b215bb8f058c24e",
+    "question": "What actor played the a kid in the movie with a character named Jenny's Father?",
+    "answer": null,
+    "prediction": "First, the movie with a character named Jenny's Father is \"Jenny's Mother\" (1985). Second, the actor who played the kid in this movie is Justin Faughnan. The answer is {Justin Faughnan}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-849_586aae7703d62aa44eb79759e1563309",
+    "question": "What European Union country sharing borders with Germany contains the Lejre Municipality?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, Lejre Municipality is located in Denmark. Since Denmark shares borders with Germany and is a European Union country, the answer to the question is {Denmark}.",
+    "hits1": 0,
+    "trajectory": [
+      "Lejre Municipality",
+      "Hvalsø",
+      "Country",
+      "Location",
+      "Lejre Municipality",
+      "Denmark"
+    ],
+    "visited_set": [
+      "Country",
+      "Denmark",
+      "Hvalsø",
+      "Lejre Municipality",
+      "Location"
+    ],
+    "edges": [
+      [
+        "Lejre Municipality",
+        "location.location.contains",
+        "Hvalsø"
+      ],
+      [
+        "Country",
+        "type.type.domain",
+        "Location"
+      ],
+      [
+        "Lejre Municipality",
+        "location.country.second_level_divisions",
+        "Denmark"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 5
+  },
+  {
+    "qid": "WebQTrn-710_c264a6d11d7956741926d417b94327e2",
+    "question": "When was the last time a team led by Larr Baer win the World Series?",
+    "answer": null,
+    "prediction": "First, Larranaga Baer led the Boston Red Sox to win the World Series in 2004. The answer is {2004}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-2209_c1374f388d9cc7a78365860c91218362",
+    "question": "What year did the basketball team coached by Brad Stevens win the championship?",
+    "answer": null,
+    "prediction": "First, the basketball team coached by Brad Stevens won the national championship in 2015 with the Indiana Hoosiers. However, he also coached the Boston Celtics to a championship in 2023. Since the question does not specify which team, both years are relevant but typically the most recent is considered unless otherwise stated. The answer is {2023}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-1251_cbf2f20f6caf754bc49d672ca7b150b7",
+    "question": "What country speaks Germanic languages and uses the East German mark as currency?",
+    "answer": null,
+    "prediction": "First, Germany speaks Germanic languages and used the East German Mark as currency before adopting the Euro. The answer is {Germany}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-3100_143c89d70679c3e5257c93d8e2bc4c67",
+    "question": "Which globe region with the UTCâ05:00 time zone does the Dominican Republic call home?",
+    "answer": null,
+    "prediction": "First, the Dominican Republic is located in the Americas. Second, the UTCâ05:00 time zone covers parts of the Americas, including areas like the eastern United States and parts of Canada during Standard Time. The Dominican Republic falls under this UTCâ05:00 time zone. Therefore, the answer is {Americas}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-662_7a992044f94b39edfc37ac5dcfcb3c26",
+    "question": "What was the name of the team that won the 2008 FIFA Club World Cup Final championship?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that the team that won the 2008 FIFA Club World Cup Final championship was Manchester United F.C. The triplet directly states that Manchester United F.C. was the champion of the 2008 FIFA Club World Cup Final.",
+    "hits1": 0,
+    "trajectory": [
+      "2008 FIFA Club World Cup Final",
+      "Manchester United F.C.",
+      "2008 FIFA Club World Cup Final",
+      "International Stadium Yokohama",
+      "2008 FIFA Club World Cup Final",
+      "FIFA Club World Cup"
+    ],
+    "visited_set": [
+      "2008 FIFA Club World Cup Final",
+      "FIFA Club World Cup",
+      "International Stadium Yokohama",
+      "Manchester United F.C."
+    ],
+    "edges": [
+      [
+        "2008 FIFA Club World Cup Final",
+        "sports.sports_championship_event.champion",
+        "Manchester United F.C."
+      ],
+      [
+        "2008 FIFA Club World Cup Final",
+        "soccer.football_match.held_at",
+        "International Stadium Yokohama"
+      ],
+      [
+        "2008 FIFA Club World Cup Final",
+        "sports.sports_championship.events",
+        "FIFA Club World Cup"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-743_0a8cdba29cf260283b7c890b3609c0b9",
+    "question": "Which of JFK's brother held the latest governmental position?",
+    "answer": null,
+    "prediction": "First, Robert F. Kennedy was JFK's brother and held several important governmental positions including Attorney General of the United States, Senator from New York, and ran for President in 1968. Second, John F. Kennedy Jr., another brother, served as a U.S. Representative from Massachusetts from 1995 until his death in 2009, which is the latest governmental position held by any of JFK's brothers. The answer is {John F. Kennedy Jr.}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-1797_68a33792b0a1e18937dcd4b3f50d941e",
+    "question": "What group fought in the Battle of Vicksburg that was based in Montgomery?",
+    "answer": null,
+    "prediction": "First, the 15th Regiment Alabama Infantry fought in the Battle of Vicksburg and was based in Montgomery. The answer is {15th Regiment Alabama Infantry}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-1864_9dc4e22121d3a46d45b8f9bd9e8c7013",
+    "question": "Which country that is situated in the ASEAN Common Time Zone has the largest population?",
+    "answer": null,
+    "prediction": "First, we need to identify countries in the ASEAN Common Time Zone. These include Brunei, Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand, and Vietnam. Second, among these, Indonesia has the largest population. The answer is {Indonesia}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-1841_b8df00139e3fa59b8633ef551ed8ca9f",
+    "question": "What popular sport in Spain has a team that won the 2010 FIFA World Cup championship?",
+    "answer": null,
+    "prediction": "First, the team that won the 2010 FIFA World Cup championship is Argentina. Second, there isn't a prominent Spanish team that participated in or won the 2010 FIFA World Cup. The question seems to mix up nationalities and sports contexts. Given the query's structure, it appears to ask about a popular sport in Spain rather than the 2010 FIFA World Cup winner. A popular sport in Spain is football (soccer). However, since no Spanish team won the 2010 World Cup, there isn't a direct answer fitting both parts of the question as stated.\n\nThe correct response based on the provided information and context would be: There isn't a Spanish team that won the 2010 FIFA World Cup. If the intent was to ask about a popular sport in Spain, the answer would be football (soccer).",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-124_f3990dc9aa470fa81ec4cf2912a9924f",
+    "question": "Which movie with a character called Ajila was directed by Angelina Jolie?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it's sufficient to answer the question with these triplets and additional knowledge that \"Ajla\" is the character name in lowercase. The movie directed by Angelina Jolie that has a character called Ajila (or Ajla) is \"In the Land of Blood and Honey\".",
+    "hits1": 0,
+    "trajectory": [
+      "Ajla",
+      "m.0gw7h9w",
+      "Angelina Jolie",
+      "In the Land of Blood and Honey",
+      "Ajla",
+      "m.0gw7h9w",
+      "In the Land of Blood and Honey",
+      "Angelina Jolie",
+      "m.0gw7h9w",
+      "In the Land of Blood and Honey",
+      "m.0gw7h9w",
+      "Zana Marjanovic"
+    ],
+    "visited_set": [
+      "Ajla",
+      "Angelina Jolie",
+      "In the Land of Blood and Honey",
+      "Zana Marjanovic",
+      "m.0gw7h9w"
+    ],
+    "edges": [
+      [
+        "Ajla",
+        "film.film_character.portrayed_in_films",
+        "m.0gw7h9w"
+      ],
+      [
+        "Angelina Jolie",
+        "film.director.film",
+        "In the Land of Blood and Honey"
+      ],
+      [
+        "Ajla",
+        "film.performance.character",
+        "m.0gw7h9w"
+      ],
+      [
+        "In the Land of Blood and Honey",
+        "film.film.directed_by",
+        "Angelina Jolie"
+      ],
+      [
+        "m.0gw7h9w",
+        "film.performance.film",
+        "In the Land of Blood and Honey"
+      ],
+      [
+        "m.0gw7h9w",
+        "film.performance.actor",
+        "Zana Marjanovic"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 5
+  },
+  {
+    "qid": "WebQTest-538_49b4e9304f18a0a1cbe37bb162f61131",
+    "question": "WHat movies have the actress who is an alumni for West Reading El Ctr a part of?",
+    "answer": null,
+    "prediction": "First, we need to identify the actress who is an alumnus of West Reading El Center. This individual is Jennifer Lawrence. Second, Jennifer Lawrence has been in several notable movies such as The Hunger Games series, Silver Linings Playbook, Joy, and many more. The answer is {The Hunger Games series, Silver Linings Playbook, Joy, etc.}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-2722_8babdaa9ecd05a72e3227b43b1f98771",
+    "question": "For what did the personage who was educated at the Dewitt High School win a gold medal?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, we can deduce that Jordyn Wieber, who was educated at Dewitt High School (part of DeWitt Public Schools), won a gold medal at the \"2007 World Championships in Athletics – Women's high jump\". Therefore, the answer to the question is that Jordyn Wieber won the gold medal for her performance in the Women's high jump event.",
+    "hits1": 0,
+    "trajectory": [
+      "Dewitt High School",
+      "m.0w5lr60",
+      "Gold medal",
+      "m.0650hs7",
+      "Dewitt High School",
+      "DeWitt Public Schools",
+      "Dewitt High School",
+      "m.0w5lr60",
+      "Jordyn Wieber",
+      "m.0650hs7",
+      "2007 World Championships in Athletics – Women's high jump"
+    ],
+    "visited_set": [
+      "2007 World Championships in Athletics – Women's high jump",
+      "DeWitt Public Schools",
+      "Dewitt High School",
+      "Gold medal",
+      "Jordyn Wieber",
+      "m.0650hs7",
+      "m.0w5lr60"
+    ],
+    "edges": [
+      [
+        "Dewitt High School",
+        "education.education.institution",
+        "m.0w5lr60"
+      ],
+      [
+        "Gold medal",
+        "base.athletics.athletics_medal.medal_winners",
+        "m.0650hs7"
+      ],
+      [
+        "Dewitt High School",
+        "education.school_district.schools",
+        "DeWitt Public Schools"
+      ],
+      [
+        "DeWitt Public Schools",
+        "education.school.school_district",
+        "Dewitt High School"
+      ],
+      [
+        "m.0w5lr60",
+        "education.education.student",
+        "Jordyn Wieber"
+      ],
+      [
+        "m.0650hs7",
+        "base.athletics.athletics_championships_competition.competitors",
+        "2007 World Championships in Athletics – Women's high jump"
+      ]
+    ],
+    "traj_len": 11,
+    "n_unique": 7
+  },
+  {
+    "qid": "WebQTest-983_ccda690fb745939d0a62c3fbcf3e3769",
+    "question": "Where did Tennessee Williams go to college where the newspaper is \"The Maneater\"?",
+    "answer": null,
+    "prediction": "First, University of Missouri is the place where the newspaper is called \"The Maneater\". Second, Tennessee Williams attended the University of Missouri for a short time. The answer is {University of Missouri}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-1770_8db36acba886620a06031d39165d78de",
+    "question": "Who is the daughter of the artist who had a concert tour called I Am... World Tour?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, Beyoncé Knowles had a concert tour called \"I Am... World Tour\" and her album \"I Am... Sasha Fierce\" supported this tour. The name \"Sasha Fierce\" is often used to refer to one of Beyoncé's daughters, who has the same name. Therefore, it can be inferred that Sasha Fierce is the daughter of Beyoncé Knowles, the artist with the concert tour \"I Am... World Tour\".",
+    "hits1": 0,
+    "trajectory": [
+      "I Am... World Tour",
+      "Beyoncé Knowles",
+      "I Am... World Tour",
+      "I Am... Sasha Fierce",
+      "Beyoncé Knowles",
+      "I Am... Yours: An Intimate Performance at Wynn Las Vegas",
+      "I Am... Sasha Fierce",
+      "Beyoncé Knowles",
+      "I Am... Sasha Fierce",
+      "I Am... World Tour"
+    ],
+    "visited_set": [
+      "Beyoncé Knowles",
+      "I Am... Sasha Fierce",
+      "I Am... World Tour",
+      "I Am... Yours: An Intimate Performance at Wynn Las Vegas"
+    ],
+    "edges": [
+      [
+        "I Am... World Tour",
+        "music.artist.concert_tours",
+        "Beyoncé Knowles"
+      ],
+      [
+        "I Am... World Tour",
+        "music.album.supporting_tours",
+        "I Am... Sasha Fierce"
+      ],
+      [
+        "Beyoncé Knowles",
+        "music.artist.album",
+        "I Am... Yours: An Intimate Performance at Wynn Las Vegas"
+      ],
+      [
+        "I Am... Sasha Fierce",
+        "music.artist.album",
+        "Beyoncé Knowles"
+      ],
+      [
+        "I Am... Sasha Fierce",
+        "music.concert_tour.album_or_release_supporting",
+        "I Am... World Tour"
+      ]
+    ],
+    "traj_len": 10,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTrn-1817_89670933168c3f4e5195a241f9d46e76",
+    "question": "What are the governmental types in the country whose national anthem is Tien Quan Ca?",
+    "answer": null,
+    "prediction": "First, Vietnam's national anthem is \"Tien Quan Ca\". Second, Vietnam has a socialist state governed by the Communist Party of Vietnam. The answer is {Socialist state}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-849_1eb0f1ddd5074471fbe3a7f6b575f202",
+    "question": "Copenhagen is the capital of which German neighboring country?",
+    "answer": null,
+    "prediction": "First, Copenhagen is the capital of Denmark. Second, Denmark is not a neighboring country to Germany; in fact, Denmark borders Germany. Therefore, there seems to be an error in the premise of the question as stated. The correct answer based on factual information would be that Copenhagen is the capital of Denmark, but it does not border Germany. If you intended to ask about a different city or country, please clarify and I will provide the accurate response.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-2152_92fba37c9723caee68665ad9a5e4a468",
+    "question": "Which of team owners Tom Hicks sports team are in the American League West?",
+    "answer": null,
+    "prediction": "First, Tom Hicks owns the Texas Rangers baseball team. Second, the Texas Rangers are indeed part of the American League West division. The answer is {Texas Rangers}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-3376_0619d288bbed0ca782e60c6f841a6051",
+    "question": "What colleges did the famous person who went to Castlemont High school go to?",
+    "answer": null,
+    "prediction": "First, Kenyan-American author Chimamanda Ngozi Adichie attended Castlemont High School. Second, Chimamanda Ngozi Adichie also attended Eastern Michigan University and Brown University. The answer is {Eastern Michigan University, Brown University}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-567_693feb48c0515cd069014e7ca2846b37",
+    "question": "What movie with the character Teklel Hafouli did Ron Howard do?",
+    "answer": null,
+    "prediction": "First, Ron Howard directed the movie \"Island of Lemurs: Madagascar\". Second, Tekle Hafte Hailu played a role in this film. The answer is {Island of Lemurs: Madagascar}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-1077_0c34ca057060e35aa5c74fbbca682dee",
+    "question": "In the nation that has the Badakhshan province, what religions are practiced?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, Afghanistan is the nation that has the Badakhshan province. Additionally, it is stated that the religions practiced in Afghanistan are represented by entities \"m.0493b56\" and \"m.0493b5d\". While the exact names of these religious entities are not provided, we can infer that they correspond to two major religions practiced in Afghanistan. Therefore, with this information and general knowledge (which is allowed), it's sufficient to conclude that the main religions practiced in Afghanistan (and thus likely in Badakhshan province) are Islam (likely Sunni and Shia branches).",
+    "hits1": 0,
+    "trajectory": [
+      "Badakhshan Province",
+      "Afghanistan",
+      "Badakhshan Province",
+      "g.11bc85348s",
+      "Badakhshan Province",
+      "m.0123h4dp",
+      "Afghanistan",
+      "Badakhshan Province",
+      "Afghanistan",
+      "m.0493b56",
+      "Afghanistan",
+      "m.0493b5d"
+    ],
+    "visited_set": [
+      "Afghanistan",
+      "Badakhshan Province",
+      "g.11bc85348s",
+      "m.0123h4dp",
+      "m.0493b56",
+      "m.0493b5d"
+    ],
+    "edges": [
+      [
+        "Badakhshan Province",
+        "location.administrative_division.country",
+        "Afghanistan"
+      ],
+      [
+        "Badakhshan Province",
+        "location.statistical_region.population",
+        "g.11bc85348s"
+      ],
+      [
+        "Badakhshan Province",
+        "location.statistical_region.population",
+        "m.0123h4dp"
+      ],
+      [
+        "Afghanistan",
+        "base.aareas.schema.administrative_area.administrative_children",
+        "Badakhshan Province"
+      ],
+      [
+        "Afghanistan",
+        "location.statistical_region.religions",
+        "m.0493b56"
+      ],
+      [
+        "Afghanistan",
+        "location.statistical_region.religions",
+        "m.0493b5d"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 6
+  },
+  {
+    "qid": "WebQTest-1686_29e74083744b3631541b29b4094fb273",
+    "question": "Who was the governor of Arizona in 2009 that held his governmental position before 1998?",
+    "answer": null,
+    "prediction": "First, Jan Brnovich was the governor of Arizona from 2007 to 2009. Second, Jan Brnovich held her position before 1998. The answer is {Jan Brnovich}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-626_8c6b952c6bd963f0ece4e401c9eb731a",
+    "question": "What does the Missouri River bisect in the Central Time Zone?",
+    "answer": null,
+    "prediction": "First, the Missouri River bisects North Dakota in the Central Time Zone. The answer is {North Dakota}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-12_68d745a0657c86906382873e57294d6a",
+    "question": "Who was the governor of Ohio in 2011 that was in the government prior to 3-1-1983?",
+    "answer": null,
+    "prediction": "First, Richard Celeste was the governor of Ohio from 1983 to 1987. Second, Richard Celeste was in the government prior to March 1, 1983. The answer is {Richard Celeste}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-576_906ad6be7bec9d208f4dde4f7721c261",
+    "question": "Which of the seven Central American countries had co2 emissions per capita once of 2009 metric ton?",
+    "answer": null,
+    "prediction": "First, we need to identify which Central American country had CO2 emissions per capita of 2.009 metric tons in 2009 based on available data. Second, Costa Rica is known for having relatively low CO2 emissions per capita compared to other Central American countries. Third, according to the World Bank data, Costa Rica's CO2 emissions per capita were approximately 4.17 metric tons in 2009, which does not match exactly but is among the lowest in the region. However, for precise matching with 2.009 metric tons, we would need more specific data or context that isn't readily available here.\n\nGiven the information and common knowledge, there's no exact match to 2.009 metric tons CO2 emissions per capita for any Central American country in 2009 based on typical data sources. The answer is {No exact match found with given options}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-2152_3cdf60c15a8355981dd92e3c57ac2eed",
+    "question": "What team that has a mascot named Mariner Moose is in the American League West?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it's sufficient to answer the question. The Seattle Mariners have a mascot named Mariner Moose and are part of the American League West division. Therefore, the answer to the question is {Seattle Mariners}.",
+    "hits1": 0,
+    "trajectory": [
+      "Mariner Moose",
+      "Seattle Mariners",
+      "American League West",
+      "Seattle Mariners",
+      "Mariner Moose",
+      "Seattle Mariners"
+    ],
+    "visited_set": [
+      "American League West",
+      "Mariner Moose",
+      "Seattle Mariners"
+    ],
+    "edges": [
+      [
+        "Mariner Moose",
+        "sports.mascot.team",
+        "Seattle Mariners"
+      ],
+      [
+        "American League West",
+        "baseball.baseball_team.division",
+        "Seattle Mariners"
+      ],
+      [
+        "Mariner Moose",
+        "sports.sports_team.team_mascot",
+        "Seattle Mariners"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-61_09020cbb000c86fda5910ec084690246",
+    "question": "What religion is practiced in Indonesia and has a sacred site of Mecca?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that the religion practiced in Indonesia and has a sacred site of Mecca is Islam. The triplets indicate that Mecca is associated with the religion Islam (multiple times), and that Islam has a significant presence in Indonesia. Therefore, the answer to the question is {Islam}.",
+    "hits1": 0,
+    "trajectory": [
+      "Indonesia",
+      "m.064szk2",
+      "Mecca",
+      "Islam",
+      "Mecca",
+      "m.04ktwb6",
+      "Mecca",
+      "Islam",
+      "m.03xf2_w",
+      "m.04ktwb6",
+      "Islam",
+      "m.03xf2_w",
+      "Indonesia",
+      "Mecca",
+      "Islam",
+      "Mecca",
+      "Abraj Al Bait Hajar Tower"
+    ],
+    "visited_set": [
+      "Abraj Al Bait Hajar Tower",
+      "Indonesia",
+      "Islam",
+      "Mecca",
+      "m.03xf2_w",
+      "m.04ktwb6",
+      "m.064szk2"
+    ],
+    "edges": [
+      [
+        "Indonesia",
+        "location.statistical_region.religions",
+        "m.064szk2"
+      ],
+      [
+        "Mecca",
+        "religion.place_of_worship.religion",
+        "Islam"
+      ],
+      [
+        "Mecca",
+        "religion.place_of_worship_historical_use.place_of_worship",
+        "m.04ktwb6"
+      ],
+      [
+        "m.04ktwb6",
+        "religion.place_of_worship.historically_used_by_religions",
+        "Mecca"
+      ],
+      [
+        "Islam",
+        "location.religion_percentage.religion",
+        "m.03xf2_w"
+      ],
+      [
+        "m.04ktwb6",
+        "religion.religion.places_of_worship_historical",
+        "Islam"
+      ],
+      [
+        "m.03xf2_w",
+        "location.statistical_region.religions",
+        "Indonesia"
+      ],
+      [
+        "Mecca",
+        "religion.religion.sacred_sites",
+        "Islam"
+      ],
+      [
+        "Mecca",
+        "location.location.contains",
+        "Abraj Al Bait Hajar Tower"
+      ]
+    ],
+    "traj_len": 17,
+    "n_unique": 7
+  },
+  {
+    "qid": "WebQTrn-1864_67ecd1c247c3b2c9545fbcf1ad8d9d00",
+    "question": "Which location in the Anadyr Timezone has the biggest population?",
+    "answer": null,
+    "prediction": "First, we need to identify locations within the Anadyr Timezone. Key cities include Anadyr, Chokurdakh, and Ust-Kamchatsk. Second, among these, Anadyr has the largest population. The answer is {Anadyr}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-3136_a2debf685e0c50491e35a9cf7a1e9ade",
+    "question": "Of the four regions which make up the United Kingdom, which is the country that includes the location, Down District Council?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that the country which includes the location Down District Council is Northern Ireland. The triplet (\"Down District Council\", \"location.administrative_division.country\", \"Northern Ireland\") directly states this information.",
+    "hits1": 0,
+    "trajectory": [
+      "Down District Council",
+      "Downpatrick",
+      "Down District Council",
+      "Downpatrick",
+      "Down District Council",
+      "Northern Ireland"
+    ],
+    "visited_set": [
+      "Down District Council",
+      "Downpatrick",
+      "Northern Ireland"
+    ],
+    "edges": [
+      [
+        "Down District Council",
+        "location.uk_district.administrative_headquarters",
+        "Downpatrick"
+      ],
+      [
+        "Down District Council",
+        "location.location.contains",
+        "Downpatrick"
+      ],
+      [
+        "Down District Council",
+        "location.administrative_division.country",
+        "Northern Ireland"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-998_f693ae2cb9aa6b8ffdf0f103a6777b62",
+    "question": "What is the most recent event in which the sports team owned by James L. Dolan won the championship?",
+    "answer": null,
+    "prediction": "First, James L. Dolan owns the New York Knicks and the New York Rangers. Second, the New York Knicks last won the NBA Championship in 2019-2020. The New York Rangers have not won a Stanley Cup under Dolan's ownership. Therefore, the most recent championship win for a team owned by James L. Dolan is the 2019-2020 NBA Championship by the New York Knicks. The answer is {2019-2020 NBA Championship}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-1023_1e7110e48c30a2cef3caf291e3b8d394",
+    "question": "What's the currency of the country that includes the location of Buenos Aires?",
+    "answer": null,
+    "prediction": "First, Buenos Aires is located in Argentina. Second, the currency of Argentina is the Argentine Peso. The answer is {Argentine Peso}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-810_c334509bb5e02cacae1ba2e80c176499",
+    "question": "What year did the team with mascot named Lou Seal win the World Series?",
+    "answer": null,
+    "prediction": "First, the team with the mascot named Lou Seal is the San Francisco Giants. Second, the San Francisco Giants won the World Series in 2010. The answer is {2010}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-557_960c16ffdb29e173df0577fc76c7455d",
+    "question": "In the film with teh character named Winged Monkey #7, who played Dorothy?",
+    "answer": null,
+    "prediction": "First, in the film with the character named Winged Monkey #7, Dorothy is portrayed by Judy Garland. The answer is {Judy Garland}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-21_660138373d19bbffdd3d3f7a30234e4a",
+    "question": "Who holds the position of Prime Minister in the country which contains Dire Dawa?",
+    "answer": null,
+    "prediction": "First, Dire Dawa is located in Ethiopia. Second, Abiy Ahmed Ali currently holds the position of Prime Minister in Ethiopia. The answer is {Abiy Ahmed Ali}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-2286_e0906c845ea8b2e22e08e1b0e6eb9b43",
+    "question": "Where is the state with the capitol of Frankfort located?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it's sufficient to answer the question. The triplets indicate that Frankfort is the capital of Kentucky. Therefore, the state with the capitol of Frankfort is Kentucky.",
+    "hits1": 0,
+    "trajectory": [
+      "Frankfort",
+      "m.0jvw4ml",
+      "Frankfort",
+      "Kentucky",
+      "Frankfort",
+      "Kentucky"
+    ],
+    "visited_set": [
+      "Frankfort",
+      "Kentucky",
+      "m.0jvw4ml"
+    ],
+    "edges": [
+      [
+        "Frankfort",
+        "location.administrative_division_capital_relationship.capital",
+        "m.0jvw4ml"
+      ],
+      [
+        "Frankfort",
+        "location.us_state.capital",
+        "Kentucky"
+      ],
+      [
+        "Frankfort",
+        "base.aareas.schema.administrative_area.capital",
+        "Kentucky"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-1320_c5498ca807d2e1ec30d4c8fdd41f0bf7",
+    "question": "What stadium does the team with mascot named Hank play at?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it's sufficient to answer the question. The Milwaukee Brewers, who have a mascot named Hank, play at the stadium associated with them, which is mapped as \"m.0wz1z23\". Therefore, the answer to the question is the stadium corresponding to \"m.0wz1z23\".",
+    "hits1": 0,
+    "trajectory": [
+      "Hank",
+      "Milwaukee Brewers",
+      "Hank",
+      "Milwaukee Brewers",
+      "m.0wz1z23",
+      "Milwaukee Brewers",
+      "m.07nfc_d"
+    ],
+    "visited_set": [
+      "Hank",
+      "Milwaukee Brewers",
+      "m.07nfc_d",
+      "m.0wz1z23"
+    ],
+    "edges": [
+      [
+        "Hank",
+        "sports.mascot.team",
+        "Milwaukee Brewers"
+      ],
+      [
+        "Milwaukee Brewers",
+        "sports.sports_team.team_mascot",
+        "Hank"
+      ],
+      [
+        "Milwaukee Brewers",
+        "sports.sports_team.venue",
+        "m.0wz1z23"
+      ],
+      [
+        "Milwaukee Brewers",
+        "base.ontologies.ontology_instance_mapping.freebase_topic",
+        "m.07nfc_d"
+      ]
+    ],
+    "traj_len": 7,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTrn-2444_8f2cd432b509e5b8fe681bb55bca2767",
+    "question": "Where is the home stadium of the team who won the 1946 World Series championship?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer the question. The St. Louis Cardinals won the 1946 World Series championship and their home stadium during that time was Sportsman's Park. Therefore, the answer to the question is {Sportsman's Park}.",
+    "hits1": 0,
+    "trajectory": [
+      "1946 World Series",
+      "St. Louis Cardinals",
+      "1946 World Series",
+      "Sportsman's Park",
+      "1946 World Series",
+      "St. Louis Cardinals"
+    ],
+    "visited_set": [
+      "1946 World Series",
+      "Sportsman's Park",
+      "St. Louis Cardinals"
+    ],
+    "edges": [
+      [
+        "1946 World Series",
+        "sports.sports_championship_event.champion",
+        "St. Louis Cardinals"
+      ],
+      [
+        "1946 World Series",
+        "location.location.events",
+        "Sportsman's Park"
+      ],
+      [
+        "1946 World Series",
+        "sports.sports_team.championships",
+        "St. Louis Cardinals"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-100_524908899a8aa334a18a0ac00f8f2fe6",
+    "question": "People from the country that contains Nord-Est Department speak what  languages today?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it can be inferred that people from Haiti speak both French and Haitian Creole today. Since Nord-Est Department is located in Haiti, the answer to the question is that people from the country containing Nord-Est Department speak both French and Haitian Creole.",
+    "hits1": 0,
+    "trajectory": [
+      "Nord-Est Department",
+      "Haiti",
+      "Nord-Est Department",
+      "Haiti",
+      "Centre Department",
+      "Haiti",
+      "French",
+      "Haiti",
+      "Haitian Creole"
+    ],
+    "visited_set": [
+      "Centre Department",
+      "French",
+      "Haiti",
+      "Haitian Creole",
+      "Nord-Est Department"
+    ],
+    "edges": [
+      [
+        "Nord-Est Department",
+        "location.administrative_division.country",
+        "Haiti"
+      ],
+      [
+        "Nord-Est Department",
+        "location.administrative_division.first_level_division_of",
+        "Haiti"
+      ],
+      [
+        "Haiti",
+        "location.country.administrative_divisions",
+        "Centre Department"
+      ],
+      [
+        "Haiti",
+        "language.human_language.countries_spoken_in",
+        "French"
+      ],
+      [
+        "Haiti",
+        "language.human_language.countries_spoken_in",
+        "Haitian Creole"
+      ]
+    ],
+    "traj_len": 9,
+    "n_unique": 5
+  },
+  {
+    "qid": "WebQTrn-568_d54918e8e89ad97237bce821087a9818",
+    "question": "In which US county is the TV program NBC Nightside filmed in?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it can be deduced that the TV program NBC Nightside is filmed in Charlotte. Furthermore, it is stated that the county with its county seat as Charlotte is Mecklenburg County. Therefore, the answer to the question \"In which US county is the TV program NBC Nightside filmed in?\" is Mecklenburg County.",
+    "hits1": 0,
+    "trajectory": [
+      "NBC Nightside",
+      "Charlotte",
+      "NBC Nightside",
+      "m.0j3jmm1",
+      "NBC Nightside",
+      "Charlotte",
+      "NBC Nightside",
+      "m.0j3jmm1",
+      "NBC Nightside",
+      "Charlotte",
+      "Mecklenburg County"
+    ],
+    "visited_set": [
+      "Charlotte",
+      "Mecklenburg County",
+      "NBC Nightside",
+      "m.0j3jmm1"
+    ],
+    "edges": [
+      [
+        "NBC Nightside",
+        "tv.tv_location.tv_shows_filmed_here",
+        "Charlotte"
+      ],
+      [
+        "NBC Nightside",
+        "tv.tv_program.original_network",
+        "m.0j3jmm1"
+      ],
+      [
+        "NBC Nightside",
+        "tv.tv_program.filming_locations",
+        "Charlotte"
+      ],
+      [
+        "Charlotte",
+        "tv.tv_program.filming_locations",
+        "NBC Nightside"
+      ],
+      [
+        "m.0j3jmm1",
+        "tv.tv_network_duration.program",
+        "NBC Nightside"
+      ],
+      [
+        "Charlotte",
+        "location.us_county.county_seat",
+        "Mecklenburg County"
+      ]
+    ],
+    "traj_len": 11,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-361_e24533e28da40db99eb4b25773f9d38f",
+    "question": "What museum established before 1971 is there to see in Vienna, Austria?",
+    "answer": null,
+    "prediction": "First, the Kunsthistorisches Museum was established in 1891, which is before 1971. Second, the Kunsthistorisches Museum is located in Vienna, Austria. The answer is {Kunsthistorisches Museum}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-2215_11c4cd5a25fd84f3980d7013c0329bad",
+    "question": "Where was the artist that had This Summer Tour raised?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer the question. The triplets indicate that Brad Paisley, who had the \"Beat This Summer Tour,\" was from Glen Dale. Therefore, the artist who had the \"Beat This Summer Tour\" was raised in Glen Dale.",
+    "hits1": 0,
+    "trajectory": [
+      "Beat This Summer Tour",
+      "Brad Paisley",
+      "Beat This Summer Tour",
+      "Fiddler's Green Amphitheatre",
+      "Beat This Summer Tour",
+      "Gorge Amphitheatre",
+      "Brad Paisley",
+      "Glen Dale",
+      "Fiddler's Green Amphitheatre",
+      "Greenwood Village",
+      "Brad Paisley",
+      "Glen Dale"
+    ],
+    "visited_set": [
+      "Beat This Summer Tour",
+      "Brad Paisley",
+      "Fiddler's Green Amphitheatre",
+      "Glen Dale",
+      "Gorge Amphitheatre",
+      "Greenwood Village"
+    ],
+    "edges": [
+      [
+        "Beat This Summer Tour",
+        "music.artist.concert_tours",
+        "Brad Paisley"
+      ],
+      [
+        "Beat This Summer Tour",
+        "time.event.locations",
+        "Fiddler's Green Amphitheatre"
+      ],
+      [
+        "Beat This Summer Tour",
+        "time.event.locations",
+        "Gorge Amphitheatre"
+      ],
+      [
+        "Brad Paisley",
+        "music.artist.origin",
+        "Glen Dale"
+      ],
+      [
+        "Fiddler's Green Amphitheatre",
+        "location.location.contains",
+        "Greenwood Village"
+      ],
+      [
+        "Brad Paisley",
+        "people.person.place_of_birth",
+        "Glen Dale"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 6
+  },
+  {
+    "qid": "WebQTrn-2834_6a27420dcf0528ae017dd74e40cfd38a",
+    "question": "What major US religions has a religious organization named Tamil Nadu Thowheed Jamath?",
+    "answer": null,
+    "prediction": "First, Tamil Nadu Thowheed Jamath is a religious organization. Second, this organization is associated with Islam in the United States. The major US religion it belongs to is {Islam}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-634_000f72b60ccaedff5f056f522ee06e98",
+    "question": "A person who once lived in Mansfeld would have what profession?",
+    "answer": null,
+    "prediction": "First, Mansfeld is a town in Saxony-Anhalt, Germany. Historically, the area around Mansfeld has been associated with mining and metallurgy. Therefore, a person who once lived in Mansfeld might have had a profession related to these industries.\n\nThe answer is {miner or metallurgist}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-857_9392f3f06e288ee4e3437a74f6bf5a37",
+    "question": "Who was the vice president of the President who attended Ramble Elementary School?",
+    "answer": null,
+    "prediction": "First, Bill Clinton attended Ramble Elementary School. Second, Al Gore was the Vice President when Bill Clinton was President. The answer is {Al Gore}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-810_a188aff4a054e1ec66fafba1b8021f67",
+    "question": "What year did the MLB franchise owned by Bill Neukom win the world series?",
+    "answer": null,
+    "prediction": "First, Bill Neukom owns the Washington Nationals (formerly Montreal Expos and Miami Marlins). Second, the Washington Nationals have not won the World Series as of my last update. The answer is {None, as of the most recent information, they haven't won a World Series}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-2026_d059b24adec4064377b957ca598769be",
+    "question": "Santo Domingo is the capital of the country with what currency?",
+    "answer": null,
+    "prediction": "First, Santo Domingo is the capital of the Dominican Republic. Second, the currency used in the Dominican Republic is the Dominican Peso. The answer is {Dominican Peso}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-60_990f6babd500d25e3746174e6da58c84",
+    "question": "What Portuguese speaking country imported form Brazil?",
+    "answer": null,
+    "prediction": "First, Brazil exports various goods to other countries. Second, Portugal imports some of these goods from Brazil. The answer is {Portugal}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-2570_374d1789f1735b6f08e1a829c0d075a2",
+    "question": "Who was the US President during WW2 that held his government position from 3-4-1933?",
+    "answer": null,
+    "prediction": "First, Franklin Delano Roosevelt held the U.S. Presidency from March 4, 1933 to April 12, 1945. Second, Franklin Delano Roosevelt was the President during World War II. The answer is {Franklin Delano Roosevelt}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-484_ac67410188d0f2258139a3c84773885e",
+    "question": "What languiages are spoken by residents of the Central Western Time Zone?",
+    "answer": null,
+    "prediction": "First, the Central Western Time Zone includes parts of Australia. Second, in these regions, English and various Indigenous Australian languages are spoken by residents. The answer is {English, Indigenous Australian languages}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-1785_1c178196ae53ffd4b09e5787a35c3950",
+    "question": "What TV series that had 3 episodes was Kim Richards in?",
+    "answer": null,
+    "prediction": "First, Kim Richards appeared in the TV series \"The Real Housewives of Orange County\" but it didn't have a limited run with only 3 episodes. Second, Kim Richards starred in the short-lived TV series \"Bride Wars\" which had 3 episodes. The answer is {\"Bride Wars\"}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-3744_26401b4c33bcb760afd734acaa0a1869",
+    "question": "The Daily Cardinal is the school newspaper at which university that Russell Wilson attended?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it's sufficient to answer the question. The Daily Cardinal is the school newspaper at the University of Wisconsin-Madison, and Russell Wilson attended this university. Therefore, the answer to the question \"The Daily Cardinal is the school newspaper at which university that Russell Wilson attended?\" is {University of Wisconsin-Madison}.",
+    "hits1": 0,
+    "trajectory": [
+      "The Daily Cardinal",
+      "University of Wisconsin-Madison",
+      "Russell Wilson",
+      "m.0hpny13",
+      "College/University",
+      "Education",
+      "m.0hpny13",
+      "University of Wisconsin-Madison",
+      "Education",
+      "Edge Hill University",
+      "Education"
+    ],
+    "visited_set": [
+      "College/University",
+      "Edge Hill University",
+      "Education",
+      "Russell Wilson",
+      "The Daily Cardinal",
+      "University of Wisconsin-Madison",
+      "m.0hpny13"
+    ],
+    "edges": [
+      [
+        "The Daily Cardinal",
+        "education.educational_institution.newspaper",
+        "University of Wisconsin-Madison"
+      ],
+      [
+        "Russell Wilson",
+        "people.person.education",
+        "m.0hpny13"
+      ],
+      [
+        "College/University",
+        "type.domain.types",
+        "Education"
+      ],
+      [
+        "m.0hpny13",
+        "education.education.institution",
+        "University of Wisconsin-Madison"
+      ],
+      [
+        "Education",
+        "organization.organization.sectors",
+        "Edge Hill University"
+      ],
+      [
+        "Education",
+        "type.domain.types",
+        "Education"
+      ]
+    ],
+    "traj_len": 11,
+    "n_unique": 7
+  },
+  {
+    "qid": "WebQTrn-810_e3d40457273785e46c5b71732713a5f4",
+    "question": "When did the team with Crazy crab as their mascot win the world series?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it's sufficient to answer the question with these triplets and additional knowledge that the San Francisco Giants won the 2010 World Series. Therefore, the team with Crazy Crab as their mascot (San Francisco Giants) won the world series in 2010.",
+    "hits1": 0,
+    "trajectory": [
+      "Crazy Crab",
+      "San Francisco Giants",
+      "Crazy Crab",
+      "San Francisco Giants",
+      "Crazy Crab",
+      "San Francisco Giants",
+      "m.0dl3192",
+      "San Francisco Giants",
+      "2010 World Series"
+    ],
+    "visited_set": [
+      "2010 World Series",
+      "Crazy Crab",
+      "San Francisco Giants",
+      "m.0dl3192"
+    ],
+    "edges": [
+      [
+        "Crazy Crab",
+        "sports.mascot.team",
+        "San Francisco Giants"
+      ],
+      [
+        "Crazy Crab",
+        "sports.sports_team.team_mascot",
+        "San Francisco Giants"
+      ],
+      [
+        "San Francisco Giants",
+        "sports.sports_team.team_mascot",
+        "Crazy Crab"
+      ],
+      [
+        "San Francisco Giants",
+        "sports.sports_team.season_record",
+        "m.0dl3192"
+      ],
+      [
+        "San Francisco Giants",
+        "sports.sports_championship_event.champion",
+        "2010 World Series"
+      ]
+    ],
+    "traj_len": 9,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-538_92e606ef9c0429ad6820797ad2950730",
+    "question": "What movie was Taylor Swift in that had a character named Once-ler?",
+    "answer": null,
+    "prediction": "First, Taylor Swift did not appear in a movie with a character named Once-ler. Second, the character Once-ler appears in the 2012 animated film \"The Lorax.\" The answer is that there is no such movie featuring Taylor Swift and the character Once-ler together.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-2189_f4440609f5cecb091bf8e86adb47be25",
+    "question": "What is considered modern in the country where Bilady, Bilady, Bilady language is the national anthem?",
+    "answer": null,
+    "prediction": "First, Egypt has \"Bilady, Bilady, Bilady\" as its national anthem. Second, Modern Egyptian Arabic is widely considered modern in Egypt. The answer is {Modern Egyptian Arabic}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-372_a806813629e86776ae3bfe26a3e000f8",
+    "question": "What does the religion who worships in Barcelona Cathedral call their God?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it's sufficient to answer the question. The religion that worships in Barcelona Cathedral is Catholicism. Therefore, the God worshipped by this religion would be called \"God\" (or more specifically, \"Deus\" in Latin, which was commonly used in Catholic liturgy).",
+    "hits1": 0,
+    "trajectory": [
+      "Barcelona Cathedral",
+      "Catholicism",
+      "Barcelona Cathedral",
+      "Cathedral",
+      "Barcelona Cathedral",
+      "Alfonso III of Aragon",
+      "Catholicism",
+      "m.046x32x",
+      "Cathedral",
+      "Catholicism",
+      "Alfonso III of Aragon",
+      "m.064ssj3"
+    ],
+    "visited_set": [
+      "Alfonso III of Aragon",
+      "Barcelona Cathedral",
+      "Cathedral",
+      "Catholicism",
+      "m.046x32x",
+      "m.064ssj3"
+    ],
+    "edges": [
+      [
+        "Barcelona Cathedral",
+        "religion.place_of_worship.religion",
+        "Catholicism"
+      ],
+      [
+        "Barcelona Cathedral",
+        "religion.place_of_worship.type_of_place_of_worship",
+        "Cathedral"
+      ],
+      [
+        "Barcelona Cathedral",
+        "people.deceased_person.place_of_burial",
+        "Alfonso III of Aragon"
+      ],
+      [
+        "Catholicism",
+        "religion.place_of_worship_historical_use.religion",
+        "m.046x32x"
+      ],
+      [
+        "Cathedral",
+        "religion.type_of_place_of_worship.religion",
+        "Catholicism"
+      ],
+      [
+        "Alfonso III of Aragon",
+        "royalty.noble_title_tenure.noble_person",
+        "m.064ssj3"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 6
+  },
+  {
+    "qid": "WebQTrn-3744_b9bd90569bb7912ec3ea180bf164663c",
+    "question": "What educational institution with men's  sports team named Wisconsin Badgers did Russell Wilson go to?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it's sufficient to answer the question with these triplets and additional knowledge that Russell Wilson went to the University of Wisconsin-Madison. The relevant triplet is:\n\n- (\"University of Wisconsin-Madison\", 'education.educational_institution.athletics_brand', 'Wisconsin Badgers')\n\nThis indicates that the educational institution with a men's sports team named Wisconsin Badgers, which Russell Wilson attended, is the University of Wisconsin-Madison.",
+    "hits1": 0,
+    "trajectory": [
+      "Wisconsin Badgers men's basketball",
+      "University of Wisconsin-Madison",
+      "College/University",
+      "Education",
+      "College/University",
+      "m.0_yx_c2",
+      "University of Wisconsin-Madison",
+      "Wisconsin Badgers",
+      "University of Wisconsin-Madison",
+      "m.0bf4j22",
+      "Education",
+      "Edge Hill University"
+    ],
+    "visited_set": [
+      "College/University",
+      "Edge Hill University",
+      "Education",
+      "University of Wisconsin-Madison",
+      "Wisconsin Badgers",
+      "Wisconsin Badgers men's basketball",
+      "m.0_yx_c2",
+      "m.0bf4j22"
+    ],
+    "edges": [
+      [
+        "Wisconsin Badgers men's basketball",
+        "education.educational_institution.sports_teams",
+        "University of Wisconsin-Madison"
+      ],
+      [
+        "College/University",
+        "type.type.domain",
+        "Education"
+      ],
+      [
+        "College/University",
+        "base.descriptive_names.names.descriptive_name",
+        "m.0_yx_c2"
+      ],
+      [
+        "University of Wisconsin-Madison",
+        "education.educational_institution.athletics_brand",
+        "Wisconsin Badgers"
+      ],
+      [
+        "University of Wisconsin-Madison",
+        "education.academic_post.institution",
+        "m.0bf4j22"
+      ],
+      [
+        "Education",
+        "organization.organization.sectors",
+        "Edge Hill University"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 8
+  },
+  {
+    "qid": "WebQTest-712_6099ea03f4fd2476605c4a513318d29c",
+    "question": "What country  that appointed Liberal Government of New Zealand to governmental position is an Oceania territory?",
+    "answer": null,
+    "prediction": "First, the Liberal Government of New Zealand refers to the current government led by Jacinda Ardern. Second, New Zealand is an Oceania territory. The answer is {New Zealand}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-100_de15ac1f762e3ec1e1261f6d9c81ebf9",
+    "question": "What languages are spoken in the country that has national anthem La Dessaliniene?",
+    "answer": null,
+    "prediction": "First, Haiti's national anthem is \"La Marseillaise\" and not \"La Dessaliniene\". Second, Haitian Creole and French are the official languages of Haiti. The answer is {Haitian Creole, French}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-1557_edfd3507d32929ce0e9d844f7a2674de",
+    "question": "What educational institution with Le Delit Francais newspaper did Charles Drew attend?",
+    "answer": null,
+    "prediction": "First, George Washington University has a newspaper named \"The George Washington University Echo\" but not \"Le Delit Francais\". Second, Howard University has a newspaper named \"Le Délit\", which is similar to the mentioned \"Le Delit Francais\". Third, Charles Drew attended Howard University. The answer is {Howard University}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-60_39ba4faa87698cb0767d1a5ee7ce1827",
+    "question": "What country do they speak Portuguese where the GDP real adjusted value was once 100349905926?",
+    "answer": null,
+    "prediction": "First, Brazil has a GDP (real adjusted) value of around 100349905926. Second, Portuguese is one of the official languages spoken in Brazil. The answer is {Brazil}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-846_a29552911617e890ca2e1d6564e0990e",
+    "question": "What is the birthplace of the artist that went on The Avril Lavinge Tour?",
+    "answer": null,
+    "prediction": "First, Avril Lavigne toured with an artist as part of The Avril Lavigne Tour. Second, the artist who went on The Avril Lavigne Tour with Avril herself is not specified in the question, but focusing on Avril Lavigne's background, she was born in Amherstberg, Ontario, Canada. Therefore, the birthplace of the artist (Avril Lavigne) that went on The Avril Lavigne Tour is {Amherstburg, Ontario, Canada}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-121_333b95bd45af3e6e31e328bc8c24d84f",
+    "question": "The person educated at Chase Lane Primary School played for what team in 2011?",
+    "answer": null,
+    "prediction": "First, the person educated at Chase Lane Primary School is Niamh Charlesworth. Second, Niamh Charlesworth played for Ireland Women's National Cricket Team in 2011. The answer is {Ireland Women's National Cricket Team}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-626_47b990334f91b6d3bd042f82b81740f6",
+    "question": "What location appointed Dennis Daugaard to governmental position and is bisected by the Missouri River?",
+    "answer": null,
+    "prediction": "First, Dennis Daugaard was appointed to a governmental position in Iowa. Second, Iowa is bisected by the Mississippi River, not the Missouri River. The answer is {Iowa}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-2444_e5059ff268415917df330817b9c8ef8c",
+    "question": "In what stadium does the team who is owned by William DeWitt, Jr. play?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it's sufficient to answer the question. The St. Louis Cardinals, a team owned by William DeWitt, Jr., play in the stadium associated with the entity \"m.0nf2byb\". Therefore, the answer is that the team owned by William DeWitt, Jr. plays in the stadium corresponding to \"m.0nf2byb\".",
+    "hits1": 0,
+    "trajectory": [
+      "William DeWitt, Jr.",
+      "St. Louis Cardinals",
+      "William DeWitt, Jr.",
+      "St. Louis Cardinals",
+      "m.0nf2byb",
+      "St. Louis Cardinals",
+      "Fred Hanser",
+      "St. Louis Cardinals",
+      "William DeWitt, Jr."
+    ],
+    "visited_set": [
+      "Fred Hanser",
+      "St. Louis Cardinals",
+      "William DeWitt, Jr.",
+      "m.0nf2byb"
+    ],
+    "edges": [
+      [
+        "William DeWitt, Jr.",
+        "sports.professional_sports_team.owner_s",
+        "St. Louis Cardinals"
+      ],
+      [
+        "William DeWitt, Jr.",
+        "sports.sports_team_owner.teams_owned",
+        "St. Louis Cardinals"
+      ],
+      [
+        "St. Louis Cardinals",
+        "sports.sports_team.venue",
+        "m.0nf2byb"
+      ],
+      [
+        "St. Louis Cardinals",
+        "sports.sports_team_owner.teams_owned",
+        "Fred Hanser"
+      ],
+      [
+        "St. Louis Cardinals",
+        "sports.sports_team_owner.teams_owned",
+        "William DeWitt, Jr."
+      ]
+    ],
+    "traj_len": 9,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTrn-2664_471b83eade9707a4dba68e201bf29d73",
+    "question": "What country located in the Greenwich Mean Time Zone that is the main trading partner of China?",
+    "answer": null,
+    "prediction": "First, the United Kingdom is located in the Greenwich Mean Time (GMT) zone. Second, the United Kingdom is one of China's main trading partners. The answer is {United Kingdom}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-576_8dfecb6548586cf236340abadabeb86c",
+    "question": "Which of the seven Central American countries uses the United States Dollar currency?",
+    "answer": null,
+    "prediction": "First, Panama is one of the seven Central American countries. Second, Panama uses the United States Dollar as its currency. The answer is {Panama}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-124_028bb5f442b37a4af9f9fd9fa0bc5e9a",
+    "question": "What movies did the person who went to William O. Schafer Elementary School direct?",
+    "answer": null,
+    "prediction": "First, the person who attended William O. Schafer Elementary School is Steven Spielberg. Second, Steven Spielberg directed numerous movies including Raiders of the Lost Ark, E.T. the Extra-Terrestrial, and Jurassic Park. The answer is {Raiders of the Lost Ark, E.T. the Extra-Terrestrial, Jurassic Park}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-2871_d7d303efc1f901f14e6aae2bb469743c",
+    "question": "What is there to see in Mountain Time Zone near the Grand Canyon?",
+    "answer": null,
+    "prediction": "First, several attractions are located in the Mountain Time Zone near the Grand Canyon. Second, one notable place to see is Monument Valley. The answer is {Monument Valley}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-750_bb35e9b8023fbf9c05df55b4245a4775",
+    "question": "In which years have the baseball club that claimed victory in the 1988 World Series won the World Series?",
+    "answer": null,
+    "prediction": "First, the baseball club that claimed victory in the 1988 World Series was the Oakland Athletics. Second, the Oakland Athletics have also won the World Series in 2002 and 2012. The answer is {1988, 2002, 2012}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-96_11da03aa9cec8b011619c8ea0dbfdcf9",
+    "question": "The person who attended education institution in East Whittier Elementary School died where?",
+    "answer": null,
+    "prediction": "First, Frank O'Day attended education institutions including East Whittier Elementary School. Second, Frank O'Day died in Washington, D.C. The answer is {Washington, D.C.}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-1528_25853c768670cd164d7793f094ba7cbb",
+    "question": "What film with character Luke Castelland does Logan Lerman play in?",
+    "answer": null,
+    "prediction": "First, Logan Lerman plays the character Luke Castelland in the film \"The Great Gatsby.\" The answer is {\"The Great Gatsby\"}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-1260_5dd0eeca79ae03b7711252c032849eb2",
+    "question": "Rise is the mascot for the team which won the Super Bowl in what year?",
+    "answer": null,
+    "prediction": "First, the team whose mascot is Rise is the Baltimore Ravens. Second, the Baltimore Ravens won the Super Bowl in 2012 (Super Bowl XLVII). The answer is {2012}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-626_bd2c9bc1c0a692218e7c4182a1d52f85",
+    "question": "Mike Johanns was elected governor of what area that is bisected by the Missouri River?",
+    "answer": null,
+    "prediction": "First, Mike Johanns was elected governor of Nebraska. Second, Nebraska is bisected by the Missouri River. The answer is {Nebraska}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-1841_6bf772ee1b388c1b3c226b02c8244aa7",
+    "question": "Which popular sports team in Spain, that won the 2014 Eurocup Finals championship?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, Valencia BC won the 2014 Eurocup Finals championship. Additionally, Valencia BC is a popular sports team located in Spain. Therefore, the answer to the question is Valencia BC.",
+    "hits1": 0,
+    "trajectory": [
+      "2014 Eurocup Finals",
+      "Valencia BC",
+      "Spain",
+      "CB Estudiantes",
+      "2014 Eurocup Finals",
+      "Valencia BC"
+    ],
+    "visited_set": [
+      "2014 Eurocup Finals",
+      "CB Estudiantes",
+      "Spain",
+      "Valencia BC"
+    ],
+    "edges": [
+      [
+        "2014 Eurocup Finals",
+        "sports.sports_championship_event.champion",
+        "Valencia BC"
+      ],
+      [
+        "Spain",
+        "sports.sports_team_location.teams",
+        "CB Estudiantes"
+      ],
+      [
+        "2014 Eurocup Finals",
+        "sports.sports_team.championships",
+        "Valencia BC"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-1119_8c41904eaef9fce2d95afd27eb9150ec",
+    "question": "What organization led by Bentley B. Rayburn?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it's sufficient to answer that Colorado Technical University is the organization led by Bentley B. Rayburn. The triplets directly state that \"m.0hprvkd\" (which refers to Colorado Technical University) is an organization led by \"Bentley B. Rayburn\".",
+    "hits1": 0,
+    "trajectory": [
+      "Bentley B. Rayburn",
+      "m.0hprvkd",
+      "Bentley B. Rayburn",
+      "m.0hprvkd",
+      "Colorado Technical University",
+      "m.0hprvkd",
+      "Bentley B. Rayburn",
+      "m.0hprvkd",
+      "Colorado Technical University"
+    ],
+    "visited_set": [
+      "Bentley B. Rayburn",
+      "Colorado Technical University",
+      "m.0hprvkd"
+    ],
+    "edges": [
+      [
+        "Bentley B. Rayburn",
+        "organization.leadership.person",
+        "m.0hprvkd"
+      ],
+      [
+        "Bentley B. Rayburn",
+        "business.board_member.leader_of",
+        "m.0hprvkd"
+      ],
+      [
+        "m.0hprvkd",
+        "organization.leadership.organization",
+        "Colorado Technical University"
+      ],
+      [
+        "m.0hprvkd",
+        "business.board_member.leader_of",
+        "Bentley B. Rayburn"
+      ],
+      [
+        "m.0hprvkd",
+        "organization.organization.leadership",
+        "Colorado Technical University"
+      ]
+    ],
+    "traj_len": 9,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTrn-1812_5fb6c8c4d53d55c03445e4b2454ef810",
+    "question": "What Caribbean countries use the East Caribbean dollar currency?",
+    "answer": null,
+    "prediction": "First, several Caribbean countries and territories use the East Caribbean dollar as their official currency. These include Antigua and Barbuda, Dominica, Grenada, Saint Kitts and Nevis, Saint Lucia, and Saint Vincent and the Grenadines. The answer is {Antigua and Barbuda, Dominica, Grenada, Saint Kitts and Nevis, Saint Lucia, and Saint Vincent and the Grenadines}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-1394_dc71f08a76d71762a0cfd30f11f66535",
+    "question": "What country does Turkey trade with that contains the Annaba Province?",
+    "answer": null,
+    "prediction": "First, Algeria contains the Annaba Province. Second, Turkey trades with Algeria. The answer is {Algeria}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-1091_d3301dedbdcb2d171a75be1631e8cec5",
+    "question": "What type of religiong with a religious sacred site of Lumbini is in the United States?",
+    "answer": null,
+    "prediction": "First, Buddhism has a religious sacred site of Lumbini. Second, although Lumbini itself is not in the United States, there are Buddhist temples and centers in the U.S. that might consider Lumbini as their spiritual site. However, if we strictly follow the question's phrasing to find a type of religion with a sacred site called Lumbini located in the United States, the answer would be: There is no such religion with its specific sacred site (Lumbini) in the United States. The closest association is Buddhism, but Lumbini itself is not in the U.S.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-2444_8fb3f377318c9e61f47779b2c188167b",
+    "question": "What stadium does the champion of the 1931 World Series Championship play at?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it's sufficient to answer the question with these triplets and additional general knowledge (if needed). The triplets indicate that the St. Louis Cardinals were the champions of the 1931 World Series and that Shibe Park was an event location for the 1931 World Series. Therefore, we can conclude that the stadium where the champion of the 1931 World Series played is Shibe Park.",
+    "hits1": 0,
+    "trajectory": [
+      "1931 World Series",
+      "St. Louis Cardinals",
+      "1931 World Series",
+      "St. Louis Cardinals",
+      "1931 World Series",
+      "Shibe Park"
+    ],
+    "visited_set": [
+      "1931 World Series",
+      "Shibe Park",
+      "St. Louis Cardinals"
+    ],
+    "edges": [
+      [
+        "1931 World Series",
+        "sports.sports_championship_event.champion",
+        "St. Louis Cardinals"
+      ],
+      [
+        "1931 World Series",
+        "sports.sports_team.championships",
+        "St. Louis Cardinals"
+      ],
+      [
+        "1931 World Series",
+        "location.location.events",
+        "Shibe Park"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-1812_c29807a955ea46fa79cdc9f7aeacba18",
+    "question": "Where was the main artist featured in the Rihanna: Live in Concert Tour raised?",
+    "answer": null,
+    "prediction": "First, Rihanna, the main artist featured in the Rihanna: Live in Concert Tour, was raised in Barbados and the United States (specifically New York and California). The answer is {Barbados and the United States}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-397_c7ee26d5c3f80107d7ae5fede489209a",
+    "question": "What are the school colors of Harvard Art Museum?",
+    "answer": null,
+    "prediction": "First, Harvard University has specific school colors which are crimson and white. Second, the Harvard Art Museum is associated with Harvard University. Therefore, the answer is {crimson and white}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-2478_3e09b108c3448248556d4c34acae3cf7",
+    "question": "What is the mascot of the organization with the person named Eric F. Spina?",
+    "answer": null,
+    "prediction": "First, Eric F. Spina is associated with Loyola Marymount University. Second, the mascot of Loyola Marymount University is the Lions. The answer is {Lions}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-2057_b64f996ceca972c0d6fea3de2705ce63",
+    "question": "The country that contains Alta Verapaz Department uses what money?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer the question. The information provided states that Alta Verapaz Department is located in Guatemala and that the currency used in Guatemala is the Guatemalan quetzal. Therefore, the answer to the question \"The country that contains Alta Verapaz Department uses what money?\" is {Guatemalan quetzal}.",
+    "hits1": 0,
+    "trajectory": [
+      "Alta Verapaz Department",
+      "Guatemala",
+      "Alta Verapaz Department",
+      "Guatemala",
+      "Alta Verapaz Department",
+      "Chisec",
+      "Guatemala",
+      "Guatemalan quetzal",
+      "Guatemala",
+      "Earth",
+      "Chisec",
+      "Alta Verapaz Department"
+    ],
+    "visited_set": [
+      "Alta Verapaz Department",
+      "Chisec",
+      "Earth",
+      "Guatemala",
+      "Guatemalan quetzal"
+    ],
+    "edges": [
+      [
+        "Alta Verapaz Department",
+        "location.administrative_division.country",
+        "Guatemala"
+      ],
+      [
+        "Alta Verapaz Department",
+        "location.country.administrative_divisions",
+        "Guatemala"
+      ],
+      [
+        "Alta Verapaz Department",
+        "location.location.contains",
+        "Chisec"
+      ],
+      [
+        "Guatemala",
+        "location.country.currency_used",
+        "Guatemalan quetzal"
+      ],
+      [
+        "Guatemala",
+        "base.aareas.schema.administrative_area.administrative_parent",
+        "Earth"
+      ],
+      [
+        "Chisec",
+        "location.location.contains",
+        "Alta Verapaz Department"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 5
+  },
+  {
+    "qid": "WebQTest-1348_3bddf705b2a346fbdc2f00e9a02b84f3",
+    "question": "What team did Payton Manning's father play for that has a mascot named Viktor the Viking?",
+    "answer": null,
+    "prediction": "First, Peyton Manning's father, Archie Manning, played for the New Orleans Saints. Second, the New Orleans Saints have a mascot named Viktor the Viking. The answer is {New Orleans Saints}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-60_22027d5bb310c0d956b5f22248a6811c",
+    "question": "Which country that once had a CPI inflation rate of -1.61 speaks Portuguese?",
+    "answer": null,
+    "prediction": "First, the country that once had a CPI inflation rate of -1.61 and speaks Portuguese is Brazil. The answer is {Brazil}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-60_0b79f757e511e73c7aca0bb6f6057f2d",
+    "question": "What country that once had the CPI inflation rate at -1.56 percent do people speak Portuguese?",
+    "answer": null,
+    "prediction": "First, countries where people speak Portuguese include Brazil, Portugal, and others. Second, Brazil had a CPI inflation rate of -1.56 percent in 2023. The answer is {Brazil}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-61_8f0d44a78a2e50f47729db23c5850da0",
+    "question": "Mary is a notable figure in which religion that is observed in Indonesia?",
+    "answer": null,
+    "prediction": "First, Mary is a notable figure in Christianity. Second, Christianity is one of the religions observed in Indonesia. The answer is {Christianity}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-3100_d059b24adec4064377b957ca598769be",
+    "question": "What part is the country with the capital named Santo Domingo?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that the country with the capital named Santo Domingo is the Dominican Republic. The triplets directly state that Santo Domingo is the capital of the Dominican Republic.",
+    "hits1": 0,
+    "trajectory": [
+      "Santo Domingo",
+      "m.0q3dk13",
+      "Santo Domingo",
+      "Dominican Republic",
+      "Santo Domingo",
+      "m.0q3dk13"
+    ],
+    "visited_set": [
+      "Dominican Republic",
+      "Santo Domingo",
+      "m.0q3dk13"
+    ],
+    "edges": [
+      [
+        "Santo Domingo",
+        "location.capital_of_administrative_division.capital_of",
+        "m.0q3dk13"
+      ],
+      [
+        "Santo Domingo",
+        "base.biblioness.bibs_location.country",
+        "Dominican Republic"
+      ],
+      [
+        "Santo Domingo",
+        "location.administrative_division_capital_relationship.capital",
+        "m.0q3dk13"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTest-983_b3520a12fe059da8ffda55e381a14f14",
+    "question": "What educational institution with the mascot named Washington University Bear did Tennessee Williams go to?",
+    "answer": null,
+    "prediction": "First, Washington University in St. Louis has a mascot named Washington University Bear. Second, Tennessee Williams attended Washington University in St. Louis. The answer is {Washington University in St. Louis}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-1560_1bee868ed5551a3cfdba70a720adbc04",
+    "question": "Who founded New York University, which held his governmental position from after 1795-03-04?",
+    "answer": null,
+    "prediction": "First, William Mooney Gibson did not found New York University; instead, New York University was founded in 1831 by Amos E. Evans and others. Second, there is no record of a governmental position held by Amos E. Evans from after March 4, 1795. The question seems to mix up historical facts. \n\nGiven the information provided, the correct answer cannot be directly derived as stated in the question due to inaccuracies. However, if we focus on the university founding aspect:\n\nThe answer is {Amos E. Evans and others} (as co-founders of New York University), but note that Amos E. Evans did not hold a governmental position from after March 4, 1795.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-2570_354fb646be304159441f2497ab0a9c62",
+    "question": "Which was the earliest President during WW2 in the United States?",
+    "answer": null,
+    "prediction": "First, Franklin D. Roosevelt was the President of the United States during World War II. Second, Franklin D. Roosevelt took office as the 32nd President on March 4, 1933, which is before World War II began. The earliest President during WW2 in the United States was {Franklin D. Roosevelt}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-538_d37989c422fef8a98e7289ca0144159c",
+    "question": "Which movies has the individual who attended The Wyndcroft School appeared in?",
+    "answer": null,
+    "prediction": "First, the individual who attended The Wyndcroft School is Jennifer Lawrence. Second, Jennifer Lawrence has appeared in numerous movies such as The Hunger Games series, Silver Linings Playbook, X-Men: First Class, and many more. The answer is {The Hunger Games series, Silver Linings Playbook, X-Men: First Class, etc.}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-465_784f88e61337c424ca3d7be0719e3649",
+    "question": "What to see in the country that has Gozo?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it's sufficient to answer the question. The country that has Gozo is Malta. Therefore, the tourist attractions in Malta include Dingli Cliffs, which are what one should see when visiting the country that has Gozo.",
+    "hits1": 0,
+    "trajectory": [
+      "Gozo",
+      "Malta",
+      "Gozo",
+      "Malta",
+      "Gozo",
+      "m.0y52ghn",
+      "Malta",
+      "Mediterranean Sea",
+      "Malta",
+      "Dingli Cliffs",
+      "Malta",
+      "Malta International Airport"
+    ],
+    "visited_set": [
+      "Dingli Cliffs",
+      "Gozo",
+      "Malta",
+      "Malta International Airport",
+      "Mediterranean Sea",
+      "m.0y52ghn"
+    ],
+    "edges": [
+      [
+        "Gozo",
+        "location.administrative_division.country",
+        "Malta"
+      ],
+      [
+        "Gozo",
+        "location.location.containedby",
+        "Malta"
+      ],
+      [
+        "Gozo",
+        "location.statistical_region.population",
+        "m.0y52ghn"
+      ],
+      [
+        "Malta",
+        "location.location.contains",
+        "Mediterranean Sea"
+      ],
+      [
+        "Malta",
+        "travel.travel_destination.tourist_attractions",
+        "Dingli Cliffs"
+      ],
+      [
+        "Malta",
+        "location.location.nearby_airports",
+        "Malta International Airport"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 6
+  },
+  {
+    "qid": "WebQTest-54_d14abf7768bdbdaa66897780b56dace1",
+    "question": "What country did the person who went to B Steyr control?",
+    "answer": null,
+    "prediction": "First, B Steyr is an Austrian company that manufactures firearms and other products. Second, the individual associated with B Steyr's control is Harald Schärf. Third, Harald Schärf is a citizen of Austria. The answer is {Austria}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-1560_e2ff014eae4ff8dbe3cacbb3e4b0002c",
+    "question": "Who are the founders of the educational institution where the sports team NYU Violets Men's Basketball plays?",
+    "answer": null,
+    "prediction": "First, NYU Violets Men's Basketball plays at New York University (NYU). Second, NYU was founded by Pierre-Stanislas Du Simitière and William H. Seward in 1831. The answer is {Pierre-Stanislas Du Simitière, William H. Seward}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-590_2f40ab1d4ea497555c4c883c92a758b7",
+    "question": "Who is the leader of the country that has national anthem Allhu Akbar?",
+    "answer": null,
+    "prediction": "First, Afghanistan has the national anthem \"Milli Hymn\" which translates to \"Allahu Akbar\". Second, the leader of Afghanistan is Ashraf Ghani. The answer is {Ashraf Ghani}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-54_f0c99f377c8b944364e85b70b9f9b331",
+    "question": "The person who attended education institution Bundesrealgymnasium Linz controlled what country?",
+    "answer": null,
+    "prediction": "First, Karl Nehru attended the education institution Bundesrealgymnasium Linz. Second, Jawaharlal Nehru controlled India. The answer is {India}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-1091_c2f4807a175372c3e75691b565d1936d",
+    "question": "What religion with notable figure Athanasius of Alexandria is in the United States?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, Christianity is the religion with Athanasius of Alexandria as a notable figure, and it is practiced in the United States. Therefore, the answer to the question is {Christianity}.",
+    "hits1": 0,
+    "trajectory": [
+      "Athanasius of Alexandria",
+      "Christianity",
+      "United States of America",
+      "m.012cdjgk",
+      "United States of America",
+      "David A. Bray",
+      "United States of America",
+      "m.012cdjgk",
+      "United States of America",
+      "Christianity",
+      "m.03q1lvq",
+      "United States of America",
+      "m.012cdjgk",
+      "United States of America",
+      "m.0b6598c"
+    ],
+    "visited_set": [
+      "Athanasius of Alexandria",
+      "Christianity",
+      "David A. Bray",
+      "United States of America",
+      "m.012cdjgk",
+      "m.03q1lvq",
+      "m.0b6598c"
+    ],
+    "edges": [
+      [
+        "Athanasius of Alexandria",
+        "religion.religion.notable_figures",
+        "Christianity"
+      ],
+      [
+        "United States of America",
+        "religion.religious_organization_leadership.jurisdiction",
+        "m.012cdjgk"
+      ],
+      [
+        "United States of America",
+        "people.person.nationality",
+        "David A. Bray"
+      ],
+      [
+        "David A. Bray",
+        "people.person.place_of_birth",
+        "United States of America"
+      ],
+      [
+        "m.012cdjgk",
+        "religion.religious_leadership_jurisdiction.leader",
+        "United States of America"
+      ],
+      [
+        "Christianity",
+        "location.religion_percentage.religion",
+        "m.03q1lvq"
+      ],
+      [
+        "m.03q1lvq",
+        "location.statistical_region.religions",
+        "United States of America"
+      ],
+      [
+        "United States of America",
+        "religion.religious_leadership_jurisdiction.leader",
+        "m.012cdjgk"
+      ],
+      [
+        "United States of America",
+        "sports.sport_country.athletic_performances",
+        "m.0b6598c"
+      ]
+    ],
+    "traj_len": 15,
+    "n_unique": 7
+  },
+  {
+    "qid": "WebQTest-1091_9be8c18e016b713cbb7f7feb6badebc7",
+    "question": "What religion that is practiced in the United States has The Bible as its religious text?",
+    "answer": null,
+    "prediction": "First, Christianity is a religion practiced in the United States. Second, The Bible serves as its primary holy text. The answer is {Christianity}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-1077_83f43b9f4c2707c689543b33efe1d28d",
+    "question": "Which religion practiced in Afghanistan has a place of worship known as Ibrahim Mosque?",
+    "answer": null,
+    "prediction": "First, the religion practiced in Afghanistan that has a place of worship known as Ibrahim Mosque is Shia Islam. The answer is {Shia Islam}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-1569_4e73509d14bda62590480b655eee8751",
+    "question": "What's the currency used in the country where the Jamaican dollar as money is called?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it can be inferred that Jamaica uses the Jamaican dollar as its currency. Therefore, the answer to the question is {Jamaican dollar}.",
+    "hits1": 0,
+    "trajectory": [
+      "Jamaican dollar",
+      "Jamaica",
+      "Jamaican dollar",
+      "Jamaica"
+    ],
+    "visited_set": [
+      "Jamaica",
+      "Jamaican dollar"
+    ],
+    "edges": [
+      [
+        "Jamaican dollar",
+        "location.country.currency_used",
+        "Jamaica"
+      ],
+      [
+        "Jamaican dollar",
+        "finance.currency.countries_used",
+        "Jamaica"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-849_f6e8b7149f2e422640a49beb753be4ef",
+    "question": "What country uss the Swiss Franc as currency and shares a border with Germany?",
+    "answer": null,
+    "prediction": "First, Switzerland uses the Swiss Franc as currency. Second, Switzerland shares a border with Germany. The answer is {Switzerland}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-302_f051fbe657aaa023d74839c8e8029bef",
+    "question": "What are official colors of the champion of Super Bowl XXX?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it's sufficient to answer the question with these triplets and additional knowledge about the Dallas Cowboys' colors. The triplets indicate that the champion of Super Bowl XXX is the Dallas Cowboys, and their official colors are Navy Blue and Royal blue. Therefore, the answer to the question is {Navy Blue and Royal blue}.",
+    "hits1": 0,
+    "trajectory": [
+      "Super Bowl XXX",
+      "Dallas Cowboys",
+      "Super Bowl XXX",
+      "Dallas Cowboys",
+      "Super Bowl XXX",
+      "m.062w50w",
+      "Dallas Cowboys",
+      "Navy Blue",
+      "Dallas Cowboys",
+      "Royal blue",
+      "m.062w50w",
+      "Super Bowl XXX"
+    ],
+    "visited_set": [
+      "Dallas Cowboys",
+      "Navy Blue",
+      "Royal blue",
+      "Super Bowl XXX",
+      "m.062w50w"
+    ],
+    "edges": [
+      [
+        "Super Bowl XXX",
+        "sports.sports_championship_event.champion",
+        "Dallas Cowboys"
+      ],
+      [
+        "Super Bowl XXX",
+        "sports.sports_team.championships",
+        "Dallas Cowboys"
+      ],
+      [
+        "Super Bowl XXX",
+        "base.events.performance_event.performance",
+        "m.062w50w"
+      ],
+      [
+        "Dallas Cowboys",
+        "sports.sports_team.colors",
+        "Navy Blue"
+      ],
+      [
+        "Dallas Cowboys",
+        "sports.sports_team.colors",
+        "Royal blue"
+      ],
+      [
+        "m.062w50w",
+        "base.events.performance_event.performance",
+        "Super Bowl XXX"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 5
+  },
+  {
+    "qid": "WebQTrn-2256_d14abf7768bdbdaa66897780b56dace1",
+    "question": "What happened to the person who went to BRG Steyr at the end of the war?",
+    "answer": null,
+    "prediction": "First, at the end of World War II, many people fled or were displaced from their homes in various locations. Second, specific information about an individual named BRG Steyr is not provided; however, assuming this refers to someone who attended a school or institution called BRG Steyr, without more context, it's challenging to pinpoint what happened to them specifically at the end of the war. Given the lack of detailed historical records for every individual in that scenario, we cannot definitively state an outcome. The answer is {Insufficient information}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-2664_513d3d27fdbcf5130896177ea2dd146f",
+    "question": "Who are the main trading partners of China that use the Lao Kip as its currency?",
+    "answer": null,
+    "prediction": "First, it's important to clarify that the Lao Kip (:\".$) is the official currency of Laos, not a trading partner of China. Therefore, there seems to be an error in the premise of the question. \n\nGiven this context, no main trading partners of China use the Lao Kip as their currency.\n\nThe answer is {None}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-465_02714e184571525b8c510d20f11fc886",
+    "question": "What all is there to do for fun in the nation represented by the anthem L-Innu Malti?",
+    "answer": null,
+    "prediction": "First, \"L-Innu Malti\" is the national anthem of Malta. Second, in Malta, one can enjoy activities like visiting historical sites such as Mdina and Valletta, exploring beaches like Golden Bay and Xlendi Bay, trying local cuisine, attending festivals, and more. The answer is {visiting historical sites, exploring beaches, trying local cuisine, attending festivals}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-743_81f7ed541ce951e30c3d90697cb83dec",
+    "question": "Which of JFK's brothers held his governmental position before November 6, 1962?",
+    "answer": null,
+    "prediction": "First, Robert F. Kennedy held the position of Attorney General before November 6, 1962. Second, Robert F. Kennedy was a brother of John F. Kennedy (JFK). The answer is {Robert F. Kennedy}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-3535_dfcf84e9ba3b9baef4ee1f2cc51994b6",
+    "question": "Who did the voice of character Kovu?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it's sufficient to answer the question. The triplet ('m.0k5qr5', 'film.performance.actor', 'Jason Marsden') indicates that Jason Marsden voiced the character Kovu. Therefore, the answer to \"Who did the voice of character Kovu?\" is Jason Marsden.",
+    "hits1": 0,
+    "trajectory": [
+      "Kovu",
+      "m.0k5qr5",
+      "Kovu",
+      "Lion",
+      "Kovu",
+      "m.0k5qr5",
+      "Jason Marsden",
+      "m.0k5qr5",
+      "Kovu",
+      "Lion",
+      "Pride"
+    ],
+    "visited_set": [
+      "Jason Marsden",
+      "Kovu",
+      "Lion",
+      "Pride",
+      "m.0k5qr5"
+    ],
+    "edges": [
+      [
+        "Kovu",
+        "film.performance.character",
+        "m.0k5qr5"
+      ],
+      [
+        "Kovu",
+        "fictional_universe.fictional_character.species",
+        "Lion"
+      ],
+      [
+        "Kovu",
+        "film.film_character.portrayed_in_films",
+        "m.0k5qr5"
+      ],
+      [
+        "m.0k5qr5",
+        "film.performance.actor",
+        "Jason Marsden"
+      ],
+      [
+        "m.0k5qr5",
+        "film.film_character.portrayed_in_films",
+        "Kovu"
+      ],
+      [
+        "Lion",
+        "base.animalnames.animal.group_name",
+        "Pride"
+      ]
+    ],
+    "traj_len": 11,
+    "n_unique": 5
+  },
+  {
+    "qid": "WebQTest-996_7c4c41654239ed0a5b99ba5e6481ad5c",
+    "question": "Where does the Ireland team that won the 2003 Rugby World Cup championship play?",
+    "answer": null,
+    "prediction": "First, the Ireland national rugby union team won the 2003 Rugby World Cup championship. Second, this team plays its home matches at the Aviva Stadium in Dublin, Ireland.\n\nThe answer is {Aviva Stadium}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-1012_7ee41dcd5e0ee726e65a46d891982c8f",
+    "question": "What Hollywood studio produced the American Gladiators TV movie?",
+    "answer": null,
+    "prediction": "First, American Gladiators was produced by Columbia Pictures Television. The answer is {Columbia Pictures Television}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-513_59d4a153f9ac424bfd0d9a39a5704027",
+    "question": "What countries are in the location that contains Terekti District?",
+    "answer": null,
+    "prediction": "First, Terekti District is located in Russia. Second, Russia is a single country containing Terekti District as one of its administrative divisions. The answer is {Russia}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-484_de764c65ac3c6a870a407dd9cafd0dc9",
+    "question": "What is the currency used in the country of Brazil?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that the currency used in the country of Brazil is the Brazilian real. The triplets directly state this information.",
+    "hits1": 0,
+    "trajectory": [
+      "Brazilian real",
+      "Brazil",
+      "Brazilian real",
+      "Brazil",
+      "Brazilian real",
+      "m.03x96y1"
+    ],
+    "visited_set": [
+      "Brazil",
+      "Brazilian real",
+      "m.03x96y1"
+    ],
+    "edges": [
+      [
+        "Brazilian real",
+        "location.country.currency_used",
+        "Brazil"
+      ],
+      [
+        "Brazilian real",
+        "finance.currency.countries_used",
+        "Brazil"
+      ],
+      [
+        "Brazilian real",
+        "finance.exchange_rate.target_of_exchange",
+        "m.03x96y1"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 3
+  },
+  {
+    "qid": "WebQTrn-1841_cac535ea48922ba42c75ec7ac67cf454",
+    "question": "What popular Spanish sport has a basketball team with head coach Joan Plaza?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, Joan Plaza is the head coach of the basketball team Baloncesto Málaga. Since both Baloncesto Málaga and CB Sevilla are associated with the sport of Basketball, and considering that Joan Plaza coaches a basketball team, we can infer that the popular Spanish sport in question is Basketball.",
+    "hits1": 0,
+    "trajectory": [
+      "Joan Plaza",
+      "Baloncesto Málaga",
+      "Spain",
+      "CB Sevilla",
+      "Joan Plaza",
+      "Baloncesto Málaga",
+      "CB Sevilla",
+      "Basketball",
+      "Baloncesto Málaga",
+      "Joan Plaza",
+      "Baloncesto Málaga",
+      "Basketball"
+    ],
+    "visited_set": [
+      "Baloncesto Málaga",
+      "Basketball",
+      "CB Sevilla",
+      "Joan Plaza",
+      "Spain"
+    ],
+    "edges": [
+      [
+        "Joan Plaza",
+        "basketball.basketball_team.head_coach",
+        "Baloncesto Málaga"
+      ],
+      [
+        "Spain",
+        "sports.sports_team_location.teams",
+        "CB Sevilla"
+      ],
+      [
+        "Joan Plaza",
+        "basketball.basketball_coach.team",
+        "Baloncesto Málaga"
+      ],
+      [
+        "CB Sevilla",
+        "sports.sports_team.sport",
+        "Basketball"
+      ],
+      [
+        "Baloncesto Málaga",
+        "basketball.basketball_coach.team",
+        "Joan Plaza"
+      ],
+      [
+        "Baloncesto Málaga",
+        "sports.sports_team.sport",
+        "Basketball"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 5
+  },
+  {
+    "qid": "WebQTrn-3376_2d06cbcbb5ada96a239eeee425106c28",
+    "question": "What educational institution with football sports team named Temple Owls  did Kevin Hart go to?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it's sufficient to answer the question with these triplets and additional knowledge that Kevin Hart attended Temple University, where the football team is known as the Temple Owls. Therefore, the educational institution Kevin Hart went to is Temple University.",
+    "hits1": 0,
+    "trajectory": [
+      "Temple Owls football",
+      "Temple University",
+      "Temple Owls football",
+      "Temple University",
+      "Kevin Hart",
+      "m.0gy5x50",
+      "Temple University",
+      "Temple Owls",
+      "m.0gy5x50",
+      "Castlemont High School",
+      "m.0gy5x50",
+      "Kevin Hart",
+      "Temple Owls",
+      "Temple University",
+      "Kevin Hart",
+      "m.0n1khzm",
+      "Temple Owls",
+      "Temple Owls football"
+    ],
+    "visited_set": [
+      "Castlemont High School",
+      "Kevin Hart",
+      "Temple Owls",
+      "Temple Owls football",
+      "Temple University",
+      "m.0gy5x50",
+      "m.0n1khzm"
+    ],
+    "edges": [
+      [
+        "Temple Owls football",
+        "education.educational_institution.sports_teams",
+        "Temple University"
+      ],
+      [
+        "Temple Owls football",
+        "sports.school_sports_team.school",
+        "Temple University"
+      ],
+      [
+        "Kevin Hart",
+        "people.person.education",
+        "m.0gy5x50"
+      ],
+      [
+        "Temple University",
+        "education.educational_institution.athletics_brand",
+        "Temple Owls"
+      ],
+      [
+        "m.0gy5x50",
+        "education.education.institution",
+        "Castlemont High School"
+      ],
+      [
+        "m.0gy5x50",
+        "education.education.student",
+        "Kevin Hart"
+      ],
+      [
+        "Temple Owls",
+        "education.athletics_brand.institution",
+        "Temple University"
+      ],
+      [
+        "Kevin Hart",
+        "people.person.education",
+        "m.0n1khzm"
+      ],
+      [
+        "Temple Owls",
+        "education.athletics_brand.teams",
+        "Temple Owls football"
+      ]
+    ],
+    "traj_len": 18,
+    "n_unique": 7
+  },
+  {
+    "qid": "WebQTrn-2319_67d6828a804cdeef38928c85cb93bb03",
+    "question": "What are the official languages of used in the country that uses Ukrainian Hyrvnia?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, Ukraine uses Ukrainian Hryvnia as its currency. Additionally, it is explicitly stated that the official languages used in Ukraine are Ukrainian and Russian. Therefore, the answer to the question can be derived from these triplets.",
+    "hits1": 0,
+    "trajectory": [
+      "Ukrainian hryvnia",
+      "Ukraine",
+      "Ukrainian hryvnia",
+      "Ukraine"
+    ],
+    "visited_set": [
+      "Ukraine",
+      "Ukrainian hryvnia"
+    ],
+    "edges": [
+      [
+        "Ukrainian hryvnia",
+        "location.country.currency_used",
+        "Ukraine"
+      ],
+      [
+        "Ukrainian hryvnia",
+        "finance.currency.countries_used",
+        "Ukraine"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-1091_31c94b951f3d708ac503327d7979da93",
+    "question": "Which type of religions practiced in the United States, where the religion place of worship is called, Candi Laras?",
+    "answer": null,
+    "prediction": "Based on the given knowledge triplets, we cannot determine which type of religions practiced in the United States have a place of worship called Candi Laras. The provided information is about Kalimantan and language in the Upper Midwest region of the United States, not related to religious places of worship.\n\nThe correct answer is that there is no available information from the given triplets to answer this question. Additional knowledge about religions practiced in the United States and their place of worships would be needed.",
+    "hits1": 0,
+    "trajectory": [
+      "g.122hpl76",
+      "Kalimantan",
+      "g.122hpl76",
+      "Kalimantan",
+      "United States of America",
+      "Upper Midwest American English"
+    ],
+    "visited_set": [
+      "Kalimantan",
+      "United States of America",
+      "Upper Midwest American English",
+      "g.122hpl76"
+    ],
+    "edges": [
+      [
+        "g.122hpl76",
+        "location.location.contains",
+        "Kalimantan"
+      ],
+      [
+        "g.122hpl76",
+        "location.location.contains",
+        "Kalimantan"
+      ],
+      [
+        "United States of America",
+        "language.human_language.countries_spoken_in",
+        "Upper Midwest American English"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTrn-2026_84e5ab7013a2c0dd11f7f61db45df94c",
+    "question": "If you are visiting a country and in the San Pedro De Marcois Province, what form of currency would you spend?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, if you are visiting a country and in the San Pedro De Marcois Province, you would spend Dominican pesos. The triplets indicate that the San Pedro de Macorís Province is located within the Dominican Republic, and the currency used in the Dominican Republic is the Dominican peso.",
+    "hits1": 0,
+    "trajectory": [
+      "San Pedro de Macorís Province",
+      "Dominican Republic",
+      "San Pedro de Macorís Province",
+      "Guayacanes, San Pedro de Macorís",
+      "San Pedro de Macorís Province",
+      "Dominican Republic",
+      "Dominican peso",
+      "Guayacanes, San Pedro de Macorís",
+      "Dominican Republic",
+      "Guayacanes, San Pedro de Macorís",
+      "San Pedro de Macorís Province",
+      "Dominican peso",
+      "Dominican Republic",
+      "Dominican peso",
+      "San Pedro de Macorís Province",
+      "Dominican Republic"
+    ],
+    "visited_set": [
+      "Dominican Republic",
+      "Dominican peso",
+      "Guayacanes, San Pedro de Macorís",
+      "San Pedro de Macorís Province"
+    ],
+    "edges": [
+      [
+        "San Pedro de Macorís Province",
+        "location.administrative_division.country",
+        "Dominican Republic"
+      ],
+      [
+        "San Pedro de Macorís Province",
+        "location.location.contains",
+        "Guayacanes, San Pedro de Macorís"
+      ],
+      [
+        "San Pedro de Macorís Province",
+        "location.country.first_level_divisions",
+        "Dominican Republic"
+      ],
+      [
+        "Dominican Republic",
+        "location.country.currency_used",
+        "Dominican peso"
+      ],
+      [
+        "Guayacanes, San Pedro de Macorís",
+        "location.administrative_division.second_level_division_of",
+        "Dominican Republic"
+      ],
+      [
+        "Guayacanes, San Pedro de Macorís",
+        "location.location.containedby",
+        "San Pedro de Macorís Province"
+      ],
+      [
+        "Dominican peso",
+        "finance.currency.countries_used",
+        "Dominican Republic"
+      ],
+      [
+        "Dominican Republic",
+        "location.country.currency_used",
+        "Dominican peso"
+      ],
+      [
+        "San Pedro de Macorís Province",
+        "location.administrative_division.country",
+        "Dominican Republic"
+      ]
+    ],
+    "traj_len": 16,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTrn-1812_25c9be422f1472e5cdf7358613ad93cf",
+    "question": "What country in the Caribbean contains Saint Michael Parish?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer the question. The triplets indicate that Saint Michael Parish is located in Barbados, and Barbados is a country in the Caribbean. Therefore, the answer to the question \"What country in the Caribbean contains Saint Michael Parish?\" is {Barbados}.",
+    "hits1": 0,
+    "trajectory": [
+      "Saint Michael Parish",
+      "Barbados",
+      "Caribbean",
+      "Saint Martin (Island)",
+      "Saint Michael Parish",
+      "Barbados"
+    ],
+    "visited_set": [
+      "Barbados",
+      "Caribbean",
+      "Saint Martin (Island)",
+      "Saint Michael Parish"
+    ],
+    "edges": [
+      [
+        "Saint Michael Parish",
+        "location.administrative_division.country",
+        "Barbados"
+      ],
+      [
+        "Caribbean",
+        "location.location.contains",
+        "Saint Martin (Island)"
+      ],
+      [
+        "Saint Michael Parish",
+        "base.aareas.schema.administrative_area.administrative_parent",
+        "Barbados"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-1560_61856c62660c382e9579ce72ec422a70",
+    "question": "Who founded the college where Lindsay Zir is a grad student?",
+    "answer": null,
+    "prediction": "First, Lindsay Zir is a graduate student at Stanford University. Second, Leland Stanford founded Stanford University. The answer is {Leland Stanford}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-2834_31c94b951f3d708ac503327d7979da93",
+    "question": "Of the major religions in the United States, which has the religion place of worship of  Candi Laras?",
+    "answer": null,
+    "prediction": "Based on the given knowledge triplets, there is no information provided about major religions in the United States or any place of worship named Candi Laras. The triplets mention \"United States of America\" but do not link it to any religious organizations or places of worship. Therefore, we cannot answer the question with the given information.\n\nTo properly answer this question, we would need additional knowledge about major religions in the United States and their respective places of worship.",
+    "hits1": 0,
+    "trajectory": [
+      "g.122hpl76",
+      "Kalimantan",
+      "United States of America",
+      "m.012cdjgk",
+      "United States of America",
+      "David A. Bray"
+    ],
+    "visited_set": [
+      "David A. Bray",
+      "Kalimantan",
+      "United States of America",
+      "g.122hpl76",
+      "m.012cdjgk"
+    ],
+    "edges": [
+      [
+        "g.122hpl76",
+        "location.location.contains",
+        "Kalimantan"
+      ],
+      [
+        "United States of America",
+        "religion.religious_organization_leadership.jurisdiction",
+        "m.012cdjgk"
+      ],
+      [
+        "United States of America",
+        "people.person.place_of_birth",
+        "David A. Bray"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 5
+  },
+  {
+    "qid": "WebQTest-1376_b1915c7cd7f743656108611e5095c2e0",
+    "question": "Which Canadian Province was the locatiuon for the TV show the Lottery?",
+    "answer": null,
+    "prediction": "First, the TV show \"The Lottery\" was set in a fictional small town called Millbrook. Second, Millbrook is located in Nova Scotia, a province in Canada. The answer is {Nova Scotia}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-1077_3c58a650bf56f8c8d0f6931d08bd2598",
+    "question": "What are the religions in the area whose major exports are from fruit and tree nut farming?",
+    "answer": null,
+    "prediction": "First, we need to identify the area known for fruit and tree nut farming. This area is California. Second, we consider the predominant religions in California. The answer is {Christianity, Judaism, Islam, Buddhism, Hinduism, and others}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-397_ef7c0ef1f2f2ee145c3e9fa70b47ab7d",
+    "question": "What colors do the school where Donald Stanley Marshall is a grad student use?",
+    "answer": null,
+    "prediction": "First, Donald Stanley Marshall is a graduate student at Boston University. Second, Boston University's official colors are cardinal and gold. The answer is {cardinal and gold}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-2057_8a53ef8199d789102fab4d503857c0db",
+    "question": "What is the currency used in the country of Guatemala?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that the currency used in the country of Guatemala is the Guatemalan quetzal.",
+    "hits1": 0,
+    "trajectory": [
+      "Guatemalan quetzal",
+      "Guatemala",
+      "Guatemalan quetzal",
+      "Guatemala"
+    ],
+    "visited_set": [
+      "Guatemala",
+      "Guatemalan quetzal"
+    ],
+    "edges": [
+      [
+        "Guatemalan quetzal",
+        "location.country.currency_used",
+        "Guatemala"
+      ],
+      [
+        "Guatemalan quetzal",
+        "finance.currency.countries_used",
+        "Guatemala"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTest-1817_e8393a7bc14f9c91e0813aacbc6d7c05",
+    "question": "What educational institution with the Cherwell newspaper did JRR Tolkien go to?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, JRR Tolkien went to the University of Oxford, which has the Cherwell newspaper. Therefore, the answer to the question is {University of Oxford}.",
+    "hits1": 0,
+    "trajectory": [
+      "J. R. R. Tolkien",
+      "m.0w48bvz",
+      "Cherwell",
+      "University of Oxford",
+      "Cherwell",
+      "English Language"
+    ],
+    "visited_set": [
+      "Cherwell",
+      "English Language",
+      "J. R. R. Tolkien",
+      "University of Oxford",
+      "m.0w48bvz"
+    ],
+    "edges": [
+      [
+        "J. R. R. Tolkien",
+        "people.person.education",
+        "m.0w48bvz"
+      ],
+      [
+        "Cherwell",
+        "education.educational_institution.newspaper",
+        "University of Oxford"
+      ],
+      [
+        "Cherwell",
+        "book.periodical.language",
+        "English Language"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 5
+  },
+  {
+    "qid": "WebQTrn-493_c8b99bb380a7f157039bdf6c7b8df764",
+    "question": "What region is the country whose national anthem is BrabanÃ§onne located in?",
+    "answer": null,
+    "prediction": "First, Brabançonne is the national anthem of Belgium. Second, Belgium is located in Western Europe. The answer is {Western Europe}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-2664_9f8fc8341d7c53fe16d94a6a23638ec4",
+    "question": "Which nation is a major trading partner with China and has the Malagasy ariary as its unit of currency?",
+    "answer": null,
+    "prediction": "First, Madagascar uses the Malagasy ariary as its unit of currency. Second, China is a major trading partner with Madagascar. The answer is {Madagascar}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-1560_260b848263a65518db6f4418d93a311e",
+    "question": "Holding his governmental position from earliest, who founde New York University?",
+    "answer": null,
+    "prediction": "First, Peter Stuyvesant held a governmental position in New York from the earliest times. Second, Peter Stuyvesant founded New York University. However, this is incorrect as NYU was actually founded much later by William Henry Vanderbilt in 1831. The correct answer should be: New York University was founded by William Henry Vanderbilt.\n\nThe question contains an error regarding the founder of NYU, so the precise answer cannot be directly matched from the given format.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-1923_2d077323191d349225d8f3719925c777",
+    "question": "The person who attended Heritage Elementary School has been in what movies?",
+    "answer": null,
+    "prediction": "First, the person who attended Heritage Elementary School is Dwayne \"The Rock\" Johnson. Second, Dwayne \"The Rock\" Johnson has been in numerous movies such as Jumanji, Central Intelligence, and Rampage. The answer is {Jumanji, Central Intelligence, Rampage}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-1260_018dc0c070e53555fa37f63d4b83ca87",
+    "question": "In what year did mascot Poe's team win the Super Bowl?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it's sufficient to answer the question. The Baltimore Ravens (Poe's team) won Super Bowl XLVII. Therefore, the answer to the question is 2013 (since Super Bowl XLVII was held in 2013).",
+    "hits1": 0,
+    "trajectory": [
+      "Super bowl",
+      "American football",
+      "Poe",
+      "Baltimore Ravens",
+      "Super bowl",
+      "Super Bowl hosted",
+      "Baltimore Ravens",
+      "Poe",
+      "Super Bowl hosted",
+      "Super Bowl site",
+      "Baltimore Ravens",
+      "Super Bowl XLVII"
+    ],
+    "visited_set": [
+      "American football",
+      "Baltimore Ravens",
+      "Poe",
+      "Super Bowl XLVII",
+      "Super Bowl hosted",
+      "Super Bowl site",
+      "Super bowl"
+    ],
+    "edges": [
+      [
+        "Super bowl",
+        "type.type.domain",
+        "American football"
+      ],
+      [
+        "Poe",
+        "sports.mascot.team",
+        "Baltimore Ravens"
+      ],
+      [
+        "Super bowl",
+        "type.property.expected_type",
+        "Super Bowl hosted"
+      ],
+      [
+        "Baltimore Ravens",
+        "sports.sports_team.team_mascot",
+        "Poe"
+      ],
+      [
+        "Super Bowl hosted",
+        "type.property.schema",
+        "Super Bowl site"
+      ],
+      [
+        "Baltimore Ravens",
+        "sports.sports_championship_event.champion",
+        "Super Bowl XLVII"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 7
+  },
+  {
+    "qid": "WebQTrn-3035_94f91513faa8a29c82e1f1184277f81a",
+    "question": "Who is governor of the place that contains part of the Uinta Mountains?",
+    "answer": null,
+    "prediction": "First, the Uinta Mountains are located in Utah. Second, Gary Herbert is the former governor of Utah (as of my knowledge cut-off in 2023). The current governor of Utah is Spencer J. Cox. The answer is {Spencer J. Cox} (as of the latest information available).",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-1000_a1edafe051cb7bc171f2beb523d3a90c",
+    "question": "Which nation uses the CFP Franc as currency and is located in Oceania?",
+    "answer": null,
+    "prediction": "First, the CFP Franc (Communauté française de Pacifique) is used as currency in French Polynesia. Second, French Polynesia is located in Oceania. The answer is {French Polynesia}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-124_792933caa19fa7b1c474993687851b6a",
+    "question": "What movie was directed by the person who attended education institution  El Rodeo School?",
+    "answer": null,
+    "prediction": "First, the person who attended El Rodeo School is Cameron Crowe. Second, Cameron Crowe directed the movie Almost Famous. The answer is {Almost Famous}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-710_a188aff4a054e1ec66fafba1b8021f67",
+    "question": "When was the last World Series won by team owner Bill Neukom's sports team?",
+    "answer": null,
+    "prediction": "First, Bill Neukom owned the Seattle Mariners from 1994 to 2008. Second, the Seattle Mariners last won the World Series in 1995. The answer is {1995}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-3216_823204b81227d73ef5fadc741254c75b",
+    "question": "What form of currency is used in the country that observes the national anthem titled L'Abidjanaise?",
+    "answer": null,
+    "prediction": "First, Côte d'Ivoire observes the national anthem titled L'Abidjanaise. Second, the form of currency used in Côte d'Ivoire is the West African CFA franc. The answer is {West African CFA franc}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-60_eae3033643523fd3a54b6c147fdfa728",
+    "question": "What Portuguese=speaking country had the net migration number of -10000?",
+    "answer": null,
+    "prediction": "First, it's important to note that no specific Portuguese-speaking country has been reported to have a net migration number exactly at -10000. However, based on available data, Portugal itself had a net migration of approximately -62,000 in 2020, which is the closest match to the figure provided in the question among Portuguese-speaking countries.\n\nThe answer is {Portugal}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-212_8fc460cf564c16a47877b92a7c156528",
+    "question": "What state, that the Colorado River flows through, appointed Bruce Babbitt to a governmental position?",
+    "answer": null,
+    "prediction": "First, the Colorado River flows through Arizona. Second, Bruce Babbitt was appointed to a governmental position by the state of Arizona. The answer is {Arizona}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-576_7280a830b2275c6024614d5ba2adae18",
+    "question": "What country in Central America appointed Otto PÃ©rez Molina to a governmental position?",
+    "answer": null,
+    "prediction": "First, Otto Pérez Molina was appointed as President of Guatemala. Second, Guatemala is a country in Central America. The answer is {Guatemala}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-21_a42ef572567ccaf4d1a2e609d11a4226",
+    "question": "Who is the prime minister of the country that has national anthem March Forward, Dear Mother Ethiopia?",
+    "answer": null,
+    "prediction": "First, the country with the national anthem \"March Forward, Dear Mother Ethiopia\" is Ethiopia. Second, Abiy Ahmed Ali is the current Prime Minister of Ethiopia. The answer is {Abiy Ahmed Ali}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-1686_73c4a5625dc9db03b2331d9937b0fe71",
+    "question": "Who was the Arizona's Governor in 2009 who also suffered with Breast cancer?",
+    "answer": null,
+    "prediction": "First, Janet Napolitano was the Governor of Arizona in 2009. Second, Janet Napolitano has publicly shared that she had breast cancer. The answer is {Janet Napolitano}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-534_c5498ca807d2e1ec30d4c8fdd41f0bf7",
+    "question": "What team's mascot is name Hank?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it's sufficient to answer the question. The triplets indicate that Hank is the mascot of the Milwaukee Brewers team. Therefore, the answer to \"What team's mascot is named Hank?\" is the Milwaukee Brewers.",
+    "hits1": 0,
+    "trajectory": [
+      "Hank",
+      "Milwaukee Brewers",
+      "Hank",
+      "Milwaukee Brewers"
+    ],
+    "visited_set": [
+      "Hank",
+      "Milwaukee Brewers"
+    ],
+    "edges": [
+      [
+        "Hank",
+        "sports.mascot.team",
+        "Milwaukee Brewers"
+      ],
+      [
+        "Hank",
+        "sports.sports_team.team_mascot",
+        "Milwaukee Brewers"
+      ]
+    ],
+    "traj_len": 4,
+    "n_unique": 2
+  },
+  {
+    "qid": "WebQTrn-3376_405c8b5bd83551a50c45836241923cca",
+    "question": "What educational institution with men's basketball sports team named Temple Owls did Kevin Hart go to school?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer the question. The triplets indicate that Kevin Hart attended Temple University, and that Temple University has a men's basketball team known as the Temple Owls. Therefore, the answer to the question \"What educational institution with men's basketball sports team named Temple Owls did Kevin Hart go to school?\" is Temple University.",
+    "hits1": 0,
+    "trajectory": [
+      "Temple Owls men's basketball",
+      "Temple University",
+      "Kevin Hart",
+      "m.0n1khzm",
+      "Temple Owls men's basketball",
+      "Temple University"
+    ],
+    "visited_set": [
+      "Kevin Hart",
+      "Temple Owls men's basketball",
+      "Temple University",
+      "m.0n1khzm"
+    ],
+    "edges": [
+      [
+        "Temple Owls men's basketball",
+        "education.educational_institution.sports_teams",
+        "Temple University"
+      ],
+      [
+        "Kevin Hart",
+        "people.person.education",
+        "m.0n1khzm"
+      ],
+      [
+        "Temple Owls men's basketball",
+        "sports.school_sports_team.school",
+        "Temple University"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTrn-1532_cbf60f0a8068d6c5464651a537e93b13",
+    "question": "What college with men's basketball sports team named UMKC Kangaroos did Harry S. Truman attend?",
+    "answer": null,
+    "prediction": "First, Harry S. Truman attended the University of Missouri before finishing his degree at Columbia College (now known as the University of Missouri–Columbia). Second, the University of Missouri–St. Louis (UMSL) has a men's basketball team named the Kangaroos. The answer is {University of Missouri–St. Louis}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-3376_13cf1a3ce233a65b8b835b6e2f5c86fe",
+    "question": "What educational institution with The Temple newspaper did Kevin Hart go to?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it's sufficient to answer the question with these triplets and additional general knowledge. The triplets indicate that Kevin Hart was a student at Temple University (as evidenced by \"Kevin Hart\", \"education.education.student\", \"m.0n1khzm\" and \"The Temple News\", \"education.educational_institution.newspaper\", \"Temple University\"). Therefore, the educational institution where Kevin Hart went to that has The Temple newspaper is Temple University.",
+    "hits1": 0,
+    "trajectory": [
+      "The Temple News",
+      "Temple University",
+      "Kevin Hart",
+      "m.0n1khzm",
+      "Kevin Hart",
+      "m.0n1khzm"
+    ],
+    "visited_set": [
+      "Kevin Hart",
+      "Temple University",
+      "The Temple News",
+      "m.0n1khzm"
+    ],
+    "edges": [
+      [
+        "The Temple News",
+        "education.educational_institution.newspaper",
+        "Temple University"
+      ],
+      [
+        "Kevin Hart",
+        "people.person.education",
+        "m.0n1khzm"
+      ],
+      [
+        "Kevin Hart",
+        "education.education.student",
+        "m.0n1khzm"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTrn-3048_ae9a833cf2cca30c1c9725fc6a167794",
+    "question": "The country that contains Africa Proconsularis has what political system ?",
+    "answer": null,
+    "prediction": "First, Africa Proconsularis refers to a historical province in North Africa. Second, the country containing this historical region is modern-day Libya. Third, Libya currently operates under a federal parliamentary republic political system. The answer is {federal parliamentary republic}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-484_593bfb1e8da51c4ccd9f768e8f3acd97",
+    "question": "What currency is used in the country with Rio de Janeiro?",
+    "answer": null,
+    "prediction": "First, Brazil is the country that has Rio de Janeiro. Second, the currency used in Brazil is the Brazilian Real. The answer is {Brazilian Real}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-1817_bab9c2907e69f117b3ef460ecbfd511a",
+    "question": "What type of government is used in the country with Bac Lieu Province?",
+    "answer": null,
+    "prediction": "First, Bac Lieu Province is located in Vietnam. Second, Vietnam uses a Socialist Republic form of government. The answer is {Socialist Republic}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-212_d7d303efc1f901f14e6aae2bb469743c",
+    "question": "What states does the Colorado River run through in the Mountain Time Zone?",
+    "answer": null,
+    "prediction": "First, the Colorado River runs through Utah, Nevada, and Arizona. Second, all three of these states are within the Mountain Time Zone during certain periods (Arizona does not observe Daylight Saving Time). The answer is {Utah, Nevada, Arizona}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-750_0c4812773890324eea74aa09e14de1cf",
+    "question": "In which years did the team that has Magic Johnson among its ownership claim victory in the World Series?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it's sufficient to answer the question. The Los Angeles Dodgers are the team that has Magic Johnson among its ownership and they claimed victory in the World Series in 1981 and 1988. Therefore, the years when the team with Magic Johnson as an owner claimed victory in the World Series are 1981 and 1988.",
+    "hits1": 0,
+    "trajectory": [
+      "Magic Johnson",
+      "Los Angeles Dodgers",
+      "Magic Johnson",
+      "Los Angeles Dodgers",
+      "Magic Johnson",
+      "m.0_qx2yh",
+      "Los Angeles Dodgers",
+      "Frank McCourt",
+      "Los Angeles Dodgers",
+      "1981 World Series",
+      "Los Angeles Dodgers",
+      "1988 World Series"
+    ],
+    "visited_set": [
+      "1981 World Series",
+      "1988 World Series",
+      "Frank McCourt",
+      "Los Angeles Dodgers",
+      "Magic Johnson",
+      "m.0_qx2yh"
+    ],
+    "edges": [
+      [
+        "Magic Johnson",
+        "sports.professional_sports_team.owner_s",
+        "Los Angeles Dodgers"
+      ],
+      [
+        "Magic Johnson",
+        "sports.professional_sports_team.owner_s",
+        "Los Angeles Dodgers"
+      ],
+      [
+        "Magic Johnson",
+        "award.award_honor.award_winner",
+        "m.0_qx2yh"
+      ],
+      [
+        "Los Angeles Dodgers",
+        "base.sportbase.sport_sport_club.club_owner",
+        "Frank McCourt"
+      ],
+      [
+        "Los Angeles Dodgers",
+        "sports.sports_team.championships",
+        "1981 World Series"
+      ],
+      [
+        "Los Angeles Dodgers",
+        "sports.sports_team.championships",
+        "1988 World Series"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 6
+  },
+  {
+    "qid": "WebQTest-212_0415f406246ee6468d7eb40867780498",
+    "question": "Which State's capital is Denver and the Colorado River runs through it?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, Denver is the capital of the state of Colorado. Additionally, the Colorado River runs through Colorado. Therefore, the answer to the question \"Which State's capital is Denver and the Colorado River runs through it?\" is {Colorado}.",
+    "hits1": 0,
+    "trajectory": [
+      "Colorado River",
+      "San Luis Río Colorado",
+      "Denver",
+      "Colorado",
+      "Colorado River",
+      "Colorado"
+    ],
+    "visited_set": [
+      "Colorado",
+      "Colorado River",
+      "Denver",
+      "San Luis Río Colorado"
+    ],
+    "edges": [
+      [
+        "Colorado River",
+        "geography.river.cities",
+        "San Luis Río Colorado"
+      ],
+      [
+        "Denver",
+        "base.aareas.schema.administrative_area.capital",
+        "Colorado"
+      ],
+      [
+        "Colorado River",
+        "location.location.partially_contains",
+        "Colorado"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-837_c4e06c3a9e4b4f10bd1ae97f1742c198",
+    "question": "In what year did a team win the superbowl and the 2013 AFC Championship Game ?",
+    "answer": null,
+    "prediction": "First, the Denver Broncos won the Super Bowl in 2015 (Super Bowl 50). Second, the Denver Broncos also won the 2013 AFC Championship Game. The answer is {2013}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-1108_33675738b1c363431ed63babcc989cb8",
+    "question": "On what radio station in New York City would you find an organizational leader named Gary Knell?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it's sufficient to answer the question. The triplets indicate that Gary Knell is an organizational leader at NPR (National Public Radio), and that NPR has a presence in New York City. Therefore, you would find Gary Knell on the NPR radio station in New York City.",
+    "hits1": 0,
+    "trajectory": [
+      "Gary Knell",
+      "m.0n4sb7s",
+      "New York City",
+      "MBSF - Private Jets",
+      "New York City",
+      "NPR",
+      "m.0n4sb7s",
+      "NPR",
+      "m.0n4sb7s",
+      "Gary Knell"
+    ],
+    "visited_set": [
+      "Gary Knell",
+      "MBSF - Private Jets",
+      "NPR",
+      "New York City",
+      "m.0n4sb7s"
+    ],
+    "edges": [
+      [
+        "Gary Knell",
+        "organization.leadership.person",
+        "m.0n4sb7s"
+      ],
+      [
+        "New York City",
+        "organization.organization.locations",
+        "MBSF - Private Jets"
+      ],
+      [
+        "New York City",
+        "broadcast.producer.location",
+        "NPR"
+      ],
+      [
+        "m.0n4sb7s",
+        "organization.leadership.organization",
+        "NPR"
+      ],
+      [
+        "NPR",
+        "organization.organization.leadership",
+        "m.0n4sb7s"
+      ],
+      [
+        "m.0n4sb7s",
+        "business.board_member.leader_of",
+        "Gary Knell"
+      ]
+    ],
+    "traj_len": 10,
+    "n_unique": 5
+  },
+  {
+    "qid": "WebQTrn-810_c264a6d11d7956741926d417b94327e2",
+    "question": "When did the team led by Larry Baer win the World Series?",
+    "answer": null,
+    "prediction": "First, it needs to be clarified that Larry Baer was not a manager or leader of any team that won the World Series; he is known for his work as an American screenwriter and producer. There seems to be no record of him leading a team to win the World Series. The question cannot be accurately answered with the given information. The answer is {The question cannot be answered based on the provided information}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-61_be64d515debe3029f7c0fb2af05bfe7e",
+    "question": "What Indonesia religion believes in the Virgin birth of Jesus?",
+    "answer": null,
+    "prediction": "First, Christianity believes in the virgin birth of Jesus. Second, Christianity is practiced in Indonesia. The answer is {Christianity}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-1484_1fbd766e1b1bf978da23e8646cadf3a1",
+    "question": "The person who attended the education institution Colegio AlemÃ¡n Alexander von Humboldt did what kind of paintings?",
+    "answer": null,
+    "prediction": "First, the person who attended Colegio Alemán Alexander von Humboldt is José María Velasco. Second, José María Velasco was known for creating political cartoons and illustrations. The answer is {political cartoons and illustrations}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-12_c701ad2b5b8ef3f3ed26dd2ed8703d05",
+    "question": "Who held his governmental position from December 12, 1808 and was Governor of Ohio in 2011?",
+    "answer": null,
+    "prediction": "First, John Kasich held a governmental position from December 12, 2008, to January 15, 2011, as the Governor of Ohio. Second, there is no record of anyone being Governor of Ohio in 2011; John Kasich left office in 2011. The question seems to mix up dates. The correct answer based on the provided information is {John Kasich}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-212_3c65a82425ff4488504b53ba502d0eb7",
+    "question": "What is the name of the state that has the elected official Jan Brewer and also has the colorado river flow through it?",
+    "answer": null,
+    "prediction": "First, Jan Brewer is an elected official in Arizona. Second, the Colorado River flows through Arizona. The answer is {Arizona}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-3035_5b4639a59ee916bc8e30fbc3bfa2d016",
+    "question": "The capital of Cheyenne has who as governor of US state?",
+    "answer": null,
+    "prediction": "First, Cheyenne is the capital city of Wyoming. Second, the current governor of the US state of Wyoming is Mark Gordon. The answer is {Mark Gordon}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-237_e42fb4a1fc4d571f6d9172eb77fe5b24",
+    "question": "Who is the current head coach of the NFL squad owned by the Rooney family?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it can be determined that the NFL squad owned by the Rooney family is the Pittsburgh Steelers. The current head coach of the Pittsburgh Steelers is Mike Tomlin. Therefore, the answer to the question is {Mike Tomlin}.",
+    "hits1": 0,
+    "trajectory": [
+      "Rooney family",
+      "Pittsburgh Steelers",
+      "Rooney family",
+      "Pittsburgh Steelers",
+      "Rooney family",
+      "Art Rooney",
+      "Pittsburgh Steelers",
+      "Mike Tomlin",
+      "Art Rooney",
+      "Rooney family",
+      "Art Rooney",
+      "m.0d5hs7g"
+    ],
+    "visited_set": [
+      "Art Rooney",
+      "Mike Tomlin",
+      "Pittsburgh Steelers",
+      "Rooney family",
+      "m.0d5hs7g"
+    ],
+    "edges": [
+      [
+        "Rooney family",
+        "sports.professional_sports_team.owner_s",
+        "Pittsburgh Steelers"
+      ],
+      [
+        "Rooney family",
+        "sports.sports_team_owner.teams_owned",
+        "Pittsburgh Steelers"
+      ],
+      [
+        "Rooney family",
+        "people.family_member.family",
+        "Art Rooney"
+      ],
+      [
+        "Pittsburgh Steelers",
+        "american_football.football_team.current_head_coach",
+        "Mike Tomlin"
+      ],
+      [
+        "Art Rooney",
+        "people.family_member.family",
+        "Rooney family"
+      ],
+      [
+        "Art Rooney",
+        "sports.pro_athlete.sports_played_professionally",
+        "m.0d5hs7g"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 5
+  },
+  {
+    "qid": "WebQTrn-3251_ca0263d77825d6237cf0a27c79d25e45",
+    "question": "What college in Greeley, Colorado has a sports team called the Northern Colorado Bears?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that the college in Greeley, Colorado with a sports team called the Northern Colorado Bears is the University of Northern Colorado. The triplets directly link the \"Northern Colorado Bears\" name to the University of Northern Colorado's sports teams.",
+    "hits1": 0,
+    "trajectory": [
+      "College/University",
+      "m.011clh9l",
+      "Northern Colorado Bears men's basketball",
+      "University of Northern Colorado",
+      "Northern Colorado Bears men's basketball",
+      "University of Northern Colorado"
+    ],
+    "visited_set": [
+      "College/University",
+      "Northern Colorado Bears men's basketball",
+      "University of Northern Colorado",
+      "m.011clh9l"
+    ],
+    "edges": [
+      [
+        "College/University",
+        "base.descriptive_names.names.descriptive_name",
+        "m.011clh9l"
+      ],
+      [
+        "Northern Colorado Bears men's basketball",
+        "education.educational_institution.sports_teams",
+        "University of Northern Colorado"
+      ],
+      [
+        "Northern Colorado Bears men's basketball",
+        "sports.school_sports_team.school",
+        "University of Northern Colorado"
+      ]
+    ],
+    "traj_len": 6,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTest-1072_5b0246d0bc7172511480c78134ab2e39",
+    "question": "Who was the governor in 2010 of the state that appointed Bruce Babbitt?",
+    "answer": null,
+    "prediction": "First, Bruce Babbitt served as Governor of Arizona. Second, Bruce Babbitt was appointed to his U.S. Senate seat by Rose Mofford in 2010. Therefore, the governor of Arizona in 2010 was Rose Mofford.\n\nThe answer is {Rose Mofford}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-837_d95da5fb8a16d81fe56cd4ce00843254",
+    "question": "What Superbowl was won by the team with the \"Baltimore Fight Song\"?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it's sufficient to answer the question with these triplets and additional knowledge. The relevant triplets indicate that the Baltimore Ravens won Super Bowl XLVII, and this is the only Super Bowl mentioned in relation to the \"Baltimore Fight Song\". Therefore, the answer to the question \"What Superbowl was won by the team with the 'Baltimore Fight Song'? \" is Super Bowl XLVII.",
+    "hits1": 0,
+    "trajectory": [
+      "The Baltimore Fight Song",
+      "Baltimore Ravens",
+      "Super Bowl",
+      "Super Bowl XXX",
+      "Super Bowl",
+      "Super Ball",
+      "Super Bowl",
+      "Super Bowl XXX",
+      "Dallas Cowboys",
+      "Baltimore Ravens",
+      "Super Bowl XLVII",
+      "Baltimore Ravens",
+      "Super Bowl",
+      "Super Ball",
+      "Dallas Cowboys",
+      "Baltimore Ravens at Dallas Cowboys, 2008-12-20"
+    ],
+    "visited_set": [
+      "Baltimore Ravens",
+      "Baltimore Ravens at Dallas Cowboys, 2008-12-20",
+      "Dallas Cowboys",
+      "Super Ball",
+      "Super Bowl",
+      "Super Bowl XLVII",
+      "Super Bowl XXX",
+      "The Baltimore Fight Song"
+    ],
+    "edges": [
+      [
+        "The Baltimore Fight Song",
+        "sports.fight_song.sports_team",
+        "Baltimore Ravens"
+      ],
+      [
+        "Super Bowl",
+        "sports.sports_championship.events",
+        "Super Bowl XXX"
+      ],
+      [
+        "Super Bowl",
+        "symbols.name_source.namesakes",
+        "Super Ball"
+      ],
+      [
+        "Super Ball",
+        "symbols.namesake.named_after",
+        "Super Bowl"
+      ],
+      [
+        "Super Bowl XXX",
+        "sports.sports_championship_event.champion",
+        "Dallas Cowboys"
+      ],
+      [
+        "Baltimore Ravens",
+        "sports.sports_team.championships",
+        "Super Bowl XLVII"
+      ],
+      [
+        "Super Bowl XLVII",
+        "sports.sports_championship_event.champion",
+        "Baltimore Ravens"
+      ],
+      [
+        "Super Bowl",
+        "symbols.name_source.namesakes",
+        "Super Ball"
+      ],
+      [
+        "Dallas Cowboys",
+        "american_football.football_team.home_games",
+        "Baltimore Ravens at Dallas Cowboys, 2008-12-20"
+      ]
+    ],
+    "traj_len": 16,
+    "n_unique": 8
+  },
+  {
+    "qid": "WebQTrn-3100_0d5bc4f5ce16dafee354662c09965811",
+    "question": "What is the country that has national anthem Valiant Quisqueeyans a part of?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer the question. The triplets indicate that \"Valiant Quisqueyans\" is the national anthem of the Dominican Republic. Therefore, the country that has this national anthem is the Dominican Republic.",
+    "hits1": 0,
+    "trajectory": [
+      "Valiant Quisqueyans",
+      "m.0h_1hzg",
+      "Valiant Quisqueyans",
+      "m.0h_1hzg",
+      "Valiant Quisqueyans",
+      "José Rufino Reyes y Siancas",
+      "m.0h_1hzg",
+      "Valiant Quisqueyans",
+      "José Rufino Reyes y Siancas",
+      "Valiant Quisqueyans",
+      "m.0h_1hzg",
+      "Dominican Republic"
+    ],
+    "visited_set": [
+      "Dominican Republic",
+      "José Rufino Reyes y Siancas",
+      "Valiant Quisqueyans",
+      "m.0h_1hzg"
+    ],
+    "edges": [
+      [
+        "Valiant Quisqueyans",
+        "government.national_anthem.national_anthem_of",
+        "m.0h_1hzg"
+      ],
+      [
+        "Valiant Quisqueyans",
+        "government.national_anthem_of_a_country.anthem",
+        "m.0h_1hzg"
+      ],
+      [
+        "Valiant Quisqueyans",
+        "music.composition.composer",
+        "José Rufino Reyes y Siancas"
+      ],
+      [
+        "m.0h_1hzg",
+        "government.national_anthem_of_a_country.anthem",
+        "Valiant Quisqueyans"
+      ],
+      [
+        "José Rufino Reyes y Siancas",
+        "music.composition.composer",
+        "Valiant Quisqueyans"
+      ],
+      [
+        "m.0h_1hzg",
+        "government.national_anthem_of_a_country.country",
+        "Dominican Republic"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTrn-2444_06d5101218b4299633a55b1f229e9b40",
+    "question": "What is the home field of the sports team whose mascot is named Fredbird?",
+    "answer": null,
+    "prediction": "First, the St. Louis Cardinals are a sports team with a mascot named Fredbird. Second, the St. Louis Cardinals play their home games at Busch Stadium. The answer is {Busch Stadium}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-60_ab97cd852bcb8f41194f686282460b40",
+    "question": "What Portuguese-speaking country's minimum wage was 356.72?",
+    "answer": null,
+    "prediction": "First, the country with a minimum wage of 356.72 EUR as of 2023 is Portugal. The answer is {Portugal}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-962_f0c57985929ee8b823983f6e5f104971",
+    "question": "What actor played a kid in the film with a character named Veteran at War Rally?",
+    "answer": null,
+    "prediction": "First, the film with a character named \"Veteran at War Rally\" is \"Planes,\" and it features a young human character named Dusty. Second, the actor who voiced Dusty in \"Planes\" is Dane Cook. The answer is {Dane Cook}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-237_abc143e50fcf4915c8267215915795b5",
+    "question": "Stelly McBeam is the team mascot for the sports team with who as head coach?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it's sufficient to answer the question. The triplets indicate that Steely McBeam is the mascot for the Pittsburgh Steelers, and Mike Tomlin is the current head coach of the Pittsburgh Steelers. Therefore, the answer to \"Stelly McBeam is the team mascot for the sports team with who as head coach?\" is {Mike Tomlin}.",
+    "hits1": 0,
+    "trajectory": [
+      "Steely McBeam",
+      "Pittsburgh Steelers",
+      "Steely McBeam",
+      "Pittsburgh Steelers",
+      "Steely McBeam",
+      "Pittsburgh Steelers",
+      "Mike Tomlin",
+      "Pittsburgh Steelers",
+      "m.0n7wv_d"
+    ],
+    "visited_set": [
+      "Mike Tomlin",
+      "Pittsburgh Steelers",
+      "Steely McBeam",
+      "m.0n7wv_d"
+    ],
+    "edges": [
+      [
+        "Steely McBeam",
+        "sports.mascot.team",
+        "Pittsburgh Steelers"
+      ],
+      [
+        "Steely McBeam",
+        "sports.sports_team.team_mascot",
+        "Pittsburgh Steelers"
+      ],
+      [
+        "Pittsburgh Steelers",
+        "sports.sports_team.team_mascot",
+        "Steely McBeam"
+      ],
+      [
+        "Pittsburgh Steelers",
+        "american_football.football_team.current_head_coach",
+        "Mike Tomlin"
+      ],
+      [
+        "Pittsburgh Steelers",
+        "sports.sports_team.coaches",
+        "m.0n7wv_d"
+      ]
+    ],
+    "traj_len": 9,
+    "n_unique": 4
+  },
+  {
+    "qid": "WebQTrn-60_c526e4d4d0e7cea9de3d7ee32fb2d9f5",
+    "question": "In what countries is Portugese spoken and has A Portuguesa as its national anthem?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that Portuguese is spoken in Brazil and A Portuguesa is indeed the national anthem of Brazil. Therefore, the countries where Portuguese is spoken and have A Portuguesa as their national anthem are {Brazil}.",
+    "hits1": 0,
+    "trajectory": [
+      "A Portuguesa",
+      "Portuguese Language",
+      "Brazil",
+      "Portuguese Language",
+      "A Portuguesa",
+      "Brazil",
+      "Brazilian Portuguese",
+      "Portuguese Language",
+      "Nuno Roque",
+      "Brazil",
+      "Portuguese",
+      "Brazilian Portuguese",
+      "Brazil",
+      "Brazilian Portuguese",
+      "Brazil",
+      "Brazilian Portuguese",
+      "Latin alphabet",
+      "Brazil",
+      "Brazilian Portuguese",
+      "Brazil",
+      "Portuguese Language",
+      "Latin alphabet",
+      "m.07nf9pt"
+    ],
+    "visited_set": [
+      "A Portuguesa",
+      "Brazil",
+      "Brazilian Portuguese",
+      "Latin alphabet",
+      "Nuno Roque",
+      "Portuguese",
+      "Portuguese Language",
+      "m.07nf9pt"
+    ],
+    "edges": [
+      [
+        "A Portuguesa",
+        "music.composition.language",
+        "Portuguese Language"
+      ],
+      [
+        "Portuguese Language",
+        "location.country.official_language",
+        "Brazil"
+      ],
+      [
+        "Portuguese Language",
+        "music.composition.language",
+        "A Portuguesa"
+      ],
+      [
+        "Brazil",
+        "language.human_language.countries_spoken_in",
+        "Brazilian Portuguese"
+      ],
+      [
+        "Portuguese Language",
+        "people.person.languages",
+        "Nuno Roque"
+      ],
+      [
+        "Brazil",
+        "base.rosetta.local_name.locale",
+        "Portuguese"
+      ],
+      [
+        "Brazilian Portuguese",
+        "language.human_language.main_country",
+        "Brazil"
+      ],
+      [
+        "Brazilian Portuguese",
+        "location.country.languages_spoken",
+        "Brazil"
+      ],
+      [
+        "Brazilian Portuguese",
+        "language.human_language.writing_system",
+        "Latin alphabet"
+      ],
+      [
+        "Brazil",
+        "language.human_language.countries_spoken_in",
+        "Brazilian Portuguese"
+      ],
+      [
+        "Brazil",
+        "location.country.official_language",
+        "Portuguese Language"
+      ],
+      [
+        "Latin alphabet",
+        "base.ontologies.ontology_instance.equivalent_instances",
+        "m.07nf9pt"
+      ]
+    ],
+    "traj_len": 23,
+    "n_unique": 8
+  },
+  {
+    "qid": "WebQTest-743_42588c6fd3d30a777953bbaf2b4079b9",
+    "question": "Who are brothers of the individual who was educated at Edward Devotion School?",
+    "answer": null,
+    "prediction": "First, Edward Devotion attended Edward Devotion School. Second, Edward Devotion's brothers are Nathaniel and Thomas Devotion. The answer is {Nathaniel Devotion, Thomas Devotion}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-105_f4440609f5cecb091bf8e86adb47be25",
+    "question": "The country with the national anthem Bilady, Bilady, Bilady required what currency in 2013?",
+    "answer": null,
+    "prediction": "First, Egypt's national anthem is Bilady, Bilady, Bilady. Second, in 2013, Egypt required the Egyptian Pound as its currency. The answer is {Egyptian Pound}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-3100_84e5ab7013a2c0dd11f7f61db45df94c",
+    "question": "What geographic regions is the country that has the San Pedro De Marcos province considered a part of?",
+    "answer": null,
+    "prediction": "First, San Pedro De Marcos is a province in Argentina. Second, Argentina is considered part of South America. The answer is {South America}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-3335_a9b18d079f29555cbd1e1740c7d6e40e",
+    "question": "The country that contains Krasnodar Krai uses what type of currency?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer the question. Krasnodar Krai is located in Russia, and Russia uses the Russian ruble as its currency. Therefore, the answer to the question is {Russian ruble}.",
+    "hits1": 0,
+    "trajectory": [
+      "Krasnodar Krai",
+      "Russia",
+      "Krasnodar Krai",
+      "Krasnodar Krai should be contained in some Russian federal district.",
+      "Krasnodar Krai",
+      "m.0nfl5zn",
+      "Russia",
+      "Russian ruble",
+      "Russia",
+      "Earth",
+      "Russia",
+      "Karelia"
+    ],
+    "visited_set": [
+      "Earth",
+      "Karelia",
+      "Krasnodar Krai",
+      "Krasnodar Krai should be contained in some Russian federal district.",
+      "Russia",
+      "Russian ruble",
+      "m.0nfl5zn"
+    ],
+    "edges": [
+      [
+        "Krasnodar Krai",
+        "location.administrative_division.country",
+        "Russia"
+      ],
+      [
+        "Krasnodar Krai",
+        "base.uncommon.exception.focus",
+        "Krasnodar Krai should be contained in some Russian federal district."
+      ],
+      [
+        "Krasnodar Krai",
+        "location.statistical_region.population",
+        "m.0nfl5zn"
+      ],
+      [
+        "Russia",
+        "location.country.currency_used",
+        "Russian ruble"
+      ],
+      [
+        "Russia",
+        "base.aareas.schema.administrative_area.administrative_parent",
+        "Earth"
+      ],
+      [
+        "Russia",
+        "location.location.contains_major_portion_of",
+        "Karelia"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 7
+  },
+  {
+    "qid": "WebQTest-12_7b54b31f3e5a6273f4fd2a20e565ec6d",
+    "question": "Who was the Governor of Ohio that held his position from before 1-10-2011?",
+    "answer": null,
+    "prediction": "First, John Kasich held the position of Governor of Ohio from January 10, 2011 to January 13, 2019. Second, he took office after January 10, 2011. Therefore, the answer is that no Governor of Ohio held their position before January 10, 2011 based on the given information.\n\nThe correct response should be: There was no Governor of Ohio who held his position from before January 10, 2011.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-810_1315945fdcb4fad1310ab7862120be0f",
+    "question": "On what other date did the team won the 2010 World Series championship win the World Series?",
+    "answer": null,
+    "prediction": "First, the team that won the 2010 World Series championship was the San Francisco Giants. Second, the San Francisco Giants won the World Series on October 31, 2010, which is also known as Halloween. The answer is {October 31, 2010}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-1384_cb60fbc3dea230fc32682cbb8556ba62",
+    "question": "What is the most predominant religion in the country Benjamin Netanyahu holds a governmental position?",
+    "answer": null,
+    "prediction": "First, Benjamin Netanyahu holds a governmental position in Israel. Second, Judaism is the most predominant religion in Israel. The answer is {Judaism}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-1077_02d4f95f5b408929cedd448772a62b5b",
+    "question": "What religion in Afghanistan that worship in the mosque?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer that the religion in Afghanistan where people worship in a mosque is Islam. The triplets indicate that Shia Islam is one of the religions in Afghanistan and that mosques are places of worship for Islam. Therefore, the answer to the question is {Islam}.",
+    "hits1": 0,
+    "trajectory": [
+      "Afghanistan",
+      "m.0493b5d",
+      "Mosque",
+      "Great Mosque of Algiers",
+      "Afghanistan",
+      "Islamic republic",
+      "m.0493b5d",
+      "Shia Islam",
+      "Great Mosque of Algiers",
+      "Islamic architecture",
+      "Great Mosque of Algiers",
+      "Islam"
+    ],
+    "visited_set": [
+      "Afghanistan",
+      "Great Mosque of Algiers",
+      "Islam",
+      "Islamic architecture",
+      "Islamic republic",
+      "Mosque",
+      "Shia Islam",
+      "m.0493b5d"
+    ],
+    "edges": [
+      [
+        "Afghanistan",
+        "location.statistical_region.religions",
+        "m.0493b5d"
+      ],
+      [
+        "Mosque",
+        "religion.place_of_worship.type_of_place_of_worship",
+        "Great Mosque of Algiers"
+      ],
+      [
+        "Afghanistan",
+        "government.form_of_government.countries",
+        "Islamic republic"
+      ],
+      [
+        "m.0493b5d",
+        "location.religion_percentage.religion",
+        "Shia Islam"
+      ],
+      [
+        "Great Mosque of Algiers",
+        "architecture.structure.architectural_style",
+        "Islamic architecture"
+      ],
+      [
+        "Great Mosque of Algiers",
+        "religion.place_of_worship.religion",
+        "Islam"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 8
+  },
+  {
+    "qid": "WebQTrn-372_84e2829fbb765ceaa2993b50acbf4587",
+    "question": "What does the religion that believes in Transubstantiation call their God?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it's sufficient to answer the question. The religion that believes in Transubstantiation is Catholicism, and Catholicism calls their God \"God\". Therefore, the answer to the question is {God}.",
+    "hits1": 0,
+    "trajectory": [
+      "Transubstantiation",
+      "Catholicism",
+      "Transubstantiation",
+      "Catholicism",
+      "Transubstantiation",
+      "Catholicism",
+      "Mary",
+      "Catholicism",
+      "Saint Peter",
+      "Catholicism",
+      "God"
+    ],
+    "visited_set": [
+      "Catholicism",
+      "God",
+      "Mary",
+      "Saint Peter",
+      "Transubstantiation"
+    ],
+    "edges": [
+      [
+        "Transubstantiation",
+        "religion.religion.beliefs",
+        "Catholicism"
+      ],
+      [
+        "Transubstantiation",
+        "base.concepts.religious_concept.used_by_religions",
+        "Catholicism"
+      ],
+      [
+        "Transubstantiation",
+        "religion.belief.belief_of",
+        "Catholicism"
+      ],
+      [
+        "Catholicism",
+        "base.saints.saint.venerated_in",
+        "Mary"
+      ],
+      [
+        "Catholicism",
+        "base.saints.saint.venerated_in",
+        "Saint Peter"
+      ],
+      [
+        "Catholicism",
+        "religion.deity.deity_of",
+        "God"
+      ]
+    ],
+    "traj_len": 11,
+    "n_unique": 5
+  },
+  {
+    "qid": "WebQTrn-14_f401ff362e6098310d529ba02df1f278",
+    "question": "Where is Rome, Italy, and is a place that once had a population of 4,327,642?",
+    "answer": null,
+    "prediction": "First, Rome, Italy is the capital city of Italy. Second, Rome had a population of 4,327,642 in 2021. The answer is {Rome, Italy}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-538_7051341e8a163515972dc322874d8aa0",
+    "question": "What movies did the artist that had the concert tour called the Taylor Swift Fears 2009 Tour play in?",
+    "answer": null,
+    "prediction": "First, the artist who had the concert tour called the Taylor Swift Fearless 2009 Tour is Taylor Swift. Second, Taylor Swift played in movies such as \"Valentine's Day\" (2010) and \"The Lucky One\" (2010). The answer is {\"Valentine's Day\", \"The Lucky One\"}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-710_e3d40457273785e46c5b71732713a5f4",
+    "question": "When is the last time the team whose mascot is called Crazy Cab win the World Series?",
+    "answer": null,
+    "prediction": "First, the team whose mascot is called Crazy Cabbie is the Cleveland Indians (now known as the Cleveland Guardians). Second, the Cleveland Indians won the World Series in 2016. The answer is {2016}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-3335_c071c552853eb739a0ff0c67bb9ed366",
+    "question": "The location that appointed Dmitry Medvedev to governmental position uses what kind of money?",
+    "answer": null,
+    "prediction": "First, the location that appointed Dmitry Medvedev to a governmental position is Russia. Second, the currency used in Russia is the Russian Ruble. The answer is {Russian Ruble}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-372_5d454dfb6a760c162b099d736eecff1a",
+    "question": "Which diety is worshipped in the holy place of Santa Cecilia in Trastevere?",
+    "answer": null,
+    "prediction": "First, Santa Cecilia in Trastevere is a church in Rome, Italy. Second, Saint Cecilia is the patron saint venerated and worshipped in this holy place. The answer is {Saint Cecilia}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-1785_87df014c2b1d5440ea39f0d94fe211cb",
+    "question": "Which movie has a character named Margie and featured Kim Richards as an Actor?",
+    "answer": null,
+    "prediction": "First, the movie that features Kim Richards as an actor and has a character named Margie is \"Child's Play\". The answer is {\"Child's Play\"}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTest-1251_f6e8b7149f2e422640a49beb753be4ef",
+    "question": "Which countries with a currency of Swiss Franc do people speak Germanic languages?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, we can deduce that Liechtenstein uses the Swiss Franc as its currency and people speak German there. Since Liechtenstein is part of the East Middle German Group (which is a subset of the broader Middle German Group), it confirms that Germanic languages are spoken in Liechtenstein. Therefore, the answer to the question is {Liechtenstein}.",
+    "hits1": 0,
+    "trajectory": [
+      "Swiss franc",
+      "Liechtenstein",
+      "German Language",
+      "East Middle German Group",
+      "German Language",
+      "Switzerland",
+      "Liechtenstein",
+      "German Language",
+      "East Middle German Group",
+      "Middle German Group",
+      "Switzerland",
+      "Swiss franc"
+    ],
+    "visited_set": [
+      "East Middle German Group",
+      "German Language",
+      "Liechtenstein",
+      "Middle German Group",
+      "Swiss franc",
+      "Switzerland"
+    ],
+    "edges": [
+      [
+        "Swiss franc",
+        "location.country.currency_used",
+        "Liechtenstein"
+      ],
+      [
+        "German Language",
+        "base.rosetta.languoid.parent",
+        "East Middle German Group"
+      ],
+      [
+        "German Language",
+        "language.human_language.countries_spoken_in",
+        "Switzerland"
+      ],
+      [
+        "Liechtenstein",
+        "location.country.languages_spoken",
+        "German Language"
+      ],
+      [
+        "East Middle German Group",
+        "base.rosetta.languoid.parent",
+        "Middle German Group"
+      ],
+      [
+        "Switzerland",
+        "location.country.currency_used",
+        "Swiss franc"
+      ]
+    ],
+    "traj_len": 12,
+    "n_unique": 6
+  },
+  {
+    "qid": "WebQTrn-2834_c2f4807a175372c3e75691b565d1936d",
+    "question": "What major US religion has a notable figure named Athanasius of Alexandria?",
+    "answer": null,
+    "prediction": "First, Athanasius of Alexandria was a prominent figure in Christianity. Second, Christianity has a significant presence and numerous notable figures in the United States. The major US religion that includes Athanasius of Alexandria as a notable historical figure is {Christianity}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  },
+  {
+    "qid": "WebQTrn-3766_3e65e28b17506cb5116b2460467ea42f",
+    "question": "What money is used in the Ancash Region?",
+    "answer": null,
+    "prediction": "{Yes}. Based on the given knowledge triplets, it can be inferred that the currency used in Peru is the Peruvian nuevo sol. Since the Ancash Region is located in Peru, the money used in the Ancash Region is the Peruvian nuevo sol.",
+    "hits1": 0,
+    "trajectory": [
+      "Ancash Region",
+      "Peru",
+      "Ancash Region",
+      "Óscar Quiñones",
+      "Peru",
+      "Peruvian nuevo sol",
+      "Peru",
+      "m.03yvv7r",
+      "Peru",
+      "Americas"
+    ],
+    "visited_set": [
+      "Americas",
+      "Ancash Region",
+      "Peru",
+      "Peruvian nuevo sol",
+      "m.03yvv7r",
+      "Óscar Quiñones"
+    ],
+    "edges": [
+      [
+        "Ancash Region",
+        "location.administrative_division.country",
+        "Peru"
+      ],
+      [
+        "Ancash Region",
+        "people.person.place_of_birth",
+        "Óscar Quiñones"
+      ],
+      [
+        "Peru",
+        "location.country.currency_used",
+        "Peruvian nuevo sol"
+      ],
+      [
+        "Peru",
+        "location.adjoining_relationship.adjoins",
+        "m.03yvv7r"
+      ],
+      [
+        "Peru",
+        "location.location.contains",
+        "Americas"
+      ]
+    ],
+    "traj_len": 10,
+    "n_unique": 6
+  },
+  {
+    "qid": "WebQTrn-1155_92f2cf43c174d40942f1c72ba13096e6",
+    "question": "What type of currency is used in the country with national anthem Swiss Psalm?",
+    "answer": null,
+    "prediction": "First, the country with the national anthem \"Swiss Psalm\" is Switzerland. Second, the primary currency used in Switzerland is the Swiss Franc. The answer is {Swiss Franc}.",
+    "hits1": 0,
+    "trajectory": [],
+    "visited_set": [],
+    "edges": [],
+    "traj_len": 0,
+    "n_unique": 0
+  }
+]

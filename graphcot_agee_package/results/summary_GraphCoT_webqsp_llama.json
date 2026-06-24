@@ -1,0 +1,12 @@
+{
+  "dataset": "webqsp",
+  "backbone": "llama",
+  "n_questions": 200,
+  "n_valid_traversal": 114,
+  "exploration_rate": 0.57,
+  "hits1_overall": 0.255,
+  "AGEE_mean_valid": 0.4706,
+  "S_mean_valid": 0.7069,
+  "I_mean_valid": 0.1776,
+  "E_mean_valid": 0.7684
+}

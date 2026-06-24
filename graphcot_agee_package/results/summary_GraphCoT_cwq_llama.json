@@ -1,0 +1,12 @@
+{
+  "dataset": "cwq",
+  "backbone": "llama",
+  "n_questions": 200,
+  "n_valid_traversal": 152,
+  "exploration_rate": 0.76,
+  "hits1_overall": 0.13,
+  "AGEE_mean_valid": 0.4465,
+  "S_mean_valid": 0.5963,
+  "I_mean_valid": 0.1914,
+  "E_mean_valid": 0.8413
+}

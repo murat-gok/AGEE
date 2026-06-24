@@ -1,0 +1,40 @@
+# AGEE — central random seed configuration
+# All experimental runs derive their seeds from this file.
+# Pinning all seeds eliminates non-reproducibility from RNG drift.
+
+global:
+  numpy:        42
+  python:       42
+  torch:        42      # used only if a future LLM run uses HF transformers directly
+  hf_set_seed:  42      # for transformers.set_seed
+  random:       42      # for Python's `random` module
+
+experiments:
+  # Synthetic graph experiments (data/synthetic.py)
+  synthetic_graphs:
+    erdos_renyi:        42
+    barabasi_albert:    42
+    watts_strogatz:     42
+    stochastic_block:   42
+    # Karate Club and Les Miserables have fixed structure; no seed needed.
+
+  # Per-run seeds for synthetic agent runs (30 runs per agent per graph)
+  synthetic_per_run_base: 0    # run i uses seed = base + i
+
+  # MetaQA experiment
+  metaqa:
+    sample_questions:   42   # which 200 of 14872 questions to use
+    runner:             42   # for the random fallback in run_react_agent
+
+  # Hyperparameter sensitivity (experiments/hyperparam_sweep.py)
+  hyperparam_sweep:
+    dirichlet_rng:      42
+    p_grid_seed:        42
+    n_runs_per_agent:   15
+
+# Bootstrap and statistical analysis (Sprint 1 Week 3+)
+statistical:
+  bootstrap_iterations: 1000
+  bootstrap_rng:        42
+  bh_alpha:             0.05
+  ci_level:             0.95

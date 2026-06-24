@@ -1,0 +1,43 @@
+<<<<<<< HEAD
+# AGEE — pinned dependencies for reproducibility (TKDE submission)
+=======
+# AGEE — pinned dependencies for reproducibility
+>>>>>>> ee75ed4bd00f2a7e1791cc7bf4c8e28871e4e378
+# Tested under Python 3.11.6 on Ubuntu 22.04 / 24.04 and macOS 14.
+
+# --- Core scientific stack ---
+numpy==1.26.4
+scipy==1.13.1
+pandas==2.2.2
+
+# --- Graph and community detection ---
+networkx==3.3
+python-louvain==0.16            # Louvain (legacy compatibility)
+leidenalg==0.10.2               # Leiden (recommended, Sprint 1 Week 1+)
+python-igraph==0.11.6           # dependency of leidenalg
+
+# --- LLM agent runtime (Ollama HTTP client) ---
+requests==2.32.3
+
+# --- Configuration and serialisation ---
+pyyaml==6.0.2
+
+# --- Statistical analysis (Sprint 1 Week 3) ---
+statsmodels==0.14.2             # bootstrap, BH-FDR
+scikit-learn==1.5.1             # KS test, regression utilities
+
+# --- Plotting (Sprint 1 Week 2 figures) ---
+matplotlib==3.9.0
+seaborn==0.13.2
+
+<<<<<<< HEAD
+=======
+# --- Sprint 2 additions ---
+psutil==5.9.8                   # Memory/CPU monitoring (scalability benchmarks)
+sympy==1.12                     # Symbolic verification (theorem proofs)
+
+>>>>>>> ee75ed4bd00f2a7e1791cc7bf4c8e28871e4e378
+# --- Optional development tools (uncomment for dev work) ---
+# pytest==8.2.2
+# black==24.4.2
+# ruff==0.5.0
