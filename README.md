@@ -1,6 +1,6 @@
 # AGEE: Agent Graph Exploration Efficiency
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21207990.svg)](https://doi.org/10.5281/zenodo.21207990)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21207989.svg)](https://doi.org/10.5281/zenodo.21207989)
 
 **AGEE** is a deterministic, process-level metric for evaluating how AI agents explore knowledge graphs.
 
@@ -254,7 +254,7 @@ https://github.com/murat-gok/AGEE
 The archived software release is available on Zenodo at:
 
 ```text
-https://doi.org/10.5281/zenodo.21207990
+https://doi.org/10.5281/zenodo.21207989
 ```
 
 ## Citation
@@ -264,7 +264,7 @@ A formal bibliographic citation for the accompanying article will be added after
 Until then, please cite the archived software release as:
 
 ```text
-Gök, M. (2026). AGEE: A Multi-Dimensional Process-Level Metric for Evaluating Agent Exploration over Knowledge Graphs. Source code and reproducibility materials. Zenodo. https://doi.org/10.5281/zenodo.21207990
+Gök, M. (2026). AGEE: A Multi-Dimensional Process-Level Metric for Evaluating Agent Exploration over Knowledge Graphs. Source code and reproducibility materials. Zenodo. https://doi.org/10.5281/zenodo.21207989
 ```
 
 The associated article is:
