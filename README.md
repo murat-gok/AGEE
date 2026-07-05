@@ -77,7 +77,7 @@ and is **not** included in this repository.
 ## Contact
 
 Murat Gök — Department of Computer Engineering, Yalova University — murat.gok@yalova.edu.tr
-=======
+
 # AGEE: Agent Graph Exploration Efficiency
 
 **Author:** Murat Gök
@@ -262,4 +262,3 @@ notice in derivative works.
 - **GitHub issues:** https://github.com/murat-gok/AGEE/issues
 - **Author:** Murat Gök, Department of Computer Engineering, Yalova University
 - **ORCID:** [0000-0003-2261-9288](https://orcid.org/0000-0003-2261-9288)
->>>>>>> ee75ed4bd00f2a7e1791cc7bf4c8e28871e4e378
