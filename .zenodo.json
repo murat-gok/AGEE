@@ -1,0 +1,20 @@
+{
+  "title": "AGEE: A Multi-Dimensional Process-Level Metric for Evaluating Agent Exploration over Knowledge Graphs",
+  "description": "Reference implementation accompanying the Knowledge-Based Systems article \"AGEE: A Multi-Dimensional Process-Level Metric for Evaluating Agent Exploration over Knowledge Graphs.\" Includes the AGEE (Agent Graph Exploration Efficiency) metric, all baselines, the full experimental pipeline, prompt templates, raw agent trajectories, and a Docker reproducibility image.",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "G\u00f6k, Murat",
+      "affiliation": "Yalova University",
+      "orcid": "0000-0003-2261-9288"
+    }
+  ],
+  "keywords": [
+    "Agent evaluation",
+    "Knowledge graph reasoning",
+    "Process-level metrics",
+    "Composite indicator",
+    "Graph exploration"
+  ],
+  "language": "eng"
+}
