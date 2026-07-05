@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # AGEE — Agent Graph Exploration Efficiency
 
 A multi-dimensional, **process-level** metric for evaluating how AI agents *explore*
