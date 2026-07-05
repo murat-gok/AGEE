@@ -1,6 +1,7 @@
 # AGEE: Agent Graph Exploration Efficiency
 
 **AGEE** is a deterministic, process-level metric for evaluating how AI agents explore knowledge graphs.
+
 Unlike outcome-only metrics such as Hits@1, which evaluate only the final answer, AGEE evaluates the full exploration trajectory: how broadly the agent covers relevant graph structure, how much new information it gains, and how efficiently it explores.
 
 **Author:** Murat Gök
@@ -44,6 +45,7 @@ Because AGEE is computed from the exploration trajectory itself, it does not req
 ## Key idea
 
 AGEE is designed to reveal differences in agent behavior that outcome-only metrics may miss.
+
 For example, two agents can obtain the same final-answer accuracy while following very different exploration strategies. AGEE makes these differences measurable by evaluating the process of graph exploration rather than only the terminal answer.
 
 ## Quickstart
@@ -186,6 +188,7 @@ AGEE/
 ## Data
 
 The experiments use publicly available knowledge-graph QA resources and generated trajectories.
+
 Large trajectory and subgraph files are not committed to the repository. Users should download the required datasets from their original sources and regenerate trajectories locally when needed.
 
 For experiments involving RoG subgraphs, the relevant public datasets are:
@@ -219,6 +222,7 @@ The main deterministic settings are:
 * Bootstrap resampling: fixed random generator seed
 
 Aggregate results are expected to reproduce across platforms within small numerical variation.
+
 LLM-generated trajectories may show limited nondeterminism even under fixed settings because local inference backends can introduce implementation-level variation. Therefore, pre-computed CSV outputs are provided where appropriate.
 
 ## Code availability
@@ -253,6 +257,7 @@ After Zenodo archiving, please cite the archived software release using the Zeno
 ## License
 
 This project is released under the MIT License.
+
 See the [LICENSE](./LICENSE) file for details.
 
 The accompanying manuscript is not included in this repository.
