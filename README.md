@@ -13,31 +13,31 @@ Unlike outcome-only metrics such as Hits@1, which evaluate only the final answer
 
 AGEE evaluates an agent's exploration trajectory
 
-[
+$$
 \tau = (v_0, v_1, \ldots, v_T)
-]
+$$
 
-on a knowledge graph (G) using three complementary components:
+on a knowledge graph $G$ using three complementary components:
 
-* **Structural coverage (S')** — measures how broadly and evenly the trajectory covers graph communities.
-* **Information-gain rate (I')** — measures diminishing-returns-weighted novelty gained during exploration.
-* **Exploration efficiency (E')** — measures how efficiently coverage is accumulated over time.
+* **Structural coverage $S'$** — measures how broadly and evenly the trajectory covers graph communities.
+* **Information-gain rate $I'$** — measures diminishing-returns-weighted novelty gained during exploration.
+* **Exploration efficiency $E'$** — measures how efficiently coverage is accumulated over time.
 
 These components are combined using a non-compensatory weighted power mean:
 
-[
+$$
 \mathrm{AGEE}(G, \tau) =
 \left(
 w_S S'^{p} + w_I I'^{p} + w_E E'^{p}
 \right)^{1/p}
-]
+$$
 
 with default parameters:
 
-[
+$$
 p = 0.5,\quad
 w = (w_S, w_I, w_E) = (0.40, 0.35, 0.25).
-]
+$$
 
 Because AGEE is computed from the exploration trajectory itself, it does not require final-answer annotations and introduces no evaluator variance.
 
@@ -150,7 +150,7 @@ python analysis/run_scalability_n1e6.py
 python analysis/merge_scalability.py
 ```
 
-The large-scale benchmark with (n = 10^6) nodes may require at least 32 GB RAM.
+The large-scale benchmark with $n = 10^6$ nodes may require at least 32 GB RAM.
 
 ## Repository structure
 
