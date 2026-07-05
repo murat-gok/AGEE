@@ -172,32 +172,36 @@ The large-scale benchmark with $n = 10^6$ nodes may require at least 32 GB RAM.
 
 ```text
 AGEE/
-├── core/                         AGEE metric implementation
-│   ├── agee.py                   Top-level AGEECalculator
-│   ├── metrics.py                S', I', and E' computation
-│   ├── graph_utils.py            Community detection and graph utilities
-│   └── composite.py              Weighted power mean combiner
-├── agents/                       Baseline agents
-├── data/                         Synthetic graph generators and data utilities
-├── experiments/                  Sensitivity and stability experiments
-├── prompts/                      Prompt templates for KG-QA agents
-├── kgqa_experiment/              KG-QA experimental pipeline
-│   ├── data_metaqa/              MetaQA knowledge base and test questions
-│   ├── run_kgqa_experiment.py    Main KG-QA experiment script
-│   ├── run_kgqa_real_multillm.py Multi-LLM real Ollama runs
-│   └── results/                  Pre-computed trajectories and outputs
-├── analysis/                     Statistical analysis scripts
-│   ├── figures/                  Figure generation scripts
-│   └── results/                  Pre-computed analysis outputs
-├── main.py                       CLI entry point and smoke tests
-├── requirements.txt              Python dependencies
-├── seeds.yaml                    Seed configuration for reproducibility
-├── LLM_CONFIG.md                 Ollama setup notes
-├── Dockerfile                    Container build recipe
+├── core/                          AGEE metric implementation
+│   ├── agee.py                    Top-level AGEECalculator and configuration
+│   ├── metrics.py                 S', I', E' computation and power-mean aggregation
+│   └── graph_utils.py             Community detection and graph utilities
+├── prompts/                       Prompt templates for KG-QA agents
+├── kgqa_experiment/               KG-QA experimental pipeline (MetaQA)
+│   ├── data_metaqa/               MetaQA knowledge base and test questions
+│   ├── run_kgqa_experiment.py     Main KG-QA experiment (LLM-ReAct and classical baselines)
+│   ├── run_kgqa_real_multillm.py  Multi-LLM real Ollama runs
+│   ├── run_synthetic_validation.py Synthetic graph validation
+│   └── results/                   Pre-computed trajectories and outputs
+├── agee_experiments/              Real ToG and PoG reproductions on WebQSP/CWQ
+│   ├── adapters/                  Trajectory format adapters
+│   └── *_ready.json               Pre-processed agent trajectories
+├── graphcot_agee_package/         Graph-CoT reproduction package
+├── analysis/                      Statistical analysis scripts
+│   ├── figures/                   Figure generation scripts
+│   └── results/                   Pre-computed analysis outputs
+├── rog_to_pog_shim.py             RoG subgraph → PoG format shim
+├── local_llm_bridge_pog.py        Local LLM (Ollama) bridge for the PoG agent
+├── requirements.txt               Python dependencies
+├── seeds.yaml                     Seed configuration for reproducibility
+├── LLM_CONFIG.md                  Ollama setup notes
+├── Dockerfile                     Container build recipe
 ├── README.md
 ├── LICENSE
 └── .zenodo.json
 ```
+
+The classical baseline agents (BFS, greedy-novelty, and random-walk) are implemented directly in `kgqa_experiment/run_kgqa_experiment.py`. Synthetic graph generation is handled inside the corresponding experiment scripts (`kgqa_experiment/run_synthetic_validation.py` and the `analysis/run_*.py` scripts).
 
 ## Data
 
