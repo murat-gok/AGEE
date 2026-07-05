@@ -4,11 +4,11 @@
 
 Unlike outcome-only metrics such as Hits@1, which evaluate only the final answer, AGEE evaluates the full exploration trajectory: how broadly the agent covers relevant graph structure, how much new information it gains, and how efficiently it explores.
 
-**Author:** Murat Gök
-**Affiliation:** Department of Computer Engineering, Yalova University, Türkiye
+**Author:** Murat Gök<br>
+**Affiliation:** Department of Computer Engineering, Yalova University, Türkiye<br>
 **ORCID:** [0000-0003-2261-9288](https://orcid.org/0000-0003-2261-9288)
 
-> **Publication status:** This repository accompanies a manuscript accepted for publication and currently in production. The manuscript text itself is not included in this repository; only the source code, scripts, reproducibility files, and related materials are provided.
+> **Publication status:** This repository accompanies a manuscript accepted for publication. The manuscript text itself is not included in this repository; only the source code, scripts, reproducibility files, and related materials are provided.
 
 ## What is AGEE?
 
