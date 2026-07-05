@@ -8,16 +8,16 @@ Unlike outcome-only metrics such as Hits@1, which evaluate only the final answer
 **Affiliation:** Department of Computer Engineering, Yalova University, Türkiye<br>
 **ORCID:** [0000-0003-2261-9288](https://orcid.org/0000-0003-2261-9288)
 
-> **Publication status:** This repository accompanies the article titled
-> **"AGEE: A Multi-Dimensional Process-Level Metric for Evaluating Agent Exploration over Knowledge Graphs"**, accepted for publication in *Knowledge-Based Systems*.
+> **Publication status:** This repository accompanies the article titled  
+> **"AGEE: A Multi-Dimensional Process-Level Metric for Evaluating Agent Exploration over Knowledge Graphs"**, accepted for publication in *Knowledge-Based Systems* and currently in production.  
 > The manuscript text itself is not included in this repository; only the source code, scripts, reproducibility files, and related materials are provided.
 
 ## Related article
 
 This repository provides the source code and reproducibility materials for the following article:
 
-**Murat Gök.**
-**"AGEE: A Multi-Dimensional Process-Level Metric for Evaluating Agent Exploration over Knowledge Graphs."**
+**Murat Gök.**  
+**"AGEE: A Multi-Dimensional Process-Level Metric for Evaluating Agent Exploration over Knowledge Graphs."**  
 Accepted for publication in *Knowledge-Based Systems*.
 
 A formal bibliographic citation, including volume, pages, year, and DOI, will be added after the article is published online.
@@ -32,9 +32,9 @@ $$
 
 on a knowledge graph $G$ using three complementary components:
 
-* **Structural coverage $S'$** — measures how broadly and evenly the trajectory covers graph communities.
-* **Information-gain rate $I'$** — measures diminishing-returns-weighted novelty gained during exploration.
-* **Exploration efficiency $E'$** — measures how efficiently coverage is accumulated over time.
+- **Structural coverage $S'$** — measures how broadly and evenly the trajectory covers graph communities.
+- **Information-gain rate $I'$** — measures diminishing-returns-weighted novelty gained during exploration.
+- **Exploration efficiency $E'$** — measures how efficiently coverage is accumulated over time.
 
 These components are combined using a non-compensatory weighted power mean:
 
@@ -205,17 +205,17 @@ Large trajectory and subgraph files are not committed to the repository. Users s
 
 For experiments involving RoG subgraphs, the relevant public datasets are:
 
-* `rmanluo/RoG-webqsp`: https://huggingface.co/datasets/rmanluo/RoG-webqsp
-* `rmanluo/RoG-cwq`: https://huggingface.co/datasets/rmanluo/RoG-cwq
+- `rmanluo/RoG-webqsp`: https://huggingface.co/datasets/rmanluo/RoG-webqsp
+- `rmanluo/RoG-cwq`: https://huggingface.co/datasets/rmanluo/RoG-cwq
 
 ## Requirements
 
-* Python 3.10, 3.11, or 3.12
-* Approximately 8 GB disk space for the default setup
-* Approximately 15 GB additional disk space if local LLM models are pulled through Ollama
-* 16 GB RAM for standard experiments
-* 32 GB RAM recommended for million-node scalability experiments
-* Optional: Ollama for local LLM-ReAct experiments
+- Python 3.10, 3.11, or 3.12
+- Approximately 8 GB disk space for the default setup
+- Approximately 15 GB additional disk space if local LLM models are pulled through Ollama
+- 16 GB RAM for standard experiments
+- 32 GB RAM recommended for million-node scalability experiments
+- Optional: Ollama for local LLM-ReAct experiments
 
 ## Reproducibility and determinism
 
@@ -229,9 +229,9 @@ Default seed:
 
 The main deterministic settings are:
 
-* Community detection: fixed random state
-* Random-walk trajectory generation: fixed NumPy seed
-* Bootstrap resampling: fixed random generator seed
+- Community detection: fixed random state
+- Random-walk trajectory generation: fixed NumPy seed
+- Bootstrap resampling: fixed random generator seed
 
 Aggregate results are expected to reproduce across platforms within small numerical variation.
 
