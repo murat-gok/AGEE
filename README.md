@@ -8,7 +8,19 @@ Unlike outcome-only metrics such as Hits@1, which evaluate only the final answer
 **Affiliation:** Department of Computer Engineering, Yalova University, Türkiye<br>
 **ORCID:** [0000-0003-2261-9288](https://orcid.org/0000-0003-2261-9288)
 
-> **Publication status:** This repository accompanies a manuscript accepted for publication. The manuscript text itself is not included in this repository; only the source code, scripts, reproducibility files, and related materials are provided.
+> **Publication status:** This repository accompanies the article titled
+> **"AGEE: A Multi-Dimensional Process-Level Metric for Evaluating Agent Exploration over Knowledge Graphs"**, accepted for publication in *Knowledge-Based Systems*.
+> The manuscript text itself is not included in this repository; only the source code, scripts, reproducibility files, and related materials are provided.
+
+## Related article
+
+This repository provides the source code and reproducibility materials for the following article:
+
+**Murat Gök.**
+**"AGEE: A Multi-Dimensional Process-Level Metric for Evaluating Agent Exploration over Knowledge Graphs."**
+Accepted for publication in *Knowledge-Based Systems*.
+
+A formal bibliographic citation, including volume, pages, year, and DOI, will be added after the article is published online.
 
 ## What is AGEE?
 
@@ -248,8 +260,7 @@ A formal citation will be added after the accompanying article is published.
 Until then, please cite this repository as:
 
 ```text
-Gök, M. (2026). AGEE: Agent Graph Exploration Efficiency.
-GitHub repository: https://github.com/murat-gok/AGEE
+Gök, M. (2026). AGEE: A Multi-Dimensional Process-Level Metric for Evaluating Agent Exploration over Knowledge Graphs. Source code repository. GitHub: https://github.com/murat-gok/AGEE
 ```
 
 After Zenodo archiving, please cite the archived software release using the Zenodo DOI.
@@ -264,9 +275,9 @@ The accompanying manuscript is not included in this repository.
 
 ## Contact
 
-**Murat Gök**
-Department of Computer Engineering
-Yalova University, Türkiye
+**Murat Gök**<br>
+Department of Computer Engineering<br>
+Yalova University, Türkiye<br>
 
-GitHub issues: https://github.com/murat-gok/AGEE/issues
+GitHub issues: https://github.com/murat-gok/AGEE/issues<br>
 ORCID: [0000-0003-2261-9288](https://orcid.org/0000-0003-2261-9288)
