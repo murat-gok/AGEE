@@ -18,11 +18,7 @@ BFS, Greedy, and Random-Walk only — the LLM-traversal pattern is conveyed
 clearly enough in Figure 2.
 
 Inputs:  kgqa_experiment/data_metaqa/{kb.txt, 2hop_test.txt}
-<<<<<<< HEAD
-Outputs: tkde/figures/fig1_coverage_curves.{pdf,png}
-=======
 Outputs: paper/figures/fig1_coverage_curves.{pdf,png}
->>>>>>> ee75ed4bd00f2a7e1791cc7bf4c8e28871e4e378
 
 Run from project root:
     python analysis/figures/make_fig1_coverage_curves.py
@@ -48,11 +44,7 @@ from run_kgqa_experiment import (load_knowledge_graph, load_questions,
                                   bfs_agent, greedy_novelty_agent,
                                   random_walk_agent)
 
-<<<<<<< HEAD
-OUT_DIR = os.path.join(PROJECT_ROOT, "tkde", "figures")
-=======
 OUT_DIR = os.path.join(PROJECT_ROOT, "paper", "figures")
->>>>>>> ee75ed4bd00f2a7e1791cc7bf4c8e28871e4e378
 os.makedirs(OUT_DIR, exist_ok=True)
 
 

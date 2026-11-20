@@ -1,12 +1,26 @@
-<<<<<<< HEAD
 # ---- Python ----
 __pycache__/
 *.py[cod]
+*$py.class
+*.so
 *.egg-info/
+*.egg
 .venv/
 venv/
 env/
+ENV/
 .ipynb_checkpoints/
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ---- Packaging ----
+build/
+dist/
+sdist/
+wheels/
+.eggs/
 
 # ---- Secrets (NEVER commit) ----
 .env
@@ -15,12 +29,13 @@ env/
 secrets.*
 **/credentials*
 
-# ---- Manuscript: UNDER REVIEW — do NOT push to this repo ----
-# Exclude all LaTeX source AND build so the manuscript never lands here.
-# (Extension-based rules are the real safety net; folder names are best-effort.)
+# ---- Manuscript sources — never publish ----
 manuscript/
+paper/
+tkde/
 kbs/
 AGEE_KBS_submission/
+DROP_IN_INSTRUCTIONS.md
 *.tex
 *.bib
 *.cls
@@ -36,15 +51,14 @@ AGEE_KBS_submission/
 *.fdb_latexmk
 *.synctex.gz
 *.blg
-# Compiled manuscript / review PDFs:
 *manuscript*.pdf
 *revised*.pdf
 *Response*.docx
 *Cover_Letter*.docx
 # NOTE: code-generated figures are NOT excluded by default. If a figure reveals a
-# headline result you'd rather keep private until acceptance, add its path here.
+# headline result you'd rather keep private, add its path here.
 
-# ---- Large data: download from HF / regenerate locally, do not commit ----
+# ---- Large data: download from HF / regenerate locally ----
 data/
 *.jsonl
 trajectories/
@@ -52,6 +66,12 @@ subgraphs/
 *.ckpt
 *.pt
 *.bin
+**/*.bak
+**/*_backup_*.jsonl
+
+# ---- Local scratch ----
+diag_*.py
+mock_*.csv
 
 # ---- OS / editor junk ----
 .DS_Store
@@ -59,99 +79,10 @@ Thumbs.db
 desktop.ini
 .vscode/
 .idea/
-*.spl
-agee_experiments/PoG/
-agee_experiments/ToG/
-=======
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-
-# Virtual environments
-.venv/
-venv/
-env/
-ENV/
-
-# Distribution / packaging
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# LaTeX build artifacts (in case any sneak in)
-*.aux
-*.log
-*.bbl
-*.blg
-*.out
-*.synctex.gz
-*.fdb_latexmk
-*.fls
-*.toc
-
-# Manuscript files — NEVER commit these to a public repo
-# (manuscript text, LaTeX sources, generated tables, bibliography)
-tkde/
-paper/
-manuscript/
-*.tex
-*.bib
-*.pdf
-AGEE_*_manuscript.*
-references.bib
-tab_*.tex
-fig*.tex
-
-# IDE / editor
-.vscode/
-.idea/
 *.swp
 *.swo
 *~
-.DS_Store
-Thumbs.db
+*.spl
 
-# Jupyter
-.ipynb_checkpoints/
-
-# Mypy / pytest
-.mypy_cache/
-.pytest_cache/
-.coverage
-htmlcov/
-
-# OS-specific
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# Experiment artefacts that are auto-regenerable
-# (keep main results CSVs; ignore checkpoint files)
-**/checkpoint*.jsonl
-**/*.bak
-**/*_backup_*.jsonl
-
-# Local test files
-test_*.py
-diag_*.py
-mock_*.csv
->>>>>>> ee75ed4bd00f2a7e1791cc7bf4c8e28871e4e378
-
-# Manuscript dirs — never publish
-tkde/
-kbs/
+agee_experiments/PoG/
+agee_experiments/ToG/

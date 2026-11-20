@@ -4,14 +4,14 @@
 # trajectories WITHOUT requiring Ollama or a GPU. To re-run the LLM agent,
 # you need Ollama running on the host and `--network=host` at run time.
 #
-# Build:    docker build -t agee:tkde .
-# Run:      docker run --rm -it -v $(pwd):/workspace agee:tkde
-# Test:     docker run --rm agee:tkde python main.py
+# Build:    docker build -t agee:kbs .
+# Run:      docker run --rm -it -v $(pwd):/workspace agee:kbs
+# Test:     docker run --rm agee:kbs python main.py
 #
 FROM python:3.11.6-slim
 
 LABEL maintainer="Murat Gok <murat.gok@yalova.edu.tr>"
-LABEL description="Reproducibility image for the AGEE metric (TKDE submission)"
+LABEL description="Reproducibility image for the AGEE metric (KBS release)"
 
 # System dependencies for igraph (leidenalg backend)
 RUN apt-get update && apt-get install -y --no-install-recommends \

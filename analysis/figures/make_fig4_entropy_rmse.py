@@ -19,11 +19,7 @@ Setup:
   Repeat 1000 times per T and compute RMSE vs ground-truth.
 
 Inputs:  None (synthetic)
-<<<<<<< HEAD
-Outputs: tkde/figures/fig4_entropy_rmse.{pdf,png}
-=======
 Outputs: paper/figures/fig4_entropy_rmse.{pdf,png}
->>>>>>> ee75ed4bd00f2a7e1791cc7bf4c8e28871e4e378
 
 Run from project root:
     python analysis/figures/make_fig4_entropy_rmse.py
@@ -42,11 +38,7 @@ sys.path.insert(0, PROJECT_ROOT)
 
 from core.graph_utils import james_stein_shrinkage
 
-<<<<<<< HEAD
-OUT_DIR = os.path.join(PROJECT_ROOT, "tkde", "figures")
-=======
 OUT_DIR = os.path.join(PROJECT_ROOT, "paper", "figures")
->>>>>>> ee75ed4bd00f2a7e1791cc7bf4c8e28871e4e378
 os.makedirs(OUT_DIR, exist_ok=True)
 
 

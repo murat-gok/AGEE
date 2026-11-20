@@ -9,13 +9,8 @@ exploration pattern. The LLM-traversal cluster sits at low S' / high I'
 the high-S' axis. This single chart conveys most of §5.
 
 Inputs:  kgqa_experiment/results/kgqa_trajectories.csv
-<<<<<<< HEAD
-Outputs: tkde/figures/fig2_si_scatter.pdf
-         tkde/figures/fig2_si_scatter.png
-=======
 Outputs: paper/figures/fig2_si_scatter.pdf
          paper/figures/fig2_si_scatter.png
->>>>>>> ee75ed4bd00f2a7e1791cc7bf4c8e28871e4e378
 
 Run from project root:
     python analysis/figures/make_fig2_si_scatter.py
@@ -36,11 +31,7 @@ PROJECT_ROOT = os.path.dirname(os.path.dirname(SCRIPT_DIR))
 
 CSV_PATH = os.path.join(PROJECT_ROOT, "kgqa_experiment", "results",
                         "kgqa_trajectories.csv")
-<<<<<<< HEAD
-OUT_DIR = os.path.join(PROJECT_ROOT, "tkde", "figures")
-=======
 OUT_DIR = os.path.join(PROJECT_ROOT, "paper", "figures")
->>>>>>> ee75ed4bd00f2a7e1791cc7bf4c8e28871e4e378
 os.makedirs(OUT_DIR, exist_ok=True)
 
 
@@ -65,11 +56,7 @@ def main():
     valid["mode"] = "traversal"  # everyone valid is in traversal mode
     print(f"Loaded {len(valid)} valid rows")
 
-<<<<<<< HEAD
-    # Figure setup — TKDE single-column figure
-=======
     # Figure setup — single-column figure for manuscript
->>>>>>> ee75ed4bd00f2a7e1791cc7bf4c8e28871e4e378
     fig, ax = plt.subplots(figsize=(5.5, 4.0), dpi=150)
 
     # Plot per agent

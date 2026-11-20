@@ -6,11 +6,7 @@ computes AGEE composite, and reports per-agent means with bootstrap 95%
 CIs. Output goes to:
   - analysis/results/synthetic_validation.csv   (raw data, 720 rows)
   - analysis/results/synthetic_validation_summary.csv (4x6 summary)
-<<<<<<< HEAD
-  - tkde/figures/tab_synthetic.tex   (LaTeX-ready table for the manuscript)
-=======
   - paper/figures/tab_synthetic.tex   (LaTeX-ready table for the manuscript)
->>>>>>> ee75ed4bd00f2a7e1791cc7bf4c8e28871e4e378
 
 Run from project root:
     python analysis/run_synthetic_validation.py
@@ -151,11 +147,7 @@ def main():
         print(f"    {GRAPH_LABELS[gname]:<22}: {AGENT_LABELS[winner]}")
 
     # ---- Write LaTeX table for the manuscript ----
-<<<<<<< HEAD
-    write_latex_table(summ_df, os.path.join(PROJECT_ROOT, "tkde", "figures",
-=======
     write_latex_table(summ_df, os.path.join(PROJECT_ROOT, "paper", "figures",
->>>>>>> ee75ed4bd00f2a7e1791cc7bf4c8e28871e4e378
                                             "tab_synthetic.tex"))
     print("\n  Saved CSV summary and LaTeX table.")
 

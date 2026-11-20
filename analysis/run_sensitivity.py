@@ -11,11 +11,7 @@ Extends the Dirichlet weight-perturbation analysis (§8.1 / Figure 3) to:
 Outputs:
   analysis/results/sensitivity_kendall.csv
   analysis/results/sensitivity_sobol.csv
-<<<<<<< HEAD
-  tkde/figures/tab_sensitivity.tex
-=======
   paper/figures/tab_sensitivity.tex
->>>>>>> ee75ed4bd00f2a7e1791cc7bf4c8e28871e4e378
 
 Run from project root:
     python analysis/run_sensitivity.py
@@ -201,11 +197,7 @@ def main():
         os.path.join(OUT_DIR, "sensitivity_sobol.csv"), index=False)
 
     # ----- Write LaTeX table -----
-<<<<<<< HEAD
-    write_latex_table(taus, sobol, os.path.join(PROJECT_ROOT, "tkde", "figures",
-=======
     write_latex_table(taus, sobol, os.path.join(PROJECT_ROOT, "paper", "figures",
->>>>>>> ee75ed4bd00f2a7e1791cc7bf4c8e28871e4e378
                                                  "tab_sensitivity.tex"))
     print("\n  Saved CSVs and LaTeX table for §8.2.")
 

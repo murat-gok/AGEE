@@ -29,11 +29,7 @@ sys.path.insert(0, PROJECT_ROOT)
 CSV_PATH = os.path.join(PROJECT_ROOT, "kgqa_experiment", "results",
                         "kgqa_trajectories.csv")
 OUT_DIR = os.path.join(PROJECT_ROOT, "analysis", "results")
-<<<<<<< HEAD
-FIG_DIR = os.path.join(PROJECT_ROOT, "tkde", "figures")
-=======
 FIG_DIR = os.path.join(PROJECT_ROOT, "paper", "figures")
->>>>>>> ee75ed4bd00f2a7e1791cc7bf4c8e28871e4e378
 os.makedirs(OUT_DIR, exist_ok=True)
 
 EPSILON = 0.01

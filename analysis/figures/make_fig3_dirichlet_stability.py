@@ -11,11 +11,7 @@ The figure shows a ternary scatter where each point is a sample weight,
 colored by which agent it identifies as the winner.
 
 Inputs:  kgqa_experiment/results/kgqa_trajectories.csv
-<<<<<<< HEAD
-Outputs: tkde/figures/fig3_dirichlet_stability.{pdf,png}
-=======
 Outputs: paper/figures/fig3_dirichlet_stability.{pdf,png}
->>>>>>> ee75ed4bd00f2a7e1791cc7bf4c8e28871e4e378
 
 Run from project root:
     python analysis/figures/make_fig3_dirichlet_stability.py
@@ -35,11 +31,7 @@ PROJECT_ROOT = os.path.dirname(os.path.dirname(SCRIPT_DIR))
 
 CSV_PATH = os.path.join(PROJECT_ROOT, "kgqa_experiment", "results",
                         "kgqa_trajectories.csv")
-<<<<<<< HEAD
-OUT_DIR = os.path.join(PROJECT_ROOT, "tkde", "figures")
-=======
 OUT_DIR = os.path.join(PROJECT_ROOT, "paper", "figures")
->>>>>>> ee75ed4bd00f2a7e1791cc7bf4c8e28871e4e378
 os.makedirs(OUT_DIR, exist_ok=True)
 
 

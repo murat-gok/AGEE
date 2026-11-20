@@ -6,11 +6,7 @@ bootstrap CIs on every reported number (Hits@1, AGEE, S', I', E').
 
 Output:
   analysis/results/table3_with_ci.csv
-<<<<<<< HEAD
-  tkde/figures/tab_headline.tex  (auto-generated LaTeX table)
-=======
   paper/figures/tab_headline.tex  (auto-generated LaTeX table)
->>>>>>> ee75ed4bd00f2a7e1791cc7bf4c8e28871e4e378
 
 Run from project root:
     python analysis/run_table3_bootstrap.py
@@ -126,11 +122,7 @@ def main():
         E = f"{r['E']:.3f} [{r['E_lo']:.2f},{r['E_hi']:.2f}]"
         print(f"  {AGENT_LABELS[r['agent']]:<14} {agee:>20} {S:>16} {I:>16} {E:>16}")
 
-<<<<<<< HEAD
-    write_latex_headline_table(rows, os.path.join(PROJECT_ROOT, "tkde",
-=======
     write_latex_headline_table(rows, os.path.join(PROJECT_ROOT, "paper",
->>>>>>> ee75ed4bd00f2a7e1791cc7bf4c8e28871e4e378
                                                    "figures", "tab_headline.tex"))
     print("\n  Saved CSV and tab_headline.tex.")
 

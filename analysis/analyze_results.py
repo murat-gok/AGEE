@@ -1,9 +1,5 @@
 """
-<<<<<<< HEAD
-Tables 3, 4, and §5.2 supporting analysis for the AGEE TKDE manuscript.
-=======
 Tables 3, 4, and §5.2 supporting analysis for the AGEE manuscript.
->>>>>>> ee75ed4bd00f2a7e1791cc7bf4c8e28871e4e378
 
 Reads the complete N=200 trajectory dataset and produces:
   - Table 3: per-agent summary with mode-conditional Hits@1
@@ -84,11 +80,7 @@ def bh_fdr(p_values, alpha=0.05):
 
 def main():
     print("=" * 72)
-<<<<<<< HEAD
-    print("  AGEE TKDE — Tables 3, 4, and §5.2 statistics")
-=======
     print("  AGEE — Tables 3, 4, and §5.2 statistics")
->>>>>>> ee75ed4bd00f2a7e1791cc7bf4c8e28871e4e378
     print("=" * 72)
 
     df = pd.read_csv(CSV_PATH)

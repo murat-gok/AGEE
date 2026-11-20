@@ -37,13 +37,8 @@ The hypothesis being tested:
 Outputs:
   analysis/results/multi_llm_synthetic_trajectories.csv
   analysis/results/multi_llm_synthetic_summary.csv
-<<<<<<< HEAD
-  tkde/figures/tab_multi_llm.tex
-  tkde/figures/fig5_multi_llm_dualmode.{pdf,png}
-=======
   paper/figures/tab_multi_llm.tex
   paper/figures/fig5_multi_llm_dualmode.{pdf,png}
->>>>>>> ee75ed4bd00f2a7e1791cc7bf4c8e28871e4e378
 
 Run from project root:
     python analysis/run_multi_llm_synthetic.py
@@ -349,15 +344,9 @@ def main():
 
     # Write LaTeX table + figure
     write_latex_table(summary,
-<<<<<<< HEAD
-        os.path.join(PROJECT_ROOT, "tkde", "figures", "tab_multi_llm.tex"))
-    make_figure(summ_df,
-        os.path.join(PROJECT_ROOT, "tkde", "figures", "fig5_multi_llm_dualmode"))
-=======
         os.path.join(PROJECT_ROOT, "paper", "figures", "tab_multi_llm.tex"))
     make_figure(summ_df,
         os.path.join(PROJECT_ROOT, "paper", "figures", "fig5_multi_llm_dualmode"))
->>>>>>> ee75ed4bd00f2a7e1791cc7bf4c8e28871e4e378
     print("\n  Saved CSVs, tab_multi_llm.tex, fig5_multi_llm_dualmode.pdf/.png")
 
 

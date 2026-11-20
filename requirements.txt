@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# AGEE — pinned dependencies for reproducibility (TKDE submission)
-=======
 # AGEE — pinned dependencies for reproducibility
->>>>>>> ee75ed4bd00f2a7e1791cc7bf4c8e28871e4e378
 # Tested under Python 3.11.6 on Ubuntu 22.04 / 24.04 and macOS 14.
 
 # --- Core scientific stack ---
@@ -30,13 +26,10 @@ scikit-learn==1.5.1             # KS test, regression utilities
 matplotlib==3.9.0
 seaborn==0.13.2
 
-<<<<<<< HEAD
-=======
 # --- Sprint 2 additions ---
 psutil==5.9.8                   # Memory/CPU monitoring (scalability benchmarks)
 sympy==1.12                     # Symbolic verification (theorem proofs)
 
->>>>>>> ee75ed4bd00f2a7e1791cc7bf4c8e28871e4e378
 # --- Optional development tools (uncomment for dev work) ---
 # pytest==8.2.2
 # black==24.4.2
